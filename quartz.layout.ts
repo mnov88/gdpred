@@ -29,7 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.FontSizeAdjuster(),
+ //   Component.FontSizeAdjuster(),
     Component.Explorer(),
   ],
   right: [
@@ -47,7 +47,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.FontSizeAdjuster(),
+   // Component.FontSizeAdjuster(),
     Component.Explorer(),
   ],
   right: [],

@@ -220,7 +220,7 @@ button#desktop-explorer {
 
   // Add styles for title and parties subtitle
   .explorer-title {
-    font-weight: 400;
+    font-weight: 500;
     transition: color 0.15s ease;
     line-height: 1.4;
   }
@@ -230,7 +230,8 @@ button#desktop-explorer {
     color: var(--darkgray);
     opacity: 0.85;
     font-style: italic;
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
+    
     line-height: 1.2;
     font-weight: 400;
     transition: opacity 0.15s ease, color 0.15s ease;
