@@ -33,8 +33,13 @@ export default ((opts?: Partial<BacklinksOptions>) => {
           {backlinkFiles.length > 0 ? (
             backlinkFiles.map((f) => (
               <li>
-                <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal">
-                  {f.frontmatter?.title}
+                <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal" data-for={f.slug}>
+                  <div class="backlink-title">{f.frontmatter?.title}</div>
+                  {(f.frontmatter?.parties || f.frontmatter?.subtitle) && (
+                    <div class="backlink-subtitle">
+                      {f.frontmatter?.parties || f.frontmatter?.subtitle}
+                    </div>
+                  )}
                 </a>
               </li>
             ))

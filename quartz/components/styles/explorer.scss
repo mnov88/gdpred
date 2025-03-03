@@ -1,12 +1,14 @@
 @use "../../styles/variables.scss" as *;
 
 @media all and ($mobile) {
-  .page > #quartz-body {
+  .page>#quartz-body {
+
     // Shift page position when toggling Explorer on mobile.
-    & > :not(.sidebar.left:has(.explorer)) {
+    &> :not(.sidebar.left:has(.explorer)) {
       transition: transform 300ms ease-in-out;
     }
-    &.lock-scroll > :not(.sidebar.left:has(.explorer)) {
+
+    &.lock-scroll> :not(.sidebar.left:has(.explorer)) {
       transform: translateX(100dvw);
       transition: transform 300ms ease-in-out;
     }
@@ -20,7 +22,7 @@
 
     // Hide Explorer on mobile until done loading.
     // Prevents ugly animation on page load.
-    .hide-until-loaded ~ #explorer-content {
+    .hide-until-loaded~#explorer-content {
       display: none;
     }
   }
@@ -116,7 +118,7 @@ button#desktop-explorer {
   grid-template-rows: 1fr;
 }
 
-.folder-outer > ul {
+.folder-outer>ul {
   overflow: hidden;
 }
 
@@ -148,22 +150,97 @@ button#desktop-explorer {
       transform 0.35s ease,
       opacity 0.2s ease;
 
-    & li > a {
+    & li>a {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      text-decoration: none;
+      display: block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      transition: all 0.15s ease;
+      position: relative;
+
+      &:hover {
+        opacity: 1;
+        background-color: var(--hover);
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 4px;
+          background-color: var(--secondary);
+          border-radius: 0 2px 2px 0;
+        }
+
+        .explorer-title {
+          color: var(--secondary);
+        }
+
+        .explorer-parties {
+          opacity: 1;
+          color: var(--dark);
+        }
+      }
+
+      // Selected/current page indicator
+      &[data-active="true"] {
+        background-color: var(--hover);
+        opacity: 1;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 4px;
+          background-color: var(--tertiary);
+          border-radius: 0 2px 2px 0;
+        }
+
+        .explorer-title {
+          color: var(--tertiary);
+          font-weight: 500;
+        }
+
+        .explorer-parties {
+          opacity: 1;
+        }
+      }
     }
   }
 
-  > #explorer-ul {
+  >#explorer-ul {
     max-height: none;
+  }
+
+  // Add styles for title and parties subtitle
+  .explorer-title {
+    font-weight: 400;
+    transition: color 0.15s ease;
+    line-height: 1.4;
+  }
+
+  .explorer-parties {
+    font-size: 0.8rem;
+    color: var(--darkgray);
+    opacity: 0.85;
+    font-style: italic;
+    margin-top: 0.1rem;
+    line-height: 1.2;
+    font-weight: 400;
+    transition: opacity 0.15s ease, color 0.15s ease;
   }
 }
 
 svg {
   pointer-events: all;
 
-  & > polyline {
+  &>polyline {
     pointer-events: none;
   }
 }
@@ -174,7 +251,7 @@ svg {
   align-items: center;
   user-select: none;
 
-  & div > a {
+  & div>a {
     color: var(--secondary);
     font-family: var(--headerFont);
     font-size: 0.95rem;
@@ -183,11 +260,11 @@ svg {
     display: inline-block;
   }
 
-  & div > a:hover {
+  & div>a:hover {
     color: var(--tertiary);
   }
 
-  & div > button {
+  & div>button {
     color: var(--dark);
     background-color: transparent;
     border: none;
@@ -219,7 +296,7 @@ svg {
   backface-visibility: visible;
 }
 
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
+li:has(> .folder-outer:not(.open))>.folder-container>svg {
   transform: rotate(-90deg);
 }
 

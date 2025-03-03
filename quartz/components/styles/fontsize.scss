@@ -1,0 +1,64 @@
+.fontsize-adjuster {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 10px;
+    user-select: none;
+
+    button {
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        .font-icon {
+            color: var(--darkgray);
+            font-weight: 600;
+            line-height: 1;
+
+            &.small {
+                font-size: 14px;
+            }
+
+            &.large {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #font-size-label {
+        font-size: 0.8rem;
+        min-width: 32px;
+        text-align: center;
+        color: var(--darkgray);
+        opacity: 0.8;
+    }
+}
+
+/* Font size variables that will be modified by JavaScript */
+:root {
+    --article-font-size: 1;
+}
+
+/* Apply font size to article content */
+.center>article,
+.page-content ul.section-ul,
+/* Apply to list views */
+.page-content .popover {
+    /* Apply to popovers */
+    font-size: calc(1rem * var(--article-font-size));
+}

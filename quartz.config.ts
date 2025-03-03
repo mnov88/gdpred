@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "GDPR CJEU Vault",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "IBM Plex Sans",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -67,10 +67,20 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+        wikilinks: true,
+        parseArrows: true
+      }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.TableOfContents({
+        collapseByDefault: true
+      }),
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        prettyLinks: true,
+        externalLinkIcon: true
+      }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

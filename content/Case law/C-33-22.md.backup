@@ -1,0 +1,362 @@
+---
+title: C-33/22
+date_of_judgment: 2024-01-16
+case-number: C-33/22
+parties: "Österreichische Datenschutzbehörde v WK"
+topics:
+  - Protection of personal data
+  - National security
+  - Competence of supervisory authorities
+  - Legislative scrutiny
+final-ruling: |-
+  **1.** The first sentence of Article 16(2) TFEU and Article 2(2)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  
+  must be interpreted as meaning that an activity cannot be regarded as being outside the scope of Union law and therefore falling outside the scope of that regulation for the sole reason that it is carried out by a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive.
+  
+  **2.** Article 2(2)(a) of Regulation 2016/679, read in the light of recital 16 of that regulation,
+  
+  must be interpreted as meaning that the activities of a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive, the purpose of which is to investigate the activities of a police State-protection authority on account of a suspicion of political influence over that authority, cannot, as such, be regarded as activities concerning national security which fall outside the scope of Union law, within the meaning of that provision.
+  
+  **3.** Article 77(1) and Article 55(1) of Regulation 2016/679
+  
+  must be interpreted as meaning that, where a Member State has chosen, in accordance with Article 51(1) of that regulation, to establish a single supervisory authority, without, however, conferring on it the competence to monitor the application of that regulation by a committee of inquiry set up by that Member State's parliament in the exercise of its power of scrutiny over the executive, those provisions directly confer on that authority the competence to hear complaints relating to the processing of personal data by that committee of inquiry.
+ruling-articles:
+  - Article 2
+  - Article 51
+  - Article 77
+  - Article 55
+---
+
+JUDGMENT OF THE COURT (Grand Chamber)
+
+16 January 2024 (\*1)
+
+(Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Article 16 TFEU -- Regulation (EU) 2016/679 -- Article 2(2)(a) -- Scope -- Exclusions -- Activities which fall outside the scope of Union law -- Article 4(2) TEU -- Activities concerning national security -- Committee of inquiry set up by the parliament of a Member State -- [[Article 23]](1)(a) and (h), Articles 51 and 55 of Regulation (EU) 2016/679 -- Competence of the supervisory authority responsible for data protection -- [[Article 77]] -- Right to lodge a complaint with a supervisory authority -- Direct effect)
+
+In Case *C-33/22*,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Verwaltungsgerichtshof (Supreme Administrative Court, Austria), made by decision of 14 December 2021, received at the Court on 14 January 2022, in the proceedings
+
+Österreichische Datenschutzbehörde
+
+v
+
+WK,
+
+interested party:
+
+Präsident des Nationalrates,
+
+THE COURT (Grand Chamber),
+
+composed of K. Lenaerts, President, L. Bay Larsen, Vice-President, K. Jürimäe, C. Lycourgos, E. Regan and N. Piçarra, Presidents of Chambers, M. Ilešič, P.G. Xuereb, L.S. Rossi (Rapporteur), I. Jarukaitis, A. Kumin, N. Jääskinen, N. Wahl, I. Ziemele and J. Passer, Judges,
+
+Advocate General: M. Szpunar,
+
+Registrar: D. Dittert, Head of Unit,
+
+having regard to the written procedure and further to the hearing on 6 March 2023,
+
+after considering the observations submitted on behalf of:
+
+-- the Österreichische Datenschutzbehörde, by A. Jelinek and M. Schmidl, acting as Agents,
+
+-- WK, by M. Sommer, Rechtsanwalt,
+
+-- the Präsident des Nationalrates, by C. Neugebauer and R. Posnik, acting as Agents,
+
+-- the Austrian Government, by A. Posch, J. Schmoll, S. Dörnhöfer and C. Leeb, acting as Agents,
+
+-- the Czech Government, by O. Serdula, M. Smolek and J. Vláčil, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, M. Heller and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 11 May 2023,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of the first sentence of Article 16(2) TFEU and of Article 2(2)(a), Article 51(1), Article 55(1) and Article 77(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+**2** The request has been made in proceedings between the Österreichische Datenschutzbehörde (Data Protection Authority, Austria) ('the Datenschutzbehörde') and WK concerning the rejection of WK's complaint alleging infringement of his right to the protection of his personal data.
+
+Legal context
+
+European Union law
+
+**3** Recitals 16, 20 and 117 of the GDPR are worded as follows:
+
+...
+
+...
+
+**'(16)** This Regulation does not apply to issues of protection of fundamental rights and freedoms or the free flow of personal data related to activities which fall outside the scope of Union law, such as activities concerning national security. This Regulation does not apply to the processing of personal data by the Member States when carrying out activities in relation to the common foreign and security policy of the Union.
+
+**(20)** While this Regulation applies, inter alia, to the activities of courts and other judicial authorities, Union or Member State law could specify the processing operations and processing procedures in relation to the processing of personal data by courts and other judicial authorities. The competence of the supervisory authorities should not cover the processing of personal data when courts are acting in their judicial capacity, in order to safeguard the independence of the judiciary in the performance of its judicial tasks, including decision-making. It should be possible to entrust supervision of such data processing operations to specific bodies within the judicial system of the Member State, which should, in particular ensure compliance with the rules of this Regulation, enhance awareness among members of the judiciary of their obligations under this Regulation and handle complaints in relation to such data processing operations.
+
+**(117)** The establishment of supervisory authorities in Member States, empowered to perform their tasks and exercise their powers with complete independence, is an essential component of the protection of natural persons with regard to the processing of their personal data. Member States should be able to establish more than one supervisory authority, to reflect their constitutional, organisational and administrative structure.'
+
+**4** [[Article 2]] of the GDPR, entitled 'Material scope', provides:
+
+'1. This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.
+
+2.  This Regulation does not apply to the processing of personal data:
+
+...
+
+3.  For the processing of personal data by the Union institutions, bodies, offices and agencies, Regulation (EC) No 45/2001 \[of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ 2001 L 8, p. 1)\] applies. Regulation (EC) No 45/2001 and other Union legal acts applicable to such processing of personal data shall be adapted to the principles and rules of this Regulation in accordance with [[Article 98]].
+
+...'
+
+(a) in the course of an activity which falls outside the scope of Union law;
+
+(b) by the Member States when carrying out activities which fall within the scope of Chapter 2 of Title V of the TEU;
+
+(d) by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security.
+
+**5** [[Article 4]] of the GDPR, entitled 'Definitions', reads as follows:
+
+'For the purposes of this Regulation:
+
+...
+
+...'
+
+**(7)** "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+
+**6** [[Article 23]] of the GDPR, entitled 'Restrictions', provides, in paragraph 1 thereof:
+
+'Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and [[Article 34]], as well as [[Article 5]] in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
+
+...
+
+...'
+
+(a) national security;
+
+(b) defence;
+
+(c) public security;
+
+(d) the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security;
+
+(e) other important objectives of general public interest of the Union or of a Member State, in particular an important economic or financial interest of the Union or of a Member State, including monetary, budgetary and taxation a matters, public health and social security;
+
+(f) the protection of judicial independence and judicial proceedings;
+
+(h) a monitoring, inspection or regulatory function connected, even occasionally, to the exercise of official authority in the cases referred to in points (a) to (e) and (g);
+
+(i) the protection of the data subject or the rights and freedoms of others;
+
+**7** [[Article 51]] of the GDPR, entitled 'Supervisory authority', provides, in paragraph 1 thereof:
+
+'Each Member State shall provide for one or more independent public authorities to be responsible for monitoring the application of this Regulation, in order to protect the fundamental rights and freedoms of natural persons in relation to processing and to facilitate the free flow of personal data within the Union ("supervisory authority").'
+
+**8** [[Article 54]] of the GDPR, entitled 'Rules on the establishment of the supervisory authority', provides, in paragraph 1 thereof:
+
+'Each Member State shall provide by law for all of the following:
+
+...'
+
+(a) the establishment of each supervisory authority;
+
+**9** [[Article 55]] of the GDPR, entitled 'Competence', is worded as follows:
+
+'1. Each supervisory authority shall be competent for the performance of the tasks assigned to and the exercise of the powers conferred on it in accordance with this Regulation on the territory of its own Member State.
+
+2.  Where processing is carried out by public authorities or private bodies acting on the basis of point (c) or (e) of [[Article 6]](1), the supervisory authority of the Member State concerned shall be competent. In such cases [[Article 56]] does not apply.
+
+3.  Supervisory authorities shall not be competent to supervise processing operations of courts acting in their judicial capacity.'
+
+**10** [[Article 77]] of the GDPR, entitled 'Right to lodge a complaint with a supervisory authority', provides:
+
+'1. Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.
+
+2.  The supervisory authority with which the complaint has been lodged shall inform the complainant on the progress and the outcome of the complaint including the possibility of a judicial remedy pursuant to [[Article 78]].'
+
+Austrian law
+
+**11** [[Article 53]] of the Bundes-Verfassungsgesetz (Federal Constitutional Law), republished on 2 January 1930 (BGBl. 1/1930), in the version applicable to the facts in the main proceedings ('the B-VG'), provides:
+
+'(1) The Nationalrat \[(National Council, Austria)\] may by resolution set up committees of inquiry. In addition, on demand of one quarter of its members, a committee of inquiry must be set up.
+
+(2) The subject matter of the inquiry is a specific completed process regarding an area within the competence of the executive at the level of theBund\[(Federal State)\]. This includes all activities of bodies or officers of the Federal State through which the Federal State, irrespective of the proportion of its interest, exercises rights associated with holding an economic interest as well as supervisory rights. A review of the case-law is excluded.
+
+(3) All bodies or officers of the Federal State, theLänder\[(provinces)\], the municipalities and the municipal associations as well as of the other self-administering bodies shall submit to a committee of inquiry, on demand, their files and documents to the extent to which these relate to the subject matter of the inquiry, and shall comply with the request of a committee of inquiry to take evidence in connection with the subject matter of the inquiry. This obligation does not apply to the submission of files and documents the disclosure of which would jeopardise sources for the purposes of [[Article 52]]a(2).
+
+(4) The obligation laid down in paragraph 3 does not apply in so far as it affects the legal process of the formation of political will on the part of the Federal Government or its individual members, or the immediate preparation thereof.
+
+...'
+
+**12** The B-VG provides for the separation of legislative, executive and judicial powers. Any failure to observe that principle of the separation of powers requires a constitutional basis.
+
+**13** Paragraph 1(1) of the Datenschutzgesetz (Law on Data Protection) of 17 August 1999 (BGBl. I, 165/1999), in the version applicable to the facts in the main proceedings ('the DSG'), provides:
+
+'Every person has, in particular also with regard to respect for his or her private and family life, the right to confidentiality of personal data relating to him or herself, in so far as this constitutes an interest which merits protection. Such interest is excluded where data do not give rise to a right to confidentiality on account of the fact that they are generally available or cannot be traced back to the person concerned.'
+
+**14** Under Paragraph 18(1) of the DSG:
+
+'The Datenschutzbehörde is established as national supervisory authority pursuant to [[Article 51]] of the GDPR.'
+
+**15** Paragraph 24(1) of the DSG is worded as follows:
+
+'Every data subject is entitled to lodge a complaint with the Datenschutzbehörde where he or she considers that the processing of personal data relating to him or her infringes the GDPR or Paragraph 1 or [[Article 2]], first chapter.'
+
+**16** Paragraph 35 of the DSG provides:
+
+'(1) The Datenschutzbehörde is tasked with ensuring data protection in accordance with the detailed provisions of the GDPR and this federal law.
+
+(2) The Datenschutzbehörde shall exercise its powers also vis-à-vis the supreme executive officers or bodies referred to in [[Article 19]] of the B-VG and vis-à-vis the supreme officers or bodies in accordance with [[Article 30]](3) to (6), [[Article 125]], [[Article 134]](8) and [[Article 148]]h(1) and (2) of the B-VG as regards administrative matters coming within their competence.'
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**17** By a decision of 20 April 2018, the National Council set up a committee of inquiry, in accordance with [[Article 53]] of the B-VG, tasked with shedding light on whether there was any political influence over the Bundesamt für Verfassungsschutz und Terrorismusbekämpfung (Federal Office for the Protection of the Constitution and for Counterterrorism, Austria) ('the BVT'), which, on 1 December 2021, was succeeded by the Direktion Staatsschutz und Nachrichtendienst (Directorate State Protection and Intelligence Services, Austria).
+
+**18** On 19 September 2018, that committee of inquiry ('the BVT Committee of Inquiry') heard WK as a witness during a hearing accessible to media representatives. Despite WK's request for anonymisation, the minutes of that hearing, in which his full family and first names were given, were published on the website of the Parlament Österreich (Austrian Parliament).
+
+**19** On 2 April 2019, WK lodged a complaint with the Datenschutzbehörde in which he claimed that the publication, against his wishes, of the minutes of that hearing, referring to his identity, was contrary to the provisions of the GDPR and to Paragraph 1 of the DSG. In support of his complaint, he stated that he was working as an undercover investigator in the police intervention group responsible for combating street crime.
+
+**20** By a decision of 18 September 2019, the Datenschutzbehörde rejected that complaint. It found that, although the GDPR did not, in principle, prevent supervisory authorities from monitoring legislative bodies, it was nevertheless precluded, in line with the principle of the separation of powers, for the legislature to be subject to scrutiny by the executive. According to it, in those circumstances, and since the BVT Committee of Inquiry was a part of the legislature, the Datenschutzbehörde, which is a body of the executive, is not empowered to monitor the activities of that committee and therefore lacks competence to decide on WK's complaint.
+
+**21** By a decision of 23 November 2020, the Bundesverwaltungsgericht (Federal Administrative Court, Austria) upheld the action brought by WK and annulled the Datenschutzbehörde's decision. It held, in essence, that the GDPR is applicable to acts of the legislature and, therefore, to the acts of the BVT Committee of Inquiry. The material scope of the GDPR, as defined in [[Article 2]](1) thereof, is conceived in exhaustive terms and concerns all data processing, irrespective of the entity which carries out the processing and the State function to which that entity belongs. Nor, moreover, can an exception to the applicability of the GDPR be inferred from [[Article 2]](2) thereof, as regards certain State functions, such as the legislative function, since the exception provided for in point (a) of that provision is to be interpreted restrictively. Consequently, according to the Bundesverwaltungsgericht (Federal Administrative Court), the Datenschutzbehörde was competent to decide on WK's complaint, in accordance with [[Article 77]] of that regulation.
+
+**22** Hearing an appeal on a point of law (Revision) brought by the Datenschutzbehörde against that decision of the Bundesverwaltungsgericht (Federal Administrative Court), the Verwaltungsgerichtshof (Supreme Administrative Court, Austria), which is the referring court in the present case, is uncertain, in the first place, whether the acts of a committee of inquiry set up by the parliament of a Member State are, irrespective even of the subject matter of the inquiry, excluded from the scope of the GDPR by virtue of Article 2(2)(a) thereof and the first sentence of Article 16(2) TFEU on the ground that the work of such a committee is, by its nature, an activity which falls outside the scope of Union law.
+
+**23** In that context, that court states, first of all, that, in accordance with the relevant case-law of the Court resulting, inter alia, from the judgment of 9 July 2020, Land Hessen ([[C-272-19|C-272/19]], EU:C:2020:535), it cannot be required, for the purpose of applying the GDPR, that the processing of personal data concerned should take place specifically for purposes coming within the scope of Union law, be cross-border in nature or have a specific and direct effect on freedom of movement between Member States. On the contrary, the application of that regulation may be excluded only if at least one of the conditions for the application of the exception under [[Article 2]](2)(a) to (d) of that regulation is satisfied.
+
+**24** In that regard, the referring court states that, according to the case-law of the Court of Justice, [[Article 2]](2)(a) of the GDPR, read in the light of recital 16 of that regulation, is to be regarded as having the sole purpose of excluding from the scope of that regulation the processing of personal data carried out by State authorities in the course of an activity which is intended to safeguard national security or of an activity which can be classified in the same category. The activities having the aim of safeguarding national security that are envisaged in [[Article 2]](2)(a) of the GDPR encompass, in particular, those that are intended to protect essential State functions and the fundamental interests of society (see, to that effect, judgment of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439/19]], EU:C:2021:504, paragraphs62to67and the case-law cited).
+
+**25** Next, that court refers to certain differences between the parliamentary committee at issue in the case which gave rise to the judgment of 9 July 2020, Land Hessen ([[C-272-19|C-272/19]], EU:C:2020:535), namely the Petitions Committee of the Parliament of Land Hessen (LandHessen, Germany), and the BVT Committee of Inquiry. According to that court, in particular, the work of the latter contributes not only indirectly to parliamentary activity, but is the core of that activity, on account of the task of scrutiny conferred by the B-VG on committees of inquiry set up by the National Council.
+
+**26** Lastly, the referring court refers to the principle of the separation of legislative, executive and judicial powers, a principle inherent in the law of each Member State and in EU law. That court states that it is true that [[Article 55]](3) of the GDPR merely excludes competence on the part of supervisory authorities to supervise the processing of personal data by courts in the exercise of their judicial activities and does not refer to the processing of data carried out in respect of the core of parliamentary activity. That silence could nevertheless be explained by the fact that, for the EU legislature, parliamentary activity already falls outside the scope of that regulation by virtue of [[Article 2]](2)(a) thereof.
+
+**27** In the second place, the referring court states that the subject matter of the inquiry carried out by the BVT Committee of Inquiry concerns national security activities which, in the light of recital 16 of the GDPR, fall outside the scope of Union law and are therefore excluded from the material scope of that regulation, in accordance with [[Article 2]](2)(a) thereof.
+
+**28** Thus, according to that court, supposing that the parliamentary scrutiny activity of a committee of inquiry fell, in principle, within the scope of Union law, within the meaning of Article 16(2) TFEU, it would still be necessary to ascertain whether that committee's activities are at the very least covered by the exception laid down in [[Article 2]](2)(a) of the GDPR, in view of the fact that the subject matter of the inquiry concerns activities on the part of the executive which, as in the present case, fall outside the scope of Union law.
+
+**29** In the third place, the referring court is uncertain whether, having regard in particular to the constitutional principle of the separation of powers in Austria, the Datenschutzbehörde, the only national supervisory authority within the meaning of [[Article 51]] of the GDPR, is competent, on the basis of that regulation alone, to decide on a complaint such as that lodged by WK, in the absence of any constitutional basis in national law enabling such competence to be established.
+
+**30** In that context, the Verwaltungsgerichtshof (Supreme Administrative Court) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+If Question 1 is answered in the affirmative:
+
+If Question 2 is answered in the negative:
+
+**'(1)** Do activities of a committee of inquiry set up by a \[parliament\] of a Member State in the exercise of its right to scrutinise the executive fall within the scope of \[Union\] law within the meaning of the first sentence of Article 16(2) TFEU, irrespective of the subject matter of the inquiry, with the result that \[the GDPR\] is applicable to the processing of personal data by a parliamentary committee of inquiry of a Member State?
+
+**(2)** Do activities of a committee of inquiry which has been set up by a \[parliament\] of a Member State in the exercise of its right to scrutinise the executive and which has as the subject matter of its inquiry the activities of a police State-protection authority, that is to say, activities concerning the protection of national security within the meaning of recital 16 of the GDPR, come within the scope of the exception set out in [[Article 2]](2)(a) of the GDPR?
+
+**(3)** If -- as in the present case -- a Member State has established only one single supervisory authority in accordance with [[Article 51]](1) of the GDPR, does the competence of that authority in respect of complaints within the meaning of [[Article 77]](1) of the GDPR, in conjunction with [[Article 55]](1) thereof, already arise directly from the GDPR?'
+
+### Consideration of the questions referred
+
+The first question
+
+**31** By its first question, the referring court asks, in essence, whether the first sentence of Article 16(2) TFEU and [[Article 2]](2)(a) of the GDPR must be interpreted as meaning that an activity, for the sole reason that it is carried out by a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive, is outside the scope of Union law and therefore falls outside the scope of that regulation.
+
+**32** Article 16 TFEU, which constitutes the legal basis for the GDPR, provides, in paragraph 2 thereof, that the European Parliament and the Council of the European Union are to lay down rules relating, inter alia, to the protection of individuals with regard to the processing of personal data by the Member States when carrying out activities which fall within the scope of Union law.
+
+**33** In accordance with that provision, [[Article 2]](1) of the GDPR gives a very broad definition of the material scope of that regulation (judgment of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439/19]], EU:C:2021:504, paragraph61). It provides that that regulation 'applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system'.
+
+**34** Furthermore, [[Article 2]] of the GDPR set outs, in paragraphs 2 and 3 thereof, in exhaustive terms, the exceptions to the rule determining the material scope of that regulation laid down in paragraph 1 thereof. In particular, [[Article 2]](2)(a) of that regulation states that it does not apply to the processing of personal data 'in the course of an activity which falls outside the scope of Union law'.
+
+**35** In that context, the referring court is uncertain whether the processing of personal data in the course of the activity of a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive is covered, in any event and irrespective of the subject matter of the inquiry, by the exception laid down in that provision.
+
+**36** In that regard, it must be recalled that, subject to the cases referred to in [[Article 2]](2) and (3) thereof, the GDPR applies to processing carried out both by private persons and by public authorities (see, to that effect, judgment of 24 March 2022, Autoriteit Persoonsgegevens, [[C-245-20|C-245/20]], EU:C:2022:216, paragraph25).
+
+**37** It is apparent from the Court's case-law that the exception provided for in [[Article 2]](2) of the GDPR must be interpreted strictly (judgment of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439/19]], EU:C:2021:504, paragraph 62 and the case-law cited). In that context, the Court has previously had occasion to state that [[Article 2]](2)(a) of that regulation, read in the light of recital 16 thereof, is designed solely to exclude from the scope of that regulation the processing of personal data carried out by State authorities in the course of an activity which is intended to safeguard national security or of an activity which can be classified in the same category, with the result that the mere fact that an activity is an activity characteristic of the State or of a public authority is not sufficient ground for that exception to be automatically applicable to such an activity (judgments of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439/19]], EU:C:2021:504, paragraph66, and of 20 October 2022, Koalitsia 'Demokratichna Bulgaria -- Obedinenie', [[C-306-21|C-306/21]], EU:C:2022:813, paragraph39).
+
+**38** That interpretation, which already follows from the fact that [[Article 2]](1) of the GDPR does not draw a distinction depending on the identity of the controller concerned, is borne out by [[Article 4]](7) of that regulation, which defines the concept of 'controller' as referring to 'the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data'.
+
+**39** It is precisely in interpreting the latter provision that the Court has held that, in so far as it determines, alone or with others, the purposes and means of the processing, a petitions committee of the parliament of a federated State of a Member State must be classified as a 'controller' within the meaning of that provision, with the result that the processing of personal data carried out by such a committee falls within the scope of that regulation (judgment of 9 July 2020, Land Hessen, [[C-272-19|C-272/19]], EU:C:2020:535, paragraph74).
+
+**40** The fact, referred to by the Präsident des Nationalrates (President of the National Council, Austria), that, unlike the Petitions Committee at issue in the case which gave rise to the judgment of 9 July 2020, Land Hessen ([[C-272-19|C-272/19]], EU:C:2020:535), which contributed only indirectly to the parliamentary activity, the BVT Committee of Inquiry is a body whose activity is directly and exclusively parliamentary in nature, does not mean that its activities fall outside the scope of the GDPR.
+
+**41** As the Advocate General observed, in essence, in point 84 of his Opinion, the exception to the scope of the GDPR provided for in [[Article 2]](2)(a) of that regulation refers only to categories of activities which, by their nature, fall outside the scope of Union law, and not to categories of persons, depending on whether they are private or public in nature, or, where the controller is a public authority, to the fact that its tasks and duties fall directly and exclusively within the scope of a given public power, without that power being connected with an activity which in any event falls outside the scope of Union law.
+
+**42** Accordingly, the fact that the processing of personal data is carried out by a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive does not make it possible, as such, to establish that that processing is carried out in the course of an activity which falls outside the scope of Union law, within the meaning of [[Article 2]](2)(a) of the GDPR.
+
+**43** In the light of the foregoing, the answer to the first question is that the first sentence of Article 16(2) TFEU and [[Article 2]](2)(a) of the GDPR must be interpreted as meaning that an activity cannot be regarded as being outside the scope of Union law and therefore falling outside the scope of that regulation for the sole reason that it is carried out by a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive.
+
+The second question
+
+**44** By its second question, the referring court asks, in essence, whether [[Article 2]](2)(a) of the GDPR, read in the light of recital 16 thereof, must be interpreted as meaning that the activities of a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive, the purpose of which is to investigate the activities of a police State-protection authority on account of a suspicion of political influence over that authority, cannot be regarded as activities concerning national security which fall outside the scope of Union law, within the meaning of that provision.
+
+**45** As has been recalled in paragraph 37 above, [[Article 2]](2)(a) of the GDPR must be interpreted strictly and is designed solely to exclude from the scope of that regulation the processing of personal data carried out by State authorities in the course of an activity which is intended to safeguard national security or of an activity which can be classified in the same category.
+
+**46** The activities having the aim of safeguarding national security for the purposes of [[Article 2]](2)(a) of the GDPR encompass, in particular, those that are intended to protect essential State functions and the fundamental interests of society (judgments of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439/19]], EU:C:2021:504, paragraph67, and of 20 October 2022, Koalitsia Demokratichna Bulgaria -- Obedinenie, [[C-306-21|C-306/21]], EU:C:2022:813, paragraph40).
+
+**47** In accordance with Article 4(2) TEU, such activities remain the sole responsibility of the Member States (see, to that effect, judgment of 15 July 2021, Ministrstvo za obrambo, [[C-742-19|C-742/19]], EU:C:2021:597, paragraph36).
+
+**48** In the present case, it is apparent from the file before the Court that the BVT Committee of Inquiry was established by the National Council for the purpose of investigating whether there was any political influence over the BVT, the task of which consisted, during the period at issue in the main proceedings, in ensuring the protection of the Constitution and combating terrorism.
+
+**49** The President of the National Council and the Czech Government submit, in essence, that, since the BVT's tasks include 'activities concerning national security', its activities were covered by the exception laid down in [[Article 2]](2)(a) of the GDPR. According to them, the activities of a committee of inquiry of the parliament of a Member State consisting in exercising scrutiny over State bodies which, as is the case with the BVT, are responsible for ensuring national security are also covered by the concept of activities concerning national security. The purpose of the scrutiny activity of such a committee of inquiry is to ascertain whether the authorities under scrutiny are properly ensuring national security.
+
+**50** In that regard, it should be noted that, although it is for the Member States, in accordance with Article 4(2) TEU, to define their essential security interests and to take appropriate measures to ensure their internal and external security, the mere fact that a national measure has been taken for the purpose of protecting national security cannot render EU law inapplicable and exempt the Member States from the need to comply with EU law (see, to that effect, judgment of 15 July 2021, Ministrstvo za obrambo, [[C-742-19|C-742/19]], EU:C:2021:597, paragraph 40 and the case-law cited).
+
+**51** As has been recalled in paragraph 41 above, the exception provided for in [[Article 2]](2)(a) of the GDPR refers solely to categories of activities which, by their nature, fall outside the scope of Union law, and not to categories of persons, depending on whether they are private or public in nature, or, where the controller is a public authority, to the fact that its tasks and duties fall directly and exclusively within the scope of a given public power, without that power being connected with an activity which in any event falls outside the scope of Union law. In that regard, the fact that the controller is a public authority whose main activity is to ensure national security cannot suffice, as such, to exclude from the scope of the GDPR the processing of personal data by that authority in the course of other activities that it carries out.
+
+**52** In the present case, it is apparent from the file before the Court that the purpose of the committee of inquiry at issue in the main proceedings was to exercise political scrutiny over the BVT's activity on account of a suspicion of political influence over that body, without that scrutiny appearing to constitute, as such, an activity intended to safeguard national security or which could be classified in the same category, within the meaning of the case-law referred to in paragraph 45 above. It follows that, subject to verification by the referring court, that activity does not fall outside the scope of the GDPR by virtue of [[Article 2]](2)(a) thereof.
+
+**53** That said, a parliamentary committee of inquiry such as that at issue in the main proceedings can, in the course of its work, have access to information, in particular personal data, which, for reasons of national security, must enjoy specific protection, consisting, for example, in limiting the information to be provided to data subjects as regards the collection of those data or those persons' access to those data.
+
+**54** In that regard, [[Article 23]] of the GDPR provides that restrictions may be laid down, by way of a legislative measure, on the obligations and rights provided for in Articles 5, 12 to 22 and 34 of the GDPR to safeguard, inter alia, national security or a monitoring connected to the exercise of official authority, in particular in the context of national security.
+
+**55** Thus, the requirement to safeguard national security may justify restrictions, by way of a legislative measure, on the obligations and rights flowing from the GDPR, in particular as regards the collection of personal data, the provision of information to data subjects and their access to those data, or the disclosure of those data, without the consent of the data subjects, to persons other than the controller, provided that such restrictions respect the essence of the fundamental rights and freedoms of data subjects and are a necessary and proportionate measure in a democratic society.
+
+**56** In the present case, it is nevertheless not apparent from the file before the Court that the BVT Committee of Inquiry alleged that the disclosure of WK's personal data, which took place when the minutes of his hearing before that committee were published on the website of the Austrian Parliament, without his consent, was necessary for the safeguarding of national security and had its basis in a national legislative measure laid down to that end. It is nevertheless for the referring court, where appropriate, to carry out the necessary verifications in that regard.
+
+**57** In the light of the foregoing, the answer to the second question is that [[Article 2]](2)(a) of the GDPR, read in the light of recital 16 thereof, must be interpreted as meaning that the activities of a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive, the purpose of which is to investigate the activities of a police State-protection authority on account of a suspicion of political influence over that authority, cannot, as such, be regarded as activities concerning national security which fall outside the scope of Union law, within the meaning of that provision.
+
+The third question
+
+**58** By its third question, the referring court asks, in essence, whether [[Article 77]](1) and [[Article 55]](1) of the GDPR must be interpreted as meaning that, where a Member State has chosen, in accordance with Article 51(1) of that regulation, to establish a single supervisory authority, without, however, conferring on it the competence to monitor the application of that regulation by a committee of inquiry set up by that Member State's parliament in the exercise of its power of scrutiny over the executive, those provisions directly confer on that authority the competence to hear complaints relating to the processing of personal data by that committee of inquiry.
+
+**59** In order to answer that question, it must be recalled that, under the second paragraph of Article 288 TFEU, a regulation is binding in its entirety and directly applicable in all Member States.
+
+**60** According to settled case-law, under that provision, by virtue of the very nature of regulations and of their function in the system of sources of EU law, the provisions of regulations generally have immediate effect in the national legal systems without its being necessary for the national authorities to adopt measures of application (judgment of 15 June 2021, Facebook Ireland and Others, [[C-645-19|C-645/19]], EU:C:2021:483, paragraph 110 and the case-law cited).
+
+**61** First, according to [[Article 77]](1) of the GDPR, every data subject has the right to lodge a complaint with a supervisory authority, if the data subject considers that the processing of personal data relating to him or her infringes that regulation. Second, under [[Article 55]](1) of that regulation, each supervisory authority is to be competent for the performance of the tasks assigned to and the exercise of the powers conferred on it in accordance with that regulation on the territory of its own Member State.
+
+**62** It is apparent from the wording of those provisions that, as the Advocate General observed, in essence, in point 132 of his Opinion, [[Article 77]](1) and [[Article 55]](1) of the GDPR do not require, for their implementation, the adoption of national implementing measures and are sufficiently clear, precise and unconditional to have direct effect.
+
+**63** It follows that, while the GDPR, in accordance with [[Article 51]](1) thereof, confers a margin of discretion on the Member States as regards the number of supervisory authorities to be established, it determines, by contrast, the extent of the competence which those authorities, irrespective of their number, must have in order to monitor the application of that regulation.
+
+**64** Thus, as the Advocate General observed, in essence, in point 137 of his Opinion, where a Member State chooses to establish a single supervisory authority, that authority necessarily has all the competences which the GDPR confers on the supervisory authorities.
+
+**65** Any other interpretation would undermine the effectiveness of [[Article 55]](1) and [[Article 77]](1) of the GDPR and risk weakening the effectiveness of all the other provisions of that regulation that may be the subject of a complaint.
+
+**66** Moreover, where the EU legislature intended to limit the supervisory authorities' competence to supervise processing operations of public authorities, it did so expressly, as evidenced by [[Article 55]](3) of the GDPR, pursuant to which those authorities are not competent to supervise processing operations of courts acting in their judicial capacity.
+
+**67** The Datenschutzbehörde, the President of the National Council and the Austrian Government submit that provisions of Austrian law having constitutional status prohibit the executive from exercising any scrutiny over the legislature. Those provisions therefore exclude the possibility for the Datenschutzbehörde, which is part of the executive branch, to monitor the application of the GDPR by the BVT Committee of Inquiry, which is a body that is part of the legislature.
+
+**68** However, in the present case, it is precisely with due regard for the constitutional structure of the Member States that [[Article 51]](1) of the GDPR merely requires Member States to establish at least one supervisory authority, while offering them the possibility of establishing more than one. Moreover, recital 117 of that regulation states that Member States should be able to establish more than one supervisory authority, to reflect their constitutional, organisational and administrative structure.
+
+**69** [[Article 51]](1) of the GDPR thus grants each Member State a margin of discretion enabling it to establish as many supervisory authorities as may be required, in particular, in the light of its constitutional structure.
+
+**70** Furthermore, it must be borne in mind that a Member State's reliance on rules of national law cannot be allowed to undermine the unity and effectiveness of EU law. The effects of the principle of primacy of EU law are binding on all the bodies of a Member State, without, inter alia, provisions of domestic law, including constitutional provisions, being able to prevent that (judgment of 22 February 2022, RS (Effect of the decisions of a constitutional court), [[C-430-21|C-430/21]], EU:C:2022:99, paragraph 51 and the case-law cited).
+
+**71** Where, within the framework of its discretion, a Member State has chosen to establish a single supervisory authority, it cannot rely on provisions of national law, be they constitutional in nature, in order to exclude the processing of personal data coming within the scope of the GDPR from the supervision of that authority.
+
+**72** In the light of the foregoing, the answer to the third question is that [[Article 77]](1) and [[Article 55]](1) of the GDPR must be interpreted as meaning that, where a Member State has chosen, in accordance with Article 51(1) of that regulation, to establish a single supervisory authority, without, however, conferring on it the competence to monitor the application of that regulation by a committee of inquiry set up by that Member State's parliament in the exercise of its power of scrutiny over the executive, those provisions directly confer on that authority the competence to hear complaints relating to the processing of personal data by that committee of inquiry.
+
+Costs
+
+**73** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the national court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Grand Chamber) hereby rules:
+
+**1.** The first sentence of Article 16(2) TFEU and Article 2(2)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+
+must be interpreted as meaning that an activity cannot be regarded as being outside the scope of Union law and therefore falling outside the scope of that regulation for the sole reason that it is carried out by a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive.
+
+**2.** [[Article 2]](2)(a) of Regulation 2016/679, read in the light of recital 16 of that regulation,
+
+must be interpreted as meaning that the activities of a committee of inquiry set up by the parliament of a Member State in the exercise of its power of scrutiny over the executive, the purpose of which is to investigate the activities of a police State-protection authority on account of a suspicion of political influence over that authority, cannot, as such, be regarded as activities concerning national security which fall outside the scope of Union law, within the meaning of that provision.
+
+**3.** [[Article 77]](1) and [[Article 55]](1) of Regulation 2016/679
+
+must be interpreted as meaning that, where a Member State has chosen, in accordance with Article 51(1) of that regulation, to establish a single supervisory authority, without, however, conferring on it the competence to monitor the application of that regulation by a committee of inquiry set up by that Member State's parliament in the exercise of its power of scrutiny over the executive, those provisions directly confer on that authority the competence to hear complaints relating to the processing of personal data by that committee of inquiry.
+
+(\*1) Language of the case: German.

@@ -15,28 +15,80 @@
       background: linear-gradient(transparent 0px, var(--light));
     }*/
 
-  & > h3 {
+  &>h3 {
     font-size: 1rem;
     margin: 0;
   }
 
-  & > ul {
+  &>ul {
     list-style: none;
     padding: 0;
     margin: 0.5rem 0;
 
-    & > li {
-      & > a {
+    &>li {
+      margin-bottom: 0.5rem;
+
+      &>a {
         background-color: transparent;
+        display: block;
+        text-decoration: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        transition: all 0.15s ease;
+        position: relative;
+
+        &:hover {
+          background-color: var(--hover);
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background-color: var(--secondary);
+            border-radius: 0 2px 2px 0;
+          }
+
+          .backlink-title {
+            color: var(--secondary);
+          }
+
+          .backlink-subtitle {
+            opacity: 1;
+            color: var(--dark);
+          }
+        }
       }
     }
   }
 
-  & > .overflow {
+  .backlink-title {
+    color: var(--dark);
+    transition: color 0.15s ease;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .backlink-subtitle {
+    font-size: 0.8rem;
+    color: var(--darkgray);
+    opacity: 0.85;
+    font-style: italic;
+    margin-top: 0.1rem;
+    line-height: 1.2;
+    font-weight: 400;
+    transition: opacity 0.15s ease, color 0.15s ease;
+  }
+
+  &>.overflow {
     &:after {
       display: none;
     }
+
     height: auto;
+
     @media all and not ($desktop) {
       height: 250px;
     }

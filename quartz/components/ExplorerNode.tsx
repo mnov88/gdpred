@@ -171,13 +171,25 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
   const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
 
+  // Check if this is the current page
+  const isCurrentPage = node.file?.slug === fileData.slug
+
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            {node.displayName}
+          <a
+            href={resolveRelative(fileData.slug!, node.file.slug!)}
+            data-for={node.file.slug}
+            data-active={isCurrentPage ? "true" : "false"}
+          >
+            <div class="explorer-title">{node.displayName}</div>
+            {(node.file.frontmatter?.parties || node.file.frontmatter?.subtitle) && (
+              <div class="explorer-parties">
+                {node.file.frontmatter?.parties || node.file.frontmatter?.subtitle}
+              </div>
+            )}
           </a>
         </li>
       ) : (

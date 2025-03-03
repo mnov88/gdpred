@@ -20,6 +20,9 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import NowReading from "./NowReading"
+import Parties from "./Parties"
+import FontSizeAdjuster from "./FontSizeAdjuster"
 
 export {
   ArticleTitle,
@@ -44,4 +47,7 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  NowReading,
+  Parties,
+  FontSizeAdjuster,
 }

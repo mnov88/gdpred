@@ -1,0 +1,260 @@
+---
+title: C-507/23
+date_of_judgment: 2024-10-04
+case-number: C-507/23
+parties: "A v Patērētāju tiesību aizsardzības centrs"
+topics:
+  - Protection of personal data
+  - Right to compensation and liability
+  - Unlawful processing of data
+  - Infringement of the right to protection of personal data
+  - Concept of 'damage'
+  - Compensation for non-material damage in the form of apologies
+  - Whether permissible
+  - Principle of effectiveness
+  - Assessment of the form and level of compensation
+  - Whether possible to take into consideration the attitude and motivation of the controller
+final-ruling: |-
+  1. Article 82(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), read in the light of Article 8(1) of the Charter of Fundamental Rights of the European Union must be interpreted as meaning that an infringement of the provisions of that regulation is not sufficient, in itself, to constitute 'damage' within the meaning of [[Article 82]](1).
+
+  2. [[Article 82]](1) of Regulation 2016/679 must be interpreted as meaning that the making of an apology may constitute sufficient compensation for non-material damage on the basis of that provision, inter alia where it is impossible to restore the situation that existed prior to the occurrence of that damage, provided that that form of redress is such as to compensate in full the damage suffered by the data subject.
+
+  3. [[Article 82]](1) of Regulation 2016/679 must be interpreted as precluding the taking into account of the attitude and motivation of the controller in order, where relevant, to award compensation to the data subject that is lower than the damage he or she has actually suffered.
+ruling-articles:
+  - Article 82
+  - Article 8
+---
+
+Provisional text
+
+JUDGMENT OF THE COURT (Eighth Chamber)
+
+4 October 2024 (\*)
+
+( Reference for a preliminary ruling -- Protection of personal data -- Regulation (EU) 2016/679 -- [[Article 82]](1) -- Right to compensation and liability -- Unlawful processing of data -- Infringement of the right to protection of personal data -- Concept of 'damage' -- Compensation for non-material damage in the form of apologies -- Whether permissible -- Principle of effectiveness -- Assessment of the form and level of compensation -- Whether possible to take into consideration the attitude and motivation of the controller )
+
+In Case [[C-507-23|C-507/23]],
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Augstākā tiesa (Senāts) (Supreme Court, Latvia), made by decision of 7 August 2023, received at the Court on 8 August 2023, in the proceedings
+
+A
+
+v
+
+Patērētāju tiesību aizsardzības centrs,
+
+THE COURT (Eighth Chamber),
+
+composed of N. Piçarra, President of the Chamber, N. Jääskinen (Rapporteur) and M. Gavalec, Judges,
+
+Advocate General: M. Szpunar,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- the Latvian Government, by J. Davidoviča and K. Pommere, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, H. Kranenborg and I. Naglis, acting as Agents,
+
+having decided, after hearing the Advocate General, to proceed to judgment without an Opinion,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 82(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+**2** The request has been made in proceedings between A and the Patērētāju tiesību aizsardzības centrs (Consumer Rights Protection Centre, Latvia) ('the PTAC') concerning compensation for the non-material damage which the applicant in the main proceedings claims to have suffered as a result of the PTAC having processed his personal data without his permission.
+
+Legal context
+
+European Union law
+
+**3** Recitals 1, 75, 85, 146 and 148 of the GDPR are worded as follows:
+
+'(1) The protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union (the "Charter") and Article 16(1) \[TFEU\] provide that everyone has the right to the protection of personal data concerning him or her.
+
+...
+
+(75) The risk to the rights and freedoms of natural persons, of varying likelihood and severity, may result from personal data processing which could lead to physical, material or non-material damage, in particular: where the processing may give rise to ... damage to the reputation, ... or any other significant economic or social disadvantage; where data subjects might be deprived of their rights and freedoms or prevented from exercising control over their personal data; ...
+
+...
+
+(85) A personal data breach may, if not addressed in an appropriate and timely manner, result in physical, material or non-material damage to natural persons such as loss of control over their personal data or limitation of their rights, ... damage to reputation, ... or any other significant economic or social disadvantage to the natural person concerned. ...
+
+...
+
+(146) The controller or processor should compensate any damage which a person may suffer as a result of processing that infringes this Regulation. ... The concept of damage should be broadly interpreted in the light of the case-law of the Court of Justice in a manner which fully reflects the objectives of this Regulation. This is without prejudice to any claims for damage deriving from the violation of other rules in Union or Member State law. ... Data subjects should receive full and effective compensation for the damage they have suffered. ...
+
+...
+
+(148) In order to strengthen the enforcement of the rules of this Regulation, penalties including administrative fines should be imposed for any infringement of this Regulation ... Due regard should however be given to the nature, gravity and duration of the infringement, the intentional character of the infringement, actions taken to mitigate the damage suffered, degree of responsibility ... and any other aggravating or mitigating factor. ...'
+
+**4** [[Article 1]] of that regulation, entitled 'Subject matter and objectives', provides, in paragraph 2:
+
+'This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.'
+
+**5** [[Article 4]] of the regulation, entitled 'Definitions', provides:
+
+'For the purposes of this Regulation:
+
+(1) "personal data" means any information relating to an identified or identifiable natural person ("data subject"); ...
+
+...
+
+(7) "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; ...
+
+...
+
+(12) "personal data breach" means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed;
+
+...'
+
+**6** [[Article 6]] of that regulation, entitled 'Lawfulness of processing', provides in paragraph 1 that the processing of personal data is lawful only if and to the extent that at least one of the conditions listed in that article applies.
+
+**7** Chapter VIII of the GDPR, entitled 'Remedies, liability and penalties', contains Articles 77 to 84 of that regulation.
+
+**8** [[Article 82]] of the regulation, entitled 'Right to compensation and liability', states in paragraphs 1 and 2:
+
+'1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered.
+
+2.  Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. ...'
+
+**9** [[Article 83]] of the GDPR, entitled 'General conditions for imposing administrative fines', provides in paragraph 2:
+
+'... When deciding whether to impose an administrative fine and deciding on the amount of the administrative fine in each individual case due regard shall be given to the following:
+
+(a) the nature, gravity and duration of the infringement taking into account the nature\[, \] scope or purpose of the processing concerned as well as the number of data subjects affected and the level of damage suffered by them;
+
+(b) the intentional or negligent character of the infringement;
+
+(c) any action taken by the controller or processor to mitigate the damage suffered by data subjects;
+
+...
+
+(k) any other aggravating or mitigating factor applicable to the circumstances of the case, such as financial benefits gained, or losses avoided, directly or indirectly, from the infringement.'
+
+**10** [[Article 84]] of that regulation, entitled 'Penalties', provides, in paragraph 1:
+
+'Member States shall lay down the rules on other penalties applicable to infringements of this Regulation in particular for infringements which are not subject to administrative fines pursuant to [[Article 83]], and shall take all measures necessary to ensure that they are implemented. Such penalties shall be effective, proportionate and dissuasive.'
+
+Latvian law
+
+**11** Article 14, entitled 'Determination of compensation for non-material damage', of the Valsts pārvaldes iestāžu nodarīto zaudējumu atlīdzināšanas likums (Law on compensation for damage caused by public authorities) of 2 June 2005 (Latvijas Vēstnesis, 2005, No 96), in the version applicable to the dispute in the main proceedings ('the Law of 2005'), provides:
+
+'1. Compensation for non-material damage shall be determined in relation to the importance of the rights infringed and of the interests protected by law and in relation to the seriousness of the interference in question, in the light of the factual and legal basis and reasons for the conduct of the authority, the conduct and the joint responsibility of the victim and other circumstances relevant to the particular case.
+
+2.  Compensation for non-material damage shall be provided by means of the restoration of the situation existing before the damage was caused or, where that is not possible or is not possible in full, or, where that is inadequate, by means of an apology or the payment of a suitable amount of compensation.
+
+3.  If, after assessing the circumstances of the particular case, the authority or court finds the interference with the rights or legally protected interests of the individual not to be serious, a written or public apology may constitute a standalone or supplementary form of redress for the non-material damage.
+
+4.  Compensation for non-material damage shall amount to a maximum of EUR 7 000. Where serious non-material damage is caused, compensation may amount to a maximum of EUR 10 000; however, where harm has been caused to an individual's life or there has been particularly serious harm to his or her health, the maximum amount of compensation may be up to EUR 30 000.'
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**12** The applicant in the main proceedings is well known in Latvia as a journalist who is an expert in the automotive sector.
+
+**13** During a campaign to make consumers aware of the risks involved in purchasing a second-hand vehicle, the PTAC distributed a video on several Internet sites which, among other things, featured a character imitating the applicant in the main proceedings, without his consent.
+
+**14** Despite the latter's stated opposition to the making and distribution of that video, it has remained available online. The PTAC also rejected his explicit requests for the distribution of the video to cease and for compensation for damage to his reputation.
+
+**15** The applicant in the main proceedings subsequently brought an action before the Administratīvā rajona tiesa (District Administrative Court, Latvia) seeking, first, a finding that the actions of the PTAC, consisting in the use and distribution of his personal data without authorisation, were unlawful, and, second, compensation for non-material damage in the form of an apology and the payment of EUR 2 000. The latter court, after finding that the actions in question were unlawful, ordered the PTAC to put an end to those acts, to make a public apology to the applicant and to pay him EUR 100 in compensation in respect of the non-material damage he had suffered.
+
+**16** By judgment of 20 May 2023, the Administratīvā apgabaltiesa (Regional Administrative Court, Latvia), ruling on appeal, confirmed that the processing of personal data by the PTAC was unlawful, on the basis of [[Article 6]] of the GDPR, and ordered that conduct to cease; it also required the publication of an apology on the websites which had disseminated the video footage, pursuant to [[Article 14]] of the Law of 2005. However, it dismissed the claim for financial compensation for the non-material damage suffered by the applicant in the main proceedings. In that regard, it found, in particular, that the infringement that had been committed was not serious on the ground that the video footage was intended to perform a task in the public interest and not to harm the applicant's reputation, honour and dignity. Furthermore, it considered that the infringement in question was due to the fact that the PTAC had misinterpreted statutory provisions that were complex in nature.
+
+**17** In his appeal on a point of law lodged with the Augstākā tiesa (Senāts) (Supreme Court, Latvia), which is the referring court in the present case, the applicant in the main proceedings contests that judgment in so far as it refused financial compensation for his non-material damage. He claims, in essence, that the appeal court erred in its assessment of the seriousness of the infringement of his rights and in the evaluation of the damage arising from that infringement. He also submits that compensation in the form of an apology is neither fair nor adequate under [[Article 82]] of the GDPR.
+
+**18** In the first place, the referring court considers, in the light of the judgment of 4 May 2023, Österreichische Post(Non-material damage in connection with the processing of personal data)([[C-300-21|C-300/21]]; 'the judgment inÖsterreichische Post', EU:C:2023:370), that [[Article 82]] of the GDPR does not enable compensation to be ordered on the basis of an infringement of that regulation without first establishing damage that has been caused by that infringement. In its view, the appeal court in the present case breached [[Article 82]] by ordering such compensation without having found any harm to the reputation, honour and dignity of the applicant in the main proceedings. In that context, the referring court seeks to determine whether, taking account of Article 1(2) of the GDPR and recitals 75, 85 and 146 thereof, the unlawful processing of personal data may constitute, in itself, an infringement of the fundamental right to the protection of those data, as guaranteed in Article 8(1) of the Charter, and consequently constitute 'damage' within the meaning of [[Article 82]], including where no harm to the reputation, honour or dignity of the person concerned has been established.
+
+**19** In the second place, the referring court raises the question of adequate compensation for non-material damage under [[Article 82]](1) of the GDPR, as interpreted in the judgment of 4 May 2023, Österreichische Post([[C-300-21|C-300/21]], EU:C:2023:370). It wishes to know whether the obligation to make an apology to the injured party, which under Latvian law is capable of constituting a standalone or supplementary form of compensation, may in certain cases be held to be sufficient compensation under [[Article 82]](1).
+
+**20** In the third and last place, the referring court raises the question, having regard to paragraph 58 of the abovementioned judgment, of whether [[Article 82]](1) of the GDPR makes it possible, in assessing the form and level of compensation due in that respect, to take account of the circumstances related to, or even justifying, the actions of the party which has infringed that regulation.
+
+**21** In those circumstances, the Augstākā tiesa (Senāts) (Supreme Court (Senate)) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+'(1) Must [[Article 82]](1) of \[the GDPR\] be interpreted as meaning that the unlawful processing of personal data, in so far as it is an infringement of that regulation, may, in itself, constitute unjustified interference with a person's subjective right to the protection of his or her data and damage caused to that person?
+
+(2) Must [[Article 82]](1) of \[the GDPR\] be interpreted as meaning that, where there is no possibility of restoring the situation that existed before the damage was caused, it permits the imposition of the obligation to apologise as the sole form of compensation for non-material damage?
+
+(3) Must [[Article 82]](1) of \[the GDPR\] be interpreted as meaning that it permits a smaller amount of compensation for the damage caused to be set on the basis of circumstances that are indicative of the attitude and motivation of the person processing the data (for example, the need to perform a task carried out in the public interest, the lack of intent to cause damage to the person concerned or difficulties in understanding the legal framework)?'
+
+### Consideration of the questions referred
+
+The first question
+
+**22** By its first question, the referring court asks, in essence, whether Article 82(1) of the GDPR, read in the light of Article 8(1) of the Charter, must be interpreted as meaning that an infringement of the provisions of that regulation is sufficient, in itself, to constitute 'damage' within the meaning of [[Article 82]](1).
+
+**23** [[Article 82]](1) of the GDPR provides that 'any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered.'
+
+**24** The Court has repeatedly interpreted [[Article 82]](1) to the effect that mere infringement of that regulation is not sufficient to confer a right to compensation on that basis, since the existence of 'damage', whether material or non-material, or of 'damage' which has been 'suffered' constitutes one of the conditions for the right to compensation laid down in that provision, as does the existence of an infringement of the provisions of that regulation and of a causal link between that damage and that infringement, those three conditions being cumulative. Accordingly, the person seeking compensation for non-material damage on the basis of that provision is required to establish not only infringement of that regulation, but also that that infringement has actually caused him or her such damage (see, to that effect, judgments of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraphs 32, 33, 42 and 50; of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraphs 41 and 42; and of 20 June 2024, PS (Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraphs 22, 24, 25 and 27).
+
+**25** Since those three cumulative conditions are necessary and sufficient in order to have a right to compensation for the purposes of [[Article 82]](1) of the GDPR (judgment of 14 December 2023, Gemeinde Ummendorf, [[C-456-22|C-456/22]], EU:C:2023:988, paragraph 14), that right cannot be made contingent on an additional demonstration that the data subject, as defined in [[Article 4]](1) of that regulation, has suffered an unjustified interference with the legal interest which that same regulation is intended to protect, namely such a person's right to the protection of his or her personal data.
+
+**26** Furthermore, the Court has stated that even if the provision of the GDPR that has been infringed grants rights to natural persons, such an infringement cannot, in itself, be such as to constitute 'non-material damage', within the meaning of that regulation, and to found a right to compensation on that basis, since that regulation requires that the other two conditions referred to in paragraph 24 above also be satisfied (see, to that effect, judgment of 11 April 2024, *juris*, [[C-741-21|C-741/21]], EU:C:2024:288, paragraph 40.
+
+**27** That interpretation of [[Article 82]](1) of the GDPR is supported by recitals 75, 85 and 146 of that regulation. It is apparent from those recitals, first, that the occurrence of damage in the context of the unlawful processing of personal data is only a potential and not an automatic consequence of such processing; second, that an infringement of the GDPR does not necessarily result in damage; and, third, that there must be a causal link between the infringement in question and the damage suffered by the data subject in order to establish a right to compensation (see, to that effect, judgment of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraph 37).
+
+**28** That interpretation is thus capable of ensuring the protection of personal data as a fundamental right laid down in Article 8(1) of the Charter, to which recital 1 of the GDPR refers.
+
+**29** In the light of the foregoing, the answer to the first question is that Article 82(1) of the GDPR, read in the light of Article 8(1) of the Charter, must be interpreted as meaning that an infringement of the provisions of that regulation is not sufficient, in itself, to constitute 'damage', within the meaning of [[Article 82]](1).
+
+The second question
+
+**30** By its second question, the referring court asks, in essence, whether [[Article 82]](1) of the GDPR must be interpreted as meaning that the making of an apology may constitute sufficient compensation for non-material damage on the basis of that provision, inter alia where it is impossible to restore the situation that existed prior to the occurrence of that damage.
+
+**31** According to settled case-law, it is for the national legal order of each Member State to establish procedural rules for actions intended to safeguard the rights of individuals, in accordance with the principle of procedural autonomy, on condition, however, that those rules are not, in situations covered by EU law, less favourable than those governing similar domestic situations (principle of equivalence) and that they do not make it excessively difficult or impossible in practice to exercise the rights conferred by EU law (principle of effectiveness) (judgements of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraph 53, and of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraph 32).
+
+**32** In the present case, since the GDPR does not contain any provision intended to define the rules on the assessment of the damages due under the right to compensation laid down in [[Article 82]] of that regulation, national courts must, to that end, apply the domestic rules of each Member State relating to the extent of financial compensation, provided that the principles of equivalence and effectiveness of EU law are observed (see, to that effect, judgments of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraphs 54 and 59; of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraphs 27 and 33; and of 20 June 2024, PS (Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraph 40).
+
+**33** In that respect, as regards observance of the principle of equivalence, the Court has nothing before it that is capable of showing that that principle may have a specific effect in the main proceedings in the present case.
+
+**34** As regards observance of the principle of effectiveness, the exclusively compensatory function of the right to compensation laid down in [[Article 82]] of the GDPR means that the criteria for assessing the compensation due under that article must be prescribed within the legal system of each Member State, provided that such compensation is full and effective, without there being any need, for the purposes of such compensation in full, to require the payment of punitive damages (see, to that effect, judgments of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraphs 57 and 58; of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraphs 23, 24, 35, 36 and 43; and of 20 June 2024, PS (Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraph 42).
+
+**35** Furthermore, the Court has accepted that where the damage suffered by the data subject is not serious, a national court may compensate for it by awarding minimal compensation to that person, provided that the small amount of damages thus granted is such as to offset in full that damage, which it is for that court to ascertain (see, to that effect, judgment of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraph 46).
+
+**36** Likewise, [[Article 82]](1) of the GDPR does not preclude the making of an apology from being able to constitute standalone or supplementary compensation for non-material damage, as laid down in the present case in [[Article 14]] of the Law of 2005, provided that such a form of compensation complies with those principles of equivalence and effectiveness, in particular in that it must serve to compensate in full the non-material damage that has actually been suffered as a result of the infringement of that regulation, which it is for the national court before which the case has been brought to ascertain, taking account of the circumstances of each individual case.
+
+**37** In the light of the foregoing reasons, the answer to the second question is that [[Article 82]](1) of the GDPR must be interpreted as meaning that the making of an apology may constitute sufficient compensation for non-material damage on the basis of that provision, inter alia where it is impossible to restore the situation that existed prior to the occurrence of that damage, provided that that form of redress is such as to compensate in full the damage suffered by the data subject.
+
+The third question
+
+**38** By its third question, the referring court asks, in essence, whether [[Article 82]](1) of the GDPR must be interpreted as precluding the taking into account of the attitude and motivation of the controller in order, where relevant, to award compensation to the data subject that is lower than the damage he or she has actually suffered.
+
+**39** In the first place, it is apparent from [[Article 83]] of the GDPR, read in the light of recital 148 thereof, that criteria relating to the attitude and motivation of the controller should, inter alia, be taken into account, as an 'aggravating or mitigating factor', in deciding whether it is appropriate to impose an administrative fine and in determining its amount. By contrast, those criteria are not referred to in either [[Article 82]] of that regulation or indeed in recital 146 thereof, which relates specifically to the right to compensation laid down in that latter article.
+
+**40** The absence of any reference to such criteria is justified by the fact that [[Article 82]] of the GDPR fulfils an exclusively compensatory function, in that compensation, in particular financial compensation, based on [[Article 82]] must make it possible to compensate in full the damage suffered, in contrast to other provisions of that regulation also contained in Chapter VIII thereof, namely Articles 83 and 84, which have, for their part, essentially a punitive purpose, since they permit, respectively, the imposition of administrative fines and other penalties (see, to that effect, judgments of 4 May 2023, Österreichische Post, [[C-300-21|C-300/21]], EU:C:2023:370, paragraphs 38 and 40, and of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraph 22).
+
+**41** Thus, in the light of the differences in wording and purpose existing between [[Article 82]] of the GDPR, read in the light of recital 146 thereof, and [[Article 83]] of that regulation, read in the light of recital 148 thereof, it cannot be found that the assessment criteria specifically set out in [[Article 83]] are applicablemutatis mutandisin the context of [[Article 82]] (judgment of 20 June 2024, PS(Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraph 43 and the case-law cited). That finding applies, in particular, to setting the amount of damages due as compensation for damage based on [[Article 82]] (see, to that effect, judgment of 20 June 2024, PS(Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraphs 39 and 44) and, more generally, to the determination of the form, financial or otherwise, and the level of such compensation.
+
+**42** In the second place, the exclusively compensatory function of the right to compensation provided for in [[Article 82]](1) of the GDPR precludes the taking into account of the severity and possible intentional nature of the infringement of that regulation by the controller for the purposes of compensation for damage under that provision (see, to that effect, judgment of 20 June 2024, Scalable Capital, [[C-182-22|C-182/22]] and [[C-189-22|C-189/22]], EU:C:2024:531, paragraphs 28 to 30).
+
+**43** Having regard to the exclusively compensatory, rather than punitive, function fulfilled by that right to compensation, the gravity of such an infringement cannot influence the amount of damages granted under [[Article 82]](1) and that amount cannot be set at a level that exceeds full compensation for that damage (see, to that effect, judgment of 20 June 2024, PS(Incorrect address), [[C-590-22|C-590/22]], EU:C:2024:536, paragraph 41 and the case-law cited). Only the damage actually suffered by the data subject must be taken into consideration in order to determine the amount of such monetary compensation (see, to that effect, judgment of 11 April 2024, juris, [[C-741-21|C-741/21]], EU:C:2024:288, paragraph 64).
+
+**44** Likewise, there would be a lack of observance of the exclusively compensatory function of [[Article 82]](1) if the controller's attitude and motivation were taken into account in order to determine the form of compensation granted on the basis of that provision or in order to award redress that is 'smaller' than full compensation for the damage suffered by the data subject, as envisaged by the referring court in the present case.
+
+**45** Having regard to the foregoing reasons, the answer to the third question is that [[Article 82]](1) of the GDPR must be interpreted as precluding the taking into account of the attitude and motivation of the controller in order, where relevant, to award compensation to the data subject that is lower than the damage he or she has actually suffered.
+
+Costs
+
+**46** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Eighth Chamber) hereby rules:
+
+**1.** Article 82(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), read in the light of Article 8(1) of the Charter of Fundamental Rights of the European Union
+
+must be interpreted as meaning that an infringement of the provisions of that regulation is not sufficient, in itself, to constitute 'damage' within the meaning of [[Article 82]](1).
+
+**2.** [[Article 82]](1) of Regulation 2016/679
+
+must be interpreted as meaning that the making of an apology may constitute sufficient compensation for non-material damage on the basis of that provision, inter alia where it is impossible to restore the situation that existed prior to the occurrence of that damage, provided that that form of redress is such as to compensate in full the damage suffered by the data subject.
+
+**3.** [[Article 82]](1) of Regulation 2016/679
+
+must be interpreted as precluding the taking into account of the attitude and motivation of the controller in order, where relevant, to award compensation to the data subject that is lower than the damage he or she has actually suffered.
+
+\[Signatures\]
+
+\*Language of the case: Latvian.

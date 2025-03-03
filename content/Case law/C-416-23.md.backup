@@ -1,0 +1,334 @@
+---
+title: C-416/23
+date_of_judgment: 2025-01-09
+case-number: C-416/23
+parties: "Österreichische Datenschutzbehörde v F R"
+topics:
+  - Protection of natural persons with regard to the processing of personal data
+  - Tasks of the supervisory authority
+  - Concepts of a 'request' and 'excessive requests'
+  - Charging of a reasonable fee or refusal to act on requests in the event of manifestly unfounded or excessive requests
+  - Concept of a 'complaint'
+final-ruling: |-
+  1. Article 57(4) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  must be interpreted as meaning that the concept of a 'request' contained in that provision covers the complaints referred to in [[Article 57]](1)(f) and [[Article 77]](1) of that regulation.
+
+  2. [[Article 57]](4) of Regulation 2016/679
+  must be interpreted as meaning that requests cannot be classified as 'excessive', within the meaning of that provision, solely on account of their number during a specific period, since the exercise of the option provided for in that provision is subject to the supervisory authority's demonstrating the existence of an abusive intention on the part of the person who submitted those requests.
+
+  3. [[Article 57]](4) of Regulation 2016/679
+  must be interpreted as meaning that, when faced with excessive requests, a supervisory authority may choose, by reasoned decision, between charging a reasonable fee based on administrative costs and refusing to act on those requests, taking account of all the relevant circumstances and satisfying itself that the chosen option is appropriate, necessary and proportionate.
+ruling-articles:
+  - Article 57
+  - Article 77
+---
+
+Provisional text
+
+JUDGMENT OF THE COURT (First Chamber)
+
+9 January 2025 (\*)
+
+( Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 57]](1)(f) and [[Article 57]](4) -- Tasks of the supervisory authority -- Concepts of a 'request' and 'excessive requests' -- Charging of a reasonable fee or refusal to act on requests in the event of manifestly unfounded or excessive requests -- Criteria which may guide the supervisory authority in making its choice -- [[Article 77]](1) -- Concept of a 'complaint' )
+
+In Case [[C-416-23|C-416/23]],
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Verwaltungsgerichtshof (Supreme Administrative Court, Austria), made by decision of 27 June 2023, received at the Court on 6 July 2023, in the proceedings
+
+Österreichische Datenschutzbehörde
+
+v
+
+F R,
+
+other parties:
+
+Bundesministerin für Justiz,
+
+THE COURT (First Chamber),
+
+composed of T. von Danwitz, Vice-President of the Court, acting as President of the First Chamber, A. Kumin and I. Ziemele (Rapporteur), Judges,
+
+Advocate General: J. Richard de la Tour,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- the Österreichische Datenschutzbehörde, by M. Schmidl, acting as Agent,
+
+-- F R, by C. Wirthensohn, Rechtsanwalt,
+
+-- the Bundesministerin für Justiz, by E. Riedl, acting as Agent,
+
+-- the Austrian Government, by A. Posch, J. Schmoll and C. Gabauer, acting as Agents,
+
+-- the Czech Government, by M. Smolek T. Suchá and J. Vláčil, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, F. Erlbacher and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 5 September 2024,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 57(4) and Article 77(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1) ('the GDPR').
+
+**2** The request has been made in proceedings between F R, a natural person, on the one hand, and the Österreichische Datenschutzbehörde (Data Protection Authority, Austria) ('the DSB'), on the other hand, concerning the latter's refusal to act on a complaint relating to an alleged infringement of F R's right of access to his personal data.
+
+Legal context
+
+European Union law
+
+**3** Under recitals 10, 11, 59, 63 and 129 of the GDPR:
+
+'(10) In order to ensure a consistent and high level of protection of natural persons and to remove the obstacles to flows of personal data within the Union, the level of protection of the rights and freedoms of natural persons with regard to the processing of such data should be equivalent in all Member States. Consistent and homogenous application of the rules for the protection of the fundamental rights and freedoms of natural persons with regard to the processing of personal data should be ensured throughout the Union. ...
+
+(11) Effective protection of personal data throughout the Union requires the strengthening and setting out in detail of the rights of data subjects and the obligations of those who process and determine the processing of personal data ....
+
+...
+
+(59) Modalities should be provided for facilitating the exercise of the data subject's rights under this Regulation, including mechanisms to request and, if applicable, obtain, free of charge, in particular, access to and rectification or erasure of personal data and the exercise of the right to object. ...
+
+...
+
+(63) A data subject should have the right of access to personal data which have been collected concerning him or her, and to exercise that right easily and at reasonable intervals, in order to be aware of, and verify, the lawfulness of the processing. ... Where the controller processes a large quantity of information concerning the data subject, the controller should be able to request that, before the information is delivered, the data subject specify the information or processing activities to which the request relates.
+
+...
+
+(129) ... The powers of supervisory authorities should be exercised in accordance with appropriate procedural safeguards set out in Union and Member State law, impartially, fairly and within a reasonable time. In particular each measure should be appropriate, necessary and proportionate in view of ensuring compliance with this Regulation, taking into account the circumstances of each individual case, respect the right of every person to be heard before any individual measure which would affect him or her adversely is taken and avoid superfluous costs and excessive inconveniences for the persons concerned. ...'.
+
+**4** [[Article 12]] of the GDPR, headed 'Transparent information, communication and modalities for the exercise of the rights of the data subject', states in paragraphs 2 and 5:
+
+'2. The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in [[Article 11]](2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.
+
+...
+
+5.  Information provided under Articles 13 and 14 and any communication and any actions taken under Articles 15 to 22 and 34 shall be provided free of charge. Where requests from a data subject are manifestly unfounded or excessive, in particular because of their repetitive character, the controller may either:
+
+<!-- -->
+
+(a) charge a reasonable fee taking into account the administrative costs of providing the information or communication or taking the action requested; or
+
+(b) refuse to act on the request.
+
+The controller shall bear the burden of demonstrating the manifestly unfounded or excessive character of the request.'
+
+**5** [[Article 15]] of the GDPR, entitled 'Right of access by the data subject', provides, in paragraph 1 thereof:
+
+'The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:
+
+(a) the purposes of the processing;
+
+...
+
+(c) the recipients or categories of recipient to whom the personal data have been or will be disclosed ...;
+
+...'.
+
+**6** [[Article 52]] of the GDPR, entitled 'Independence', provides, in paragraph 4 thereof:
+
+'Each Member State shall ensure that each supervisory authority is provided with the human, technical and financial resources, premises and infrastructure necessary for the effective performance of its tasks and exercise of its powers, including those to be carried out in the context of mutual assistance, cooperation and participation in the Board.'
+
+**7** [[Article 57]] of the GDPR, entitled 'Tasks', reads as follows:
+
+'1. Without prejudice to other tasks set out under this Regulation, each supervisory authority shall on its territory:
+
+(a) monitor and enforce the application of this Regulation;
+
+...
+
+(e) upon request, provide information to any data subject concerning the exercise of their rights under this Regulation and, if appropriate, cooperate with the supervisory authorities in other Member States to that end;
+
+(f) handle complaints lodged by a data subject, or by a body, organisation or association in accordance with [[Article 80]], and investigate, to the extent appropriate, the subject matter of the complaint and inform the complainant of the progress and the outcome of the investigation within a reasonable period, in particular if further investigation or coordination with another supervisory authority is necessary;
+
+...
+
+2.  Each supervisory authority shall facilitate the submission of complaints referred to in point (f) of paragraph 1 by measures such as a complaint submission form which can also be completed electronically, without excluding other means of communication.
+
+3.  The performance of the tasks of each supervisory authority shall be free of charge for the data subject and, where applicable, for the data protection officer.
+
+4.  Where requests are manifestly unfounded or excessive, in particular because of their repetitive character, the supervisory authority may charge a reasonable fee based on administrative costs, or refuse to act on the request. The supervisory authority shall bear the burden of demonstrating the manifestly unfounded or excessive character of the request.'
+
+**8** [[Article 77]] of the GDPR, entitled 'Right to lodge a complaint with a supervisory authority', states in paragraph 1:
+
+'Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.'
+
+Austrian law
+
+**9** Paragraph 24 of the Bundesgesetz zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten (Federal law on the protection of natural persons with regard to the processing of personal data), of 17 August 1999 (BGBl. I, 165/1999), in the version applicable to the facts in the main proceedings, entitled 'Complaints addressed to the data protection authority' states, in paragraphs 1, 5 and 8:
+
+'(1) Every data subject is entitled to lodge a complaint with the data protection authority where he or she considers that the processing of personal data relating to him or her infringes the GDPR or Paragraph 1 or Paragraph 2, first chapter.
+
+...
+
+(5) It is necessary to act on a complaint that is shown to be justified. If an infringement can be attributed to a controller in the private sector, the latter shall be instructed to comply with requests for access to, rectification, erasure, restriction or transfer of data made by the requester in so far as is necessary to remedy the infringement found. Where a complaint is shown to be unfounded, it must be rejected.
+
+...
+
+(8) Any data subject may bring an action before the Administrative Court if the data protection authority does not handle the complaint or inform the data subject of the progress or outcome of the complaint within three months.'
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**10** On 17 February 2020, F R lodged a complaint with the DSB under [[Article 77]](1) of the GDPR for infringement of [[Article 15]] of that regulation, on the ground that a company, as the controller, had not responded to his request for access to his personal data within one month.
+
+**11** By decision of 22 April 2020, the DSB, on the basis of [[Article 57]](4) of the GDPR, refused to act on that complaint on account of its excessive nature. In that regard, it noted in particular that the data subject had, within a period of approximately 20 months, sent it 77 similar complaints directed against different controllers. Furthermore, F R had regularly contacted the DSB by telephone in order to report additional facts and to make additional requests.
+
+**12** F R brought an action against that decision before the Bundesverwaltungsgericht (Federal Administrative Court, Austria).
+
+**13** By judgment of 22 December 2022, that court upheld the action and annulled the decision of the DSB. It held, in essence, that the term 'excessive', within the meaning of [[Article 57]](4) of the GDPR, entailed not only that requests had been made repeatedly and frequently, but also that they were manifestly vexatious or abusive. However, the reasons given by the DSB for refusing to act on F R's complaint did not indicate that there had been any abusive conduct on his part. Furthermore, according to the same court, a supervisory authority faced with excessive requests is not at liberty to choose between the two options laid down by that provision, that is to say of charging a reasonable fee or refusing to act on such requests. The choice between those options is left to discretion, the exercise of which must be justified by the supervisory authority. No such reasoning has been set out in the present case.
+
+**14** The Verwaltungsgerichtshof (Supreme Administrative Court, Austria), which has before it an appeal on a point of law, brought by the DSB against that judgment, and which is the referring court, seeks to ascertain, first, whether the concept of a 'request' as referred to in [[Article 57]](4) of the GDPR covers complaints made pursuant to [[Article 77]](1) of that regulation.
+
+**15** In that regard, the referring court notes that it is true that the concept of a 'request' is used, in the list of tasks of supervisory authorities contained in [[Article 57]](1) of the GDPR, exclusively in point (e) of that provision, to designate information requests made to those authorities by data subjects concerning the exercise of the rights conferred on them by that regulation. However, according to that court, it cannot be inferred from that fact that [[Article 57]](4) of that regulation can only apply to the processing of such requests. On the contrary, the context of that provision, which lays down an exception to the free-of-charge principle, makes it possible rather to conclude that the concept of a 'request' to which it refers also covers complaints, since the handling of the latter is the main task of supervisory authorities and it is necessary to relieve those authorities of the handling of complaints that are manifestly unfounded or excessive.
+
+**16** Nevertheless, according to the referring court, such an interpretation would have the consequence of restricting the obligation on the part of supervisory authorities to handle complaints, under [[Article 57]](1)(f) of the GDPR, and could be contrary to the objectives pursued by that regulation, in particular the objective of ensuring a high degree of protection of individuals with regard to the processing of personal data in the European Union.
+
+**17** However, the referring court considers that, if such an interpretation were accepted, the limitation placed by [[Article 57]](4) of the GDPR on the right to lodge a complaint would be proportionate. The application of that provision requires that the supervisory authority adduce proof that the complaint is manifestly unfounded or excessive. Also, the decision by the supervisory authority to charge a reasonable fee or to refuse to act on the complaint is subject to the judicial review referred to in [[Article 78]](1) of that regulation.
+
+**18** In the second place, in the event that [[Article 57]](4) of the GDPR should be interpreted as applicable to the complaints referred to in [[Article 77]](1) of that regulation, the referring court is uncertain as to the scope of the concept of an 'excessive request', within the meaning of [[Article 57]](4) of that regulation. In particular, that court notes that, although that provision expressly refers, by way of example of 'excessive requests', to the case of 'repetitive' requests, the fact remains that, as an exception to the obligation of any supervisory authority to handle complaints, the possibility of refusing to handle a complaint must be interpreted strictly, since that possibility would lead to a significant impairment of the protection provided for by the GDPR for natural persons when processing personal data and would thus derogate from the objectives pursued by that regulation.
+
+**19** In that context, the referring court seeks to ascertain whether the number of complaints lodged during a given period with a supervisory authority is sufficient to conclude that a complaint is excessive, irrespective of the specific circumstances of each of those individual complaints and without regard to the controllers concerned by those complaints, or whether account should be taken of other circumstances on the basis of which it might be concluded that there was an abusive intention.
+
+**20** In the third place, the referring court considers that the application of [[Article 57]](4) of the GDPR also raises questions with regard to the legal consequences to be inferred in the case of manifestly unfounded or excessive claims. It is not clear from the wording of that provision whether the supervisory authorities are free to choose either of the two options which it provides for, that is to say to charge a reasonable fee for handling the complaint or to refuse to act on the complaint at the outset. The referring court points out that there are different opinions on this issue in the legal literature.
+
+**21** In that context, the Verwaltungsgerichtshof (Supreme Administrative Court) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+'(1) Must the concept of "requests" or "request" in [[Article 57]](4) of the GDPR be interpreted as meaning that it also covers "complaints" under [[Article 77]](1) of the GDPR?
+
+If Question (1) is answered in the affirmative:
+
+(2) Must [[Article 57]](4) of the GDPR be interpreted as meaning that, for requests to be 'excessive', it is sufficient that a data subject has merely addressed a certain number of requests (complaints under [[Article 77]](1) of the GDPR) to a supervisory authority within a certain period of time, irrespective of whether the facts are different and/or whether the requests (complaints) concern different controllers, or is an abusive intention on the part of the data subject required in addition to the frequent repetition of requests (complaints)?
+
+(3) Must [[Article 57]](4) of the GDPR be interpreted as meaning that, in the case of a 'manifestly unfounded' or 'excessive' request (complaint), the supervisory authority is free to choose whether to charge a reasonable fee based on the administrative costs of processing it or refuse to process it from the outset? If not, which circumstances and criteria must the supervisory authority take into account? In particular, is the supervisory authority obliged to charge a reasonable fee primarily, as a less severe measure, and entitled to refuse to process manifestly unfounded or excessive requests (complaints) only in the event that charging a fee to prevent such requests is futile?'
+
+### Consideration of the questions referred
+
+The first question
+
+**22** By its first question, the referring court asks whether [[Article 57]](4) of the GDPR must be interpreted as meaning that the concept of a 'request' contained in that provision covers the 'complaints' referred to in [[Article 77]](1) of that regulation.
+
+**23** As a preliminary point, it should be noted that the concept of a 'complaint' also appears in [[Article 57]](1)(f) of the GDPR. In those circumstances, in order to provide a useful answer to the referring court, it must be held that, by its first question, that court asks, in essence, whether [[Article 57]](4) of that regulation must be interpreted as meaning that the concept of 'request' in that provision covers the 'complaints' referred to in [[Article 57]](1)(f) and [[Article 77]](1) of that regulation.
+
+**24** In order to interpret a provision of EU law, it is necessary to consider not only its wording, by reference to its usual meaning in everyday language, but also the context in which it occurs and the objectives pursued by the rules of which it is part (judgments of 4 May 2023, Österreichische Datenschutzbehörde and CRIF, [[C-487-21|C-487/21]], EU:C:2023:369, paragraph 19 and the case-law cited; of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26/22]] and [[C-64-22|C-64/22]], EU:C:2023:958, paragraph 48 and the case-law cited; and of 30 April 2024, Trade Express-L and DEVNIA TSIMENT, [[C-395-22|C-395/22]] and [[C-428-22|C-428/22]], EU:C:2024:374, paragraph 65 and the case-law cited).
+
+**25** As regards, in the first place, the wording of [[Article 57]](1)(f) of the GDPR, that provision provides that each supervisory authority on its territory is to 'handle complaints lodged by a data subject, ..., and investigate, to the extent appropriate, the subject matter of the complaint and inform the complainant of the progress and the outcome of the investigation within a reasonable period, in particular if further investigation or coordination with another supervisory authority is necessary'.
+
+**26** For its part, [[Article 57]](4) of the GDPR, that provision states that 'where requests are manifestly unfounded or excessive, in particular because of their repetitive character, the supervisory authority may charge a reasonable fee based on administrative costs, or refuse to act on the request. The supervisory authority shall bear the burden of demonstrating the manifestly unfounded or excessive character of the request'.
+
+**27** As regards the wording of [[Article 77]](1) of the GDPR, it provides that 'without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this regulation'.
+
+**28** Thus, none of the provisions referred to in paragraphs 25 to 27 of the present judgment expressly defines the concept of a 'request' within the meaning of [[Article 57]](4) of the GDPR.
+
+**29** In that regard, it must be observed that, as the Advocate General observed in point 23 of his Opinion, the concept of a 'request', according to its usual meaning in everyday language, is particularly broad, since it potentially encompasses any act by which a person or entity asks for something.
+
+**30** It must therefore be held that the wording of the provisions referred to in paragraphs 25 to 27 of the present judgment permits the inference that complaints lodged under [[Article 77]](1) of the GDPR fall within the concept of 'requests' within the meaning of [[Article 57]](4) of that regulation.
+
+**31** That textual analysis is corroborated, secondly, by the context of those provisions. In that regard, [[Article 57]] of the GDPR describes the tasks of the supervisory authorities and lays down the conditions under which those tasks are to be carried out. Thus, in particular, [[Article 57]](1)(a) provides, first, that each authority is to monitor and enforce the application of that regulation, second, in paragraph 1(e), that upon request, it is to provide information to any data subject concerning the exercise of their rights under that regulation and, if appropriate, cooperate with the supervisory authorities in other Member States to that end and, third, in paragraph 2 thereof, that it is to facilitate the submission of complaints referred to in point (f) of paragraph 1 by measures such as a complaint submission form which can also be completed electronically, without excluding other means of communication.
+
+**32** Furthermore, [[Article 57]](3) of the GDPR lays down the principle that 'the performance of the tasks of each supervisory authority shall be free of charge for the data subject and, where applicable, for the data protection officer'.
+
+**33** Therefore, by providing for the possibility for supervisory authorities, when faced with requests which are manifestly unfounded or excessive, to charge a reasonable fee based on administrative costs or to refuse to act on a request, [[Article 57]](4) of that regulation establishes an exception to the 'free-of-charge' principle laid down in [[Article 57]](3) of that regulation, which must be interpreted restrictively.
+
+**34** Thus, as the Advocate General observed, in essence, in points 28 to 30 of his Opinion, in so far as the handling by the supervisory authorities of requests submitted to them is the rule, those authorities should be empowered to exercise the power provided for in [[Article 57]](4) of the GDPR only in exceptional cases.
+
+**35** It cannot be inferred from these provisions that [[Article 57]](4) of the GDPR, in so far as it employs the concept of a 'request', applies only to the requests referred to in [[Article 57]](1)(e) of that regulation. [[Article 57]](3) of that regulation applies to all tasks of supervisory authorities, including the handling of complaints provided for in [[Article 57]](1)(f) of that regulation.
+
+**36** In that context, in so far as it provides for an exception to the principle that tasks carried out by the supervisory authorities are to be free of charge, without restricting it to certain specific tasks of those supervisory authorities, [[Article 57]](4) of the GDPR should also apply to the handling of complaints provided for in [[Article 57]](1)(f) of that regulation, especially since the latter task constitutes an essential task of those supervisory authorities. The supervisory authority concerned must deal with those complaints with all due diligence (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26/22]] and [[C-64-22|C-64/22]], EU:C:2023:958, paragraph 56 and the case-law cited).
+
+**37** Conversely, an interpretation to the effect that the concept of a 'request' contained in [[Article 57]](4) of the GDPR only covers requests under [[Article 57]](1)(e) of that regulation, and not the complaints referred to in [[Article 57]](1)(f) and [[Article 77]](1) of that regulation, would deprive the first of those provisions of a large part of its effectiveness and would run counter to the effective protection of the rights guaranteed by that regulation (see, to that effect, judgment of 12 January 2023, Nemzeti Adatvédelmi és Információszabadság Hatóság ([[C-132-21|C-132/21]], EU:C:2023:2, paragraph 47).
+
+**38** In the third place, that contextual interpretation is consistent with the objectives of the GDPR. In that regard, It should be noted that the purpose of that regulation, as indicated by recitals 10 and 11 thereof, is to ensure a consistent and high level of protection of natural persons within the European Union, as well as to strengthen and set out in detail the rights of data subjects (judgment of 26 October 2023, FT (Copies of medical records), [[C-307-22|C-307/22]], EU:C:2023:811, paragraph 47).
+
+**39** Thus, the complaints procedure is designed as a mechanism capable of effectively safeguarding the rights and interests of data subjects (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26/22]] and [[C-64-22|C-64/22]], EU:C:2023:958, paragraph 58 and the case-law cited). In that regard, the obligation on the part of the supervisory authorities to facilitate the lodging of complaints, and the principle that the tasks they must perform are free of charge, laid down in [[Article 57]](2) and (3) of the GDPR, are intended to enable any data subject to seek from a supervisory authority enforcement of the rights he or she derives from that regulation.
+
+**40** In that context, as the Advocate General noted in point 41 of his Opinion, the pursuit of the objective of ensuring a consistent and high level of protection of natural persons within the European Union requires that the proper functioning of the supervisory authorities be guaranteed by ensuring that it is not hindered by the lodging of complaints which are manifestly unfounded or excessive, within the meaning of [[Article 57]](4) of the GDPR. That provision thus offers supervisory authorities the possibility of better management of those complaints, thus reducing the workload they impose on them. In that regard, where a supervisory authority is confronted with complaints which are manifestly unfounded or excessive, the ability to charge a reasonable fee or to refuse to act on such complaints is such as to ensure a high level of protection of personal data.
+
+**41** In the light of the foregoing considerations, the answer to the first question is that [[Article 57]](4) of the GDPR must be interpreted as meaning that the concept of a 'request' in that provision covers the complaints referred to in [[Article 57]](1)(f) and [[Article 77]](1) of that regulation.
+
+The second question
+
+**42** By its second question, the referring court asks, in essence, whether [[Article 57]](4) of the GDPR must be interpreted as meaning that the mere fact that requests have been sent in large numbers may be sufficient for them to be classified as 'excessive', within the meaning of that provision, or whether such a classification also presupposes an abusive intention on the part of the person who lodged those requests.
+
+**43** In that regard, in the first place, since the concept of 'excessive requests' is not defined in the GDPR, it is necessary, in the light of the case-law referred to in paragraph 24 of the present judgment, to refer to the usual meaning of that concept in everyday language. The adjective 'excessive' denotes something which exceeds the ordinary or reasonable amount or which exceeds the desirable or permissible amount.
+
+**44** In the second place, it is apparent from the wording of [[Article 57]](4) of the GDPR that requests may be 'excessive' in particular where they are repetitive. However, a literal interpretation of that provision does not make it possible to determine whether that repetitive nature and, consequently, the number of applications lodged alone is sufficient to justify such a classification. Accordingly, it is necessary, in the light of that case-law, to examine the scope of that provision in the light of its context and the objectives pursued by the regulation of which it forms part.
+
+**45** As regards the context, it should be recalled, first, that [[Article 12]] of the GDPR lays down general obligations on the controller with regard to transparency of information and communications and lays down the modalities for the exercise of the rights of the data subject. Under the first sentence of the second paragraph of that article, the controller must facilitate the exercise of data subject rights under Articles 15 to 22 of that regulation.
+
+**46** Second, [[Article 15]] of the GDPR, which appears under Section 2 of Chapter III of that regulation, concerning information and access to personal data, complements the framework of transparency organised by that regulation by granting the data subject a right of access to his or her personal data and a right to information regarding the processing of those data.
+
+**47** [[Article 15]] of the GDPR must be read in the light of the first sentence of recital 63 of that regulation, according to which a data subject should have the right of access to personal data which have been collected concerning him or her, and to exercise that right easily and at reasonable intervals, in order to be aware of the data processing and to verify the lawfulness thereof. In that regard, if that person has made several requests for access to one or more controllers without obtaining satisfaction, the number of complaints submitted to a supervisory authority could be the same as the number of refusals given by those controllers to that person. In those circumstances, the setting of an absolute numerical threshold, above which those complaints could automatically be classified as excessive, could undermine the rights guaranteed by that regulation.
+
+**48** In that regard, as has been noted in paragraphs 33, 34 and 36 of the present judgment, the exercise of the option provided for in [[Article 57]](4) of the GDPR, in so far as it constitutes an exception to the principle that tasks performed by the supervisory authorities are free of charge, referred to in [[Article 57]](3) of that regulation, must therefore remain exceptional (see, by analogy, judgments of 5 April 2022, Commissioner of An Garda Síochána and Others, [[C-140-20|C-140/20]], EU:C:2022:258, paragraph 40, and of 8 November 2022, Deutsche Umwelthilfe (Approval of motor vehicles), [[C-873-19|C-873/19]], EU:C:2022:857, paragraph 87 and the case-law cited). It can only take place where there is an abuse of rights (see, by analogy, judgment of 26 October 2023, FT (Copies of medical records), [[C-307-22|C-307/22]], EU:C:2023:811, paragraph 31), without the number of complaints lodged constituting, in itself, a sufficient criterion for the purpose of establishing the existence of such abuse.
+
+**49** [[Article 57]](4) of the GDPR reflects the Court's settled case-law, in accordance with which there is, in EU law, a general legal principle that EU law cannot be relied on for abusive or fraudulent ends (judgment of 21 December 2023, BMW Bank and Others, [[C-38-21|C-38/21]], [[C-47-21|C-47/21]] and [[C-232-21|C-232/21]], EU:C:2023:1014, paragraph 281 and the case-law cited).
+
+**50** In that context, where it seeks to make use of the possibility offered by [[Article 57]](4) of the GDPR, the supervisory authority concerned must establish, having regard to all the relevant circumstances of each case, that there has been an abusive intention on the part of the person in question, the number of complaints made by that person being, in itself, insufficient. A finding of an abusive intention may be made if a person has lodged complaints in circumstances where it was not objectively necessary to do so in order to protect his or her rights under that regulation.
+
+**51** In that regard, it should also be recalled that the Member States are obliged, under [[Article 52]](4) of the GDPR, to ensure that each supervisory authority is provided with the human, technical and financial resources, premises and infrastructure necessary for the effective performance of its tasks and exercise of its powers. It follows that those resources must be adapted to the use that data subjects make of their right to make complaints to the supervisory authorities.
+
+**52** Thus, it is incumbent on the Member States to provide the supervisory authorities with the appropriate resources to process all complaints submitted to them, if necessary by increasing those resources in the light of the use made by data subjects of their right to lodge complaints under [[Article 77]](1) of the GDPR. A supervisory authority cannot, therefore, base an argument, in order to refuse to act on a complaint pursuant to [[Article 57]](4) of that regulation, on the fact that a person who lodges a significantly greater number of complaints than the average number of complaints lodged by each data subject significantly mobilises the resources of that authority to the detriment of the handling of other complaints submitted by other persons.
+
+**53** Furthermore, as the Advocate General observed in point 76 of his Opinion, complaints under [[Article 77]](1) of the GDPR play an important role in terms of the supervisory authorities' awareness of infringements of the rights protected by that regulation. Those complaints therefore contribute significantly to ensuring a consistent and high level of protection of natural persons within the European Union and to strengthening and setting out in detail the rights of those persons within the meaning of recitals 10 and 11 of that regulation.
+
+**54** Accordingly, allowing the supervisory authorities to make a finding of the excessive character of requests on the sole basis that a large number of complaints have been made would be liable to undermine the attainment of that objective. A large number of complaints may be a direct consequence of a high number of failures, on the part of one or more controllers, to respond to or refuse to act on requests for access made by a data subject in order to protect his or her rights.
+
+**55** In that regard, taking the number of complaints into account in isolation could lead to an arbitrary infringement of the rights that the data subject derives from the GDPR, so that a finding of the existence of excessive requests, within the meaning of [[Article 57]](4) of that regulation, must be subject to the condition that an abusive intention on the part of the person who lodges such complaints be demonstrated.
+
+**56** It is thus incumbent on a supervisory authority receiving a large number of complaints to demonstrate, on the basis of the particular circumstances of each case, that that number is not to be explained in terms of the data subject wishing to obtain protection of his or her rights under the GDPR, but in terms of some other purpose, unconnected with the protection of those rights. That is so, in particular, where the particular circumstances of the case show that the number of complaints is intended to interfere with the proper functioning of the supervisory authority by taking up its resources in an abusive manner.
+
+**57** In that regard, a large number of complaints made by a person may be an indication of excessive requests where it appears that those complaints are not objectively justified by considerations relating to the protection of the data subject's rights under the GDPR. That may be the case, for example, where a data subject lodges such a large number of complaints with a supervisory authority, relating to a multitude of controllers with which the data subject does not necessarily have any connection, and where that disproportionate use of the right to submit complaints shows, taken together with other factors such as the content of the complaints, an intention on the part of the data subject to paralyse the functioning of the supervisory authority by flooding it with requests.
+
+**58** In the present case, it is for the referring court to ascertain whether DSB has established the existence of an abusive intention on the part of the data subject, where the number of complaints made cannot, in itself, justify the exercise of the option provided for in [[Article 57]](4) of the GDPR.
+
+**59** In the light of the foregoing considerations, the answer to the second question is that [[Article 57]](4) of the GDPR must be interpreted as meaning that requests cannot be classified as 'excessive', within the meaning of that provision, solely on account of their number during a specific period, since the exercise of the option provided for in that provision is subject to the supervisory authority's demonstrating the existence of an abusive intention on the part of the person who submitted those requests.
+
+The third question
+
+**60** By its third question, the referring court asks, in essence, whether [[Article 57]](4) of the GDPR is to be interpreted as meaning that, where excessive requests are submitted to a supervisory authority, that authority is free to choose between charging a reasonable fee based on administrative costs and refusing to act on the requests.
+
+**61** As regards, in the first place, the wording of [[Article 57]](4) of the GDPR, it should be noted that the two options which it provides for in the event of excessive requests, namely to charge a reasonable fee based on administrative costs or to refuse to act on those requests, are listed successively and are separated by the coordinating conjunction 'or', without it being possible to infer from the wording used an order of priority between either of those options (see, by analogy, judgment of 12 January 2023, Österreichische Post (Information about the recipients of personal data), [[C-154-21|C-154/21]], EU:C:2023:3, paragraph 31).
+
+**62** Thus, the wording of that provision appears to support the interpretation that that authority, once it has established that the requests submitted to it are excessive, has the freedom to choose one or the other of those options.
+
+**63** As regards, in the second place, the context of [[Article 57]](4) of the GDPR, it should be recalled that recital 59 of that regulation states that 'modalities should be provided for facilitating the exercise of the data subject's rights under this Regulation, including mechanisms to request and, if applicable, obtain, free of charge, in particular, access to and rectification or erasure of personal data and the exercise of the right to object'. Thus, it follows that a choice in favour of one of the two options may be made if, in any event, the effective exercise of the right to lodge complaints is ensured.
+
+**64** In the third place, the interpretation set out in paragraph 62 of the present judgment is consistent with the objectives pursued by GDPR.
+
+**65** In that regard, it should be noted that the purpose of that regulation, as indicated by recitals 10 and 11 thereof, is to ensure a consistent and high level of protection of natural persons within the European Union, as well as to strengthen and set out in detail the rights of data subjects (see judgment of 26 October 2023, FT (Copies of medical records), [[C-307-22|C-307/22]], EU:C:2023:811, paragraph 47).
+
+**66** In addition, it is apparent from recital 129 of that regulation that the supervisory authority is required impartially and fairly to assess whether such a request is manifestly unfounded or excessive, and to ensure that its choice is appropriate, necessary and proportionate, taking into account the relevant circumstances and avoiding unnecessary costs and excessive inconvenience to the data subject.
+
+**67** Consequently, taking account of the importance of the right to lodge complaints in relation to the objective of ensuring a high level of protection of personal data, of the essential place occupied by the handling of such complaints among the tasks assigned to supervisory authorities and of the obligation of those authorities to handle such complaints with all due diligence, it is for supervisory authorities to have regard to all the relevant circumstances and to satisfy themselves that the chosen option is appropriate, necessary and proportionate.
+
+**68** In that regard, a supervisory authority may consider it appropriate, in the light of the relevant circumstances and with a view to bringing to an end an abusive practice which is liable to hamper its proper functioning, to charge a reasonable fee based on the administrative costs of the additional workload created by excessive complaints. The dissuasive effect of that option may lead that authority to prefer the latter over an immediate refusal to act on those complaints.
+
+**69** Thus, in the light of recital 129 of the GDPR, the supervisory authorities could consider charging, initially, a reasonable fee based on administrative costs before subsequently refusing to act on the complaints, in so far as the first of those measures has less of an adverse effect on the rights that data subjects derive from that regulation than the second. That said, [[Article 57]](4) of that regulation does not entail an obligation on the supervisory authority in all cases first to apply the option of charging a reasonable fee.
+
+**70** In the light of the foregoing considerations, the answer to the third question is that [[Article 57]](4) of the GDPR must be interpreted as meaning that, when faced with excessive requests, a supervisory authority may choose, by reasoned decision, between charging a reasonable fee based on administrative costs and refusing to act on those requests, taking account of all the relevant circumstances and satisfying itself that the chosen option is appropriate, necessary and proportionate.
+
+Costs
+
+**71** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (First Chamber) hereby rules:
+
+**1.** Article 57(4) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation),
+
+must be interpreted as meaning that the concept of a 'request' contained in that provision covers the complaints referred to in [[Article 57]](1)(f) and [[Article 77]](1) of that regulation.
+
+**2.** [[Article 57]](4) of Regulation 2016/679
+
+must be interpreted as meaning that requests cannot be classified as 'excessive', within the meaning of that provision, solely on account of their number during a specific period, since the exercise of the option provided for in that provision is subject to the supervisory authority's demonstrating the existence of an abusive intention on the part of the person who submitted those requests.
+
+**3.** [[Article 57]](4) of Regulation 2016/679
+
+must be interpreted as meaning that, when faced with excessive requests, a supervisory authority may choose, by reasoned decision, between charging a reasonable fee based on administrative costs and refusing to act on those requests, taking account of all the relevant circumstances and satisfying itself that the chosen option is appropriate, necessary and proportionate.
+
+\[Signatures\]
+
+\*Language of the case: German.
