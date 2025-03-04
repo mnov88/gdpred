@@ -1,6 +1,11 @@
 ---
 title: Welcome to the GDPR vault!
-date: nill
+cssclasses: ["no-date", "no-graph", "no-title"]
+hide:
+  - date
+  - graph
+  - title
+  - articleTitle
 ---
 In the beginning there was a word, and the word was 'data'. Then came the EU, which decided that it did not like that one bit, and made it all _personal_.
 

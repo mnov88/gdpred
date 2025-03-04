@@ -11,12 +11,14 @@ import { Assets } from "./assets"
 import { CNAME } from "./cname"
 import { TopicExplorerPage } from "./topicExplorerPage"
 import { IndexPage } from "./indexPage"
+import { CustomIndexPage } from "./customIndexPage"
 
 export {
     AliasRedirects,
     ComponentResources,
     ContentIndex,
     ContentPage,
+    CustomIndexPage,
     FolderPage,
     IndexPage,
     TagPage,
