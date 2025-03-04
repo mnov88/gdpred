@@ -18,24 +18,29 @@ const formatDate = (dateStr: string): { month: string, year: string, full: strin
 const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, allFiles = [] } = props
 
-    // Filter for files in the Case law folder
+    // Filter for files in the Case law folder with improved case-insensitive matching
     const caseFiles = allFiles.filter(file => {
         if (!file || typeof file !== 'object') return false
 
         const slug = file.slug
         const folder = file.frontmatter?.folder
 
+        // Convert to lowercase for case-insensitive comparison
+        const slugLower = typeof slug === 'string' ? slug.toLowerCase() : null
+        const folderLower = typeof folder === 'string' ? folder.toLowerCase() : null
+
+        // Check various forms of the case-law path
+        const caseLawFormats = ["case-law/", "case law/", "caselaw/"]
+
         return (
-            (typeof slug === 'string' && (
-                slug.startsWith("Case-law/") ||
-                slug.toLowerCase().startsWith("case-law/")
-            )) ||
-            (typeof folder === 'string' && (
-                folder === "Case law" ||
-                folder === "Case-law"
-            ))
+            // Check slug against our case-insensitive formats
+            (slugLower && caseLawFormats.some(format => slugLower.startsWith(format))) ||
+            // Check folder against our case-insensitive formats
+            (folderLower && ["case law", "case-law", "caselaw"].includes(folderLower))
         )
     })
+
+    console.log(`Timeline found ${caseFiles.length} case files out of ${allFiles.length} total files`)
 
     // Extract dates and sort
     const timelineItems = caseFiles
