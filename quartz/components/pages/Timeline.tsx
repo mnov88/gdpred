@@ -18,6 +18,13 @@ const formatDate = (dateStr: string): { month: string, year: string, full: strin
 const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, allFiles = [] } = props
 
+    // Log environment information
+    console.log(`Timeline rendering with baseUrl: ${cfg.baseUrl}`)
+    console.log(`Total files available: ${allFiles.length}`)
+
+    // Log the first 5 file paths to see what format they're in
+    console.log("Sample file paths:", allFiles.slice(0, 5).map(f => f?.slug || 'undefined'))
+
     // Filter for files in the Case law folder with improved case-insensitive matching
     const caseFiles = allFiles.filter(file => {
         if (!file || typeof file !== 'object') return false
@@ -32,15 +39,36 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         // Check various forms of the case-law path
         const caseLawFormats = ["case-law/", "case law/", "caselaw/"]
 
-        return (
-            // Check slug against our case-insensitive formats
-            (slugLower && caseLawFormats.some(format => slugLower.startsWith(format))) ||
-            // Check folder against our case-insensitive formats
-            (folderLower && ["case law", "case-law", "caselaw"].includes(folderLower))
-        )
+        const matchesSlug = slugLower && caseLawFormats.some(format => slugLower.startsWith(format))
+        const matchesFolder = folderLower && ["case law", "case-law", "caselaw"].includes(folderLower)
+
+        // Log matches for diagnostic purposes
+        if (matchesSlug || matchesFolder) {
+            console.log(`Found matching case file: ${slug || 'unknown'}, folder: ${folder || 'unknown'}`)
+        }
+
+        return matchesSlug || matchesFolder
     })
 
     console.log(`Timeline found ${caseFiles.length} case files out of ${allFiles.length} total files`)
+
+    // If no case files found, log more details about all files to diagnose
+    if (caseFiles.length === 0) {
+        console.log("No case files found. Examining folders:")
+        const folders = new Set()
+        allFiles.forEach(file => {
+            if (file?.slug && typeof file.slug === 'string') {
+                const parts = file.slug.split('/')
+                if (parts.length > 1) {
+                    folders.add(parts[0])
+                }
+            }
+            if (file?.frontmatter?.folder) {
+                folders.add(file.frontmatter.folder)
+            }
+        })
+        console.log("Available folders:", [...folders])
+    }
 
     // Extract dates and sort
     const timelineItems = caseFiles
