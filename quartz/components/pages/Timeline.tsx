@@ -25,29 +25,51 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     // Log the first 5 file paths to see what format they're in
     console.log("Sample file paths:", allFiles.slice(0, 5).map(f => f?.slug || 'undefined'))
 
-    // Filter for files in the Case law folder with improved case-insensitive matching
+    // More aggressive approach to find case files without relying on specific folder paths
     const caseFiles = allFiles.filter(file => {
         if (!file || typeof file !== 'object') return false
 
         const slug = file.slug
         const folder = file.frontmatter?.folder
+        const title = file.frontmatter?.title
+        const caseNumber = file.frontmatter?.['case-number']
 
-        // Convert to lowercase for case-insensitive comparison
-        const slugLower = typeof slug === 'string' ? slug.toLowerCase() : null
-        const folderLower = typeof folder === 'string' ? folder.toLowerCase() : null
+        // Check if any of these criteria match to identify a case file
+        // 1. Slug contains "case" in any form
+        const slugContainsCase = typeof slug === 'string' && slug.toLowerCase().includes('case')
 
-        // Check various forms of the case-law path
-        const caseLawFormats = ["case-law/", "case law/", "caselaw/"]
+        // 2. Slug is in the Case law folder (check multiple forms)
+        const slugFolderParts = typeof slug === 'string' ? slug.split('/') : []
+        const slugFolder = slugFolderParts.length > 0 ? slugFolderParts[0].toLowerCase() : ''
+        const isInCaseFolder = ['case law', 'case-law', 'caselaw', 'case'].includes(slugFolder)
 
-        const matchesSlug = slugLower && caseLawFormats.some(format => slugLower.startsWith(format))
-        const matchesFolder = folderLower && ["case law", "case-law", "caselaw"].includes(folderLower)
+        // 3. Frontmatter folder is Case law in any form
+        const folderIsCase = typeof folder === 'string' &&
+            ['case law', 'case-law', 'caselaw', 'case'].includes(folder.toLowerCase())
 
-        // Log matches for diagnostic purposes
-        if (matchesSlug || matchesFolder) {
-            console.log(`Found matching case file: ${slug || 'unknown'}, folder: ${folder || 'unknown'}`)
+        // 4. Title starts with C- (likely a case number)
+        const titleIsCaseNumber = typeof title === 'string' && /^C-\d+/.test(title)
+
+        // 5. Has case-number field in frontmatter
+        const hasCaseNumber = typeof caseNumber === 'string' && caseNumber.trim() !== ''
+
+        // 6. Slug contains C- (common case file naming pattern)
+        const slugHasCaseNumber = typeof slug === 'string' && slug.includes('C-')
+
+        const isCase = isInCaseFolder || folderIsCase || titleIsCaseNumber || hasCaseNumber || slugHasCaseNumber || slugContainsCase
+
+        if (isCase) {
+            console.log(`Found case file: ${slug || 'unknown'} (reasons: ${[
+                isInCaseFolder ? 'case folder' : '',
+                folderIsCase ? 'case frontmatter' : '',
+                titleIsCaseNumber ? 'case number in title' : '',
+                hasCaseNumber ? 'has case-number' : '',
+                slugHasCaseNumber ? 'C- in slug' : '',
+                slugContainsCase ? 'case in slug' : ''
+            ].filter(Boolean).join(', ')})`)
         }
 
-        return matchesSlug || matchesFolder
+        return isCase
     })
 
     console.log(`Timeline found ${caseFiles.length} case files out of ${allFiles.length} total files`)
@@ -115,7 +137,7 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
                                 {items.map((item, i) => (
                                     <div key={i} className="timeline-item">
                                         <div className="timeline-content">
-                                            <a href={`/${item.slug}`} className="timeline-title">
+                                            <a href={`/${encodeURI(item.slug)}`} className="timeline-title">
                                                 {item.caseNumber}
                                                 <span className="timeline-title-text">{item.title !== item.caseNumber && item.title ? ` ${item.title}` : ''}</span>
                                             </a>
