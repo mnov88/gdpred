@@ -7,12 +7,19 @@ hide:
   - title
   - articleTitle
 ---
-In the beginning there was a word, and the word was 'data'. Then came the EU, which decided that it did not like that one bit, and made it all _personal_.
+# Welcome to **GDPRTANGLE**!
 
-We were thus bestowed with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the [here it comes] protection of natural persons [nearly there] with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC... You may now take a moment to recover your breath.
+... Where the labyrinthine chaos of data protection rulings has been coaxed into something that might, under favorable lighting and with one eye closed, resemble navigable terrain. 
 
-The Court of Justice of the European Union — a hall of perpetually disappointed grandparents in costume — decided that they did not like it, either. This presented no obstacle whatsoever, as they've been quietly amending reality through footnotes since before most member states had indoor plumbing. They began issuing rulings that soon blanketed Europe like legal confetti. These scrolls of wisdom were sadly as unclear as the legislation they were meant to clarify, giving everyone involved the kind of headache usually reserved for tax audits.
+Here lurk not dragons, but something far more terrifying: the Court of Justice of the European Union — an assembly of perpetually dissatisfied grandparents whose  collective mission appears to be ensuring that legal clarity remains purely theoretical and concision is punished with 174 additional paragraphs.
 
-CourtDPR exists because finding your way through this legal labyrinth should not require a team of specialists, three wizards, and a compass blessed by bureaucratic saints. Nor should it be more challenging than herding cats on a unicycle. I have gathered every GDPR judgment in one place, meticulously indexed by article, topic, and date. You can trace connections between cases, follow the breadcrumb trail from one ruling to related ones, and see which articles the Court seems particularly fond of quoting at 3 AM meetings.
+"_But what about Case C-40/17?_" you ask innocently.
 
-**DISCLAIMER: CourtDPR is an unofficial repository created by a person who believes that legal texts should be accessible without causing immediate migraines. All judgments link to official CJEU sources. Any errors are mine alone and not the fault of the Court, which has enough to worry about already, what with the complexity of determining when a cookie actually requires consent and whether fining a company the GDP of a small nation is proportionate (or if they should have gone for a medium-sized nation instead.)**
+"_Ah yes_," replies the Court with a sinister smile, adjusting its robes, "_that's on page 47, paragraph 92, which refers you to Article 4(7), which is best understood through the lens of Case C-210/16, which cannot be comprehended without first reading Articles 5, 13, and 73(c), which naturally lead back to Case C-40/17. Was that not perfectly clear?_"
+
+It is at this point your average person sighs, rubs their temples, and mutters something about '*a high level of protection for natural persons in their data*' before reaching for the extra-strength aspirin.
+
+This website exists because finding your way through this legal labyrinth should not require a herd of cats on a unicycle, three wizards, and a compass blessed by bureaucratic saints. 
+I have gathered every GDPR judgment in one place, indexed by article, topic, and date. You can trace connections between cases, follow the breadcrumb trail from one ruling to related ones, and see which articles the Court keeps muttering about in its sleep. No simplification, just the kind of organization that brings tears of joy to the eyes of librarians and mild panic to those who profit from legal confusion.
+
+**DISCLAIMER: This website is for informational purposes only, much like how the CJEU's 200-page rulings are "for clarity." While we've done our utmost to map this legal labyrinth, we cannot guarantee that the Court hasn't, since yesterday, invented seven new principles, referenced three non-existent articles, or decided that the entire GDPR should now be interpreted through the lens of 17th-century maritime law. Always consult official sources, preferably with adequate provisions of caffeine and sanity breaks.**
