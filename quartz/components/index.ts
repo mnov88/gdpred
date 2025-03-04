@@ -2,6 +2,7 @@ import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
 import NotFound from "./pages/404"
+import Timeline from "./pages/Timeline"
 import ArticleTitle from "./ArticleTitle"
 import Darkmode from "./Darkmode"
 import Head from "./Head"
@@ -23,12 +24,14 @@ import Comments from "./Comments"
 import NowReading from "./NowReading"
 import Parties from "./Parties"
 import FontSizeAdjuster from "./FontSizeAdjuster"
+import TopicExplorer from "./pages/TopicExplorer"
 
 export {
   ArticleTitle,
   Content,
   TagContent,
   FolderContent,
+  Timeline,
   Darkmode,
   Head,
   PageTitle,
@@ -50,4 +53,5 @@ export {
   NowReading,
   Parties,
   FontSizeAdjuster,
+  TopicExplorer,
 }

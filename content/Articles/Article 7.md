@@ -1,6 +1,8 @@
 ---
 title: "Article 7"
 subtitle: "Conditions for consent"
+tags:
+  - article
 ---
 ## Conditions for consent
 

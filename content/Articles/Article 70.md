@@ -1,6 +1,8 @@
 ---
 title: "Article 70"
 subtitle: "Tasks of the Board"
+tags:
+  - article
 ---
 ## Tasks of the Board
 

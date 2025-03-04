@@ -1,0 +1,133 @@
+@use "../../styles/variables.scss" as *;
+
+.timeline {
+    margin: 2em 0;
+    max-width: 100%;
+    font-family: var(--font-body);
+
+    .timeline-container {
+        position: relative;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+
+    .timeline-container::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 7px;
+        height: 100%;
+        width: 2px;
+        background: var(--lightgray);
+    }
+
+    .timeline-group {
+        margin-bottom: 2.5em;
+        position: relative;
+    }
+
+    .timeline-month-year {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: var(--secondary);
+        margin-bottom: 1.2em;
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .timeline-month-year::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: var(--secondary);
+    }
+
+    .timeline-items-group {
+        padding-left: 6px;
+        margin-left: 2px;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin: 1em 0;
+        padding-left: 22px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .timeline-content {
+        background: var(--lightgray-10);
+        padding: 1em;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        transition: all 0.15s ease-in-out;
+        width: 100%;
+    }
+
+    .timeline-content:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .timeline-title {
+        display: block;
+        margin-bottom: 0.5em;
+        font-weight: 600;
+        color: var(--secondary);
+        text-decoration: none;
+        font-size: 1.1em;
+    }
+
+    .timeline-title-text {
+        font-weight: normal;
+        color: var(--darkgray);
+    }
+
+    .timeline-title:hover {
+        color: var(--tertiary);
+    }
+
+    .timeline-title:hover .timeline-title-text {
+        color: var(--secondary);
+    }
+
+    .timeline-parties {
+        font-size: 0.9em;
+        color: var(--darkgray);
+        margin-top: 0.25em;
+        font-style: italic;
+    }
+
+    // Dark mode adjustments
+    @media (prefers-color-scheme: dark) {
+        .timeline-content {
+            background: var(--darkgray-5);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .timeline-content:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .timeline-container::before {
+            background: var(--darkgray);
+        }
+
+        .timeline-title-text {
+            color: var(--gray);
+        }
+
+        .timeline-title:hover .timeline-title-text {
+            color: var(--secondary);
+        }
+
+        .timeline-parties {
+            color: var(--gray);
+        }
+    }
+}

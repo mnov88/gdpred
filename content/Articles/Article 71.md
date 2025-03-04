@@ -1,6 +1,8 @@
 ---
 title: "Article 71"
 subtitle: "Reports"
+tags:
+  - article
 ---
 ## Reports
 

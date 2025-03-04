@@ -1,6 +1,8 @@
 ---
 title: "Article 10"
 subtitle: "Processing of personal data relating to criminal convictions and offences"
+tags:
+  - article
 ---
 ## Processing of personal data relating to criminal convictions and offences
 

@@ -1,6 +1,8 @@
 ---
 title: "Article 20"
 subtitle: "Right to data portability"
+tags:
+  - article
 ---
 ## Right to data portability
 

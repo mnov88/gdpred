@@ -1,6 +1,8 @@
 ---
 title: "Article 80"
 subtitle: "Representation of data subjects"
+tags:
+  - article
 ---
 ## Representation of data subjects
 

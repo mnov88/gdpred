@@ -1,6 +1,8 @@
 ---
 title: "Article 89"
 subtitle: "Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes"
+tags:
+  - article
 ---
 ## Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes
 

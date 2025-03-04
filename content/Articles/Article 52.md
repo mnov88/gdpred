@@ -1,6 +1,8 @@
 ---
 title: "Article 52"
 subtitle: "Independence"
+tags:
+  - article
 ---
 ## Independence
 

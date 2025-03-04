@@ -1,6 +1,8 @@
 ---
 title: "Article 57"
 subtitle: "Tasks"
+tags:
+  - article
 ---
 ## Tasks
 

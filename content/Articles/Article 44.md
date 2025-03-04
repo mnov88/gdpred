@@ -1,6 +1,8 @@
 ---
 title: "Article 44"
 subtitle: "General principle for transfers"
+tags:
+  - article
 ---
 ## General principle for transfers
 

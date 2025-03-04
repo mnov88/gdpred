@@ -1,6 +1,8 @@
 ---
 title: "Article 13"
 subtitle: "Information to be provided where personal data are collected from the data subject"
+tags:
+  - article
 ---
 ## Information to be provided where personal data are collected from the data subject
 

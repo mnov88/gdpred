@@ -6,7 +6,7 @@
     &>article {
         background-color: var(--light);
         padding: 4rem 4rem 1.8rem 5.5rem;
-
+       // font-family: "Lora", serif;
         max-width: 100%; // Ensure it doesn't break layout
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
         box-sizing: content-box; // Include padding in width calculation

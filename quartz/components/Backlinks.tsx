@@ -37,7 +37,7 @@ export default ((opts?: Partial<BacklinksOptions>) => {
                   <div class="backlink-title">{f.frontmatter?.title}</div>
                   {(f.frontmatter?.parties || f.frontmatter?.subtitle) && (
                     <div class="backlink-subtitle">
-                      {f.frontmatter?.parties || f.frontmatter?.subtitle}
+                      {String(f.frontmatter?.parties || f.frontmatter?.subtitle)}
                     </div>
                   )}
                 </a>

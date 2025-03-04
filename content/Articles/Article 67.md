@@ -1,6 +1,8 @@
 ---
 title: "Article 67"
 subtitle: "Exchange of information"
+tags:
+  - article
 ---
 ## Exchange of information
 

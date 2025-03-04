@@ -1,6 +1,8 @@
 ---
 title: "Article 19"
 subtitle: "Notification obligation regarding rectification or erasure of personal data or restriction of processing"
+tags:
+  - article
 ---
 ## Notification obligation regarding rectification or erasure of personal data or restriction of processing
 

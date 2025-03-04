@@ -1,6 +1,8 @@
 ---
 title: "Article 61"
 subtitle: "Mutual assistance"
+tags:
+  - article
 ---
 ## Mutual assistance
 

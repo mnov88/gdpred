@@ -1,6 +1,8 @@
 ---
 title: "Article 97"
 subtitle: "Commission reports"
+tags:
+  - article
 ---
 ## Commission reports
 

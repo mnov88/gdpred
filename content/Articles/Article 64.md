@@ -1,6 +1,8 @@
 ---
 title: "Article 64"
 subtitle: "Opinion of the Board"
+tags:
+  - article
 ---
 ## Opinion of the Board
 

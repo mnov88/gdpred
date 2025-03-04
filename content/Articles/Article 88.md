@@ -1,6 +1,8 @@
 ---
 title: "Article 88"
 subtitle: "Processing in the context of employment"
+tags:
+  - article
 ---
 ## Processing in the context of employment
 

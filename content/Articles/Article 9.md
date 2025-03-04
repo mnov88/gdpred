@@ -1,6 +1,8 @@
 ---
 title: "Article 9"
 subtitle: "Processing of special categories of personal data"
+tags:
+  - article
 ---
 ## Processing of special categories of personal data
 

@@ -1,6 +1,8 @@
 ---
 title: "Article 83"
 subtitle: "General conditions for imposing administrative fines"
+tags:
+  - article
 ---
 ## General conditions for imposing administrative fines
 

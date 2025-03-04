@@ -1,6 +1,8 @@
 ---
 title: "Article 17"
 subtitle: "Right to erasure (‘right to be forgotten’)"
+tags:
+  - article
 ---
 ## Right to erasure (‘right to be forgotten’)
 

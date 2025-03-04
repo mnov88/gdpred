@@ -1,30 +1,44 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { pathToRoot } from "../util/path"
 
 const NowReading: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-    // Get ruling-articles from frontmatter
-    const rulingArticles = fileData.frontmatter?.["ruling-articles"] || []
+  // Get ruling-articles from frontmatter
+  const rulingArticles = fileData.frontmatter?.["ruling-articles"] || []
 
-    // If no ruling articles, don't display anything
-    if (!Array.isArray(rulingArticles) || rulingArticles.length === 0) {
-        return null
-    }
+  // If no ruling articles, don't display anything
+  if (!Array.isArray(rulingArticles) || rulingArticles.length === 0) {
+    return null
+  }
 
-    return (
-        <div class={`ruling-articles ${displayClass ?? ""}`}>
-            <div class="ruling-articles-container">
-                {rulingArticles.map((article, index) => (
-                    <span class="article-chip" key={index}>{article}</span>
-                ))}
-            </div>
-        </div>
-    )
+  const baseDir = pathToRoot(fileData.slug!)
+
+  return (
+    <div class={`ruling-articles ${displayClass ?? ""}`}>
+      <div class="ruling-articles-container">
+        {rulingArticles.map((article, index) => {
+          // Extract the article number for linking
+          const articleMatch = article.match(/Article\s+(\d+)/i)
+          const articleNumber = articleMatch ? articleMatch[1] : null
+          const linkUrl = articleNumber ? `${baseDir}/Articles/Article-${articleNumber}` : null
+
+          return linkUrl ? (
+            <a href={linkUrl} class="article-chip-link" key={index}>
+              <span class="article-chip">{article}</span>
+            </a>
+          ) : (
+            <span class="article-chip" key={index}>{article}</span>
+          )
+        })}
+      </div>
+    </div>
+  )
 }
 
 // Add component styling
 NowReading.css = `
 .ruling-articles {
-  margin: 0.5rem 0 1.5rem 0;
-  padding: 0.75rem;
+  margin: 0.25rem 0 0.75rem 0;
+  padding: 0.5rem;
   background-color: var(--light);
   border-radius: 0.5rem;
 }
@@ -33,6 +47,10 @@ NowReading.css = `
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.article-chip-link {
+  text-decoration: none;
 }
 
 .article-chip {
@@ -55,8 +73,8 @@ NowReading.css = `
 
 @media (max-width: 800px) {
   .ruling-articles {
-    margin: 0.25rem 0 1.25rem 0;
-    padding: 0.5rem;
+    margin: 0.15rem 0 0.5rem 0;
+    padding: 0.35rem;
   }
   
   .ruling-articles-container {

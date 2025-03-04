@@ -22,8 +22,8 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "References",
-      noBacklinksFound: "No backlinks found",
+      title: "Mentioned in",
+      noBacklinksFound: "No references found",
     },
     themeToggle: {
       lightMode: "Light mode",

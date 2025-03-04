@@ -1,4 +1,5 @@
 @use "../../styles/variables.scss" as *;
+@use "./shared-list-items.scss" as shared;
 
 @media all and ($mobile) {
   .page>#quartz-body {
@@ -33,6 +34,8 @@
   height: 100%;
   flex-direction: column;
   overflow-y: hidden;
+  border-radius: 8px;
+  margin: 0;
 
   @media all and ($mobile) {
     order: -1;
@@ -40,6 +43,7 @@
     overflow: hidden;
     flex-shrink: 0;
     align-self: flex-start;
+    padding: 0.75rem 0;
   }
 
   button#mobile-explorer {
@@ -92,9 +96,12 @@ button#desktop-explorer {
   align-items: center;
 
   & h2 {
-    font-size: 1rem;
+    font-size: 1.05rem;
     display: inline-block;
     margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+    font-weight: 500;
   }
 
   & .fold {
@@ -126,12 +133,15 @@ button#desktop-explorer {
   list-style: none;
   overflow: hidden;
   overflow-y: auto;
+  overflow-x: hidden;
   max-height: 0px;
   transition:
     max-height 0.35s ease,
     visibility 0s linear 0.35s;
   margin-top: 0.5rem;
   visibility: hidden;
+  width: 100%;
+  box-sizing: border-box;
 
   &.collapsed {
     max-height: 100%;
@@ -142,76 +152,11 @@ button#desktop-explorer {
   }
 
   & ul {
-    list-style: none;
-    margin: 0.08rem 0;
+    @extend %list-item-shared;
+    overflow-x: hidden;
+    width: 100%;
     padding: 0;
-    transition:
-      max-height 0.35s ease,
-      transform 0.35s ease,
-      opacity 0.2s ease;
-
-    & li>a {
-      color: var(--dark);
-      opacity: 0.75;
-      pointer-events: all;
-      text-decoration: none;
-      display: block;
-      padding: 0.15rem 0.5rem;
-      border-radius: 3px;
-      transition: all 0.15s ease;
-      position: relative;
-
-      &:hover {
-        opacity: 1;
-        background-color: var(--hover);
-
-        &::before {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 4px;
-          background-color: var(--secondary);
-          border-radius: 0 2px 2px 0;
-        }
-
-        .explorer-title {
-          color: var(--secondary);
-        }
-
-        .explorer-parties {
-          opacity: 1;
-          color: var(--dark);
-        }
-      }
-
-      // Selected/current page indicator
-      &[data-active="true"] {
-        background-color: var(--hover);
-        opacity: 1;
-
-        &::before {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 4px;
-          background-color: var(--tertiary);
-          border-radius: 0 2px 2px 0;
-        }
-
-        .explorer-title {
-          color: var(--tertiary);
-          font-weight: 500;
-        }
-
-        .explorer-parties {
-          opacity: 1;
-        }
-      }
-    }
+    box-sizing: border-box;
   }
 
   >#explorer-ul {
@@ -220,21 +165,11 @@ button#desktop-explorer {
 
   // Add styles for title and parties subtitle
   .explorer-title {
-    font-weight: 500;
-    transition: color 0.15s ease;
-    line-height: 1.4;
+    @extend %title-shared;
   }
 
   .explorer-parties {
-    font-size: 0.8rem;
-    color: var(--darkgray);
-    opacity: 0.85;
-    font-style: italic;
-    margin-top: 0.2rem;
-    
-    line-height: 1.2;
-    font-weight: 400;
-    transition: opacity 0.15s ease, color 0.15s ease;
+    @extend %subtitle-shared;
   }
 }
 
@@ -251,6 +186,21 @@ svg {
   display: flex;
   align-items: center;
   user-select: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 0;
+
+  & div {
+    width: calc(100% - 17px);
+    overflow: hidden;
+
+    &>a,
+    &>button {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
 
   & div>a {
     color: var(--secondary);
@@ -285,6 +235,9 @@ svg {
       margin: 0;
       line-height: 1.5rem;
       pointer-events: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
     }
   }
 }
@@ -330,7 +283,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       width: 100%;
       transition: transform 300ms ease-in-out;
       overflow: hidden;
-      padding: $topSpacing 2rem 2rem;
+      padding: $topSpacing 0 2rem;
       height: 100dvh;
       max-height: 100dvh;
       margin-top: 0;
@@ -353,7 +306,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
     }
 
     #mobile-explorer {
-      margin: 5px;
+      margin: 5px 0;
       z-index: 101;
 
       &:not(.collapsed) .lucide-menu {

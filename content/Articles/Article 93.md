@@ -1,6 +1,8 @@
 ---
 title: "Article 93"
 subtitle: "Committee procedure"
+tags:
+  - article
 ---
 ## Committee procedure
 

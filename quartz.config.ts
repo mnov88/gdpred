@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Merriweather",
+        header: "IBM Plex Sans",
         body: "IBM Plex Sans",
         code: "IBM Plex Mono",
       },
@@ -88,6 +88,7 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
+      Plugin.IndexPage(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
@@ -98,6 +99,8 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      Plugin.TimelinePage(),
+      Plugin.TopicExplorerPage(),
     ],
   },
 }

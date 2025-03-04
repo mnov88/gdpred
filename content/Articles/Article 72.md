@@ -1,6 +1,8 @@
 ---
 title: "Article 72"
 subtitle: "Procedure"
+tags:
+  - article
 ---
 ## Procedure
 

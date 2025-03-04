@@ -1,6 +1,8 @@
 ---
 title: "Article 48"
 subtitle: "Transfers or disclosures not authorised by Union law"
+tags:
+  - article
 ---
 ## Transfers or disclosures not authorised by Union law
 

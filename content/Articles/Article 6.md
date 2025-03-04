@@ -1,6 +1,8 @@
 ---
 title: "Article 6"
 subtitle: "Lawfulness of processing"
+tags:
+  - article
 ---
 ## Lawfulness of processing
 

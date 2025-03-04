@@ -1,6 +1,8 @@
 ---
 title: "Article 68"
 subtitle: "European Data Protection Board"
+tags:
+  - article
 ---
 ## European Data Protection Board
 

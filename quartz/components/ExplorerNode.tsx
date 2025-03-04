@@ -187,7 +187,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             <div class="explorer-title">{node.displayName}</div>
             {(node.file.frontmatter?.parties || node.file.frontmatter?.subtitle) && (
               <div class="explorer-parties">
-                {node.file.frontmatter?.parties || node.file.frontmatter?.subtitle}
+                {String(node.file.frontmatter?.parties || node.file.frontmatter?.subtitle)}
               </div>
             )}
           </a>

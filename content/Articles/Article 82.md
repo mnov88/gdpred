@@ -1,6 +1,8 @@
 ---
 title: "Article 82"
 subtitle: "Right to compensation and liability"
+tags:
+  - article
 ---
 ## Right to compensation and liability
 

@@ -1,6 +1,8 @@
 ---
 title: "Article 73"
 subtitle: "Chair"
+tags:
+  - article
 ---
 ## Chair
 

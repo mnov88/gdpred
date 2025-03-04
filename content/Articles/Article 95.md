@@ -1,6 +1,8 @@
 ---
 title: "Article 95"
 subtitle: "Relationship with Directive 2002/58/EC"
+tags:
+  - article
 ---
 ## Relationship with Directive 2002/58/EC
 

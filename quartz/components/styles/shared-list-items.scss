@@ -1,0 +1,113 @@
+// Shared styles for list items in Explorer and Backlinks components
+@use "../../styles/variables.scss" as *;
+
+// Common list item styling
+%list-item-shared {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+    width: 100%;
+
+    &>li {
+        margin-bottom: 0.3rem;
+        width: 100%;
+
+        &>a {
+            display: block;
+            text-decoration: none;
+            padding: 0.35rem 0;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: visible;
+            box-sizing: border-box;
+            width: 100%;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 2px;
+                background-color: transparent;
+                border-radius: 0 2px 2px 0;
+                transition: width 0.2s ease, background-color 0.2s ease;
+            }
+
+            &:hover {
+                background-color: var(--hover);
+
+                &::before {
+                    width: 4px;
+                    background-color: var(--secondary);
+                }
+
+                .explorer-title,
+                .backlink-title {
+                    color: var(--secondary);
+                    padding-left: 12px;
+                }
+
+                .explorer-parties,
+                .backlink-subtitle {
+                    opacity: 1;
+                    color: var(--dark);
+                    padding-left: 12px;
+                }
+            }
+
+            &[data-active="true"] {
+                background-color: var(--hover);
+
+                &::before {
+                    width: 4px;
+                    background-color: var(--tertiary);
+                }
+
+                .explorer-title,
+                .backlink-title {
+                    color: var(--tertiary);
+                    padding-left: 12px;
+                }
+
+                .explorer-parties,
+                .backlink-subtitle {
+                    opacity: 1;
+                    color: var(--darkgray);
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+}
+
+// Common title styling
+%title-shared {
+    font-weight: 600;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 1.4;
+    font-size: 0.95rem;
+    color: var(--secondary);
+    transition: color 0.15s ease;
+    white-space: normal;
+    word-break: break-word;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+// Common subtitle styling
+%subtitle-shared {
+    font-size: 0.8rem;
+    color: var(--darkgray);
+    opacity: 0.85;
+    font-style: italic;
+    margin-top: 0.15rem;
+    line-height: 1.3;
+    font-weight: 400;
+    transition: opacity 0.15s ease, color 0.15s ease;
+    white-space: normal;
+    word-break: break-word;
+    padding-left: 8px;
+    padding-right: 8px;
+}

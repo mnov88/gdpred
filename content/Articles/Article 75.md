@@ -1,6 +1,8 @@
 ---
 title: "Article 75"
 subtitle: "Secretariat"
+tags:
+  - article
 ---
 ## Secretariat
 

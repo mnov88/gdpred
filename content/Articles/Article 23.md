@@ -1,6 +1,8 @@
 ---
 title: "Article 23"
 subtitle: "Restrictions"
+tags:
+  - article
 ---
 ## Restrictions
 

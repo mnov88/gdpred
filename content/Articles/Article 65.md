@@ -1,6 +1,8 @@
 ---
 title: "Article 65"
 subtitle: "Dispute resolution by the Board"
+tags:
+  - article
 ---
 ## Dispute resolution by the Board
 

@@ -1,7 +1,14 @@
 @use "../../styles/variables.scss" as *;
+@use "./shared-list-items.scss" as shared;
 
 .backlinks {
   flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--light);
+  border-radius: 8px;
+  padding: 1rem 0;
+  margin: 0;
   /*&:after {
       pointer-events: none;
       content: "";
@@ -16,70 +23,28 @@
     }*/
 
   &>h3 {
-    font-size: 1rem;
+    font-size: 1.05rem;
     margin: 0;
+    margin-bottom: 0.75rem;
+    color: var(--secondary);
+    font-weight: 500;
+    padding-left: 0;
   }
 
   &>ul {
-    list-style: none;
+    @extend %list-item-shared;
+    overflow-x: hidden;
     padding: 0;
-    margin: 0.5rem 0;
-
-    &>li {
-      margin-bottom: 0.5rem;
-
-      &>a {
-        background-color: transparent;
-        display: block;
-        text-decoration: none;
-        padding: 0.2rem 0.5rem;
-        border-radius: 3px;
-        transition: all 0.15s ease;
-        position: relative;
-
-        &:hover {
-          background-color: var(--hover);
-
-          &::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 100%;
-            width: 4px;
-            background-color: var(--secondary);
-            border-radius: 0 2px 2px 0;
-          }
-
-          .backlink-title {
-            color: var(--secondary);
-          }
-
-          .backlink-subtitle {
-            opacity: 1;
-            color: var(--dark);
-          }
-        }
-      }
-    }
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .backlink-title {
-    color: var(--dark);
-    transition: color 0.15s ease;
-    line-height: 1.4;
-    font-weight: 500;
+    @extend %title-shared;
   }
 
   .backlink-subtitle {
-    font-size: 0.9rem;
-    color: var(--darkgray);
-    opacity: 0.85;
-    font-style: italic;
-    margin-top: 0.1rem;
-    line-height: 1.2;
-    font-weight: 500;
-    transition: opacity 0.15s ease, color 0.15s ease;
+    @extend %subtitle-shared;
   }
 
   &>.overflow {
@@ -88,6 +53,9 @@
     }
 
     height: auto;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
 
     @media all and not ($desktop) {
       height: 250px;

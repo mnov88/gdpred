@@ -1,6 +1,8 @@
 ---
 title: "Article 43"
 subtitle: "Certification bodies"
+tags:
+  - article
 ---
 ## Certification bodies
 

@@ -1,6 +1,8 @@
 ---
 title: "Article 58"
 subtitle: "Powers"
+tags:
+  - article
 ---
 ## Powers
 

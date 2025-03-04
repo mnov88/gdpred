@@ -1,6 +1,8 @@
 ---
 title: "Article 79"
 subtitle: "Right to an effective judicial remedy against a controller or processor"
+tags:
+  - article
 ---
 ## Right to an effective judicial remedy against a controller or processor
 
