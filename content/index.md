@@ -11,7 +11,7 @@ hide:
 
 ... Where the labyrinthine chaos of data protection rulings has been coaxed into something that might, under favorable lighting and with one eye closed, resemble navigable terrain. 
 
-Here lurk not dragons, but something far more terrifying: the Court of Justice of the European Union — an assembly of perpetually dissatisfied grandparents whose  collective mission appears to be ensuring that legal clarity remains purely theoretical and concision is punished with 174 additional paragraphs.
+Here lurk not dragons, but something far more terrifying: the Court of Justice of the European Union — an assembly of individuals whose collective mission appears to be ensuring that legal clarity remains purely theoretical and concision is punished with 174 additional paragraphs.
 
 "_But what about Case C-40/17?_" you ask innocently.
 
@@ -19,7 +19,7 @@ Here lurk not dragons, but something far more terrifying: the Court of Justice o
 
 It is at this point your average person sighs, rubs their temples, and mutters something about '*a high level of protection for natural persons in their data*' before reaching for the extra-strength aspirin.
 
-This website exists because finding your way through this legal labyrinth should not require a herd of cats on a unicycle, three wizards, and a compass blessed by bureaucratic saints. 
+This website exists because I believe that finding your way through this legal labyrinth should not require a herd of cats on a unicycle, three wizards, and a compass blessed by bureaucratic saints. 
 I have gathered every GDPR judgment in one place, indexed by article, topic, and date. You can trace connections between cases, follow the breadcrumb trail from one ruling to related ones, and see which articles the Court keeps muttering about in its sleep. No simplification, just the kind of organization that brings tears of joy to the eyes of librarians and mild panic to those who profit from legal confusion.
 
-**DISCLAIMER: This website is for informational purposes only, much like how the CJEU's 200-page rulings are "for clarity." While we've done our utmost to map this legal labyrinth, we cannot guarantee that the Court hasn't, since yesterday, invented seven new principles, referenced three non-existent articles, or decided that the entire GDPR should now be interpreted through the lens of 17th-century maritime law. Always consult official sources, preferably with adequate provisions of caffeine and sanity breaks.**
+**DISCLAIMER: This website is for informational purposes only, much like how the CJEU's 200-page rulings are "for clarity." While I've done my utmost to map this legal labyrinth, I cannot guarantee that the Court hasn't, since yesterday, invented seven new principles, referenced three non-existent articles, or decided that the entire GDPR should now be interpreted through the lens of 17th-century maritime law. Always consult official sources, preferably with adequate provisions of caffeine and sanity breaks.**

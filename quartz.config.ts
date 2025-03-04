@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "GDPR Vault",
+    pageTitle: "GDPRTANGLE",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
