@@ -1,3 +1,10 @@
+---
+title: "Article 69"
+ subtitle: "Independence"
+tags:
+  - article
+type: "article"
+---
 ## Independence
 
 1. The Board shall act independently when performing its tasks or exercising its powers pursuant to Articles 70 and 71.

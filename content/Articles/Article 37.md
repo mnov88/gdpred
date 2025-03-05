@@ -1,8 +1,9 @@
 ---
 title: "Article 37"
-subtitle: "Designation of the data protection officer"
+ subtitle: "Designation of the data protection officer"
 tags:
   - article
+type: "article"
 ---
 ## Designation of the data protection officer
 

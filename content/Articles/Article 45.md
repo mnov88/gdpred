@@ -1,3 +1,10 @@
+---
+title: "Article 45"
+ subtitle: "Transfers on the basis of an adequacy decision"
+tags:
+  - article
+type: "article"
+---
 ## Transfers on the basis of an adequacy decision
 
 1. A transfer of personal data to a third country or an international organisation may take place where the Commission has decided that the third country, a territory or one or more specified sectors within that third country, or the international organisation in question ensures an adequate level of protection. Such a transfer shall not require any specific authorisation.

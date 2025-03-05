@@ -1,8 +1,9 @@
 ---
-title: Article 99
-subtitle: Entry into force and application
+title: "Article 99"
+ subtitle: "Entry into force and application"
 tags:
   - article
+type: "article"
 ---
 ## Entry into force and application
 

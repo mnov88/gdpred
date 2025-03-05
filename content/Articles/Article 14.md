@@ -1,8 +1,9 @@
 ---
 title: "Article 14"
-subtitle: "Information to be provided where personal data have not been obtained from the data subject"
+ subtitle: "Information to be provided where personal data have not been obtained from the data subject"
 tags:
   - article
+type: "article"
 ---
 ## Information to be provided where personal data have not been obtained from the data subject
 

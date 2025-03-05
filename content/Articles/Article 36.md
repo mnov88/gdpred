@@ -1,8 +1,9 @@
 ---
 title: "Article 36"
-subtitle: "Prior consultation"
+ subtitle: "Prior consultation"
 tags:
   - article
+type: "article"
 ---
 ## Prior consultation
 

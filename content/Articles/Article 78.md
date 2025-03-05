@@ -1,8 +1,9 @@
 ---
 title: "Article 78"
-subtitle: "Right to an effective judicial remedy against a supervisory authority"
+ subtitle: "Right to an effective judicial remedy against a supervisory authority"
 tags:
   - article
+type: "article"
 ---
 ## Right to an effective judicial remedy against a supervisory authority
 

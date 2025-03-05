@@ -1,8 +1,9 @@
 ---
 title: "Article 34"
-subtitle: "Communication of a personal data breach to the data subject"
+ subtitle: "Communication of a personal data breach to the data subject"
 tags:
   - article
+type: "article"
 ---
 ## Communication of a personal data breach to the data subject
 

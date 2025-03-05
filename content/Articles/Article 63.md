@@ -1,8 +1,9 @@
 ---
 title: "Article 63"
-subtitle: "Consistency mechanism"
+ subtitle: "Consistency mechanism"
 tags:
   - article
+type: "article"
 ---
 ## Consistency mechanism
 

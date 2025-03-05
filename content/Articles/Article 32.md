@@ -1,8 +1,9 @@
 ---
 title: "Article 32"
-subtitle: "Security of processing"
+ subtitle: "Security of processing"
 tags:
   - article
+type: "article"
 ---
 ## Security of processing
 

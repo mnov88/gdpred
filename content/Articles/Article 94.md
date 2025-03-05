@@ -1,3 +1,10 @@
+---
+title: "Article 94"
+ subtitle: "Repeal of Directive 95/46/EC"
+tags:
+  - article
+type: "article"
+---
 ## Repeal of Directive 95/46/EC
 
 1. Directive 95/46/EC is repealed with effect from 25 May 2018.

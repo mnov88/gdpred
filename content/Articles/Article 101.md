@@ -1,11 +1,24 @@
-## International cooperation for the protection of personal data
+---
+title: "Article 53"
+ subtitle: "General conditions for the members of the supervisory authority"
+tags:
+  - article
+type: "article"
+---
+## General conditions for the members of the supervisory authority
 
-In relation to third countries and international organisations, the Commission and supervisory authorities shall take appropriate steps to:
+1. Member States shall provide for each member of their supervisory authorities to be appointed by means of a transparent procedure by:
 
-(a) develop international cooperation mechanisms to facilitate the effective enforcement of legislation for the protection of personal data;
+— their parliament;
 
-(b) provide international mutual assistance in the enforcement of legislation for the protection of personal data, including through notification, complaint referral, investigative assistance and information exchange, subject to appropriate safeguards for the protection of personal data and other fundamental rights and freedoms;
+— their government;
 
-(c) engage relevant stakeholders in discussion and activities aimed at furthering international cooperation in the enforcement of legislation for the protection of personal data;
+— their head of State; or
 
-(d) promote the exchange and documentation of personal data protection legislation and practice, including on jurisdictional conflicts with third countries.
+— an independent body entrusted with the appointment under Member State law.
+
+2. Each member shall have the qualifications, experience and skills, in particular in the area of the protection of personal data, required to perform its duties and exercise its powers.
+
+3. The duties of a member shall end in the event of the expiry of the term of office, resignation or compulsory retirement, in accordance with the law of the Member State concerned.
+
+4. A member shall be dismissed only in cases of serious misconduct or if the member no longer fulfils the conditions required for the performance of the duties.

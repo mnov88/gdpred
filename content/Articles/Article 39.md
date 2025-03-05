@@ -1,3 +1,10 @@
+---
+title: "Article 39"
+ subtitle: "Tasks of the data protection officer"
+tags:
+  - article
+type: "article"
+---
 ## Tasks of the data protection officer
 
 1. The data protection officer shall have at least the following tasks:

@@ -1,8 +1,9 @@
 ---
 title: "Article 4"
-subtitle: "Definitions"
+ subtitle: "Definitions"
 tags:
   - article
+type: "article"
 ---
 ## Definitions
 

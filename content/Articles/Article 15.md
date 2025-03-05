@@ -1,8 +1,9 @@
 ---
 title: "Article 15"
-subtitle: "Right of access by the data subject"
+ subtitle: "Right of access by the data subject"
 tags:
   - article
+type: "article"
 ---
 ## Right of access by the data subject
 

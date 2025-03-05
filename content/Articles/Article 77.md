@@ -1,8 +1,9 @@
 ---
 title: "Article 77"
-subtitle: "Right to lodge a complaint with a supervisory authority"
+ subtitle: "Right to lodge a complaint with a supervisory authority"
 tags:
   - article
+type: "article"
 ---
 ## Right to lodge a complaint with a supervisory authority
 

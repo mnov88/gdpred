@@ -1,8 +1,9 @@
 ---
 title: "Article 26"
-subtitle: "Joint controllers"
+ subtitle: "Joint controllers"
 tags:
   - article
+type: "article"
 ---
 ## Joint controllers
 

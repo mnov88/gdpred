@@ -1,8 +1,9 @@
 ---
 title: "Article 92"
-subtitle: "Exercise of the delegation"
+ subtitle: "Exercise of the delegation"
 tags:
   - article
+type: "article"
 ---
 ## Exercise of the delegation
 

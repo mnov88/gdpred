@@ -1,3 +1,10 @@
+---
+title: "Article 40"
+ subtitle: "Codes of conduct"
+tags:
+  - article
+type: "article"
+---
 ## Codes of conduct
 
 1. The Member States, the supervisory authorities, the Board and the Commission shall encourage the drawing up of codes of conduct intended to contribute to the proper application of this Regulation, taking account of the specific features of the various processing sectors and the specific needs of micro, small and medium-sized enterprises.

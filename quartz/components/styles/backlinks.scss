@@ -23,11 +23,7 @@
     }*/
 
   &>h3 {
-    font-size: 1.05rem;
-    margin: 0;
-    margin-bottom: 0.75rem;
-    color: var(--secondary);
-    font-weight: 500;
+    @extend %component-title-shared;
     padding-left: 0;
   }
 

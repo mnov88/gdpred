@@ -1,8 +1,9 @@
 ---
 title: "Article 98"
-subtitle: "Review of other Union legal acts on data protection"
+ subtitle: "Review of other Union legal acts on data protection"
 tags:
   - article
+type: "article"
 ---
 ## Review of other Union legal acts on data protection
 

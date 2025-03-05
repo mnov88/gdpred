@@ -15,7 +15,9 @@ header {
 
 header h1 {
   margin: 0;
+  font-size: 1rem;
   flex: auto;
+  color: red;
 }
 `
 

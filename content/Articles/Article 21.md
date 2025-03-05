@@ -1,8 +1,9 @@
 ---
 title: "Article 21"
-subtitle: "Right to object"
+ subtitle: "Right to object"
 tags:
   - article
+type: "article"
 ---
 ## Right to object
 

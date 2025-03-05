@@ -1,3 +1,10 @@
+---
+title: "Article 55"
+ subtitle: "Competence"
+tags:
+  - article
+type: "article"
+---
 ## Competence
 
 1. Each supervisory authority shall be competent for the performance of the tasks assigned to and the exercise of the powers conferred on it in accordance with this Regulation on the territory of its own Member State.

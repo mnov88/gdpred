@@ -1,8 +1,9 @@
 ---
 title: "Article 18"
-subtitle: "Right to restriction of processing"
+ subtitle: "Right to restriction of processing"
 tags:
   - article
+type: "article"
 ---
 ## Right to restriction of processing
 

@@ -1,8 +1,9 @@
 ---
 title: "Article 1"
-subtitle: "Subject-matter and objectives"
+ subtitle: "Subject-matter and objectives"
 tags:
   - article
+type: "article"
 ---
 ## Subject-matter and objectives
 

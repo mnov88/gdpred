@@ -1,3 +1,10 @@
+---
+title: "Article 51"
+ subtitle: "Supervisory authority"
+tags:
+  - article
+type: "article"
+---
 ## Supervisory authority
 
 1. Each Member State shall provide for one or more independent public authorities to be responsible for monitoring the application of this Regulation, in order to protect the fundamental rights and freedoms of natural persons in relation to processing and to facilitate the free flow of personal data within the Union (‘supervisory authority’).

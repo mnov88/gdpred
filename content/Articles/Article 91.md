@@ -1,8 +1,9 @@
 ---
 title: "Article 91"
-subtitle: "Existing data protection rules of churches and religious associations"
+ subtitle: "Existing data protection rules of churches and religious associations"
 tags:
   - article
+type: "article"
 ---
 ## Existing data protection rules of churches and religious associations
 

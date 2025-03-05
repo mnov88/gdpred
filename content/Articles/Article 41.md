@@ -1,8 +1,9 @@
 ---
 title: "Article 41"
-subtitle: "Monitoring of approved codes of conduct"
+ subtitle: "Monitoring of approved codes of conduct"
 tags:
   - article
+type: "article"
 ---
 ## Monitoring of approved codes of conduct
 

@@ -1,3 +1,10 @@
+---
+title: "Article 28"
+ subtitle: "Processor"
+tags:
+  - article
+type: "article"
+---
 ## Processor
 
 1. Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject.

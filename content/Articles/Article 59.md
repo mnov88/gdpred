@@ -1,8 +1,9 @@
 ---
 title: "Article 59"
-subtitle: "Activity reports"
+ subtitle: "Activity reports"
 tags:
   - article
+type: "article"
 ---
 ## Activity reports
 

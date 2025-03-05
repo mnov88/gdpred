@@ -1,8 +1,9 @@
 ---
 title: "Article 3"
-subtitle: "Territorial scope"
+ subtitle: "Territorial scope"
 tags:
   - article
+type: "article"
 ---
 ## Territorial scope
 

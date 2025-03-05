@@ -1,8 +1,9 @@
 ---
 title: "Article 11"
-subtitle: "Processing which does not require identification"
+ subtitle: "Processing which does not require identification"
 tags:
   - article
+type: "article"
 ---
 ## Processing which does not require identification
 

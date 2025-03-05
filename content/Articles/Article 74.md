@@ -1,8 +1,9 @@
 ---
 title: "Article 74"
-subtitle: "Tasks of the Chair"
+ subtitle: "Tasks of the Chair"
 tags:
   - article
+type: "article"
 ---
 ## Tasks of the Chair
 

@@ -1,9 +1,9 @@
 ---
-title: Article 6
-subtitle: Lawfulness of processing
+title: "Article 6"
+ subtitle: "Lawfulness of processing"
 tags:
   - article
-description: This is Article 6
+type: "article"
 ---
 ## Lawfulness of processing
 
