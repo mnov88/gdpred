@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.PrintButton()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
@@ -37,29 +37,29 @@ export const defaultContentPageLayout: PageLayout = {
         const bSlug = b.file?.slug?.toLowerCase() || '';
         const aName = a.name.toLowerCase();
         const bName = b.name.toLowerCase();
-        
-        const isAInCaseLaw = aSlug.includes("case law/") || 
-                             aSlug.includes("case-law/") || 
-                             aName === "case law" || 
-                             aName === "case-law";
-        const isBInCaseLaw = bSlug.includes("case law/") || 
-                             bSlug.includes("case-law/") || 
-                             bName === "case law" || 
-                             bName === "case-law";
-                            
+
+        const isAInCaseLaw = aSlug.includes("case law/") ||
+          aSlug.includes("case-law/") ||
+          aName === "case law" ||
+          aName === "case-law";
+        const isBInCaseLaw = bSlug.includes("case law/") ||
+          bSlug.includes("case-law/") ||
+          bName === "case law" ||
+          bName === "case-law";
+
         if (isAInCaseLaw && isBInCaseLaw) {
           // If comparing two files in Case law folder
           if (a.file && b.file) {
             // Check if both files have valid date frontmatter
             const aDate = a.file.frontmatter?.date;
             const bDate = b.file.frontmatter?.date;
-            
+
             if (typeof aDate === 'string' && typeof bDate === 'string') {
               try {
                 // Convert dates to timestamps and sort newest first
                 const aTimestamp = new Date(aDate).getTime();
                 const bTimestamp = new Date(bDate).getTime();
-                
+
                 // Check if valid dates were parsed
                 if (!isNaN(aTimestamp) && !isNaN(bTimestamp)) {
                   return bTimestamp - aTimestamp; // newest first
@@ -71,7 +71,7 @@ export const defaultContentPageLayout: PageLayout = {
             }
           }
         }
-        
+
         // Default sorting (folders first, then alphabetical with case insensitivity)
         if ((!a.file && !b.file) || (a.file && b.file)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
@@ -111,29 +111,29 @@ export const defaultListPageLayout: PageLayout = {
         const bSlug = b.file?.slug?.toLowerCase() || '';
         const aName = a.name.toLowerCase();
         const bName = b.name.toLowerCase();
-        
-        const isAInCaseLaw = aSlug.includes("case law/") || 
-                             aSlug.includes("case-law/") || 
-                             aName === "case law" || 
-                             aName === "case-law";
-        const isBInCaseLaw = bSlug.includes("case law/") || 
-                             bSlug.includes("case-law/") || 
-                             bName === "case law" || 
-                             bName === "case-law";
-                            
+
+        const isAInCaseLaw = aSlug.includes("case law/") ||
+          aSlug.includes("case-law/") ||
+          aName === "case law" ||
+          aName === "case-law";
+        const isBInCaseLaw = bSlug.includes("case law/") ||
+          bSlug.includes("case-law/") ||
+          bName === "case law" ||
+          bName === "case-law";
+
         if (isAInCaseLaw && isBInCaseLaw) {
           // If comparing two files in Case law folder
           if (a.file && b.file) {
             // Check if both files have valid date frontmatter
             const aDate = a.file.frontmatter?.date;
             const bDate = b.file.frontmatter?.date;
-            
+
             if (typeof aDate === 'string' && typeof bDate === 'string') {
               try {
                 // Convert dates to timestamps and sort newest first
                 const aTimestamp = new Date(aDate).getTime();
                 const bTimestamp = new Date(bDate).getTime();
-                
+
                 // Check if valid dates were parsed
                 if (!isNaN(aTimestamp) && !isNaN(bTimestamp)) {
                   return bTimestamp - aTimestamp; // newest first
@@ -145,7 +145,7 @@ export const defaultListPageLayout: PageLayout = {
             }
           }
         }
-        
+
         // Default sorting (folders first, then alphabetical with case insensitivity)
         if ((!a.file && !b.file) || (a.file && b.file)) {
           return a.displayName.localeCompare(b.displayName, undefined, {

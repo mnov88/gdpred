@@ -24,6 +24,7 @@ import NowReading from "./NowReading"
 import Parties from "./Parties"
 import FontSizeAdjuster from "./FontSizeAdjuster"
 import TopicExplorer from "./pages/TopicExplorer"
+import PrintButton from "./PrintButton"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   Parties,
   FontSizeAdjuster,
   TopicExplorer,
+  PrintButton,
 }

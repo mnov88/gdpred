@@ -228,3 +228,149 @@ body[data-slug="index"] {
 .callout[data-callout="button"]:active {
     transform: translateY(0);
 }
+
+/* Print Button */
+.print-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: transform 0.2s, background-color 0.2s;
+
+    /* Hide on mobile devices */
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.print-button:hover {
+    transform: scale(1.1);
+    background-color: color-mix(in srgb, var(--secondary) 80%, black);
+}
+
+.print-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hide print button when printing */
+@media print {
+
+    /* Hide UI elements */
+    .print-button,
+    .left,
+    .right,
+    header,
+    footer,
+    .explore,
+    nav,
+    .breadcrumbs,
+    button,
+    .search,
+    #search,
+    .darkmode {
+        display: none !important;
+    }
+
+    /* Optimize article content for printing */
+    body {
+        font-size: 12pt;
+        background: white !important;
+        color: black !important;
+    }
+
+    .center {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    article {
+        padding: 0 !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        background: white !important;
+        color: black !important;
+    }
+
+    /* Ensure text is black for better printing */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    td,
+    th,
+    blockquote {
+        color: black !important;
+    }
+
+    /* Make links more print-friendly */
+    a {
+        color: black !important;
+        text-decoration: underline;
+    }
+
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-style: italic;
+    }
+
+    /* Improve image printing */
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+
+    /* Better page breaks */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    img,
+    table {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+
+    p,
+    blockquote,
+    ul,
+    ol,
+    dl {
+        page-break-inside: avoid;
+    }
+
+    /* Ensure code blocks print well */
+    pre,
+    code {
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        border: 1px solid #ddd;
+        padding: 0.5em !important;
+        background: #f8f8f8 !important;
+    }
+
+    /* Additional style for active printing state */
+    body.is-printing article {
+        display: block !important;
+        visibility: visible !important;
+    }
+}
