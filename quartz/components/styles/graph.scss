@@ -1,28 +1,14 @@
 @use "../../styles/variables.scss" as *;
 
 .graph {
-  background-color: var(--light);
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  padding-bottom: 1rem;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
 
-  h2.graph-title {
-    font-size: 1.05rem;
-    font-weight: 500;
-    color: var(--secondary);
-    margin: 0 0 0.75rem 0;
-    padding: 0 1rem 0.5rem;
-    border-bottom: 1px solid var(--lightgray);
-  }
 
   &>.graph-outer {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     box-sizing: border-box;
     height: 200px;
-    margin: 0.5em 1em;
+    margin: 0.5em 0;
     position: relative;
     overflow: hidden;
 

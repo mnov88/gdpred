@@ -57,44 +57,25 @@
                 }
             }
 
-            /* Add focus styles for keyboard navigation */
-            &:focus-visible {
-                outline: 2px solid var(--secondary);
-                outline-offset: 2px;
+            &[data-active="true"] {
                 background-color: var(--hover);
 
-                .explorer-title,
-                .backlink-title {
-                    color: var(--secondary);
-                }
-
-                .explorer-parties,
-                .backlink-subtitle {
-                    opacity: 1;
-                }
-            }
-
-            &[data-active="true"] {
-                background-color: color-mix(in srgb, var(--secondary) 8%, var(--light));
-                border-left: 3px solid var(--secondary);
-
                 &::before {
-                    width: 0; // Disable the default active indicator
-                    background-color: transparent;
+                    width: 4px;
+                    background-color: var(--tertiary);
                 }
 
                 .explorer-title,
                 .backlink-title {
                     color: var(--tertiary);
-                    font-weight: 600;
-                    padding-left: 4px;
+                    padding-left: 12px;
                 }
 
                 .explorer-parties,
                 .backlink-subtitle {
                     opacity: 1;
                     color: var(--darkgray);
-                    padding-left: 4px;
+                    padding-left: 12px;
                 }
             }
         }
@@ -118,10 +99,10 @@
 // Common subtitle styling
 %subtitle-shared {
     font-size: 0.8rem;
-    color: var(--gray);
+    color: var(--darkgray);
     opacity: 0.85;
     font-style: italic;
-    margin-top: 0.2rem;
+    margin-top: 0.15rem;
     line-height: 1.3;
     font-weight: 400;
     transition: opacity 0.15s ease, color 0.15s ease;

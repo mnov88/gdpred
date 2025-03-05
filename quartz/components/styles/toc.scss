@@ -3,11 +3,6 @@
 .toc {
   display: flex;
   flex-direction: column;
-  background-color: var(--light);
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  padding: 1rem 0;
 
   &.desktop-only {
     max-height: 40%;
@@ -30,21 +25,10 @@ button#toc {
   display: flex;
   align-items: center;
 
-  &:focus-visible {
-    outline: 2px solid var(--secondary);
-    outline-offset: 2px;
-    border-radius: 4px;
-  }
-
   & h3 {
-    font-size: 1.05rem;
+    font-size: 1rem;
     display: inline-block;
-    margin: 0 0 0.75rem 0;
-    padding: 0 1rem 0.5rem;
-    color: var(--secondary);
-    font-weight: 500;
-    border-bottom: 1px solid var(--lightgray);
-    width: 100%;
+    margin: 0;
   }
 
   & .fold {
@@ -91,30 +75,10 @@ button#toc {
       opacity: 0.35;
       transition:
         0.5s ease opacity,
-        0.3s ease color,
-        0.3s ease background-color;
-      display: block;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      margin: 0.1rem 0;
-
-      &:hover {
-        opacity: 0.5;
-        background-color: color-mix(in srgb, var(--secondary) 3%, var(--light));
-      }
-
-      &:focus-visible {
-        outline: 2px solid var(--secondary);
-        outline-offset: 2px;
-        opacity: 0.8;
-      }
+        0.3s ease color;
 
       &.in-view {
-        color: var(--secondary);
-        opacity: 1;
-        font-weight: 500;
-        background-color: color-mix(in srgb, var(--secondary) 5%, var(--light));
-        display: block;
+        opacity: 0.75;
       }
     }
   }
