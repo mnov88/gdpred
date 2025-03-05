@@ -31,7 +31,7 @@ PageTitle.css = `
   
   /* Even larger for desktop */
   @media (min-width: 1024px) {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 }
 

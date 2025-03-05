@@ -1,4 +1,8 @@
- Data processing principles
+# GDPR Case law
+
+## 1. GDPR Legal Concepts
+
+## Data processing principles
 
 > [!info]- Lawfulness of processing
 > 
@@ -9,7 +13,6 @@
 > - [[C-394-23|C-394⧸23]]
 > - [[C-60-22|C-60⧸22]]
 > - [[C-621-22|C-621⧸22]]
->  Data minimization
 > - [[C-180-21|C-180⧸21]]
 > - [[C-439-19|C-439⧸19]]
 
@@ -39,7 +42,7 @@
 > 
 > - [[C-621-22|C-621⧸22]]
 
- Controllers and processors
+## Controllers and processors
 
 > [!info]- Concept of controller
 > 
@@ -61,7 +64,7 @@
 > - [[C-687-21|C-687⧸21]]
 > - [[C-667-21|C-667⧸21]]
 
- Data subject rights
+## Data subject rights
 
 > [!info]- Right of access
 > 
@@ -95,7 +98,7 @@
 > 
 > - [[C-416-23|C-416⧸23]]
 
- Consent
+## Consent
 
 > [!info]- Concept and declaration methods
 > 
@@ -118,7 +121,7 @@
 > - [[C-34-21|C-34⧸21]] (Employment)
 > - [[C-129-21|C-129⧸21]] (Subscriptions)
 
- Special categories of data
+## Special categories of data
 
 > [!info]- Health data
 > 
@@ -147,7 +150,7 @@
 > - [[C-667-21|C-667⧸21]]
 > - [[C-446-21|C-446⧸21]]
 
- Security and breach management
+## Security and breach management
 
 > [!info]- Security measures
 > 
@@ -161,7 +164,7 @@
 > 
 > - [[C-687-21|C-687⧸21]]
 
- Data protection officers
+## Data protection officers
 
 > [!info]- Role and independence
 > 
@@ -175,7 +178,7 @@
 > 
 > - [[C-453-21|C-453⧸21]]
 
- Supervisory authorities
+## Supervisory authorities
 
 > [!info]- Competence and powers
 > 
@@ -201,7 +204,7 @@
 > 
 > - [[C-645-19|C-645⧸19]]
 
- Compensation and liability
+## Compensation and liability
 
 > [!info]- Concepts of damage
 > 
@@ -231,7 +234,7 @@
 > 
 > - [[C-507-23|C-507⧸23]]
 
- International data transfers
+## International data transfers
 
 > [!info]- Third country transfers
 > 
@@ -245,7 +248,7 @@
 > 
 > - [[C-311-18|C-311⧸18]]
 
- EU legal framework
+## EU legal framework
 
 > [!info]- Charter of fundamental rights
 > 
@@ -266,9 +269,9 @@
 > 
 > - [[C-579-21|C-579⧸21]]
 
- 1. Specific Situations
+## 2. Specific Situations
 
- Digital services
+## Digital services
 
 > [!info]- Cookies and tracking
 > 
@@ -300,7 +303,7 @@
 > 
 > - [[C-394-23|C-394⧸23]]
 
- Employment context
+## Employment context
 
 > [!info]- Employee data processing
 > 
@@ -315,7 +318,7 @@
 > 
 > - [[C-65-23|C-65⧸23]]
 
- Public sector and transparency
+## Public sector and transparency
 
 > [!info]- Public document access
 > 
@@ -343,7 +346,7 @@
 > 
 > - [[C-306-21|C-306⧸21]]
 
- Health and medical
+## Health and medical
 
 > [!info]- Medical records
 > 
@@ -358,7 +361,7 @@
 > - [[C-169-23|C-169⧸23]]
 > - [[C-659-22|C-659⧸22]]
 
- Identity and verification
+## Identity and verification
 
 > [!info]- Identity document storage
 > 
@@ -372,7 +375,7 @@
 > 
 > - [[C-394-23|C-394⧸23]]
 
- Legal and law enforcement
+## Legal and law enforcement
 
 > [!info]- Criminal investigations
 > 
@@ -394,7 +397,7 @@
 > 
 > - [[C-205-21|C-205⧸21]]
 
- Travel and border control
+## Travel and border control
 
 > [!info]- Passenger name record data
 > 
@@ -408,7 +411,7 @@
 > 
 > - [[C-496-17|C-496⧸17]]
 
- Commercial and marketing
+## Commercial and marketing
 
 > [!info]- Sports federation data
 > 
@@ -427,7 +430,7 @@
 > 
 > - [[C-252-21|C-252⧸21]]
 
- Representation and access
+## Representation and access
 
 > [!info]- Representation of data subjects
 > 
@@ -442,7 +445,7 @@
 > 
 > - [[C-461-22|C-461⧸22]]
 
- National security
+## National security
 
 > [!info]- Security exceptions
 > 

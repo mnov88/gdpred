@@ -1,6 +1,8 @@
 ---
-title: Welcome to the GDPR vault!
-cssclasses: ["no-date", "no-title"]
+title: Welcome!
+cssclasses:
+  - no-date
+  - no-title
 ---
 # Welcome to **GDPRed**!
 
