@@ -27,7 +27,6 @@ const config: QuartzConfig = {
         header: "IBM Plex Sans",
         body: "IBM Plex Sans",
         code: "IBM Plex Mono",
-        custom: "Press+Start+2P",
       },
       colors: {
         lightMode: {

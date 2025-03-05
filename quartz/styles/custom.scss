@@ -1,5 +1,4 @@
 @use "./base.scss";
-
 // put your custom CSS here!
 // Enhance article readability with paper-like styling
 .center {
@@ -11,31 +10,26 @@
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
         box-sizing: content-box; // Include padding in width calculation
         border-radius: 20px;
-
         // Adjust padding for tablet
         @media (max-width: 1200px) {
             padding: 3rem 3rem 1.5rem 3rem;
         }
-
         // Adjust padding for mobile
         @media (max-width: 800px) {
             padding: 2rem 1.5rem 1rem 1.5rem;
             margin: 0 0 1rem 0;
         }
-
         // Improve paragraph readability
         p {
             margin-bottom: 1.7rem;
             line-height: 1.55;
         }
-
         // Enhance list readability
         ul,
         ol {
             margin: 1.5rem 0;
             padding-left: 2rem;
         }
-
         // Better spacing for headings
         h1,
         h2,
@@ -45,13 +39,11 @@
         h6 {
             margin-top: 2.5rem;
             margin-bottom: 2rem;
-
             // Remove top margin for first heading
             &:first-child {
                 margin-top: 0;
             }
         }
-
         // Enhance blockquote styling
         blockquote {
             margin: 2rem 0;
@@ -60,7 +52,6 @@
             background: color-mix(in srgb, var(--light) 98%, var(--secondary));
             border-radius: 0 8px 8px 0;
         }
-
         // Better code block presentation
         pre {
             margin: 1.5rem 0;
@@ -68,17 +59,14 @@
             border-radius: 8px;
             background: color-mix(in srgb, var(--light) 98%, var(--secondary));
         }
-
         // Improve inline code readability
         code:not(pre code) {
             padding: 0.2rem 0.4rem;
             font-size: 0.9em;
         }
-
         // Better table presentation
         .table-container {
             margin: 2rem 0;
-
             table {
                 margin: 0;
                 width: 100%;
@@ -90,11 +78,9 @@
 // Ensure dark mode compatibility
 [saved-theme="dark"] .center>article {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-
     blockquote {
         background: color-mix(in srgb, var(--light) 95%, var(--secondary));
     }
-
     pre {
         background: color-mix(in srgb, var(--light) 97%, var(--secondary));
     }
@@ -102,12 +88,10 @@
 
 // Hide date components and graph on the index page
 body[data-slug="index"] {
-
     // Hide date components
     .content-meta {
         display: none !important;
     }
-
     // Also hide any other date-related elements that might be visible
     time,
     .date-info,
@@ -115,7 +99,6 @@ body[data-slug="index"] {
     .meta-container {
         display: none !important;
     }
-
     // Hide graph visualization
     .graph,
     #graph-container,
@@ -125,14 +108,15 @@ body[data-slug="index"] {
     [id^="graph-"] {
         display: none !important;
     }
-
     // Hide article title if desired
     .article-title {
         display: none !important;
     }
 }
 
+
 /* Button Styles for Markdown pages */
+
 .btn {
     display: inline-block;
     padding: 8px 16px;
@@ -161,7 +145,9 @@ body[data-slug="index"] {
     margin: 1.5rem 0;
 }
 
+
 /* Grid layout for buttons */
+
 .button-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -170,7 +156,9 @@ body[data-slug="index"] {
     margin: 1.5rem 0;
 }
 
+
 /* For responsive behavior */
+
 @media (max-width: 768px) {
     .button-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -185,7 +173,9 @@ body[data-slug="index"] {
     }
 }
 
+
 /* Button callout variant */
+
 .callout[data-callout="button"] {
     --color: var(--secondary);
     --border: var(--secondary);
