@@ -20,6 +20,13 @@ const normalizeString = (str: string): string => {
     return str.toLowerCase().replace(/[\s-_]+/g, '');
 };
 
+// Helper function to check if a string is in a list case-insensitively
+const isInList = (str: string | null | undefined, list: string[]): boolean => {
+    if (!str) return false;
+    const normalized = normalizeString(str);
+    return list.some(item => normalizeString(item) === normalized);
+};
+
 const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, allFiles = [] } = props
 
@@ -47,7 +54,9 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         if (!file || typeof file !== 'object') return false
 
         // Primary method: Use explicit type field in frontmatter
-        if (file.frontmatter?.type === 'case') {
+        if (file.frontmatter?.type && 
+            typeof file.frontmatter.type === 'string' && 
+            normalizeString(file.frontmatter.type) === 'case') {
             console.log(`Found case by type: ${file.slug}`)
             return true
         }
@@ -61,7 +70,9 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         // Check explicit case tag
         if (Array.isArray(file.frontmatter?.tags) &&
             file.frontmatter.tags.some(tag =>
-                typeof tag === 'string' && ['case', 'case-law', 'caselaw'].includes(tag.toLowerCase())
+                typeof tag === 'string' && 
+                ['case', 'case-law', 'caselaw'].some(caseTag => 
+                    normalizeString(tag) === normalizeString(caseTag))
             )) {
             console.log(`Found case by tags: ${file.slug}`)
             return true
@@ -72,8 +83,8 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         if (typeof slug === 'string') {
             const parts = slug.split('/')
             if (parts.length > 0) {
-                const folder = parts[0].toLowerCase()
-                if (['caselaw', 'case', 'case-law', 'case law'].includes(folder)) {
+                const folder = normalizeString(parts[0])
+                if (['caselaw', 'case', 'caselaw', 'case law'].some(f => normalizeString(f) === folder)) {
                     console.log(`Found case by folder path: ${file.slug}`)
                     return true
                 }
@@ -83,14 +94,15 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         // Check folder frontmatter field
         const frontmatterFolder = file.frontmatter?.folder
         if (typeof frontmatterFolder === 'string' &&
-            ['caselaw', 'case', 'case-law', 'case law'].includes(frontmatterFolder.toLowerCase())) {
+            ['caselaw', 'case', 'case-law', 'case law'].some(f => 
+                normalizeString(frontmatterFolder) === normalizeString(f))) {
             console.log(`Found case by frontmatter folder: ${file.slug}`)
             return true
         }
 
         // Title starts with C- (likely a case number)
         const title = file.frontmatter?.title
-        if (typeof title === 'string' && /^C-\d+/.test(title)) {
+        if (typeof title === 'string' && /^C-\d+/i.test(title)) {  // Added 'i' flag for case-insensitive
             console.log(`Found case by C- in title: ${file.slug}`)
             return true
         }
@@ -153,11 +165,19 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         .sort((a, b) => {
             try {
                 // TypeScript now knows item.date is a string
-                return new Date(b.date as string).getTime() - new Date(a.date as string).getTime() // Newest first
+                const aTime = new Date(a.date as string).getTime();
+                const bTime = new Date(b.date as string).getTime();
+                
+                // Check if valid dates were parsed
+                if (!isNaN(aTime) && !isNaN(bTime)) {
+                    return bTime - aTime; // Newest first
+                }
+                return 0; // If either date is invalid, don't change order
             } catch (e) {
-                return 0 // If date parsing fails, don't change order
+                console.error("Error sorting timeline items:", e);
+                return 0; // If date parsing fails, don't change order
             }
-        })
+        });
 
     // Group by month and year
     const groupedItems: Record<string, typeof timelineItems> = {}
