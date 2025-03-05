@@ -15,20 +15,25 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-size: 1.5rem;
-  font-family: var(--headerFont);
-  font-weight: 600;
-  color: red;
+  font-size: 1.2rem;
+  font-family: 'Press Start 2P', monospace;
+  font-weight: 400;
+  color: #4a6fa5;
   margin: 0;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
 }
 
 .page-title a {
-  color: var(--secondary);
+  color: #4a6fa5;
   text-decoration: none;
 }
 
 .page-title a:hover {
-  color: var(--tertiary);
+  color: #6e93c8;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
 }
 `
 
