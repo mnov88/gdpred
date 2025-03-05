@@ -4,6 +4,7 @@
 .toc {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.5rem;
 
   &.desktop-only {
     max-height: 40%;
@@ -51,6 +52,7 @@ button#toc {
     visibility 0s linear 0s;
   position: relative;
   visibility: visible;
+  padding-left: 0.25rem;
 
   &.collapsed {
     max-height: 0;
@@ -69,15 +71,33 @@ button#toc {
     margin: 0.5rem 0;
     padding: 0;
 
+    &>li {
+      margin-bottom: 0.25rem;
+    }
+
     &>li>a {
       color: var(--dark);
       opacity: 0.35;
       transition:
         0.5s ease opacity,
         0.3s ease color;
+      font-size: 0.9rem;
+      font-weight: 400;
+      display: block;
+      padding: 0.2rem 0;
+      text-decoration: none;
+      border-radius: 4px;
+
+      &:hover {
+        opacity: 0.6;
+        text-decoration: none;
+        background-color: var(--highlight);
+        padding-left: 0.25rem;
+      }
 
       &.in-view {
         opacity: 0.75;
+        font-weight: 500;
       }
     }
   }
@@ -90,6 +110,12 @@ button#toc {
   @for $i from 0 through 6 {
     & .depth-#{$i} {
       padding-left: calc(1rem * #{$i});
+
+      // Add visual cues for depth
+      @if $i >0 {
+        font-size: calc(0.9rem - 0.05rem * min(#{$i}, 2));
+        opacity: calc(0.35 - 0.03 * #{$i});
+      }
     }
   }
 }
