@@ -1,6 +1,6 @@
-# Welcome to GDPRTANGLE!
+# Welcome to GDPRed!
 
-Welcome to **GDPRTANGLE**, where we've transformed the impenetrable jungle of data protection rulings into something vaguely resembling navigable terrain. You've entered a dangerous realm where, instead of dragons, the Court of Justice of the European Union — a hall of perpetually disappointed grandparents in costume — has spent decades ensuring that clarity remains theoretical and brevity is punishable by 174 additional paragraphs.
+Welcome to **GDPRed**, where we've transformed the impenetrable jungle of data protection rulings into something vaguely resembling navigable terrain. You've entered a dangerous realm where, instead of dragons, the Court of Justice of the European Union — a hall of perpetually disappointed grandparents in costume — has spent decades ensuring that clarity remains theoretical and brevity is punishable by 174 additional paragraphs.
 
 "*But what about Case C-40/17?*" you ask innocently. "*Ah yes*," replies the Court with a benevolent smile, adjusting its robes, "*that's on page 47, paragraph 92, which refers you to Article 4(7), which is best understood through the lens of Case C-210/16, which cannot be comprehended without first reading Articles 5, 13, and 73(c), which naturally lead back to Case C-40/17. Was that not perfectly clear?*"
 
@@ -19,7 +19,7 @@ DISCLAIMER: This website is for informational purposes only, much like how the C
 
 ---
 
-## Explore GDPRTANGLE
+## Explore GDPRed
 
 <div class="button-grid">
   <a href="[[Topics]]" class="btn">Browse by Topic</a>

@@ -1,15 +1,11 @@
 ---
 title: "Test"
 ---
-
-<!-- Case Law Timeline -->
 <div class="timeline-container" style="
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   max-width: 100%;
   margin: 2rem 0;
-  position: relative;
-">
-  <!-- Timeline header -->
+  position: relative;">
   <div class="timeline-header" style="
     text-align: center;
     margin-bottom: 3rem;
@@ -28,12 +24,9 @@ title: "Test"
       margin: 0 auto;
     "></div>
   </div>
-
-  <!-- Timeline groups by month -->
   <div class="timeline-groups" style="
     position: relative;
   ">
-    <!-- Vertical line through all groups -->
     <div class="timeline-line" style="
       position: absolute;
       left: 120px;
@@ -43,8 +36,6 @@ title: "Test"
       background-color: #e5e5e5;
       z-index: 0;
     "></div>
-
-    <!-- December 2023 Group -->
     <div class="timeline-group" style="
       margin-bottom: 2.5rem;
       position: relative;
@@ -69,11 +60,9 @@ title: "Test"
           margin-top: 0.1rem;
         ">2023</div>
       </div>
-
       <div class="timeline-items" style="
         margin-left: 140px;
       ">
-        <!-- Case item -->
         <div class="timeline-item" style="
           background-color: #fff;
           border-radius: 8px;
@@ -96,7 +85,6 @@ title: "Test"
             box-shadow: 0 0 0 1px #e5e5e5;
             z-index: 1;
           "></div>
-          
           <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
@@ -119,8 +107,6 @@ title: "Test"
             color: #646464;
           ">December 21, 2023</div>
         </div>
-
-        <!-- Case item -->
         <div class="timeline-item" style="
           background-color: #fff;
           border-radius: 8px;
@@ -130,7 +116,6 @@ title: "Test"
           border-left: 4px solid #284b63;
           position: relative;
         ">
-          <!-- Dot on timeline -->
           <div class="timeline-dot" style="
             position: absolute;
             left: -33px;
@@ -143,7 +128,6 @@ title: "Test"
             box-shadow: 0 0 0 1px #e5e5e5;
             z-index: 1;
           "></div>
-          
           <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
@@ -168,8 +152,6 @@ title: "Test"
         </div>
       </div>
     </div>
-
-    <!-- November 2023 Group -->
     <div class="timeline-group" style="
       margin-bottom: 2.5rem;
       position: relative;
@@ -194,11 +176,9 @@ title: "Test"
           margin-top: 0.1rem;
         ">2023</div>
       </div>
-
       <div class="timeline-items" style="
         margin-left: 140px;
       ">
-        <!-- Case item -->
         <div class="timeline-item" style="
           background-color: #fff;
           border-radius: 8px;
@@ -221,7 +201,6 @@ title: "Test"
             box-shadow: 0 0 0 1px #e5e5e5;
             z-index: 1;
           "></div>
-          
           <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
@@ -246,8 +225,6 @@ title: "Test"
         </div>
       </div>
     </div>
-
-    <!-- October 2023 Group -->
     <div class="timeline-group" style="
       margin-bottom: 2.5rem;
       position: relative;
@@ -272,11 +249,9 @@ title: "Test"
           margin-top: 0.1rem;
         ">2023</div>
       </div>
-
       <div class="timeline-items" style="
         margin-left: 140px;
       ">
-        <!-- Case item -->
         <div class="timeline-item" style="
           background-color: #fff;
           border-radius: 8px;
@@ -299,8 +274,7 @@ title: "Test"
             box-shadow: 0 0 0 1px #e5e5e5;
             z-index: 1;
           "></div>
-          
-          <div class="case-number" style="
+                  <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
             color: #284b63;
@@ -322,7 +296,6 @@ title: "Test"
             color: #646464;
           ">October 12, 2023</div>
         </div>
-
         <!-- Case item -->
         <div class="timeline-item" style="
           background-color: #fff;
@@ -333,7 +306,6 @@ title: "Test"
           border-left: 4px solid #284b63;
           position: relative;
         ">
-          <!-- Dot on timeline -->
           <div class="timeline-dot" style="
             position: absolute;
             left: -33px;
@@ -346,7 +318,6 @@ title: "Test"
             box-shadow: 0 0 0 1px #e5e5e5;
             z-index: 1;
           "></div>
-          
           <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
@@ -372,8 +343,6 @@ title: "Test"
       </div>
     </div>
   </div>
-
-  <!-- Timeline footer with last updated info -->
   <div class="timeline-footer" style="
     margin-top: 2rem;
     text-align: center;
@@ -384,14 +353,11 @@ title: "Test"
     Last updated: March 5, 2025
   </div>
 </div>
-
-<!-- Optional: Add responsive adjustments for mobile -->
 <style>
 @media screen and (max-width: 768px) {
   .timeline-line {
     left: 20px !important;
   }
-  
   .timeline-month {
     position: relative !important;
     text-align: left !important;
@@ -399,12 +365,10 @@ title: "Test"
     margin-bottom: 1rem !important;
     width: auto !important;
   }
-  
-  .timeline-items {
+.timeline-items {
     margin-left: 40px !important;
   }
-  
-  .timeline-dot {
+    .timeline-dot {
     left: -33px !important;
   }
 }

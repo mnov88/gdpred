@@ -15,13 +15,24 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-size: 1.2rem;
   font-family: 'Press Start 2P';
   color: var(--secondary);
   line-height: 1.8;
   padding: 0.5em;
-
   border-radius: 4px;
+  
+  /* Base size for mobile devices */
+  font-size: 0.9rem;
+  
+  /* Scale up for larger devices */
+  @media (min-width: 768px) {
+    font-size: 1.3rem;
+  }
+  
+  /* Even larger for desktop */
+  @media (min-width: 1024px) {
+    font-size: 1.2rem;
+  }
 }
 
 .page-title a {

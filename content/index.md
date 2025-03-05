@@ -7,7 +7,7 @@ hide:
   - title
   - articleTitle
 ---
-# Welcome to **GDPRTANGLE**!
+# Welcome to **GDPRed**!
 
 ... Where the labyrinthine chaos of data protection rulings has been coaxed into something that might, under favorable lighting and with one eye closed, resemble navigable terrain. 
 
