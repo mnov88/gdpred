@@ -167,7 +167,9 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     });
 
     return (
+
         <div className="timeline">
+                    <p>This is a test</p>
             {Object.keys(groupedItems).length > 0 ? (
                 <div className="timeline-container">
                     {Object.entries(groupedItems).map(([monthYear, items], groupIndex) => (

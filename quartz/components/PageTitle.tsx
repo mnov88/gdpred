@@ -18,7 +18,7 @@ PageTitle.css = `
   font-size: 1.5rem;
   font-family: var(--headerFont);
   font-weight: 600;
-  color: green;
+  color: red;
   margin: 0;
 }
 
