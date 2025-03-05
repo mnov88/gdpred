@@ -131,3 +131,90 @@ body[data-slug="index"] {
         display: none !important;
     }
 }
+
+/* Button Styles for Markdown pages */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--secondary);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: color-mix(in srgb, var(--secondary) 80%, black);
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+/* Grid layout for buttons */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal columns */
+    gap: 10px;
+    margin: 1.5rem 0;
+}
+
+/* For responsive behavior */
+@media (max-width: 768px) {
+    .button-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* Switch to 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .button-grid {
+        grid-template-columns: 1fr;
+        /* Single column on very small screens */
+    }
+}
+
+/* Button callout variant */
+.callout[data-callout="button"] {
+    --color: var(--secondary);
+    --border: var(--secondary);
+    --bg: rgba(var(--secondary-rgb), 0.1);
+    border-radius: 4px;
+    padding: 0;
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.callout[data-callout="button"] .callout-title {
+    display: none;
+}
+
+.callout[data-callout="button"] .callout-content {
+    padding: 8px 16px;
+}
+
+.callout[data-callout="button"] .callout-content p {
+    margin: 0;
+}
+
+.callout[data-callout="button"]:hover {
+    --bg: rgba(var(--secondary-rgb), 0.2);
+    transform: translateY(-1px);
+}
+
+.callout[data-callout="button"]:active {
+    transform: translateY(0);
+}

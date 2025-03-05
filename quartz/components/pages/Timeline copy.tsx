@@ -42,60 +42,58 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     });
     console.log("All detected folders:", [...allFolders]);
 
-    // Find case files using multiple methods, prioritizing frontmatter fields
+    // More aggressive approach to find case files without relying on specific folder paths
     const caseFiles = allFiles.filter(file => {
         if (!file || typeof file !== 'object') return false
 
-        // Primary method: Use explicit type field in frontmatter
-        if (file.frontmatter?.type === 'case') {
-            console.log(`Found case by type: ${file.slug}`)
-            return true
-        }
-
-        // Check for case-number in frontmatter (most reliable)
-        if (file.frontmatter?.['case-number']) {
-            console.log(`Found case by case-number: ${file.slug}`)
-            return true
-        }
-
-        // Check explicit case tag
-        if (Array.isArray(file.frontmatter?.tags) &&
-            file.frontmatter.tags.some(tag =>
-                typeof tag === 'string' && ['case', 'case-law', 'caselaw'].includes(tag.toLowerCase())
-            )) {
-            console.log(`Found case by tags: ${file.slug}`)
-            return true
-        }
-
-        // Check in Case law folder
         const slug = file.slug
-        if (typeof slug === 'string') {
-            const parts = slug.split('/')
-            if (parts.length > 0) {
-                const folder = parts[0].toLowerCase()
-                if (['caselaw', 'case', 'case-law', 'case law'].includes(folder)) {
-                    console.log(`Found case by folder path: ${file.slug}`)
-                    return true
-                }
-            }
-        }
-
-        // Check folder frontmatter field
-        const frontmatterFolder = file.frontmatter?.folder
-        if (typeof frontmatterFolder === 'string' &&
-            ['caselaw', 'case', 'case-law', 'case law'].includes(frontmatterFolder.toLowerCase())) {
-            console.log(`Found case by frontmatter folder: ${file.slug}`)
-            return true
-        }
-
-        // Title starts with C- (likely a case number)
+        const folder = file.frontmatter?.folder
         const title = file.frontmatter?.title
-        if (typeof title === 'string' && /^C-\d+/.test(title)) {
-            console.log(`Found case by C- in title: ${file.slug}`)
-            return true
+        const caseNumber = file.frontmatter?.['case-number']
+
+        // Check if any of these criteria match to identify a case file
+        // 1. Slug contains "case" in any form
+        const slugContainsCase = typeof slug === 'string' && normalizeString(slug).includes('case')
+
+        // 2. Slug is in the Case law folder (check multiple forms)
+        const slugFolderParts = typeof slug === 'string' ? slug.split('/') : []
+        const slugFolder = slugFolderParts.length > 0 ? slugFolderParts[0] : ''
+        const normalizedSlugFolder = normalizeString(slugFolder)
+        const isInCaseFolder = ['caselaw', 'case'].includes(normalizedSlugFolder)
+
+        // 3. Frontmatter folder is Case law in any form
+        const folderIsCase = typeof folder === 'string' &&
+            ['caselaw', 'case'].includes(normalizeString(folder))
+
+        // 4. Title starts with C- (likely a case number)
+        const titleIsCaseNumber = typeof title === 'string' && /^C-\d+/.test(title)
+
+        // 5. Has case-number field in frontmatter
+        const hasCaseNumber = typeof caseNumber === 'string' && caseNumber.trim() !== ''
+
+        // 6. Slug contains C- (common case file naming pattern)
+        const slugHasCaseNumber = typeof slug === 'string' && slug.includes('C-')
+
+        // 7. Direct check for exact folder name with various capitalizations
+        const exactFolderMatch = typeof slugFolder === 'string' &&
+            ['Case law', 'case law', 'Case Law', 'CASE LAW', 'case-law', 'Case-law'].includes(slugFolder)
+
+        const isCase = isInCaseFolder || folderIsCase || titleIsCaseNumber ||
+            hasCaseNumber || slugHasCaseNumber || slugContainsCase || exactFolderMatch
+
+        if (isCase) {
+            console.log(`Found case file: ${slug || 'unknown'} (reasons: ${[
+                isInCaseFolder ? 'case folder' : '',
+                folderIsCase ? 'case frontmatter' : '',
+                titleIsCaseNumber ? 'case number in title' : '',
+                hasCaseNumber ? 'has case-number' : '',
+                slugHasCaseNumber ? 'C- in slug' : '',
+                slugContainsCase ? 'case in slug' : '',
+                exactFolderMatch ? 'exact folder match' : ''
+            ].filter(Boolean).join(', ')})`)
         }
 
-        return false
+        return isCase
     })
 
     console.log(`Timeline found ${caseFiles.length} case files out of ${allFiles.length} total files`)
@@ -104,8 +102,6 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     if (caseFiles.length === 0) {
         console.log("No case files found. Examining folders:")
         const folders = new Set()
-        const frontmatterFields = new Set()
-
         allFiles.forEach(file => {
             if (file?.slug && typeof file.slug === 'string') {
                 const parts = file.slug.split('/')
@@ -113,15 +109,11 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
                     folders.add(parts[0])
                 }
             }
-
-            // Log all frontmatter fields to help debug
-            if (file?.frontmatter) {
-                Object.keys(file.frontmatter).forEach(key => frontmatterFields.add(key))
+            if (file?.frontmatter?.folder) {
+                folders.add(file.frontmatter.folder)
             }
         })
-
         console.log("Available folders:", [...folders])
-        console.log("Available frontmatter fields:", [...frontmatterFields])
 
         // Log some sample files to help diagnose
         console.log("Sample files for diagnosis:")
@@ -131,10 +123,7 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
                     slug: file.slug,
                     title: file.frontmatter?.title,
                     folder: file.frontmatter?.folder,
-                    type: file.frontmatter?.type,
-                    tags: file.frontmatter?.tags,
-                    hasDate: !!file.frontmatter?.date || !!file.frontmatter?.created,
-                    caseNumber: file.frontmatter?.['case-number'],
+                    hasDate: !!file.frontmatter?.date || !!file.frontmatter?.created
                 });
             }
         });
@@ -201,17 +190,7 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
                     ))}
                 </div>
             ) : (
-                <div className="no-timeline-data">
-                    <h3>No case law documents found</h3>
-                    <p>Please make sure your case documents have one of the following:</p>
-                    <ul>
-                        <li>A <code>type: case</code> field in the frontmatter</li>
-                        <li>A <code>case-number</code> field in the frontmatter</li>
-                        <li>Tags including "case" or "case-law"</li>
-                        <li>Are placed in a "Case law" folder</li>
-                    </ul>
-                    <p>All case documents should also have a <code>date</code> or <code>created</code> field in their frontmatter.</p>
-                </div>
+                <p>No case law documents found. Please make sure documents are in the "Case law" folder and have a date field in their frontmatter.</p>
             )}
         </div>
     )

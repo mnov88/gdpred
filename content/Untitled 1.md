@@ -1,5 +1,3 @@
- 
-
 # Welcome to GDPRTANGLE!
 
 Welcome to **GDPRTANGLE**, where we've transformed the impenetrable jungle of data protection rulings into something vaguely resembling navigable terrain. You've entered a dangerous realm where, instead of dragons, the Court of Justice of the European Union — a hall of perpetually disappointed grandparents in costume — has spent decades ensuring that clarity remains theoretical and brevity is punishable by 174 additional paragraphs.
@@ -18,3 +16,46 @@ DISCLAIMER: This website is for informational purposes only, much like how the C
 ---
 
  **DISCLAIMER: CourtDPR is an unofficial repository created by a person who believes that legal texts should be accessible without causing immediate migraines. All judgments link to official CJEU sources. Any errors are mine alone and not the fault of the Court, which has enough to worry about already, what with the complexity of determining when a cookie actually requires consent and whether fining a company the GDP of a small nation is proportionate (or if they should have gone for a medium-sized nation instead.)**
+
+---
+
+## Explore GDPRTANGLE
+
+<div class="button-grid">
+  <a href="[[Topics]]" class="btn">Browse by Topic</a>
+  <a href="[[Timeline]]" class="btn">View Timeline</a>
+  <a href="[[Case law]]" class="btn">Court Cases</a>
+  <a href="[[Articles]]" class="btn">GDPR Articles</a>
+  <a href="[[Topics Explorer]]" class="btn">Topics Explorer</a>
+  <a href="[[About]]" class="btn">About This Site</a>
+</div>
+
+## Quick Links
+
+<div class="btn-container">
+  <a href="[[test-parties-articles]]" class="btn">Parties & Articles</a>
+  <a href="[[test-ruling-articles]]" class="btn">Ruling Articles</a>
+  <a href="[[test-now-reading]]" class="btn">Now Reading</a>
+</div>
+
+---
+
+## Button Callout Alternative
+
+<div class="button-container">
+
+> [!button]
+> [First Example](Topics)
+
+> [!button]
+> [Second Example](Timeline)
+
+> [!button]
+> [Third Example](Case law)
+
+</div> 
+
+
+
+
+---

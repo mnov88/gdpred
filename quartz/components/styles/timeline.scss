@@ -103,6 +103,55 @@
         font-style: italic;
     }
 
+    // No timeline data message
+    .no-timeline-data {
+        background: var(--lightgray-10);
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        max-width: 600px;
+        margin: 2em auto;
+
+        h3 {
+            color: var(--secondary);
+            margin-bottom: 1em;
+            font-size: 1.4em;
+        }
+
+        p {
+            margin-bottom: 1em;
+            line-height: 1.5;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 1em auto;
+
+            li {
+                margin-bottom: 0.5em;
+                position: relative;
+                padding-left: 1.5em;
+
+                &:before {
+                    content: "•";
+                    color: var(--secondary);
+                    position: absolute;
+                    left: 0.5em;
+                }
+            }
+        }
+
+        code {
+            background: var(--light);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: var(--font-code);
+            font-size: 0.9em;
+        }
+    }
+
     // Dark mode adjustments
     @media (prefers-color-scheme: dark) {
         .timeline-content {
@@ -128,6 +177,16 @@
 
         .timeline-parties {
             color: var(--gray);
+        }
+
+        .no-timeline-data {
+            background: var(--darkgray-5);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+
+            code {
+                background: var(--darkgray);
+                color: var(--light);
+            }
         }
     }
 }

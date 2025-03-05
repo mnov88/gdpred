@@ -6,17 +6,20 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug } from "../../util/path"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { Timeline } from "../../components"
+import TimelineConstructor from "../../components/pages/Timeline"
 import { defaultProcessedContent } from "../vfile"
 import { write } from "./helpers"
 import DepGraph from "../../depgraph"
 
 export const TimelinePage: QuartzEmitterPlugin = () => {
+    // Get Timeline constructor
+    const Timeline = TimelineConstructor()
+
     // Use the defaultContentPageLayout but replace the Content component with our Timeline component
     const opts: FullPageLayout = {
         ...sharedPageComponents,
         ...defaultContentPageLayout,
-        pageBody: Timeline(),
+        pageBody: Timeline,
     }
 
     const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
@@ -50,11 +53,27 @@ export const TimelinePage: QuartzEmitterPlugin = () => {
                 slug,
                 text: "# Case Law Timeline\n\nA chronological timeline of all case law documents in the GDPR Vault.",
                 description: "A chronological timeline of all case law documents",
-                frontmatter: { title: "Case Law Timeline", tags: ["timeline", "case-law"] },
+                frontmatter: {
+                    title: "Case Law Timeline",
+                    tags: ["timeline", "case-law"],
+                    contentCount: content.length
+                },
             })
 
             // Add all files to allFiles
             const allFiles = content.map(([_tree, vfile]) => vfile.data)
+
+            // Add debug logging
+            console.log(`TimelinePage emitter processing ${allFiles.length} files`)
+
+            // Log a few sample files to verify content
+            if (allFiles.length > 0) {
+                console.log("Sample files for timeline:", allFiles.slice(0, 3).map(file => ({
+                    slug: file.slug,
+                    title: file.frontmatter?.title,
+                    type: file.frontmatter?.type
+                })))
+            }
 
             const externalResources = pageResources(slug, vfile.data, resources)
             const componentData: QuartzComponentProps = {
