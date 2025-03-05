@@ -1,6 +1,6 @@
 ---
 title: "Article 52"
- subtitle: "Independence"
+subtitle: "Independence"
 tags:
   - article
 type: "article"

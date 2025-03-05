@@ -1,6 +1,6 @@
 ---
 title: "Article 39"
- subtitle: "Tasks of the data protection officer"
+subtitle: "Tasks of the data protection officer"
 tags:
   - article
 type: "article"

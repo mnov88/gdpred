@@ -1,6 +1,6 @@
 ---
 title: "Article 90"
- subtitle: "Obligations of secrecy"
+subtitle: "Obligations of secrecy"
 tags:
   - article
 type: "article"

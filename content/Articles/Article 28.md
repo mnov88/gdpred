@@ -1,6 +1,6 @@
 ---
 title: "Article 28"
- subtitle: "Processor"
+subtitle: "Processor"
 tags:
   - article
 type: "article"

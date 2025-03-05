@@ -1,6 +1,6 @@
 ---
 title: "Article 42"
- subtitle: "Certification"
+subtitle: "Certification"
 tags:
   - article
 type: "article"

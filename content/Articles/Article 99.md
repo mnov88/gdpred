@@ -1,6 +1,6 @@
 ---
 title: "Article 99"
- subtitle: "Entry into force and application"
+subtitle: "Entry into force and application"
 tags:
   - article
 type: "article"

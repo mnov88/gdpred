@@ -1,6 +1,6 @@
 ---
 title: "Article 29"
- subtitle: "Processing under the authority of the controller or processor"
+subtitle: "Processing under the authority of the controller or processor"
 tags:
   - article
 type: "article"

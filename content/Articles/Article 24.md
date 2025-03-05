@@ -1,6 +1,6 @@
 ---
 title: "Article 24"
- subtitle: "Responsibility of the controller"
+subtitle: "Responsibility of the controller"
 tags:
   - article
 type: "article"

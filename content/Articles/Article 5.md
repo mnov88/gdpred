@@ -1,6 +1,6 @@
 ---
 title: "Article 5"
- subtitle: "Principles relating to processing of personal data"
+subtitle: "Principles relating to processing of personal data"
 tags:
   - article
 type: "article"

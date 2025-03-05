@@ -1,6 +1,6 @@
 ---
 title: "Article 81"
- subtitle: "Suspension of proceedings"
+subtitle: "Suspension of proceedings"
 tags:
   - article
 type: "article"

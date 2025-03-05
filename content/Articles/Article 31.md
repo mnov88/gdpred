@@ -1,6 +1,6 @@
 ---
 title: "Article 31"
- subtitle: "Cooperation with the supervisory authority"
+subtitle: "Cooperation with the supervisory authority"
 tags:
   - article
 type: "article"

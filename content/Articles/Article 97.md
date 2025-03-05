@@ -1,6 +1,6 @@
 ---
 title: "Article 97"
- subtitle: "Commission reports"
+subtitle: "Commission reports"
 tags:
   - article
 type: "article"

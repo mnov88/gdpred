@@ -1,6 +1,6 @@
 ---
 title: "Article 53"
- subtitle: "General conditions for the members of the supervisory authority"
+subtitle: "General conditions for the members of the supervisory authority"
 tags:
   - article
 type: "article"

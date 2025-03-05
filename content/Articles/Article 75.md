@@ -1,6 +1,6 @@
 ---
 title: "Article 75"
- subtitle: "Secretariat"
+subtitle: "Secretariat"
 tags:
   - article
 type: "article"

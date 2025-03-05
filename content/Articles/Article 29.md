@@ -1,6 +1,6 @@
 ---
 title: "Article 27"
- subtitle: "Representatives of controllers or processors not established in the Union"
+subtitle: "Representatives of controllers or processors not established in the Union"
 tags:
   - article
 type: "article"

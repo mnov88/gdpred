@@ -1,6 +1,6 @@
 ---
 title: "Article 66"
- subtitle: "Urgency procedure"
+subtitle: "Urgency procedure"
 tags:
   - article
 type: "article"

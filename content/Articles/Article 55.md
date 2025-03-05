@@ -1,6 +1,6 @@
 ---
 title: "Article 55"
- subtitle: "Competence"
+subtitle: "Competence"
 tags:
   - article
 type: "article"

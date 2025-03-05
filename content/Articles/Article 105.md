@@ -1,6 +1,6 @@
 ---
 title: "Article 56"
- subtitle: "Competence of the lead supervisory authority"
+subtitle: "Competence of the lead supervisory authority"
 tags:
   - article
 type: "article"

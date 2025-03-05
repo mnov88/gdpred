@@ -1,6 +1,6 @@
 ---
 title: "Article 47"
- subtitle: "Binding corporate rules"
+subtitle: "Binding corporate rules"
 tags:
   - article
 type: "article"

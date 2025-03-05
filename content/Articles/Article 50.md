@@ -1,6 +1,6 @@
 ---
 title: "Article 49"
- subtitle: "Derogations for specific situations"
+subtitle: "Derogations for specific situations"
 tags:
   - article
 type: "article"

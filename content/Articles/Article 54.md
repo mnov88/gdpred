@@ -1,6 +1,6 @@
 ---
 title: "Article 54"
- subtitle: "Rules on the establishment of the supervisory authority"
+subtitle: "Rules on the establishment of the supervisory authority"
 tags:
   - article
 type: "article"

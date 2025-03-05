@@ -1,6 +1,6 @@
 ---
 title: "Article 80"
- subtitle: "Representation of data subjects"
+subtitle: "Representation of data subjects"
 tags:
   - article
 type: "article"

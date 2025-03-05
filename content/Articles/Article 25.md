@@ -1,6 +1,6 @@
 ---
 title: "Article 25"
- subtitle: "Data protection by design and by default"
+subtitle: "Data protection by design and by default"
 tags:
   - article
 type: "article"

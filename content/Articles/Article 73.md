@@ -1,6 +1,6 @@
 ---
 title: "Article 73"
- subtitle: "Chair"
+subtitle: "Chair"
 tags:
   - article
 type: "article"

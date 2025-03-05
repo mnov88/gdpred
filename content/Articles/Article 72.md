@@ -1,6 +1,6 @@
 ---
 title: "Article 72"
- subtitle: "Procedure"
+subtitle: "Procedure"
 tags:
   - article
 type: "article"

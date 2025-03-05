@@ -1,6 +1,6 @@
 ---
 title: "Article 43"
- subtitle: "Certification bodies"
+subtitle: "Certification bodies"
 tags:
   - article
 type: "article"

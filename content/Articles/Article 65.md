@@ -1,6 +1,6 @@
 ---
 title: "Article 65"
- subtitle: "Dispute resolution by the Board"
+subtitle: "Dispute resolution by the Board"
 tags:
   - article
 type: "article"

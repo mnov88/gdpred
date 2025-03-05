@@ -1,6 +1,6 @@
 ---
 title: "Article 70"
- subtitle: "Tasks of the Board"
+subtitle: "Tasks of the Board"
 tags:
   - article
 type: "article"

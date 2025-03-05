@@ -1,6 +1,6 @@
 ---
 title: "Article 62"
- subtitle: "Joint operations of supervisory authorities"
+subtitle: "Joint operations of supervisory authorities"
 tags:
   - article
 type: "article"

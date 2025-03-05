@@ -1,6 +1,6 @@
 ---
 title: "Article 23"
- subtitle: "Restrictions"
+subtitle: "Restrictions"
 tags:
   - article
 type: "article"

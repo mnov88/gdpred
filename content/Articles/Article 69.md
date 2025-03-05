@@ -1,6 +1,6 @@
 ---
 title: "Article 69"
- subtitle: "Independence"
+subtitle: "Independence"
 tags:
   - article
 type: "article"

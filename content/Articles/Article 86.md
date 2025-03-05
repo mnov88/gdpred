@@ -1,6 +1,6 @@
 ---
 title: "Article 86"
- subtitle: "Processing and public access to official documents"
+subtitle: "Processing and public access to official documents"
 tags:
   - article
 type: "article"

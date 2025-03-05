@@ -1,6 +1,6 @@
 ---
 title: "Article 6"
- subtitle: "Lawfulness of processing"
+subtitle: "Lawfulness of processing"
 tags:
   - article
 type: "article"

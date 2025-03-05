@@ -1,6 +1,6 @@
 ---
 title: "Article 12"
- subtitle: "Transparent information, communication and modalities for the exercise of the rights of the data subject"
+subtitle: "Transparent information, communication and modalities for the exercise of the rights of the data subject"
 tags:
   - article
 type: "article"

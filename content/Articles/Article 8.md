@@ -1,6 +1,6 @@
 ---
 title: "Article 8"
- subtitle: "Conditions applicable to child's consent in relation to information society services"
+subtitle: "Conditions applicable to child's consent in relation to information society services"
 tags:
   - article
 type: "article"

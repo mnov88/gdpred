@@ -1,6 +1,6 @@
 ---
 title: "Article 84"
- subtitle: "Penalties"
+subtitle: "Penalties"
 tags:
   - article
 type: "article"

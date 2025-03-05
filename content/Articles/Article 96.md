@@ -1,6 +1,6 @@
 ---
 title: "Article 96"
- subtitle: "Relationship with previously concluded Agreements"
+subtitle: "Relationship with previously concluded Agreements"
 tags:
   - article
 type: "article"

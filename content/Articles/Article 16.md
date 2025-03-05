@@ -1,6 +1,6 @@
 ---
 title: "Article 16"
- subtitle: "Right to rectification"
+subtitle: "Right to rectification"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 61"
- subtitle: "Mutual assistance"
+subtitle: "Mutual assistance"
 tags:
   - article
 type: "article"

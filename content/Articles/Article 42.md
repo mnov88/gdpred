@@ -1,6 +1,6 @@
 ---
 title: "Article 33"
- subtitle: "Notification of a personal data breach to the supervisory authority"
+subtitle: "Notification of a personal data breach to the supervisory authority"
 tags:
   - article
 type: "article"

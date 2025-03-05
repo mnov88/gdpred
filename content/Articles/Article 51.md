@@ -1,6 +1,6 @@
 ---
 title: "Article 51"
- subtitle: "Supervisory authority"
+subtitle: "Supervisory authority"
 tags:
   - article
 type: "article"

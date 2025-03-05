@@ -1,6 +1,6 @@
 ---
 title: "Article 35"
- subtitle: "Data protection impact assessment"
+subtitle: "Data protection impact assessment"
 tags:
   - article
 type: "article"

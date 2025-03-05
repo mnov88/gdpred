@@ -1,6 +1,6 @@
 ---
 title: "Article 22"
- subtitle: "Automated individual decision-making, including profiling"
+subtitle: "Automated individual decision-making, including profiling"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 50"
- subtitle: "International cooperation for the protection of personal data"
+subtitle: "International cooperation for the protection of personal data"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 46"
- subtitle: "Transfers subject to appropriate safeguards"
+subtitle: "Transfers subject to appropriate safeguards"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 85"
- subtitle: "Processing and freedom of expression and information"
+subtitle: "Processing and freedom of expression and information"
 tags:
   - article
 type: "article"

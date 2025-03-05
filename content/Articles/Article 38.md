@@ -1,6 +1,6 @@
 ---
 title: "Article 38"
- subtitle: "Position of the data protection officer"
+subtitle: "Position of the data protection officer"
 tags:
   - article
 type: "article"

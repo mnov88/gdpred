@@ -1,6 +1,6 @@
 ---
 title: "Article 94"
- subtitle: "Repeal of Directive 95/46/EC"
+subtitle: "Repeal of Directive 95/46/EC"
 tags:
   - article
 type: "article"

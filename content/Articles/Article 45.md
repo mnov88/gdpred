@@ -1,6 +1,6 @@
 ---
 title: "Article 45"
- subtitle: "Transfers on the basis of an adequacy decision"
+subtitle: "Transfers on the basis of an adequacy decision"
 tags:
   - article
 type: "article"

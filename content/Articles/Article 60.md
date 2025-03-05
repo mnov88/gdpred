@@ -1,6 +1,6 @@
 ---
 title: "Article 60"
- subtitle: "Cooperation between the lead supervisory authority and the other supervisory authorities concerned"
+subtitle: "Cooperation between the lead supervisory authority and the other supervisory authorities concerned"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 2"
- subtitle: "Material scope"
+subtitle: "Material scope"
 tags:
   - article
 type: "article"

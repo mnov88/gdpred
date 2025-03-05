@@ -1,6 +1,6 @@
 ---
 title: "Article 68"
- subtitle: "European Data Protection Board"
+subtitle: "European Data Protection Board"
 tags:
   - article
 type: "article"

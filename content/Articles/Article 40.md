@@ -1,6 +1,6 @@
 ---
 title: "Article 40"
- subtitle: "Codes of conduct"
+subtitle: "Codes of conduct"
 tags:
   - article
 type: "article"

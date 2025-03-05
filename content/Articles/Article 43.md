@@ -1,6 +1,6 @@
 ---
 title: "Article 30"
- subtitle: "Records of processing activities"
+subtitle: "Records of processing activities"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 76"
- subtitle: "Confidentiality"
+subtitle: "Confidentiality"
 tags:
   - article
 type: "article"

@@ -1,6 +1,6 @@
 ---
 title: "Article 7"
- subtitle: "Conditions for consent"
+subtitle: "Conditions for consent"
 tags:
   - article
 type: "article"
