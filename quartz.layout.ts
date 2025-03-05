@@ -29,7 +29,69 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     //   Component.FontSizeAdjuster(),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
+        const isAInCaseLaw = a.file?.slug?.startsWith("Case-law/") || 
+                            a.file?.slug?.startsWith("Case law/") || 
+                            a.name === "Case-law" || 
+                            a.name === "Case law";
+        const isBInCaseLaw = b.file?.slug?.startsWith("Case-law/") || 
+                            b.file?.slug?.startsWith("Case law/") || 
+                            b.name === "Case-law" || 
+                            b.name === "Case law";
+                            
+        if (isAInCaseLaw || isBInCaseLaw) {
+          // If comparing two files in Case law folder
+          if (a.file && b.file) {
+            // Check if both files have valid date frontmatter
+            const aDate = a.file.frontmatter?.date;
+            const bDate = b.file.frontmatter?.date;
+            
+            const aHasDate = typeof aDate === 'string' && aDate.trim() !== '';
+            const bHasDate = typeof bDate === 'string' && bDate.trim() !== '';
+            
+            if (aHasDate && bHasDate) {
+              // Sort by date (newest first)
+              return new Date(bDate as string).getTime() - 
+                     new Date(aDate as string).getTime();
+            } else if (aHasDate) {
+              // A has date, B doesn't - A comes first
+              return -1;
+            } else if (bHasDate) {
+              // B has date, A doesn't - B comes first
+              return 1;
+            }
+          }
+          
+          // Keep the default folder/file sorting for other cases
+          if ((!a.file && !b.file) || (a.file && b.file)) {
+            return a.displayName.localeCompare(b.displayName, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          }
+          if (a.file && !b.file) {
+            return 1;
+          } else {
+            return -1;
+          }
+        } else {
+          // Use default sort for all other folders
+          if ((!a.file && !b.file) || (a.file && b.file)) {
+            return a.displayName.localeCompare(b.displayName, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          }
+          if (a.file && !b.file) {
+            return 1;
+          } else {
+            return -1;
+          }
+        }
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -47,7 +109,69 @@ export const defaultListPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     // Component.FontSizeAdjuster(),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
+        const isAInCaseLaw = a.file?.slug?.startsWith("Case-law/") || 
+                            a.file?.slug?.startsWith("Case law/") || 
+                            a.name === "Case-law" || 
+                            a.name === "Case law";
+        const isBInCaseLaw = b.file?.slug?.startsWith("Case-law/") || 
+                            b.file?.slug?.startsWith("Case law/") || 
+                            b.name === "Case-law" || 
+                            b.name === "Case law";
+                            
+        if (isAInCaseLaw || isBInCaseLaw) {
+          // If comparing two files in Case law folder
+          if (a.file && b.file) {
+            // Check if both files have valid date frontmatter
+            const aDate = a.file.frontmatter?.date;
+            const bDate = b.file.frontmatter?.date;
+            
+            const aHasDate = typeof aDate === 'string' && aDate.trim() !== '';
+            const bHasDate = typeof bDate === 'string' && bDate.trim() !== '';
+            
+            if (aHasDate && bHasDate) {
+              // Sort by date (newest first)
+              return new Date(bDate as string).getTime() - 
+                     new Date(aDate as string).getTime();
+            } else if (aHasDate) {
+              // A has date, B doesn't - A comes first
+              return -1;
+            } else if (bHasDate) {
+              // B has date, A doesn't - B comes first
+              return 1;
+            }
+          }
+          
+          // Keep the default folder/file sorting for other cases
+          if ((!a.file && !b.file) || (a.file && b.file)) {
+            return a.displayName.localeCompare(b.displayName, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          }
+          if (a.file && !b.file) {
+            return 1;
+          } else {
+            return -1;
+          }
+        } else {
+          // Use default sort for all other folders
+          if ((!a.file && !b.file) || (a.file && b.file)) {
+            return a.displayName.localeCompare(b.displayName, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          }
+          if (a.file && !b.file) {
+            return 1;
+          } else {
+            return -1;
+          }
+        }
+      },
+    }),
   ],
   right: [],
 }
