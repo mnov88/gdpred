@@ -1,11 +1,6 @@
 ---
 title: Welcome to the GDPR vault!
-cssclasses: ["no-date", "no-graph", "no-title"]
-hide:
-  - date
-  - graph
-  - title
-  - articleTitle
+cssclasses: ["no-date", "no-title"]
 ---
 # Welcome to **GDPRed**!
 

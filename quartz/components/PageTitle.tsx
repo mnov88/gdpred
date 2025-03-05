@@ -31,20 +31,11 @@ PageTitle.css = `
   
   /* Even larger for desktop */
   @media (min-width: 1024px) {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
 
-.page-title a {
-  color: #4a6fa5;
-  text-decoration: none;
-}
 
-.page-title a:hover {
-  color: #6e93c8;
-  text-shadow: 1px 1px 1px rgba(28, 28, 28, 0.15);
-  transition: all 0.2s ease;
-}
 `
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor

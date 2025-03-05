@@ -6,7 +6,7 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug } from "../../util/path"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { Content } from "../../components"
+import { Content, Graph } from "../../components"
 import { write } from "./helpers"
 import DepGraph from "../../depgraph"
 
@@ -24,13 +24,12 @@ export const IndexPage: QuartzEmitterPlugin = () => {
                 return !componentStr.includes("ContentMeta") && !componentStr.includes("contentMeta")
             })
         ],
-        // Remove Graph and Backlinks components from the right sidebar
+        // Right sidebar with Graph and TableOfContents, but not Backlinks
         right: [
-            // Only keep TableOfContents
+            Graph(),
             ...defaultContentPageLayout.right.filter(component => {
                 const componentStr = component.toString()
                 return componentStr.includes("TableOfContents") &&
-                    !componentStr.includes("Graph") &&
                     !componentStr.includes("Backlinks")
             })
         ],
@@ -65,7 +64,9 @@ export const IndexPage: QuartzEmitterPlugin = () => {
 
             const graph = new DepGraph<FilePath>()
             const [_tree, vfile] = indexFile
-            graph.addNode(vfile.data.filePath)
+            if (vfile.data.filePath) {
+                graph.addNode(vfile.data.filePath)
+            }
             return graph
         },
         async emit(ctx, content, resources): Promise<FilePath[]> {
