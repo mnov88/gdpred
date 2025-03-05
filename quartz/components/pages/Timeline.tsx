@@ -15,6 +15,11 @@ const formatDate = (dateStr: string): { month: string, year: string, full: strin
     }
 };
 
+// Helper function to normalize folder names for case-insensitive comparison
+const normalizeString = (str: string): string => {
+    return str.toLowerCase().replace(/[\s-_]+/g, '');
+};
+
 const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, allFiles = [] } = props
 
@@ -24,6 +29,18 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
 
     // Log the first 5 file paths to see what format they're in
     console.log("Sample file paths:", allFiles.slice(0, 5).map(f => f?.slug || 'undefined'))
+
+    // Log all folder names to help diagnose case sensitivity issues
+    const allFolders = new Set<string>();
+    allFiles.forEach(file => {
+        if (file?.slug && typeof file.slug === 'string') {
+            const parts = file.slug.split('/');
+            if (parts.length > 1) {
+                allFolders.add(parts[0]);
+            }
+        }
+    });
+    console.log("All detected folders:", [...allFolders]);
 
     // More aggressive approach to find case files without relying on specific folder paths
     const caseFiles = allFiles.filter(file => {
@@ -36,16 +53,17 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
 
         // Check if any of these criteria match to identify a case file
         // 1. Slug contains "case" in any form
-        const slugContainsCase = typeof slug === 'string' && slug.toLowerCase().includes('case')
+        const slugContainsCase = typeof slug === 'string' && normalizeString(slug).includes('case')
 
         // 2. Slug is in the Case law folder (check multiple forms)
         const slugFolderParts = typeof slug === 'string' ? slug.split('/') : []
-        const slugFolder = slugFolderParts.length > 0 ? slugFolderParts[0].toLowerCase() : ''
-        const isInCaseFolder = ['case law', 'case-law', 'caselaw', 'case'].includes(slugFolder)
+        const slugFolder = slugFolderParts.length > 0 ? slugFolderParts[0] : ''
+        const normalizedSlugFolder = normalizeString(slugFolder)
+        const isInCaseFolder = ['caselaw', 'case'].includes(normalizedSlugFolder)
 
         // 3. Frontmatter folder is Case law in any form
         const folderIsCase = typeof folder === 'string' &&
-            ['case law', 'case-law', 'caselaw', 'case'].includes(folder.toLowerCase())
+            ['caselaw', 'case'].includes(normalizeString(folder))
 
         // 4. Title starts with C- (likely a case number)
         const titleIsCaseNumber = typeof title === 'string' && /^C-\d+/.test(title)
@@ -56,7 +74,12 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
         // 6. Slug contains C- (common case file naming pattern)
         const slugHasCaseNumber = typeof slug === 'string' && slug.includes('C-')
 
-        const isCase = isInCaseFolder || folderIsCase || titleIsCaseNumber || hasCaseNumber || slugHasCaseNumber || slugContainsCase
+        // 7. Direct check for exact folder name with various capitalizations
+        const exactFolderMatch = typeof slugFolder === 'string' &&
+            ['Case law', 'case law', 'Case Law', 'CASE LAW', 'case-law', 'Case-law'].includes(slugFolder)
+
+        const isCase = isInCaseFolder || folderIsCase || titleIsCaseNumber ||
+            hasCaseNumber || slugHasCaseNumber || slugContainsCase || exactFolderMatch
 
         if (isCase) {
             console.log(`Found case file: ${slug || 'unknown'} (reasons: ${[
@@ -65,7 +88,8 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
                 titleIsCaseNumber ? 'case number in title' : '',
                 hasCaseNumber ? 'has case-number' : '',
                 slugHasCaseNumber ? 'C- in slug' : '',
-                slugContainsCase ? 'case in slug' : ''
+                slugContainsCase ? 'case in slug' : '',
+                exactFolderMatch ? 'exact folder match' : ''
             ].filter(Boolean).join(', ')})`)
         }
 
@@ -90,6 +114,19 @@ const Timeline: QuartzComponent = (props: QuartzComponentProps) => {
             }
         })
         console.log("Available folders:", [...folders])
+
+        // Log some sample files to help diagnose
+        console.log("Sample files for diagnosis:")
+        allFiles.slice(0, 10).forEach(file => {
+            if (file) {
+                console.log({
+                    slug: file.slug,
+                    title: file.frontmatter?.title,
+                    folder: file.frontmatter?.folder,
+                    hasDate: !!file.frontmatter?.date || !!file.frontmatter?.created
+                });
+            }
+        });
     }
 
     // Extract dates and sort
