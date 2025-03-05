@@ -32,14 +32,20 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       sortFn: (a, b) => {
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
-        const isAInCaseLaw = a.file?.slug?.includes("Case law/") || 
-                             a.file?.slug?.includes("Case-law/") || 
-                             a.name === "Case law" || 
-                             a.name === "Case-law";
-        const isBInCaseLaw = b.file?.slug?.includes("Case law/") || 
-                             b.file?.slug?.includes("Case-law/") || 
-                             b.name === "Case law" || 
-                             b.name === "Case-law";
+        // Make path matching case-insensitive by converting to lowercase
+        const aSlug = a.file?.slug?.toLowerCase() || '';
+        const bSlug = b.file?.slug?.toLowerCase() || '';
+        const aName = a.name.toLowerCase();
+        const bName = b.name.toLowerCase();
+        
+        const isAInCaseLaw = aSlug.includes("case law/") || 
+                             aSlug.includes("case-law/") || 
+                             aName === "case law" || 
+                             aName === "case-law";
+        const isBInCaseLaw = bSlug.includes("case law/") || 
+                             bSlug.includes("case-law/") || 
+                             bName === "case law" || 
+                             bName === "case-law";
                             
         if (isAInCaseLaw && isBInCaseLaw) {
           // If comparing two files in Case law folder
@@ -66,11 +72,11 @@ export const defaultContentPageLayout: PageLayout = {
           }
         }
         
-        // Default sorting (folders first, then alphabetical)
+        // Default sorting (folders first, then alphabetical with case insensitivity)
         if ((!a.file && !b.file) || (a.file && b.file)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
-            sensitivity: "base",
+            sensitivity: "base", // "base" makes comparison case-insensitive
           });
         }
         if (a.file && !b.file) {
@@ -100,14 +106,20 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       sortFn: (a, b) => {
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
-        const isAInCaseLaw = a.file?.slug?.includes("Case law/") || 
-                             a.file?.slug?.includes("Case-law/") || 
-                             a.name === "Case law" || 
-                             a.name === "Case-law";
-        const isBInCaseLaw = b.file?.slug?.includes("Case law/") || 
-                             b.file?.slug?.includes("Case-law/") || 
-                             b.name === "Case law" || 
-                             b.name === "Case-law";
+        // Make path matching case-insensitive by converting to lowercase
+        const aSlug = a.file?.slug?.toLowerCase() || '';
+        const bSlug = b.file?.slug?.toLowerCase() || '';
+        const aName = a.name.toLowerCase();
+        const bName = b.name.toLowerCase();
+        
+        const isAInCaseLaw = aSlug.includes("case law/") || 
+                             aSlug.includes("case-law/") || 
+                             aName === "case law" || 
+                             aName === "case-law";
+        const isBInCaseLaw = bSlug.includes("case law/") || 
+                             bSlug.includes("case-law/") || 
+                             bName === "case law" || 
+                             bName === "case-law";
                             
         if (isAInCaseLaw && isBInCaseLaw) {
           // If comparing two files in Case law folder
@@ -134,11 +146,11 @@ export const defaultListPageLayout: PageLayout = {
           }
         }
         
-        // Default sorting (folders first, then alphabetical)
+        // Default sorting (folders first, then alphabetical with case insensitivity)
         if ((!a.file && !b.file) || (a.file && b.file)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
-            sensitivity: "base",
+            sensitivity: "base", // "base" makes comparison case-insensitive
           });
         }
         if (a.file && !b.file) {
