@@ -5,7 +5,6 @@ import { ContentIndex } from "./contentIndex"
 import { Static } from "./static"
 import { NotFoundPage } from "./404"
 import { ComponentResources } from "./componentResources"
-import { TimelinePage } from "./timelinePage"
 import { AliasRedirects } from "./aliases"
 import { Assets } from "./assets"
 import { CNAME } from "./cname"
@@ -26,6 +25,5 @@ export {
     Assets,
     CNAME,
     NotFoundPage,
-    TimelinePage,
     TopicExplorerPage,
 }
