@@ -10,6 +10,7 @@ header {
   flex-direction: row;
   align-items: center;
   margin: 2rem 0;
+  color: yellow;
   gap: 1.5rem;
 }
 
