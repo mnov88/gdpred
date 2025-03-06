@@ -2,7 +2,7 @@
 
 
 > [!Danger] **WARNING**
-> This is very, *very* much a work in progress. It merely tries to systematize the Court's own tagging of the cases, which is notoriously incomplete. Until further notice, refer to [[CJEU-listed topics]] page with the Court's own description of cases.
+> This is very, *very* much a work in progress. It merely tries to systematize *the Court's own* tagging of the cases, which is notoriously incomplete (see it in its full glory here: [[CJEU-listed topics]]). I will update the list to a more meaningful one; if you want to help (or have one already), drop me a line!
 
 ## 1. Definitions and scope
 -   Definition of 'personal data': [[C-579-21]]
