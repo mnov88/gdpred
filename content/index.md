@@ -88,6 +88,3 @@ I have gathered every GDPR judgment in one place, indexed by article, topic, and
 
 
 ---
-
-# Dive in!
-
