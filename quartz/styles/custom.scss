@@ -282,11 +282,32 @@ body[data-slug="index"] {
         display: none !important;
     }
 
-    /* Optimize article content for printing */
+    /* Reset document flow and layout */
+    html,
     body {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
         font-size: 12pt;
         background: white !important;
         color: black !important;
+    }
+
+    /* Fix layout to take full width */
+    body>div,
+    body>main,
+    .layout,
+    .page,
+    .article-container,
+    .center-container,
+    .center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        float: none !important;
+        position: static !important;
     }
 
     .center {
@@ -297,11 +318,14 @@ body[data-slug="index"] {
     }
 
     article {
-        padding: 0 !important;
+        padding: 1cm !important;
+        /* Add some padding for print margins */
         margin: 0 !important;
         box-shadow: none !important;
         background: white !important;
         color: black !important;
+        border-radius: 0 !important;
+        width: auto !important;
     }
 
     /* Ensure text is black for better printing */
@@ -368,9 +392,136 @@ body[data-slug="index"] {
         background: #f8f8f8 !important;
     }
 
+    /* Force column layout to be single column for printing */
+    .flex,
+    .grid,
+    [class*="col-"],
+    [class*="row-"] {
+        display: block !important;
+        width: 100% !important;
+    }
+
     /* Additional style for active printing state */
     body.is-printing article {
         display: block !important;
         visibility: visible !important;
+    }
+
+    /* Set explicit page margins */
+    @page {
+        margin: 0.5cm;
+    }
+}
+
+/* FAQ Component Styling - Pure CSS Version */
+.faq-container {
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 10px;
+    background-color: var(--light);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Hide the checkbox */
+.faq-toggle {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+/* Style the question as a label */
+.faq-question {
+    position: relative;
+    padding: 1.2rem 3rem 1.2rem 1.5rem;
+    font-weight: 600;
+    color: var(--dark);
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Add the arrow icon */
+.faq-question:after {
+    content: '';
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.3s ease;
+}
+
+/* Add the question mark icon */
+.faq-question:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpath d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'%3E%3C/path%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Style the answer container */
+.faq-answer {
+    max-height: 0;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+/* When checkbox is checked, rotate arrow and expand answer */
+.faq-toggle:checked~.faq-question:after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-toggle:checked~.faq-answer {
+    max-height: 2000px;
+    /* Large enough for any answer */
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    opacity: 1;
+}
+
+.faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+/* Focus styles for accessibility */
+.faq-toggle:focus~.faq-question {
+    outline: 1px solid var(--secondary);
+    outline-offset: -1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    .faq-question {
+        padding: 1rem 2.5rem 1rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .faq-answer {
+        padding: 0 1rem;
+    }
+
+    .faq-toggle:checked~.faq-answer {
+        padding: 0 1rem 1rem 1rem;
     }
 }

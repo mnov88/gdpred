@@ -90,7 +90,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-394-23" style="text-decoration: none; color: inherit;">C-394/23</a></div>
+          "><a href="Case%20law/C-394-23" style="text-decoration: none; color: inherit;">C-394∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -135,7 +135,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-416-23" style="text-decoration: none; color: inherit;">C-416/23</a></div>
+          "><a href="Case%20law/C-416-23" style="text-decoration: none; color: inherit;">C-416∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -209,7 +209,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-65-23" style="text-decoration: none; color: inherit;">C-65/23</a></div>
+          "><a href="Case%20law/C-65-23" style="text-decoration: none; color: inherit;">C-65∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -283,7 +283,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-169-23" style="text-decoration: none; color: inherit;">C-169/23</a></div>
+          "><a href="Case%20law/C-169-23" style="text-decoration: none; color: inherit;">C-169∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -357,7 +357,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-200-23" style="text-decoration: none; color: inherit;">C-200/23</a></div>
+          "><a href="Case%20law/C-200-23" style="text-decoration: none; color: inherit;">C-200∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -402,7 +402,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-21-23" style="text-decoration: none; color: inherit;">C-21/23</a></div>
+          "><a href="Case%20law/C-21-23" style="text-decoration: none; color: inherit;">C-21∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -447,7 +447,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-446-21" style="text-decoration: none; color: inherit;">C-446/21</a></div>
+          "><a href="Case%20law/C-446-21" style="text-decoration: none; color: inherit;">C-446∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -492,7 +492,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-507-23" style="text-decoration: none; color: inherit;">C-507/23</a></div>
+          "><a href="Case%20law/C-507-23" style="text-decoration: none; color: inherit;">C-507∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -537,7 +537,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-621-22" style="text-decoration: none; color: inherit;">C-621/22</a></div>
+          "><a href="Case%20law/C-621-22" style="text-decoration: none; color: inherit;">C-621∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -611,7 +611,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-768-21" style="text-decoration: none; color: inherit;">C-768/21</a></div>
+          "><a href="Case%20law/C-768-21" style="text-decoration: none; color: inherit;">C-768∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -628,6 +628,51 @@ title: "Case Law Timeline"
             font-size: 0.85rem;
             color: #646464;
           ">September 26, 2024</div>
+        </div>
+        <div class="timeline-item" style="
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 1.25rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+          border-left: 4px solid #284b63;
+          position: relative;
+        ">
+          <!-- Dot on timeline -->
+          <div class="timeline-dot" style="
+            position: absolute;
+            left: -33px;
+            top: 24px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #284b63;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 1px #e5e5e5;
+            z-index: 1;
+          "></div>
+          <div class="case-number" style="
+            font-size: 1rem;
+            font-weight: 600;
+            color: #284b63;
+            margin-bottom: 0.2rem;
+          "><a href="Case%20law/C-17-22" style="text-decoration: none; color: inherit;">C-17∕22</a></div>
+          <div class="case-title" style="
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2b2b2b;
+          ">HTB Neunte Immobilien Portfolio geschlossene Investment UG & Co. KG v Müller Rechtsanwaltsgesellschaft mbH, Ökorenta Neue Energien Ökostabil IV geschlossene Investment GmbH & Co. KG v WealthCap Photovoltaik 1 GmbH Co. KG and Others</div>
+          <div class="case-parties" style="
+            font-size: 0.9rem;
+            color: #4e4e4e;
+            font-style: italic;
+          ">Protection of natural persons with regard to the processing of personal data • Regulation (EU) 2016/679 • Points (b), (c) and (f) of the first subparagraph of Article 6(1)</div>
+          <div class="case-date" style="
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            color: #646464;
+          ">September 12, 2024</div>
         </div>
       </div>
     </div>
@@ -685,7 +730,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-461-22" style="text-decoration: none; color: inherit;">C-461/22</a></div>
+          "><a href="Case%20law/C-461-22" style="text-decoration: none; color: inherit;">C-461∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -730,7 +775,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-757-22" style="text-decoration: none; color: inherit;">C-757/22</a></div>
+          "><a href="Case%20law/C-757-22" style="text-decoration: none; color: inherit;">C-757∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -804,7 +849,52 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-590-22" style="text-decoration: none; color: inherit;">C-590/22</a></div>
+          "><a href="Case%20law/C-182-22" style="text-decoration: none; color: inherit;">C-182∕22</a></div>
+          <div class="case-title" style="
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2b2b2b;
+          ">JU, SO v Scalable Capital GmbH</div>
+          <div class="case-parties" style="
+            font-size: 0.9rem;
+            color: #4e4e4e;
+            font-style: italic;
+          ">Protection of natural persons with regard to the processing of personal data • Regulation (EU) 2016/679 • Article 82</div>
+          <div class="case-date" style="
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            color: #646464;
+          ">June 20, 2024</div>
+        </div>
+        <div class="timeline-item" style="
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 1.25rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+          border-left: 4px solid #284b63;
+          position: relative;
+        ">
+          <!-- Dot on timeline -->
+          <div class="timeline-dot" style="
+            position: absolute;
+            left: -33px;
+            top: 24px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #284b63;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 1px #e5e5e5;
+            z-index: 1;
+          "></div>
+          <div class="case-number" style="
+            font-size: 1rem;
+            font-weight: 600;
+            color: #284b63;
+            margin-bottom: 0.2rem;
+          "><a href="Case%20law/C-590-22" style="text-decoration: none; color: inherit;">C-590∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -878,7 +968,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-741-21" style="text-decoration: none; color: inherit;">C-741/21</a></div>
+          "><a href="Case%20law/C-741-21" style="text-decoration: none; color: inherit;">C-741∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -952,7 +1042,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-46-23" style="text-decoration: none; color: inherit;">C-46/23</a></div>
+          "><a href="Case%20law/C-46-23" style="text-decoration: none; color: inherit;">C-46∕23</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -997,7 +1087,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-604-22" style="text-decoration: none; color: inherit;">C-604/22</a></div>
+          "><a href="Case%20law/C-604-22" style="text-decoration: none; color: inherit;">C-604∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1042,7 +1132,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-740-22" style="text-decoration: none; color: inherit;">C-740/22</a></div>
+          "><a href="Case%20law/C-740-22" style="text-decoration: none; color: inherit;">C-740∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1116,7 +1206,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-687-21" style="text-decoration: none; color: inherit;">C-687/21</a></div>
+          "><a href="Case%20law/C-687-21" style="text-decoration: none; color: inherit;">C-687∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1161,7 +1251,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-33-22" style="text-decoration: none; color: inherit;">C-33/22</a></div>
+          "><a href="Case%20law/C-33-22" style="text-decoration: none; color: inherit;">C-33∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1206,7 +1296,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-231-22" style="text-decoration: none; color: inherit;">C-231/22</a></div>
+          "><a href="Case%20law/C-231-22" style="text-decoration: none; color: inherit;">C-231∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1280,7 +1370,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-667-21" style="text-decoration: none; color: inherit;">C-667/21</a></div>
+          "><a href="Case%20law/C-667-21" style="text-decoration: none; color: inherit;">C-667∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1325,7 +1415,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-340-21" style="text-decoration: none; color: inherit;">C-340/21</a></div>
+          "><a href="Case%20law/C-340-21" style="text-decoration: none; color: inherit;">C-340∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1370,7 +1460,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-456-22" style="text-decoration: none; color: inherit;">C-456/22</a></div>
+          "><a href="Case%20law/C-456-22" style="text-decoration: none; color: inherit;">C-456∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1415,7 +1505,52 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-634-21" style="text-decoration: none; color: inherit;">C-634/21</a></div>
+          "><a href="Case%20law/C-26-22" style="text-decoration: none; color: inherit;">C-26∕22</a></div>
+          <div class="case-title" style="
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2b2b2b;
+          ">UF, AB v Land Hessen</div>
+          <div class="case-parties" style="
+            font-size: 0.9rem;
+            color: #4e4e4e;
+            font-style: italic;
+          ">Protection of natural persons with regard to the processing of personal data • Regulation (EU) 2016/679 • Article 5(1)(a)</div>
+          <div class="case-date" style="
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            color: #646464;
+          ">December 7, 2023</div>
+        </div>
+        <div class="timeline-item" style="
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 1.25rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+          border-left: 4px solid #284b63;
+          position: relative;
+        ">
+          <!-- Dot on timeline -->
+          <div class="timeline-dot" style="
+            position: absolute;
+            left: -33px;
+            top: 24px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #284b63;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 1px #e5e5e5;
+            z-index: 1;
+          "></div>
+          <div class="case-number" style="
+            font-size: 1rem;
+            font-weight: 600;
+            color: #284b63;
+            margin-bottom: 0.2rem;
+          "><a href="Case%20law/C-634-21" style="text-decoration: none; color: inherit;">C-634∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1460,7 +1595,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-683-21" style="text-decoration: none; color: inherit;">C-683/21</a></div>
+          "><a href="Case%20law/C-683-21" style="text-decoration: none; color: inherit;">C-683∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1505,7 +1640,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-807-21" style="text-decoration: none; color: inherit;">C-807/21</a></div>
+          "><a href="Case%20law/C-807-21" style="text-decoration: none; color: inherit;">C-807∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1579,7 +1714,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-307-22" style="text-decoration: none; color: inherit;">C-307/22</a></div>
+          "><a href="Case%20law/C-307-22" style="text-decoration: none; color: inherit;">C-307∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1624,7 +1759,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-659-22" style="text-decoration: none; color: inherit;">C-659/22</a></div>
+          "><a href="Case%20law/C-659-22" style="text-decoration: none; color: inherit;">C-659∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1698,7 +1833,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-252-21" style="text-decoration: none; color: inherit;">C-252/21</a></div>
+          "><a href="Case%20law/C-252-21" style="text-decoration: none; color: inherit;">C-252∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1772,7 +1907,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-579-21" style="text-decoration: none; color: inherit;">C-579/21</a></div>
+          "><a href="Case%20law/C-579-21" style="text-decoration: none; color: inherit;">C-579∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1846,7 +1981,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-300-21" style="text-decoration: none; color: inherit;">C-300/21</a></div>
+          "><a href="Case%20law/C-300-21" style="text-decoration: none; color: inherit;">C-300∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1891,7 +2026,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-487-21" style="text-decoration: none; color: inherit;">C-487/21</a></div>
+          "><a href="Case%20law/C-487-21" style="text-decoration: none; color: inherit;">C-487∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -1936,7 +2071,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-60-22" style="text-decoration: none; color: inherit;">C-60/22</a></div>
+          "><a href="Case%20law/C-60-22" style="text-decoration: none; color: inherit;">C-60∕22</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2010,7 +2145,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-34-21" style="text-decoration: none; color: inherit;">C-34/21</a></div>
+          "><a href="Case%20law/C-34-21" style="text-decoration: none; color: inherit;">C-34∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2055,7 +2190,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-268-21" style="text-decoration: none; color: inherit;">C-268/21</a></div>
+          "><a href="Case%20law/C-268-21" style="text-decoration: none; color: inherit;">C-268∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2129,7 +2264,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-453-21" style="text-decoration: none; color: inherit;">C-453/21</a></div>
+          "><a href="Case%20law/C-453-21" style="text-decoration: none; color: inherit;">C-453∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2203,7 +2338,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-205-21" style="text-decoration: none; color: inherit;">C-205/21</a></div>
+          "><a href="Case%20law/C-205-21" style="text-decoration: none; color: inherit;">C-205∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2248,7 +2383,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-132-21" style="text-decoration: none; color: inherit;">C-132/21</a></div>
+          "><a href="Case%20law/C-132-21" style="text-decoration: none; color: inherit;">C-132∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2293,7 +2428,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-154-21--" style="text-decoration: none; color: inherit;">C-154/21</a></div>
+          "><a href="Case%20law/C-154-21--" style="text-decoration: none; color: inherit;">C-154∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2367,7 +2502,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-180-21" style="text-decoration: none; color: inherit;">C-180/21</a></div>
+          "><a href="Case%20law/C-180-21" style="text-decoration: none; color: inherit;">C-180∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2412,7 +2547,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-460-20" style="text-decoration: none; color: inherit;">C-460/20</a></div>
+          "><a href="Case%20law/C-460-20" style="text-decoration: none; color: inherit;">C-460∕20</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2492,7 +2627,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-129-21" style="text-decoration: none; color: inherit;">C-129/21</a></div>
+          "><a href="Case%20law/C-129-21" style="text-decoration: none; color: inherit;">C-129∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2537,7 +2672,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-306-21" style="text-decoration: none; color: inherit;">C-306/21</a></div>
+          "><a href="Case%20law/C-306-21" style="text-decoration: none; color: inherit;">C-306∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2582,7 +2717,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-77-21" style="text-decoration: none; color: inherit;">C-77/21</a></div>
+          "><a href="Case%20law/C-77-21" style="text-decoration: none; color: inherit;">C-77∕21</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2656,7 +2791,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-534-20" style="text-decoration: none; color: inherit;">C-534/20</a></div>
+          "><a href="Case%20law/C-534-20" style="text-decoration: none; color: inherit;">C-534∕20</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2701,7 +2836,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-817-19" style="text-decoration: none; color: inherit;">C-817/19</a></div>
+          "><a href="Case%20law/C-817-19" style="text-decoration: none; color: inherit;">C-817∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2775,7 +2910,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-319-20" style="text-decoration: none; color: inherit;">C-319/20</a></div>
+          "><a href="Case%20law/C-319-20" style="text-decoration: none; color: inherit;">C-319∕20</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2849,7 +2984,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-245-20" style="text-decoration: none; color: inherit;">C-245/20</a></div>
+          "><a href="Case%20law/C-245-20" style="text-decoration: none; color: inherit;">C-245∕20</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2923,7 +3058,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-175-20" style="text-decoration: none; color: inherit;">C-175/20</a></div>
+          "><a href="Case%20law/C-175-20" style="text-decoration: none; color: inherit;">C-175∕20</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -2997,7 +3132,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-439-19" style="text-decoration: none; color: inherit;">C-439/19</a></div>
+          "><a href="Case%20law/C-439-19" style="text-decoration: none; color: inherit;">C-439∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3042,7 +3177,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-597-19" style="text-decoration: none; color: inherit;">C-597/19</a></div>
+          "><a href="Case%20law/C-597-19" style="text-decoration: none; color: inherit;">C-597∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3087,7 +3222,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-645-19" style="text-decoration: none; color: inherit;">C-645/19</a></div>
+          "><a href="Case%20law/C-645-19" style="text-decoration: none; color: inherit;">C-645∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3161,7 +3296,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-61-19" style="text-decoration: none; color: inherit;">C-61/19</a></div>
+          "><a href="Case%20law/C-61-19" style="text-decoration: none; color: inherit;">C-61∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3235,7 +3370,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-311-18" style="text-decoration: none; color: inherit;">C-311/18</a></div>
+          "><a href="Case%20law/C-311-18" style="text-decoration: none; color: inherit;">C-311∕18</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3280,7 +3415,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-272-19" style="text-decoration: none; color: inherit;">C-272/19</a></div>
+          "><a href="Case%20law/C-272-19" style="text-decoration: none; color: inherit;">C-272∕19</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3354,7 +3489,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-673-17" style="text-decoration: none; color: inherit;">C-673/17</a></div>
+          "><a href="Case%20law/C-673-17" style="text-decoration: none; color: inherit;">C-673∕17</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3428,7 +3563,7 @@ title: "Case Law Timeline"
             font-weight: 600;
             color: #284b63;
             margin-bottom: 0.2rem;
-          "><a href="Case%20law/C-496-17" style="text-decoration: none; color: inherit;">C-496/17</a></div>
+          "><a href="Case%20law/C-496-17" style="text-decoration: none; color: inherit;">C-496∕17</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
@@ -3456,7 +3591,7 @@ title: "Case Law Timeline"
     color: #646464;
     font-style: italic;
   ">
-    Last updated: March 5, 2025
+    Last updated: March 6, 2025
   </div>
 </div>
 <style>

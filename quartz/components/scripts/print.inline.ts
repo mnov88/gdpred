@@ -24,6 +24,38 @@ const printScript = () => {
         // Add a class to the body to activate additional print-specific styling
         document.body.classList.add("is-printing")
 
+        // Save current styles for restoration later
+        const originalStyles = {}
+        const elementsToModify = [
+            document.documentElement, // <html>
+            document.body,
+            document.querySelector('.center'),
+            document.querySelector('.center > article')
+        ]
+
+        // Store original styles and set full width
+        elementsToModify.forEach((el, i) => {
+            if (!el) return
+            originalStyles[i] = {
+                width: el.style.width,
+                maxWidth: el.style.maxWidth,
+                margin: el.style.margin,
+                padding: el.style.padding,
+                display: el.style.display
+            }
+
+            // Set to full width for printing
+            el.style.width = '100%'
+            el.style.maxWidth = '100%'
+            el.style.margin = '0'
+            if (el === document.querySelector('.center > article')) {
+                el.style.padding = '1cm' // Add padding to article for print margins
+            } else {
+                el.style.padding = '0'
+            }
+            el.style.display = 'block'
+        })
+
         // Create a cleaner title for the print
         const originalTitle = document.title
         const pageTitle = document.querySelector("h1")?.textContent || originalTitle
@@ -66,6 +98,12 @@ const printScript = () => {
                     }
                 })
             }
+
+            // Restore element styles
+            elementsToModify.forEach((el, i) => {
+                if (!el || !originalStyles[i]) return
+                Object.assign(el.style, originalStyles[i])
+            })
 
             // Restore title and remove print class
             document.title = originalTitle
