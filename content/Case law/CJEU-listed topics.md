@@ -1,5 +1,3 @@
-Ability of a constitutional court of a Member State to maintain legal effects of incompatible national legislation:
-[[C-439-19]]
 
 Absence of consent:
 [[C-60-22]]
@@ -536,7 +534,7 @@ Purpose limitation:
 [[C-205-21]]
 [[C-77-21]]
 
-Questionnaire:
+### Questionnaire:
 [[C-496-17]]
 
 Re-use of data:

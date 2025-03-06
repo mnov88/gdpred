@@ -15,7 +15,6 @@ This page contains frequently asked questions about the website.
       <p>Updated more regularly than the Court's understanding of technology. Which is to say: frequently, but always one step behind.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">Found a mistake?</div>
     <div class="faq-answer">
@@ -23,7 +22,6 @@ This page contains frequently asked questions about the website.
       <p>¹Actually quite possible, probable even.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">Feature request</div>
     <div class="faq-answer">
@@ -32,7 +30,6 @@ This page contains frequently asked questions about the website.
       <p>(And yes, I have considered adding free AI summaries. I am just scared people would take them too seriously. But we'll see.)</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">Why do this?</div>
     <div class="faq-answer">
@@ -40,7 +37,6 @@ This page contains frequently asked questions about the website.
       <p>The short answer involves a peculiar fondness for legal reasoning and a deep love for sparking nerdy conversations. For a longer one, feel free to do some casual stalking on Google (or, God forbid, Bing) -- or, you know, drop me a line.</p>
     </div>
   </div>
-  
   <div class="faq-item">
     <div class="faq-question">Is this legal advice?</div>
     <div class="faq-answer">

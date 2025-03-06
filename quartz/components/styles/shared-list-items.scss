@@ -5,8 +5,14 @@
 %list-item-shared {
     list-style: none;
     padding: 0;
-    margin: 0.5rem 0;
+    margin: 0rem 0;
     width: 100%;
+
+    // Remove browser default padding when used in Explorer
+    .explorer & {
+        margin: 0; // Remove vertical margins in Explorer
+        padding: 0; // Ensure padding is removed
+    }
 
     &>li {
         margin-bottom: 0.3rem;

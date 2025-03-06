@@ -4,11 +4,11 @@
 // Enhance article readability with paper-like styling
 .center {
     &>article {
-        background-color: var(--light);
+        background-color: var(--article-bg, white);
         padding: 4rem 4rem 1.8rem 5.5rem;
         // font-family: "Lora", serif;
         max-width: 100%; // Ensure it doesn't break layout
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
         box-sizing: content-box; // Include padding in width calculation
         border-radius: 20px;
 
@@ -88,6 +88,14 @@
 }
 
 // Ensure dark mode compatibility
+:root {
+    --article-bg: white;
+}
+
+:root[saved-theme="dark"] {
+    --article-bg: var(--light);
+}
+
 [saved-theme="dark"] .center>article {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
@@ -422,15 +430,16 @@ body[data-slug="index"] {
 .faq-item {
     margin-bottom: 1rem;
     border: 1px solid var(--lightgray);
-    border-radius: 10px;
-    background-color: var(--light);
+    border-radius: 8px;
+    background-color: var(--article-bg);
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .faq-item:hover {
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-color: var(--secondary);
 }
 
 /* Hide the checkbox */
@@ -438,12 +447,13 @@ body[data-slug="index"] {
     position: absolute;
     opacity: 0;
     z-index: -1;
+    /* Default to unchecked for collapsed state */
 }
 
 /* Style the question as a label */
 .faq-question {
     position: relative;
-    padding: 1.2rem 3rem 1.2rem 1.5rem;
+    padding: 0.8rem 3rem 0.8rem 1.5rem;
     font-weight: 600;
     color: var(--dark);
     cursor: pointer;
@@ -474,7 +484,7 @@ body[data-slug="index"] {
     width: 22px;
     height: 22px;
     margin-right: 10px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpath d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'%3E%3C/path%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'%3E%3C/line%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='%23284b63' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpath d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'%3E%3C/path%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'%3E%3C/line%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -486,6 +496,8 @@ body[data-slug="index"] {
     overflow: hidden;
     transition: all 0.3s ease;
     opacity: 0;
+    color: var(--darkgray);
+    line-height: 1.5;
 }
 
 /* When checkbox is checked, rotate arrow and expand answer */
@@ -496,8 +508,12 @@ body[data-slug="index"] {
 .faq-toggle:checked~.faq-answer {
     max-height: 2000px;
     /* Large enough for any answer */
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 0 1.5rem 1.2rem 1.5rem;
     opacity: 1;
+}
+
+.faq-answer p:first-child {
+    margin-top: 0.5rem;
 }
 
 .faq-answer p:last-child {
