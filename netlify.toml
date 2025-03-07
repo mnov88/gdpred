@@ -1,8 +1,6 @@
 [build]
-  command = "npm run netlify"
+  command = "npm install @napi-rs/simple-git-linux-x64-gnu@0.1.19 --no-save && npm run quartz build"
   publish = "public"
 
 [build.environment]
-  NODE_VERSION = "20"
-  # Ensure optional dependencies are installed
-  NPM_FLAGS = "--no-fund --no-audit" 
+  NODE_VERSION = "20" 
