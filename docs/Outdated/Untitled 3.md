@@ -5,7 +5,7 @@ I've reviewed the entire file and reorganized it to create a more concise list w
 - Personal data and recipients: [[C-579-21]]
 - Controller concept: [[C-231-22]] [[C-272-19]] [[C-807-21]]
 - Joint controllership: [[C-60-22]] [[C-604-22]] [[C-683-21]]
-- Processing of personal data: [[C-659-22]] [[C-129-21]] [[C-184-20--]] [[C-252-21]] [[C-61-19]] [[C-817-19]]
+- Processing of personal data: [[C-659-22]] [[C-129-21]] [[C-184-20]] [[C-252-21]] [[C-61-19]] [[C-817-19]]
 - Special categories of data: [[C-446-21]] [[C-667-21]] [[C-21-23]]
 - Data concerning health: [[C-21-23]] [[C-667-21]]
 - Criminal convictions data: [[C-439-19]] [[C-740-22]]

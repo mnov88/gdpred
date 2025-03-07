@@ -120,10 +120,10 @@
 
 ### 5.3 Public sector
 
-- Transparency in public service: [[C-184-20--]]
+- Transparency in public service: [[C-184-20]]
 - Transparency and objectivity in elections: [[C-306-21]]
-- Corruption in public sector: [[C-184-20--]]
-- Declaration of private interests: [[C-184-20--]]
+- Corruption in public sector: [[C-184-20]]
+- Declaration of private interests: [[C-184-20]]
 - Government processing activities:
     - Video recording in electoral processes: [[C-306-21]]
     - Electronic file compilation for asylum applications: [[C-60-22]]

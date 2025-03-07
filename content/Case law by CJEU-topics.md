@@ -189,7 +189,7 @@ Corrective powers:
 [[C-768-21]]
 
 Corruption in public sector:
-[[C-184-20--]]
+[[C-184-20]]
 
 Credit information agencies:
 [[C-634-21]]
@@ -242,7 +242,7 @@ Declaration of consent by means of a pre-ticked checkbox:
 [[C-673-17]]
 
 Declaration of private interests:
-[[C-184-20--]]
+[[C-184-20]]
 
 Definition of 'personal data':
 [[C-579-21]]
@@ -434,7 +434,7 @@ Presumption of innocence:
 [[C-205-21]]
 
 Prevention of conflicts of interest:
-[[C-184-20--]]
+[[C-184-20]]
 
 Principle of data minimisation:
 [[C-446-21]]
@@ -466,7 +466,7 @@ Processing of data in the employment context:
 
 Processing of personal data:
 [[C-129-21]]
-[[C-184-20--]]
+[[C-184-20]]
 [[C-252-21]]
 [[C-61-19]]
 [[C-817-19]]
@@ -673,7 +673,7 @@ Transparency and objectivity in elections:
 [[C-306-21]]
 
 Transparency in public service:
-[[C-184-20--]]
+[[C-184-20]]
 
 Transparency of information:
 [[C-757-22]]

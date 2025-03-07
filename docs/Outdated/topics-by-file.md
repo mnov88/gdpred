@@ -34,7 +34,7 @@ topics:
 - Rights of defence in civil proceedings
 - Subsequent processing of data relating to victims
 
-- [[C-184-20--]]
+- [[C-184-20]]
 topics:
 - Corruption in public sector
 - Declaration of private interests
