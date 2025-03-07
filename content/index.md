@@ -25,8 +25,24 @@ I have gathered every GDPR judgment in one place, indexed by article, topic, and
 **DISCLAIMER: This website is for informational purposes only, much like how the CJEU's 9831-page rulings are "for clarity." While I've done my utmost to map this legal labyrinth, I cannot guarantee that the Court hasn't, since yesterday, invented seven new principles, referenced three non-existent articles, or decided that the entire GDPR should now be interpreted through the lens of 17th-century maritime law. Always consult official sources, preferably with adequate provisions of caffeine and sanity breaks.**
 
 ---
+## Features and roadmap
 
-# FAQ
+Still in? Awesome! My suggestion is to start with [[Case law by date|browsing by the case timeline]] or just dive straight into the judgements. You will find the links to other cases referencing it on the right side (or, if on a phone, under the final ruling).
+
+If more practical, just pick an article and look at the list of all the cases referring to it. Alternatively, cases are [[Browse by topic|grouped by topics]], although that is very much a work in progress.
+
+The site shall forever be free (as in ad-free and real-money-free), and I will update it regularly (assuming that there is sufficient interest). On my roadmap:
+
+- Review cases more carefully for references to multiple articles or outdated ones
+- Make final rulings more easily accessible (top of the case?)
+- Add better sorting/filtering by topics
+- Enhance the overall UI/UX
+
+As mentioned, this is an open-source project, so if you want to contribute, drop me a line!
+
+---
+
+## FAQ
 
 <div class="faq-container">
   <div class="faq-item">
@@ -70,7 +86,7 @@ I have gathered every GDPR judgment in one place, indexed by article, topic, and
     <div class="faq-answer">
       <p>This site offers the same legal authority as your neighbor's cousin who once read a book about law while waiting at the dentist. Which is to say: <em>none whatsoever</em>.</p>
       <p>If you require actual legal counsel, please consult a professional who charges by the hour and has the appropriate certificates displayed at slightly crooked angles on their office wall.</p>
-      <p><em>However</em>, I do have a separate professional life where I put on my serious face and provide legitimate advice to those who want it. Get in touch (you know this by now) via <a href="https://milos.no/#contact">milos.no</a> or on  <a href="https://www.linkedin.com/in/milosnovovic/">LinkedIn</a>. We can talk.</p>
+      <p><em>However</em>, I do have a separate professional life where I put on my serious face and provide legitimate advice to those who want it. Get in touch (you know this by now) via <a href="https://milos.no/#contact">milos.no</a> or on  <a href="https://www.linkedin.com/in/milosnovovic/">LinkedIn</a>. Always happy to chat :)</p>
     </div>
   </div>
 </div>
@@ -88,3 +104,6 @@ I have gathered every GDPR judgment in one place, indexed by article, topic, and
 
 
 ---
+
+
+![[Case law by date]]
