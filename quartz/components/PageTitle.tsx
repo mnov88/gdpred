@@ -15,8 +15,6 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-family: 'Press Start 2P';
-  color: var(--secondary);
   border-radius: 4px;
   margin: 0 auto;
   margin-left: 15px;

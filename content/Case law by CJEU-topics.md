@@ -1,3 +1,6 @@
+---
+title: "Browse by CJEU tags"
+---
 
 Absence of consent:
 [[C-60-22]]
