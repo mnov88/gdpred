@@ -1,0 +1,8 @@
+[build]
+  command = "npm run netlify"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Ensure optional dependencies are installed
+  NPM_FLAGS = "--no-fund --no-audit" 
