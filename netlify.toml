@@ -1,6 +1,0 @@
-[build]
-  command = "npm install @napi-rs/simple-git-linux-x64-gnu@0.1.19 --no-save && npm run quartz build"
-  publish = "public"
-
-[build.environment]
-  NODE_VERSION = "20" 
