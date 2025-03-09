@@ -1,0 +1,321 @@
+---
+title: C-768/21
+date: 2024-09-26
+case-number: C-768/21
+parties: "TR v Land Hessen"
+topics:
+  - Tasks of the supervisory authority
+  - Corrective powers
+  - Administrative fines
+  - Discretion of the supervisory authority
+final-ruling: |-
+  Article 57(1)(a) and (f), Article 58(2) and Article 77(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation),
+  
+  must be interpreted as meaning that when a breach of personal data has been established, the supervisory authority is not required to exercise a corrective power, in particular the power to impose an administrative fine, under that Article 58 where such action is not appropriate, necessary or proportionate to remedy the shortcoming found and to ensure that that regulation is fully enforced.
+ruling-articles:
+  - Article 57
+  - Article 58
+  - Article 77
+---
+
+Provisional text
+
+JUDGMENT OF THE COURT (First Chamber)
+
+26 September 2024 (\*)
+
+( Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 57]](1\)(a) and (f) -- Tasks of the supervisory authority -- [[Article 58]](2\) -- Corrective powers -- Administrative fine -- Discretion of the supervisory authority -- Limits )
+
+In Case *C-768/21*,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Verwaltungsgericht Wiesbaden (Administrative Court, Wiesbaden, Germany), made by decision of 10 December 2021, received at the Court on 14 December 2021, in the proceedings
+
+TR
+
+v
+
+Land Hessen,
+
+THE COURT (First Chamber),
+
+composed of A. Arabadjiev, President of the Chamber, T. von Danwitz, P.G. Xuereb, A. Kumin (Rapporteur) and I. Ziemele, Judges,
+
+Advocate General: P. Pikamäe,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- TR, by F. Wittmaack, Rechtsanwalt,
+
+-- the Land of Hesse, by M. Kottmann and G. Ziegenhorn, Rechtsanwälte,
+
+-- the Austrian Government, by J. Schmoll and M.-T. Rappersberger, acting as Agents,
+
+-- the Portuguese Government, by P. Barros da Costa, M.J. Ramos and C. Vieira Guerra, acting as Agents,
+
+-- the Romanian Government, by L.-E. Baţagoi and E. Gane, acting as Agents,
+
+-- the Norwegian Government, by S.-E. Jahr Dahl, L.M. Moen Jünge and M. Munthe-Kaas, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, M. Heller and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 11 April 2024,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 57(1)(a) and (f), Article 58(2) and Article 77(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+**2** The request has been made in proceedings between TR and Land Hessen, (Land of Hesse, Germany), concerning the non-exercise by the Hessischer Beauftragte für Datenschutz und Informationsfreiheit (Hessen Commissioner for Data Protection and Freedom of Information, Germany) ('the HBDI') of corrective powers in respect of the Sparkasse X (Savings bank X; 'the savings bank').
+
+Legal context
+
+**3** Under recitals 6, 7, 10, 129 and 148 of the GDPR:
+
+'(6) Rapid technological developments and globalisation have brought new challenges for the protection of personal data. The scale of the collection and sharing of personal data has increased significantly. ...
+
+(7) Those developments require a strong and more coherent data protection framework in the \[European\] Union, backed by strong enforcement, given the importance of creating the trust that will allow the digital economy to develop across the internal market. ...
+
+...
+
+(10) In order to ensure a consistent and high level of protection of natural persons and to remove the obstacles to flows of personal data within the Union, the level of protection of the rights and freedoms of natural persons with regard to the processing of such data should be equivalent in all Member States. ...
+
+...
+
+(129) ... The powers of supervisory authorities should be exercised in accordance with appropriate procedural safeguards set out in Union and Member State law, impartially, fairly and within a reasonable time. In particular each measure should be appropriate, necessary and proportionate in view of ensuring compliance with this Regulation, taking into account the circumstances of each individual case, respect the right of every person to be heard before any individual measure which would affect him or her adversely is taken and avoid superfluous costs and excessive inconveniences for the persons concerned. ...
+
+...
+
+(148) In order to strengthen the enforcement of the rules of this Regulation, penalties including administrative fines should be imposed for any infringement of this Regulation, in addition to, or instead of appropriate measures imposed by the supervisory authority pursuant to this Regulation. In a case of a minor infringement or if the fine likely to be imposed would constitute a disproportionate burden to a natural person, a reprimand may be issued instead of a fine. Due regard should however be given to the nature, gravity and duration of the infringement, the intentional character of the infringement, actions taken to mitigate the damage suffered, degree of responsibility or any relevant previous infringements, the manner in which the infringement became known to the supervisory authority, compliance with measures ordered against the controller or processor, adherence to a code of conduct and any other aggravating or mitigating factor. ...'
+
+**4** [[Article 5]] of that regulation reads as follows:
+
+'1. Personal data shall be:
+
+(a) processed lawfully, fairly and in a transparent manner in relation to the data subject ("lawfulness, fairness and transparency");
+
+(b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes ... the ("purpose limitation");
+
+(c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed ("data minimisation");
+
+(d) accurate and, where necessary, kept up to date ... ("accuracy");
+
+(e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed ... ("storage limitation");
+
+(f) processed in a manner that ensures appropriate security of the personal data ... ("integrity and confidentiality").
+
+<!-- -->
+
+2.  The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 ("accountability").'
+
+**5** [[Article 24]](1\) of that regulation provides:
+
+'Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.'
+
+**6** [[Article 33]] of that regulation provides:
+
+'1. In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with [[Article 55]], unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. ...
+
+...
+
+3.  The notification referred to in paragraph 1 shall at least:
+
+<!-- -->
+
+(a) describe the nature of the personal data breach including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned;
+
+(b) communicate the name and contact details of the data protection officer or other contact point where more information can be obtained;
+
+(c) describe the likely consequences of the personal data breach;
+
+(d) describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects.
+
+...'
+
+**7** [[Article 34]](1\) of the GDPR states:
+
+'When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.'
+
+**8** Chapter VI of that regulation, entitled 'Independent supervisory authorities', includes Articles 51 to 59 thereof.
+
+**9** [[Article 51]](1\) of that regulation is worded as follows:
+
+'Each Member State shall provide for one or more independent public authorities to be responsible for monitoring the application of this Regulation, in order to protect the fundamental rights and freedoms of natural persons in relation to processing and to facilitate the free flow of personal data within the Union ("supervisory authority").'
+
+**10** [[Article 57]] of the GDPR, entitled 'Tasks', provides, in paragraph 1 thereof:
+
+'Without prejudice to other tasks set out under this Regulation, each supervisory authority shall on its territory:
+
+(a) monitor and enforce the application of this Regulation;
+
+...
+
+(f) handle complaints lodged by a data subject, or by a body, organisation or association in accordance with [[Article 80]], and investigate, to the extent appropriate, the subject matter of the complaint and inform the complainant of the progress and the outcome of the investigation within a reasonable period, in particular if further investigation or coordination with another supervisory authority is necessary;
+
+...'
+
+**11** [[Article 58]] of that regulation, entitled 'Powers', provides, in paragraphs 1 and 2 thereof:
+
+'1. Each supervisory authority shall have all of the following investigative powers:
+
+(a) to order the controller and the processor, and, where applicable, the controller's or the processor's representative to provide any information it requires for the performance of its tasks;
+
+...
+
+2.  Each supervisory authority shall have all of the following corrective powers:
+
+<!-- -->
+
+(a) to issue warnings to a controller or processor that intended processing operations are likely to infringe provisions of this Regulation;
+
+(b) to issue reprimands to a controller or a processor where processing operations have infringed provisions of this Regulation;
+
+(c) to order the controller or the processor to comply with the data subject's requests to exercise his or her rights pursuant to this Regulation;
+
+(d) to order the controller or processor to bring processing operations into compliance with the provisions of this Regulation, where appropriate, in a specified manner and within a specified period;
+
+(e) to order the controller to communicate a personal data breach to the data subject;
+
+(f) to impose a temporary or definitive limitation including a ban on processing;
+
+...
+
+(i) to impose an administrative fine pursuant to [[Article 83]], in addition to, or instead of measures referred to in this paragraph, depending on the circumstances of each individual case;
+
+...'
+
+**12** [[Article 77]] of that regulation reads as follows:
+
+'1. Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.
+
+2.  The supervisory authority with which the complaint has been lodged shall inform the complainant on the progress and the outcome of the complaint including the possibility of a judicial remedy pursuant to [[Article 78]].'
+
+**13** [[Article 83]](1\) and (2) of that regulation provides:
+
+'1. Each supervisory authority shall ensure that the imposition of administrative fines pursuant to this Article in respect of infringements of this Regulation referred to in paragraphs 4, 5 and 6 shall in each individual case be effective, proportionate and dissuasive.
+
+2.  Administrative fines shall, depending on the circumstances of each individual case, be imposed in addition to, or instead of, measures referred to in points (a) to (h) and (j) of [[Article 58]](2\). When deciding whether to impose an administrative fine and deciding on the amount of the administrative fine in each individual case due regard shall be given to the following:
+
+<!-- -->
+
+(a) the nature, gravity and duration of the infringement taking into account the nature scope or purpose of the processing concerned as well as the number of data subjects affected and the level of damage suffered by them;
+
+(b) the intentional or negligent character of the infringement;
+
+(c) any action taken by the controller or processor to mitigate the damage suffered by data subjects;
+
+(d) the degree of responsibility of the controller or processor taking into account technical and organisational measures implemented by them pursuant to Articles 25 and 32;
+
+(e) any relevant previous infringements by the controller or processor;
+
+(f) the degree of cooperation with the supervisory authority, in order to remedy the infringement and mitigate the possible adverse effects of the infringement;
+
+(g) the categories of personal data affected by the infringement;
+
+(h) the manner in which the infringement became known to the supervisory authority, in particular whether, and if so to what extent, the controller or processor notified the infringement;
+
+(i) where measures referred to in [[Article 58]](2\) have previously been ordered against the controller or processor concerned with regard to the same subject-matter, compliance with those measures;
+
+(j) adherence to approved codes of conduct pursuant to [[Article 40]] or approved certification mechanisms pursuant to [[Article 42]]; and
+
+(k) any other aggravating or mitigating factor applicable to the circumstances of the case, such as financial benefits gained, or losses avoided, directly or indirectly, from the infringement.'
+
+### The dispute in the main proceedings and the question referred for a preliminary ruling
+
+**14** The savings bank is a communal institution governed by public law, whose tasks include the settlement of banking and credit transactions. On 15 November 2019, it notified the HBDI, in accordance with [[Article 33]] of the GDPR, of a personal data breach consisting of the fact that one of its employees had, on several occasions, unlawfully accessed personal data of TR, one of its customers. The savings bank failed to notify TR of the breach of his personal data.
+
+**15** After incidentally becoming aware that his personal data had been improperly consulted, TR lodged a complaint with the HBDI on 27 July 2020 on the basis of [[Article 77]] of the GDPR. In that complaint, he complained that the breach of his personal data had not been communicated to him, in breach of [[Article 34]] of that regulation. He also criticised the period during which the savings bank's access logs were retained, fixed at only three months, and the fact that savings bank employees had comprehensive access rights.
+
+**16** Following the complaint lodged by TR, the HBDI heard the savings bank in writing and orally on the criticisms made against it. During the hearing, the savings bank stated that it had refrained from making a communication under [[Article 34]] of the GDPR because its data protection officer had taken the view that there was no high risk to TR's rights and freedoms. Disciplinary measures had been taken against the employee concerned and she had confirmed in writing that she had neither copied nor retained the personal data, that she had not transferred them to third parties and that she would not do so in the future. Furthermore, since the HBDI criticised the excessively short period during which access logs were retained, the savings bank informed it that that question would be reviewed.
+
+**17** By decision of 3 September 2020, the HBDI informed TR that the savings bank had not infringed [[Article 34]] of the GDPR, since the savings bank's assessment that the personal data breach committed was unlikely to result in a high risk to his rights and freedoms, within the meaning of that article, was not manifestly incorrect. Even though the employee had consulted the data, there was no evidence that the employee had disclosed them to third parties or had used them to TR's disadvantage. Furthermore, the HBDI stated that it had requested the savings bank to keep its access logs for a period longer than three months. Lastly, as regards the issue of access by employees of the savings bank to personal data, the HBDI rejected TR's claim, observing that extensive access rights may, in principle, be granted where it is certain that each user is informed of the conditions under which employees may access the data. Thus, according to the HBDI, a systematic review of all access types is not necessary.
+
+**18** TR lodged an action against that decision before the Verwaltungsgericht Wiesbaden (Administrative Court, Wiesbaden, Germany), the referring court, asking it to order the HBDI to take action against the savings bank.
+
+**19** In support of his action, TR submits that the HBDI failed to handle his complaint in accordance with the requirements of the GDPR, that is to say, by having regard to all the factual circumstances, and adds that the HBDI should have imposed a fine on the savings bank in view of the latter's various infringements of the provisions of that regulation, in particular [[Article 5]], [[Article 12]](3\), [[Article 15]](1\)(c), [[Article 33]](1\) and [[Article 33]](3\) thereof. According to TR, where a breach of that regulation is established, as in the present case, the principle of expediency does not apply, so that the HBDI did not have the discretion to decide whether or not to act but that, at most, its discretion extended to which measures to adopt.
+
+**20** In that regard, the referring court asks, in essence, whether, where a breach of provisions relating to the protection of personal data is established, the GDPR must be interpreted as meaning that the supervisory authority is required to exercise corrective powers under [[Article 58]](2\) of that regulation, such as the power to impose an administrative fine, or as meaning that that authority has discretion authorising it, depending on the circumstances, to refrain from exercising such powers.
+
+**21** The referring court states that the first interpretation, which is that advocated by TR and by some academic writers, is based on the fact that the powers available to a supervisory authority to adopt corrective measures are intended to restore a lawful situation when data processing infringes a citizen's rights. [[Article 58]](2\) of the GDPR is therefore to be understood as a standard imposing an obligation which establishes the citizen's right to official action where an undertaking or an authority has unlawfully processed the citizen's personal data or has infringed rights in some other way. Where a personal data breach is established, the supervisory authority is therefore required to exercise corrective powers, its discretion being limited to choosing which of the powers provided for it intends to exercise.
+
+**22** The referring court doubts, however, whether that interpretation, which it considers to be too broad, is well founded and is inclined instead to allow the supervisory authority a discretion authorising it, in certain cases, to refrain from exercising a corrective power, in particular the power to impose a penalty, where an infringement is established. Even if the supervisory authority has an obligation, under [[Article 57]](1\)(f) of the GDPR, to conduct a careful substantive investigation into complaints and to examine each individual case, it is not however required to exercise a corrective power in every situation. Thus, it is not subject to such an obligation where rules on the protection of personal data have been infringed in the past, but the controller has taken measures which do not give reason to believe that a data protection breach will recur.
+
+**23** In those circumstances, the Verwaltungsgericht Wiesbaden (Administrative Court, Wiesbaden) decided to stay the proceedings and to refer the following question to the Court of Justice for a preliminary ruling:
+
+'Are [[Article 57]](1\)(a) and (f), [[Article 58]](2\)(a) to (j) and [[Article 77]](1\) \[of the GDPR\], to be understood as meaning that, where the supervisory authority finds that data processing has infringed the data subject's rights, the supervisory authority must always take action in accordance with [[Article 58]](2\) \[of that regulation\]?'
+
+Admissibility of the request for a preliminary ruling
+
+**24** Without expressly challenging the admissibility of the request for a preliminary ruling, TR submits that an answer to the question referred is not necessary in order to resolve the dispute in the main proceedings. He argues that his action merely asks the referring court to order the HBDI to rule on the objections raised in the complaint, in accordance with [[Article 57]](1\)(f) of the GDPR, and does not ask that court to order the HBDI to make use of the powers conferred on it by [[Article 58]](2\) of that regulation.
+
+**25** In that regard, it must be noted that, in the context of the cooperation between the Court and the national courts established in Article 267 TFEU, it is for the national court before which a dispute has been brought, and which must assume responsibility for the subsequent judicial decision, alone to determine, in the light of the particular circumstances of the case, both the need for a preliminary ruling in order to enable it to deliver its judgment and the relevance of the questions which it submits to the Court. Consequently, where the questions submitted concern the interpretation of EU law, the Court is, in principle, bound to give a ruling (judgment of 30 November 2023, Ministero dell'Istruzione and INPS, [[C-270-22|C-270⧸22]], EU:C:2023:933, paragraph 33 and the case-law cited).
+
+**26** It follows that questions on the interpretation of EU law referred by a national court in the factual and legislative context which that court is responsible for defining, the accuracy of which is not a matter for the Court to determine, enjoy a presumption of relevance. The Court may refuse to rule on a request for a preliminary ruling referred by a national court only where it is quite obvious that the interpretation of EU law that is sought is unrelated to the actual facts of the main action or its purpose, where the problem is hypothetical, or where the Court does not have before it the factual or legal material necessary to give a useful answer to the questions submitted to it (judgment of 30 November 2023, Ministero dell'Istruzione and INPS, [[C-270-22|C-270⧸22]], EU:C:2023:933, paragraph 34 and the case-law cited).
+
+**27** In the present case, the referring court observes that TR has claimed that he has a right for the HBDI to intervene and has asserted that it was required to impose a fine on the savings bank.
+
+**28** Therefore, it is not obvious that the interpretation of EU law that is sought bears no relation to the actual facts of the main action or its purpose.
+
+**29** Accordingly, the request for a preliminary ruling is admissible.
+
+### Consideration of the question referred
+
+**30** In order to answer the question referred, it should be borne in mind, as a preliminary point, that the interpretation of a provision of EU law requires that account be taken not only of its wording, but also of its context and the objectives and purpose pursued by the act of which it forms part (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 48 and the case-law cited).
+
+**31** It should also be borne in mind that, in accordance with Article 8(3) of the Charter of Fundamental Rights of the European Union and [[Article 51]](1\) and [[Article 57]](1\)(a) of the GDPR, the national supervisory authorities are responsible for monitoring compliance with the EU rules concerning the protection of natural persons with regard to the processing of personal data (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 55 and the case-law cited).
+
+**32** In particular, under [[Article 57]](1\)(f) of the GDPR, each supervisory authority is required on its territory to handle complaints which, in accordance with [[Article 77]](1\) of that regulation, any data subject is entitled to lodge where that data subject considers that the processing of personal data relating to him or her infringes that regulation, to investigate, to the extent appropriate, the subject matter of the complaint and inform the complainant of the progress and the outcome of the investigation within a reasonable period. The supervisory authority must deal with such a complaint with all due diligence (see, to that effect, judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 56 and the case-law cited).
+
+**33** In order to handle complaints thus lodged, [[Article 58]](1\) of the GDPR confers extensive investigative powers on each supervisory authority. Where, following its investigation, such an authority finds an infringement of the provisions of that regulation, it is required to react appropriately in order to remedy the shortcoming found, and each measure should, as specified in recital 129 of that regulation, in particular be appropriate, necessary and proportionate in view of ensuring compliance with that regulation, taking into account the circumstances of each individual case. To that end, [[Article 58]](2\) of that regulation lists the various corrective measures that the supervisory authority may adopt (see, to that effect, judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 57 and the case-law cited).
+
+**34** Thus, under [[Article 58]](2\) of the GDPR, the supervisory authority has the power, inter alia, to issue reprimands to a controller or a processor where processing operations have infringed provisions of that regulation (point (b)), to order the controller or the processor to comply with the data subject's requests to exercise his or her rights pursuant to that regulation (point (c)), to order the controller or processor to bring processing operations into compliance with the provisions of that regulation, where appropriate, in a specified manner and within a specified period (point (d)), or to impose an administrative fine pursuant to [[Article 83]] of the GDPR, in addition to, or instead of the measures referred to in [[Article 58]](2\), depending on the circumstances of each individual case (point (i)).
+
+**35** Therefore, the complaints procedure is designed as a mechanism capable of effectively safeguarding the rights and interests of data subjects (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 58).
+
+**36** In the present case, it is apparent from the request for a preliminary ruling that the HBDI examined the substance of the complaint which had been brought before it by the applicant in the main proceedings and informed him of the outcome of the investigation. More specifically, the HBDI confirmed that a breach of HBDI's personal data had occurred within the savings bank, consisting of the unauthorised access to those data by one of its employees. However, as regards the access rights of the members of staff of the savings bank, the HBDI rejected the complaint lodged by the applicant in the main proceedings. In addition, it concluded that there was no need to take action against the savings bank under [[Article 58]](2\) of the GDPR.
+
+**37** In that regard, it should be noted that the GDPR leaves the supervisory authority a discretion as to the manner in which it must remedy the shortcoming found, since [[Article 58]](2\) thereof confers on that authority the power to adopt various corrective measures. Thus, the Court has already held that the supervisory authority must determine which action is appropriate and necessary, and must do so taking into consideration all the circumstances of the specific case and executing its responsibility for ensuring that the GDPR is fully enforced with all due diligence (see, to that effect, judgment of 16 July 2020, Facebook Ireland and Schrems, [[C-311-18|C-311⧸18]], EU:C:2020:559, paragraph 112).
+
+**38** That discretion is, however, limited by the need to ensure a consistent and high level of protection of personal data through strong enforcement of the rules, as is apparent from recitals 7 and 10 of the GDPR.
+
+**39** As regards, more specifically, the administrative fines referred to in [[Article 58]](2\)(i) of the GDPR, it is apparent from [[Article 83]](2\) of that regulation that they are imposed, depending on the circumstances of each individual case, in addition to, or instead of, the other measures referred to in [[Article 58]](2\). In addition, [[Article 83]](2\) specifies that, when deciding whether to impose an administrative fine and deciding on the amount thereof, the supervisory authority must have due regard, in each individual case, to the factors set out in points (a) to (k) of that provision, such as the nature, gravity and duration of the infringement.
+
+**40** Thus, the system of sanctions provided for by the EU legislature allows supervisory authorities to impose the most appropriate and justified penalties depending on the circumstances of each individual case (see, to that effect, judgment of 5 December 2023, Nacionalinis visuomenės sveikatos centras, [[C-683-21|C-683⧸21]], EU:C:2023:949, paragraphs 75 and 78), taking into consideration, as recalled in paragraphs 37 and 38 of the present judgment, the need to ensure that the GDPR is fully enforced and to ensure a consistent and high level of protection of personal data through strong enforcement of the rules.
+
+**41** Therefore, it cannot be inferred either from [[Article 58]](2\) of the GDPR or from [[Article 83]] thereof that the supervisory authority is under an obligation to exercise, in all cases where it finds a breach of personal data, a corrective power, in particular the power to impose an administrative fine, its obligation being, in such circumstances, to react appropriately in order to remedy the shortcoming found. In those circumstances, as the Advocate General observed in point 81 of his Opinion, a complainant whose rights have been infringed does not have a subjective right to seek the imposition by the supervisory authority of an administrative fine on the controller.
+
+**42** By contrast, the supervisory authority is required to take action where the exercise of one or more of the corrective powers provided for in [[Article 58]](2\) of the GDPR is, taking into account all the circumstances of the specific case, appropriate, necessary and proportionate to remedy the shortcoming found and ensure that that regulation is fully enforced.
+
+**43** In that regard, it cannot be ruled out that, exceptionally and in the light of the particular circumstances of the specific case, the supervisory authority may refrain from exercising a corrective power even though a breach of personal data has been established. That could be the case, inter alia, where the breach established has not continued, for example where the controller, which had, in principle, implemented appropriate technical and organisational measures within the meaning of [[Article 24]] of the GDPR, has, as soon as it became aware of that breach, taken appropriate and necessary measures to ensure that that breach is brought to an end and does not recur, in view of its obligations under, inter alia, [[Article 5]](2\) and [[Article 24]] of that regulation.
+
+**44** The interpretation according to which the supervisory authority, when it finds that there has been a breach of personal data, is not required to exercise in all cases a corrective power under [[Article 58]](2\) of the GDPR is supported by the objectives pursued respectively by [[Article 58]](2\) and [[Article 83]] of that regulation.
+
+**45** As regards the objective pursued by [[Article 58]](2\) of the GDPR, it is apparent from recital 129 thereof that that provision seeks to ensure that the processing of personal data complies with that regulation and to make good situations where there has been a breach of that regulation so as to make them conform with EU law, as a result of intervention by the national supervisory authorities (judgment of 14 March 2024, Újpesti Polgármesteri Hivatal, [[C-46-23|C-46⧸23]], EU:C:2024:239, paragraph 40).
+
+**46** It follows that the exercise of a corrective power may, exceptionally and in the light of the particular circumstances of the specific case, not be required, provided that the situation in which the GDPR was infringed has already been made good and that the processing of personal data by the controller thereof in compliance with that regulation is ensured, and that such non-exercise on the part of the supervisory authority is not liable to undermine the requirement of strong enforcement of the rules, as recalled in paragraph 38 of the present judgment.
+
+**47** As regards the objective pursued by [[Article 83]] of the GDPR, relating to the imposition of administrative fines, that objective is, according to recital 148 of that regulation, to strengthen the enforcement of the rules of that regulation. However, that recital states that, in a case of a minor infringement or if the administrative fine likely to be imposed would constitute a disproportionate burden to a natural person, supervisory authorities may refrain from imposing an administrative fine and instead issue a reprimand (see, to that effect, judgment of 5 December 2023, Nacionalinis visuomenės sveikatos centras, [[C-683-21|C-683⧸21]], EU:C:2023:949, paragraph 76).
+
+**48** In the present case, it is apparent from the request for a preliminary ruling that the savings bank notified the HBDI, in accordance with [[Article 33]] of the GDPR, of the breach of the personal data of the applicant in the main proceedings, resulting from the unauthorised access to those data by one of its employees. In addition, the HBDI stated that disciplinary measures had been taken against that employee and that the period of retention of the access logs would be reviewed. It was in those circumstances that the HBDI refrained from exercising a corrective power under Article 58 of the GDPR and, in particular, from imposing an administrative fine.
+
+**49** Since decisions on complaints adopted by a supervisory authority are subject to full judicial review (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 70), it is for the referring court to ascertain whether the HBDI dealt with the complaint concerned with all due diligence and whether, in adopting the decision at issue in the main proceedings, the HBDI complied with the limits of the discretion conferred on it by [[Article 58]](2\) of the GDPR (see, by analogy, judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraphs 68 and 69 and the case-law cited).
+
+**50** In the light of all the foregoing considerations, the answer to the question referred is that [[Article 57]](1\)(a) and (f), [[Article 58]](2\) and [[Article 77]](1\) of the GDPR must be interpreted as meaning that, when a breach of personal data has been established, the supervisory authority is not required to exercise a corrective power, in particular the power to impose an administrative fine, under that [[Article 58]](2\) where such action is not appropriate, necessary or proportionate to remedy the shortcoming found and to ensure that that regulation is fully enforced.
+
+Costs
+
+**51** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (First Chamber) hereby rules:
+
+Article 57(1)(a) and (f), Article 58(2) and Article 77(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation),
+
+must be interpreted as meaning that when a breach of personal data has been established, the supervisory authority is not required to exercise a corrective power, in particular the power to impose an administrative fine, under that Article 58 where such action is not appropriate, necessary or proportionate to remedy the shortcoming found and to ensure that that regulation is fully enforced.
+
+\[Signatures\]
+
+\*Language of the case: German.

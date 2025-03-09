@@ -1,0 +1,293 @@
+---
+title: C-46/23
+date: 2024-03-14
+case-number: C-46/23
+parties: "Budapest Főváros IV. Kerület Újpest Önkormányzat Polgármesteri Hivatala v Nemzeti Adatvédelmi és Információszabadság Hatóság"
+topics:
+  - Powers of the supervisory authority
+  - Right to erasure
+  - Erasure of unlawfully processed personal data
+final-ruling: |-
+  **1.** Article 58(2)(d) and (g) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation),
+  
+  must be interpreted as meaning that the supervisory authority of a Member State is entitled, in the exercise of its corrective powers foreseen under those provisions, to order the controller or processor to erase unlawfully processed personal data, even though no request to that end has been made by the data subject with a view to exercising his or her rights pursuant to Article 17(1) of that regulation.
+  
+  **2.** Article 58(2) of Regulation 2016/679
+  
+  must be interpreted as meaning that the power of the supervisory authority of a Member State to order the erasure of unlawfully processed personal data may apply both to data collected from the data subject and to data originating from another source.
+ruling-articles:
+  - Article 17
+  - Article 58
+---
+
+JUDGMENT OF THE COURT (Fifth Chamber)
+
+14 March 2024 (\*1)
+
+(Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 58]](2\)(d) and (g) -- Powers of the supervisory authority of a Member State -- [[Article 17]](1\) -- Right to erasure ('right to be forgotten') -- Erasure of unlawfully processed personal data -- Power of the national supervisory authority to order the controller or processor to erase those data without a prior request from the data subject)
+
+In Case C-46⧸23,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Fővárosi Törvényszék (Budapest High Court, Hungary), made by decision of 8 December 2022, received at the Court on 31 January 2023, in the proceedings
+
+Budapest Főváros IV. Kerület Újpest Önkormányzat Polgármesteri Hivatala
+
+v
+
+Nemzeti Adatvédelmi és Információszabadság Hatóság,
+
+THE COURT (Fifth Chamber),
+
+composed of E. Regan, President of the Chamber, Z. Csehi, M. Ilešič (Rapporteur), I. Jarukaitis and D. Gratsias, Judges,
+
+Advocate General: L. Medina,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- the Nemzeti Adatvédelmi és Információszabadság Hatóság, by G.J. Dudás, ügyvéd,
+
+-- the Hungarian Government, by Zs. Biró-Tóth and M.Z. Fehér, acting as Agents,
+
+-- the Spanish Government, by A. Ballesteros Panizo, acting as Agent,
+
+-- the Austrian Government, by A. Posch, J. Schmoll and C. Gabauer, acting as Agents,
+
+-- the Polish Government, by B. Majczyna, acting as Agent,
+
+-- the Portuguese Government, by P. Barros da Costa, J. Ramos and C. Vieira Guerra, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, C. Kovács and H. Kranenborg, acting as Agents,
+
+having decided, after hearing the Advocate General, to proceed to judgment without an Opinion,
+
+gives the following
+
+### Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 58(2)(c), (d) and (g) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1, and corrigendumOJ 2018 L 127, p. 2; 'the GDPR').
+
+**2** The request has been made in proceedings between the Budapest Főváros IV. Kerület Újpest Önkormányzat Polgármesteri Hivatala (municipal administration of Újpest -- District IV, Budapest, Hungary) ('the Újpest administration') and the Nemzeti Adatvédelmi és Információszabadság Hatóság (National Data Protection and Freedom of Information Authority, Hungary) ('the Hungarian supervisory authority') concerning a decision by which the latter body ordered the Újpest administration to erase unlawfully processed personal data.
+
+### Legal context
+
+**3** Recitals 1, 10 and 129 of the GDPR are worded as follows:
+
+...
+
+...
+
+**'(1)** The protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union ... and Article 16(1) \[TFEU\] provide that everyone has the right to the protection of personal data concerning him or her.
+
+**(10)** In order to ensure a consistent and high level of protection of natural persons and to remove the obstacles to flows of personal data within the \[European\] Union, the level of protection of the rights and freedoms of natural persons with regard to the processing of such data should be equivalent in all Member States. Consistent and homogenous application of the rules for the protection of the fundamental rights and freedoms of natural persons with regard to the processing of personal data should be ensured throughout the Union. ...
+
+**(129)** In order to ensure consistent monitoring and enforcement of this Regulation throughout the Union, the supervisory authorities should have in each Member State the same tasks and effective powers, including powers of investigation, corrective powers and sanctions, and authorisation and advisory powers, in particular in cases of complaints from natural persons, and without prejudice to the powers of prosecutorial authorities under Member State law, to bring infringements of this Regulation to the attention of the judicial authorities and engage in legal proceedings. ...'
+
+**4** Chapter I of the GDPR, entitled 'General provisions', contains Articles 1 to 4 of that regulation.
+
+**5** [[Article 1]] of that regulation, entitled 'Subject matter and objectives', provides:
+
+'1. This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.
+
+2.  This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.
+
+...'
+
+**6** [[Article 4]] of that regulation, entitled 'Definitions', provides in points 2, 7 and 21 thereof:
+
+'For the purposes of this Regulation:
+
+...
+
+...
+
+...
+
+...'
+
+**(2)** "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction;
+
+**(7)** "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+
+**(21)** "supervisory authority" means an independent public authority which is established by a Member State pursuant to [[Article 51]];
+
+**7** Chapter II of the GDPR, entitled 'Principles', inter alia contains [[Article 5]], itself headed 'Principles relating to processing of personal data', which provides:
+
+'1. Personal data shall be:
+
+...
+
+2.  The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 ("accountability").'
+
+(a) processed lawfully, fairly and in a transparent manner in relation to the data subject ("lawfulness, fairness and transparency");
+
+(b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; ... ("purpose limitation");
+
+(c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed ("data minimisation");
+
+**8** In Chapter III of the GDPR, headed 'Rights of the data subject', [[Article 17]] of that regulation, itself entitled 'Right to erasure ("right to be forgotten")', provides in paragraph 1:
+
+'The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
+
+...'
+
+(a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
+
+(b) the data subject withdraws consent on which the processing is based according to point (a) of [[Article 6]](1\), or point (a) of [[Article 9]](2\), and where there is no other legal ground for the processing;
+
+(c) the data subject objects to the processing pursuant to [[Article 21]](1\) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to [[Article 21]](2\);
+
+(d) the personal data have been unlawfully processed;
+
+**9** Chapter VI of the GDPR, entitled 'Independent supervisory authorities', includes Articles 51 to 59 thereof.
+
+**10** [[Article 51]] of that regulation, entitled 'Supervisory authority', provides in paragraphs 1 and 2:
+
+'1. Each Member State shall provide for one or more independent public authorities to be responsible for monitoring the application of this Regulation, in order to protect the fundamental rights and freedoms of natural persons in relation to processing and to facilitate the free flow of personal data within the Union ...
+
+2.  Each supervisory authority shall contribute to the consistent application of this Regulation throughout the Union. For that purpose, the supervisory authorities shall cooperate with each other and the Commission in accordance with Chapter VII.'
+
+**11** [[Article 57]] of that regulation, entitled 'Tasks', is worded as follows, in paragraph 1 thereof:
+
+'1. Without prejudice to other tasks set out under this Regulation, each supervisory authority shall on its territory:
+
+(a) monitor and enforce the application of this Regulation;
+
+...
+
+...'
+
+(h) conduct investigations on the application of this Regulation, including on the basis of information received from another supervisory authority or other public authority;
+
+**12** [[Article 58]] of that regulation, entitled 'Powers', provides, in paragraph 2:
+
+'Each supervisory authority shall have all of the following corrective powers:
+
+...
+
+...
+
+...
+
+...'
+
+(c) to order the controller or the processor to comply with the data subject's requests to exercise his or her rights pursuant to this Regulation;
+
+(d) to order the controller or processor to bring processing operations into compliance with the provisions of this Regulation, where appropriate, in a specified manner and within a specified period;
+
+(g) to order the rectification or erasure of personal data or restriction of processing pursuant to Articles 16, 17 and 18 and the notification of such actions to recipients to whom the personal data have been disclosed pursuant to [[Article 17]](2\) and [[Article 19]];
+
+(i) to impose an administrative fine pursuant to [[Article 83]], in addition to, or instead of measures referred to in this paragraph, depending on the circumstances of each individual case;
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**13** In February 2020, the Újpest administration decided to provide financial support to residents who belonged to a category of persons that had been made vulnerable by the COVID-19 pandemic and who satisfied certain eligibility conditions.
+
+**14** To that end, it approached the Magyar Államkincstár (the Hungarian State Treasury) and the Budapest Főváros Kormányhivatala IV. Kerületi Hivatala (Government Office, Budapest District IV, Hungary) ('the district government office'), in order to obtain the personal data needed to verify the eligibility requirements. That information included in particular the basic identity data and social security numbers of natural persons. The Hungarian State Treasury and the district office provided the requested data.
+
+**15** For the purpose of paying the financial support, the Újpest administration adopted az Újpest+ Megbecsülés Program bevezetéséről szóló 16/2020. (IV. 30.) önkormányzati rendelet (Municipal Decree No 16/2020. (IV. 30.) on the introduction of the Újpest+ Megbecsülés scheme), which was amended and supplemented by the 30/2020. (VII. 15.) önkormányzati rendelet (Municipal Decree No 30/2020. (VII. 15.)). Those decrees contained the eligibility requirements for the support thus put in place. The Újpest administration collated the data received in a database established to implement its support scheme and created a unique identifier and barcode for each set of data.
+
+**16** After being alerted by a report, the Hungarian supervisory authority, acting of its own motion, initiated an investigation on 2 September 2020 into the processing of the personal data on which the abovementioned support scheme was based. In a decision of 22 April 2021, the authority found that the Újpest administration had infringed several provisions of Articles 5 and 14 as well as [[Article 12]](1\) of the GDPR. It found in particular that the Újpest administration had not informed the data subjects, within a period of one month, of the categories of personal data processed in the framework of that scheme, the purposes of the processing at issue or how those persons could exercise their rights in that regard.
+
+**17** The Hungarian supervisory authority ordered the Újpest administration, pursuant to [[Article 58]](2\)(d) of the GDPR, to erase the personal data of data subjects who, according to the information provided by the district government office and the Hungarian State Treasury, were indeed entitled to that support but had not applied for it. It found that both the Hungarian State Treasury and the district government office had infringed provisions relating to the processing of the personal data of those persons. It also ordered the Újpest administration and the Hungarian State Treasury to pay a fine in respect of data protection.
+
+**18** By administrative review proceedings brought before the Fővárosi Törvényszék (Budapest High Court, Hungary), which is the referring court, the Újpest administration has challenged the decision of the Hungarian supervisory authority, arguing that it does not have the power under [[Article 58]](2\)(d) of the GDPR to order the erasure of personal data in the absence of a request from the data subject, for the purposes of [[Article 17]] of that regulation. In that regard, it relies on judgment Kfv.II.37.001/2021/6. of the Kúria (Supreme Court, Hungary), by which the latter held that the Hungarian supervisory authority did not have such a power, thus upholding a judgment of the referring court. According to the applicant in the main proceedings, the right to erasure laid down by [[Article 17]] of the GDPR is solely intended as a right of the data subject.
+
+**19** Following an action for a declaration of unconstitutionality lodged by the Hungarian supervisory authority, the Alkotmánybíróság (Constitutional Court, Hungary) set aside the abovementioned judgment of the Kúria (Supreme Court), holding that that authority is empowered to order of its own motion the erasure of unlawfully processed personal data, including where no request has been made by the data subject. The Alkotmánybíróság (Constitutional Court) relied in that regard on Opinion No 39/2021 of the European Data Protection Board, according to which [[Article 17]] of the GDPR provides for two separate cases for erasure, one being erasure at the request of the data subject and the other consisting of a standalone obligation of the controller, with the result that [[Article 58]](2\)(g) of the GDPR should be regarded as a valid legal basis for a supervisory authority to order of its own motion the erasure of unlawfully processed personal data.
+
+**20** Following the decision of the Alkotmánybíróság (Constitutional Court) referred to in the preceding paragraph, the referring court continues to have doubts as to the interpretation of [[Article 17]] and [[Article 58]](2\) of the GDPR. It considers that the right to the erasure of personal data is defined in [[Article 17]](1\) of the GDPR as a right of the data subject and that that provision does not cover two separate cases for erasure.
+
+**21** The referring court adds that an individual may want the personal data concerning him or her to be processed, including where the national supervisory authority orders the controller to erase those data owing to unlawful processing. In such a situation, the authority in question would be exercising that person's right against his or her wishes.
+
+**22** The referring court thus seeks to determine whether, regardless of any exercise of the rights of the data subject, the supervisory authority of a Member State may oblige the data controller or processor to erase unlawfully processed personal data and, if that is the case, on which legal basis, taking account in particular of the fact that [[Article 58]](2\)(c) of the GDPR expressly foresees a request by the data subject to exercise his or her rights, that [[Article 58]](2\)(d) of that regulation prescribes in general terms that processing operations must be brought into compliance with the provisions thereof, while [[Article 58]](2\)(g) of the regulation refers directly to [[Article 17]] thereof, the application of which requires an explicit request by the data.
+
+**23** Were it to be the case that the national supervisory authority may order the controller or processor to erase unlawfully processed personal data despite the absence of a request from the data subject, the referring court asks whether a distinction may be drawn, at the time the order for erasure is issued, depending on whether the personal data have been collected from the data subject, in view of the obligation on the data controller referred to in [[Article 13]](2\)(b) of the GDPR, or have been obtained from another person, having regard to the obligation laid down in [[Article 14]](2\)(c) of that regulation.
+
+**24** In those circumstances, the Fővárosi Törvényszék (Budapest High Court) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+**'(1)** Must [[Article 58]](2\), in particular subparagraphs (c), (d) and (g), of \[the GDPR\] be interpreted as meaning that the national supervisory authority, in exercise of its corrective powers, may order the data controller or processor to erase unlawfully processed personal data even in the absence of an express request by the data subject under [[Article 17]](1\) \[of the GDPR\]?
+
+**(2)** In the event that the answer to the first question is that the supervisory authority may order the data controller or processor to erase unlawfully processed personal data even in the absence of a request by the data subject, is that so irrespective of whether or not the personal data were obtained from the data subject?'
+
+### Consideration of the questions referred
+
+### The first question
+
+**25** By its first question, the referring court asks whether [[Article 58]](2\)(c), (d) and (g) of the GDPR must be interpreted as meaning that the supervisory authority of a Member State is entitled, in the exercise of its corrective powers foreseen under those provisions, to order the controller or processor to erase unlawfully processed personal data, even though no request to that effect has been made by the data subject with a view to exercising his or her rights pursuant to [[Article 17]](1\) of that regulation.
+
+**26** This question arises in the context of a dispute concerning the lawfulness of a decision by the Hungarian supervisory authority to order the Újpest administration, under [[Article 58]](2\)(d) of the GDPR, to erase unlawfully processed personal data in the framework of the support programme described in paragraphs 13 to 15 above.
+
+**27** In accordance with [[Article 17]](1\) of the GDPR, the data subject has the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller has the obligation to erase those data without undue delay where, inter alia, under point (d) of that provision, the data in question have been 'unlawfully processed'.
+
+**28** Under [[Article 58]](2\)(d) of the GDPR, the supervisory authority may order the controller or processor to bring processing operations into compliance with the provisions of that regulation, where appropriate, in a specified manner and within a specified period. In addition, [[Article 58]](2\)(g) of that regulation foresees that the supervisory authority has the power to order the rectification or erasure of personal data or restriction of processing pursuant to Articles 16, 17 and 18 thereof and the notification of such actions to recipients to whom the personal data have been disclosed pursuant to [[Article 17]](2\) and [[Article 19]] of that regulation.
+
+**29** In that context, the referring court questions whether the supervisory authority of a Member State is entitled, in the exercise of its corrective powers, such as those provided for in [[Article 58]](2\)(c), (d) and (g) of the GDPR, to order the controller or processor of its own motion, that is to say, in the absence of a prior request to that effect from the data subject, to erase unlawfully processed personal data.
+
+**30** In accordance with settled case-law, in interpreting a provision of EU law, it is necessary to consider not only its wording, but also the context in which it occurs and the objectives pursued by the rules of which it is part (judgment of 13 July 2023, G GmbH, [[C-134-22|C-134⧸22]], EU:C:2023:567, paragraph 25 and the case-law cited).
+
+**31** As a preliminary point, it should be observed that the relevant provisions of EU law referred to in paragraphs 27 and 28 above must be read in conjunction with [[Article 5]](1\) of the GDPR, which sets out the principles relating to the processing of personal data and which include, inter alia under point (a), the principle that personal data must be processed lawfully, fairly and in a transparent manner in relation to the data subject.
+
+**32** Under [[Article 5]](2\) of that regulation, the controller, in accordance with the principle of 'accountability' laid down in that provision, is responsible for compliance with paragraph 1 of [[Article 5]] and must be able to demonstrate its compliance with each of the principles set out therein, it moreover having the burden of proof thereof (judgment of 4 May 2023, Bundesrepublik Deutschland (Court electronic mailbox), [[C-60-22|C-60⧸22]], EU:C:2023:373, paragraph 53 and the case-law cited).
+
+**33** Where the processing of personal data does not comply with the principles laid down in particular in [[Article 5]] of the GDPR, the supervisory authorities of the Member States are empowered to take action in accordance with their tasks and powers set out in Articles 57 and 58 of that regulation. Under [[Article 57]](1\)(a), those tasks include, inter alia, monitoring the application of that regulation and ensuring its enforcement (see, to that effect, judgment of 16 July 2020, Facebook Ireland and Schrems, [[C-311-18|C-311⧸18]], EU:C:2020:559, paragraph108).
+
+**34** In that regard, the Court has already stated that if a national supervisory authority takes the view, following an investigation, that a data subject is not afforded an adequate level of protection, it is required, under EU law, to take appropriate action in order to remedy any findings of inadequacy, irrespective of the reason for, or nature of, that inadequacy. To that effect, [[Article 58]](2\) of the GDPR lists the various corrective powers which the supervisory authority may adopt. It is for that supervisory authority to choose the appropriate action in order to execute its responsibility for ensuring that that regulation is fully enforced with all due diligence (see, to that effect, judgment of 16 July 2020, Facebook Ireland and Schrems, [[C-311-18|C-311⧸18]], EU:C:2020:559, paragraphs111and112).
+
+**35** As regards, more specifically, whether such corrective measures may be adopted by the supervisory authority concerned of its own motion, it should be observed first of all that [[Article 58]](2\) of the GDPR, in the light of its wording, draws a distinction between corrective measures which may be ordered by an authority of its own motion, inter alia those referred to in [[Article 58]](2\)(d) and (g), and those that may only be adopted following a request by the data subject to exercise his or her rights pursuant to that regulation, such as referred to in [[Article 58]](2\)(c) of that regulation.
+
+**36** It is quite clear, on the one hand, from the wording of [[Article 58]](2\)(c) of the GDPR that the corrective power referred to in that provision, namely 'to order the controller or the processor to comply with the data subject's requests to exercise his or her rights pursuant to this Regulation', presupposes that a data subject has first asserted his or her rights by submitting a request for that purpose, and that that request has not been granted prior to the decision of the supervisory authority foreseen by that provision. On the other hand, in contrast to that provision, the wording of [[Article 58]](2\)(d) and (g) of the regulation does not permit the inference that action by the supervisory authority of a Member State, in order to apply the measures referred to therein, is confined solely to situations where the data subject has made a request to that end, since that wording makes no reference to such a request.
+
+**37** Next, as regards the context of those provisions, it should be observed that the language used in [[Article 17]](1\) of that regulation makes a distinction, by means of the conjunction 'and', between, first, the right of the data subject to obtain from the controller the erasure of data concerning him or her without undue delay and, second, the obligation of the controller to erase those personal data without undue delay. It must thus be inferred that that provision governs two independent situations, namely, on the one hand, the erasure of data at the request of the data subject and, on the other, erasure arising from the existence of a standalone obligation borne by the controller, irrespective of any request from the data subject.
+
+**38** As the European Data Protection Board found in its Opinion No 39/2021, such a distinction is necessary given that, among the situations envisaged in [[Article 17]](1\), certain include scenarios where a data subject has not necessarily been informed of the processing of personal data relating to him or her, such that only the controller is able to establish the existence of such processing. That is the case, in particular, where those data have been subject to the unlawful processing referred to in [[Article 17]](1\)(d).
+
+**39** That interpretation is supported by [[Article 5]](2\) of the GDPR, read in conjunction with paragraph 1(a) of that article, under which the controller must ensure, inter alia, the lawfulness of the processing of the data which it carries out (see, to that effect, judgment of 4 May 2023, Bundesrepublik Deutschland (Court electronic mailbox), [[C-60-22|C-60⧸22]], EU:C:2023:373, paragraph54).
+
+**40** Lastly, such an interpretation is also borne out by the objective pursued by [[Article 58]](2\) of the GDPR, as apparent from recital 129 thereof, which is namely to ensure that the processing of personal data complies with that regulation and to make good situations where there has been a breach of that regulation so as to make them conform with EU law, as a result of intervention by the national supervisory authorities.
+
+**41** In that regard, it must be stated that although the national supervisory authority must determine which action is appropriate and necessary and take into consideration all the circumstances of the case, that authority is nevertheless required to execute its responsibility for ensuring that the GDPR is fully enforced with all due diligence (see, to that effect, judgment of 16 July 2020, Facebook Ireland and Schrems, [[C-311-18|C-311⧸18]], EU:C:2020:559, paragraph112). Consequently, in order to ensure effective application of the GDPR, it is of particular importance that that authority has genuine powers to take effectual action against infringements of that regulation, and in particular to bring them to an end, including in situations where data subjects have not been informed that their personal data have been processed, are not aware of it, or in any event have not requested the erasure of those data.
+
+**42** In those circumstances, it must be held that some of the corrective powers referred to in [[Article 58]](2\) of the GDPR, in particular those set out in points (d) and (g) of that provision, may be exercised by the supervisory authority of a Member State of its own motion to the extent that the exercise of that power of its own motion is necessary to enable the supervisory authority to execute its task. Consequently, where that authority considers, following an investigation, that the processing in question does not satisfy the requirements of that regulation, it is required, under EU law, to adopt the appropriate measures to remedy the infringement found, irrespective of any prior request by the data subject concerned to exercise his or her rights pursuant to [[Article 17]](1\) of that regulation.
+
+**43** Such an interpretation is borne out in addition by the objectives pursued by the GDPR, as apparent in particular from Article 1 and recitals 1 and 10 thereof, which refer to ensuring a high level of protection with regard to the fundamental right of natural persons to the protection of personal data concerning them, as enshrined in Article 8(1) of the Charter of Fundamental Rights and Article 16(1) TFEU (see, to that effect, judgments of 6 October 2020, La Quadrature du Net and Others, [[C-511-18|C-511⧸18]], [[C-512-18|C-512⧸18]] and [[C-520-18|C-520⧸18]], EU:C:2020:791, paragraph207, and of 28 April 2022, Meta Platforms Ireland, [[C-319-20|C-319⧸20]], EU:C:2022:322, paragraph73).
+
+**44** Any interpretation contrary to that given in paragraph 42 above, to the effect that such a supervisory authority is entitled to take action solely following a request submitted to that effect by the data subject, would hamper attainment of the objectives referred to in paragraphs 40 and 43 above, in particular in a situation such as that at issue in the main proceedings, where the erasure of unlawfully processed personal data potentially concerns a large number of persons who have not asserted their right to erasure pursuant to [[Article 17]](1\) of the GDPR.
+
+**45** As the Commission argued, in essence, in its written observations, a requirement that there be a prior request from data subjects, in terms of [[Article 17]](1\) of the GDPR, would mean that the controller, where there is no such request, could retain the personal data at issue and continue to process them unlawfully. Such an interpretation would undermine the effectiveness of the protection laid down by that regulation since it would result in persons who take no action being deprived of protection, even though their personal data have been processed unlawfully.
+
+**46** In the light of the foregoing considerations, the answer to the first question is that [[Article 58]](2\)(d) and (g) of the GDPR must be interpreted as meaning that the supervisory authority of a Member State is entitled, in the exercise of its corrective powers foreseen under those provisions, to order the controller or processor to erase unlawfully processed personal data, even though no request to that effect has been made by the data subject with a view to exercising his or her rights pursuant to [[Article 17]](1\) of that regulation.
+
+### The second question
+
+**47** By its second question, the referring court asks, in essence, whether [[Article 58]](2\) of the GDPR must be interpreted as meaning that the power of the supervisory authority of a Member State to order the erasure of unlawfully processed personal data may apply both to data collected from the data subject and to data originating from another source.
+
+**48** In that regard, it should be observed, first of all, that the wording of the provisions referred to in the preceding paragraph contains nothing to suggest that the ability of the supervisory authority to exercise the corrective powers listed therein is contingent on the origin of the data concerned, and in particular on whether they were collected from the data subject.
+
+**49** Likewise, the wording of [[Article 17]](1\) of the GDPR, which, as is apparent from paragraph 37 above, imposes a standalone obligation on the controller to erase unlawfully processed personal data, does not include any requirement as to the origin of the data collected.
+
+**50** In addition, as is clear from paragraphs 41 and 42 above, in order to ensure the effective and consistent application of the GDPR, the national supervisory authority must have genuine powers to take effectual action against infringements of that regulation. Accordingly, the corrective powers laid down in [[Article 58]](2\)(d) and (g) of the GDPR cannot be contingent on the origin of the data concerned and on whether, in particular, they were collected from the data subject.
+
+**51** Consequently, it must be considered, as do all the governments which lodged written observations and as does the Commission, that the exercise of corrective powers, as provided for in [[Article 58]](2\)(d) and (g) of the GDPR, cannot be contingent on whether or not the personal data at issue have been collected directly from the data subject.
+
+**52** Such an interpretation is also borne out by the objectives pursued by the GDPR, in particular by [[Article 58]](2\) of that regulation, as referred to in paragraphs 40 and 43 above.
+
+**53** In the light of the foregoing considerations, the answer to the second question is that [[Article 58]](2\) of the GDPR must be interpreted as meaning that the power of the supervisory authority of a Member State to order the erasure of unlawfully processed personal data may apply both to data collected from the data subject and to data originating from another source.
+
+Costs
+
+**54** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the national court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Fifth Chamber) hereby rules:
+
+**1. Article 58(2)(d) and (g) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation),**
+
+**must be interpreted as meaning that the supervisory authority of a Member State is entitled, in the exercise of its corrective powers foreseen under those provisions, to order the controller or processor to erase unlawfully processed personal data, even though no request to that end has been made by the data subject with a view to exercising his or her rights pursuant to Article 17(1) of that regulation.**
+
+**2. [[Article 58]](2\) of Regulation 2016/679**
+
+**must be interpreted as meaning that the power of the supervisory authority of a Member State to order the erasure of unlawfully processed personal data may apply both to data collected from the data subject and to data originating from another source.**
+
+(\*1) Language of the case: Hungarian.

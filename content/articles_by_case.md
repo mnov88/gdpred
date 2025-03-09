@@ -1,5 +1,7 @@
 ---
-title: Browse by artice
+title: Browse by article
+tags:
+    - hidden
 ---
 
 ### [[Article 1]]

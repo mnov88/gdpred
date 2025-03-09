@@ -1,8 +1,8 @@
 ---
 title: C-673/17
-date_of_judgment: 2019-10-01
+date: 2019-10-01
 case-number: C-673/17
-parties: "Bundesverband der Verbraucherzentralen und Verbraucherverbände --- Verbraucherzentrale Bundesverband eV v Planet49 GmbH"
+parties: Bundesverband der Verbraucherzentralen und Verbraucherverbände --- Verbraucherzentrale Bundesverband eV v Planet49 GmbH
 topics:
   - Cookies
   - Concept of consent of the data subject
@@ -14,33 +14,16 @@ final-ruling: |-
 
   3. Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
 ruling-articles:
-  - Article 4(11)
-  - Article 6(1)(a)
+  - Article 4
+  - Article 6
 ---
-
-Verbraucherzentrale Bundesverband eV v Planet49 GmbH"
-topics:
-  - Cookies
-  - Concept of consent of the data subject
-  - Declaration of consent by means of a pre-ticked checkbox
-final-ruling: |-
-  1. Article 2(f) and of Article 5(3) of Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications), as amended by Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009, read in conjunction with Article 2(h) of Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and Article 4(11) and Article 6(1)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 (General Data Protection Regulation), must be interpreted as meaning that the consent referred to in those provisions is not validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
-
-  2. Article 2(f) and Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, read in conjunction with Article 2(h) of Directive 95/46 and Article 4(11) and Article 6(1)(a) of Regulation 2016/679, are not to be interpreted differently according to whether or not the information stored or accessed on a website user's terminal equipment is personal data within the meaning of Directive 95/46 and Regulation 2016/679.
-
-  3. Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
-ruling-articles:
-  - Article 4(11)
-  - Article 6(1)(a)
----
-
 JUDGMENT OF THE COURT (Grand Chamber)
 
 1 October 2019 (\*1)
 
 (Reference for a preliminary ruling --- Directive 95/46/EC --- Directive 2002/58/EC --- Regulation (EU) 2016/679 --- Processing of personal data and protection of privacy in the electronic communications sector --- Cookies --- Concept of consent of the data subject --- Declaration of consent by means of a pre-ticked checkbox)
 
-In Case [[C-673-17|C-673/17]],
+In Case C-673⧸17,
 
 REQUEST for a preliminary ruling under Article 267 TFEU from the Bundesgerichtshof (Federal Court of Justice, Germany), made by decision of 5 October 2017, received at the Court on 30 November 2017, in the proceedings
 
@@ -196,11 +179,11 @@ Regulation 2016/679
 
 (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
 
-**14** [[Article 7]](4) of the regulation provides:
+**14** [[Article 7]](4\) of the regulation provides:
 
 'When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.'
 
-**15** Under [[Article 13]](1) and (2) of Regulation 2016/679:
+**15** Under [[Article 13]](1\) and (2) of Regulation 2016/679:
 
 '1. Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:
 
@@ -234,7 +217,7 @@ German law
 
 (2) Where personal data have been supplied in order for telemedia to be made available, a service provider may use them for other purposes only in so far as this law or another legislative provision expressly relating to telemedia so permits or the user has consented to it.
 
-### (3) Except as otherwise provided, the provisions concerning the protection of personal data which are applicable in the case in question shall apply even if the data are not processed automatically.'
+(3) Except as otherwise provided, the provisions concerning the protection of personal data which are applicable in the case in question shall apply even if the data are not processed automatically.'
 
 **20** According to Paragraph 13(1) of the TMG, at the beginning of the act of use, the service provider must inform the user about the nature, scope and purposes of the collection and use of personal data in a generally understandable form, to the extent that such information has not already been provided. In the case of an automated process allowing subsequent identification of the user and which prepares the collection or use of personal data, the user shall be informed at the beginning of this process.
 
@@ -262,7 +245,7 @@ German law
 
 **29** The hyperlink associated with the words 'sponsors and cooperation partners' and 'here' next to the first checkbox opened a list of 57 companies, their addresses, the commercial sector to be advertised and the method of communication used for the advertising (email, post or telephone). The underlined word 'Unsubscribe' was contained after the name of each company. The following statement preceded the list:
 
-### 'By clicking on the "Unsubscribe" link, I am deciding that no advertising consent is permitted to be granted to the partner/sponsor in question. If I have not unsubscribed from any or a sufficient number of partners/sponsors, Planet49 will choose partners/sponsors for me at its discretion (maximum number: 30 partners/sponsors).'
+'By clicking on the "Unsubscribe" link, I am deciding that no advertising consent is permitted to be granted to the partner/sponsor in question. If I have not unsubscribed from any or a sufficient number of partners/sponsors, Planet49 will choose partners/sponsors for me at its discretion (maximum number: 30 partners/sponsors).'
 
 **30** When the hyperlink associated with the word 'here' next to the second checkbox was clicked on, the following information was displayed:
 
@@ -288,7 +271,7 @@ You of course have the option to revoke this consent at any time. You can send t
 
 **35** Following an appeal on points of fact and law brought by Planet49 before the Oberlandesgericht Frankfurt am Main (Higher Regional Court, Frankfurt am Main, Germany), that court held that the Federation's plea for an injunction ordering Planet49 to refrain from including the statement set out in paragraph 27 above, the checkbox for which was pre-checked, in consumer lottery agreements, was unfounded in that, first, the user would realise that he or she could deselect the tick in that checkbox and, second, the text was set out with sufficient clarity from a typographical point of view and provided information about the manner of the use of cookies without it being necessary to disclose the identity of third parties able to access the information collected.
 
-**36** The Bundesgerichtshof (Federal Court of Justice, Germany), before which the Federation brought an appeal on a point of law (Revision), considers that the success of the appeal in the main proceedings turns on the interpretation of Article 5(3) and Article 2(f) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 6]](1)(a) of Regulation 2016/679.
+**36** The Bundesgerichtshof (Federal Court of Justice, Germany), before which the Federation brought an appeal on a point of law (Revision), considers that the success of the appeal in the main proceedings turns on the interpretation of Article 5(3) and Article 2(f) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 6]](1\)(a) of Regulation 2016/679.
 
 **37** Harbouring doubts as to the validity, in the light of those provisions, of the consent obtained by Planet49 from internet users of the website www.dein-macbook.de by means of the second checkbox and as to the extent of the information obligation provided for in Article 5(3) of Directive 2002/58, the Bundesgerichtshof (Federal Court of Justice) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
 
@@ -296,7 +279,7 @@ You of course have the option to revoke this consent at any time. You can send t
 
 (b) For the purposes of the application of Article 5(3) and of Article 2(f) of Directive \[2002/58\] read in conjunction with Article 2(h) of Directive \[95/46\], does it make a difference whether the information stored or accessed constitutes personal data?
 
-(c) In the circumstances referred to in Question 1(a), does a valid consent within the meaning of [[Article 6]](1)(a) of Regulation \[2016/679\] exist?
+(c) In the circumstances referred to in Question 1(a), does a valid consent within the meaning of [[Article 6]](1\)(a) of Regulation \[2016/679\] exist?
 
 **(2)** What information does the service provider have to give within the scope of the provision of clear and comprehensive information to the user that has to be undertaken in accordance with Article 5(3) of Directive \[2002/58\]? Does this include the duration of the operation of the cookies and the question of whether third parties are given access to the cookies?'
 
@@ -310,7 +293,7 @@ Preliminary observations
 
 **40** Indeed, that date is more recent than the date of the last hearing before the referring court, which took place on 14 July 2017, and more recent than the date on which the request for a preliminary ruling was referred by the national court.
 
-**41** However, the referring court stated that, in view of the entry into force, on 25 May 2018, of Regulation 2016/679, to which part of the first question refers, it was likely that that regulation would need to be taken into account when disposing of the case in the main proceedings. In addition, as the German Government stated at the hearing before the Court, it is not inconceivable that, in so far as the proceedings brought by the Federation seek an order that Planet49 refrain from future action, Regulation 2016/679 would be applicableratione temporisto the case in the main proceedings according to the national case-law regarding the relevant legal position on injunctions, which is for the referring court to ascertain (see, as regards an action for a declaratory judgment, judgment of 16 January 2019, Deutsche Post, [[C-496-17|C-496/17]], EU:C:2019:26, paragraph38).
+**41** However, the referring court stated that, in view of the entry into force, on 25 May 2018, of Regulation 2016/679, to which part of the first question refers, it was likely that that regulation would need to be taken into account when disposing of the case in the main proceedings. In addition, as the German Government stated at the hearing before the Court, it is not inconceivable that, in so far as the proceedings brought by the Federation seek an order that Planet49 refrain from future action, Regulation 2016/679 would be applicableratione temporisto the case in the main proceedings according to the national case-law regarding the relevant legal position on injunctions, which is for the referring court to ascertain (see, as regards an action for a declaratory judgment, judgment of 16 January 2019, Deutsche Post, [[C-496-17|C-496⧸17]], EU:C:2019:26, paragraph38).
 
 **42** In those circumstances, and in the light of the fact that, under Article 94(2) of Regulation 2016/679, the references to Directive 95/46 in Directive 2002/58 are to be construed as references to that regulation, it is not inconceivable, in the present case, that Directive 2002/58 applies both to Directive 95/46 and Regulation 2016/679, according to the nature of the Federation's pleas and the relevant time.
 
@@ -318,15 +301,15 @@ Preliminary observations
 
 ### Question 1(a) and (c)
 
-**44** By Question 1(a) and (c), the referring court asks, in essence, whether Article 2(f) and Article 5(3) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 6]](1)(a) of Regulation 2016/679, must be interpreted as meaning that the consent referred to in those provisions is validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
+**44** By Question 1(a) and (c), the referring court asks, in essence, whether Article 2(f) and Article 5(3) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 6]](1\)(a) of Regulation 2016/679, must be interpreted as meaning that the consent referred to in those provisions is validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
 
 **45** As a preliminary matter, it is important to note that, according to the order for reference, the cookies likely to be placed on the terminal equipment of a user participating in the promotional lottery organised by Planet49 contain a number which is assigned to the registration data of that user, who must enter his or her name and address in the registration form for the lottery. The referring court adds that, by linking that number with that data, a connection between a person to the data stored by the cookies arises if the user uses the internet, such that the collection of that data by means of cookies is a form of processing of personal data. Those statements were confirmed by Planet49, which noted in its written observations that the consent to which the second checkbox refers is intended to authorise the collection and processing of personal data, not anonymous data.
 
 **46** On the basis of those explanations, it should be noted that, in accordance with Article 5(3) of Directive 2002/58, Member States are to ensure that the storing of information, or the gaining of access to information already stored, in the terminal equipment of a user is only allowed on condition that the user concerned has given his or her consent, having been provided with clear and comprehensive information, in accordance with Directive 95/46, inter alia, about the purposes of the processing.
 
-**47** In that regard, it should be noted that, the need for a uniform application of EU law and the principle of equality require that the wording of a provision of EU law which makes no express reference to the law of the Member States for the purpose of determining its meaning and scope must normally be given an autonomous and uniform interpretation throughout the European Union (judgments of 26 March 2019, SM (Child placed under Algerian kafala), [[C-129-18|C-129/18]], EU:C:2019:248, paragraph50, and of 11 April 2019, Tarola, [[C-483-17|C-483/17]], EU:C:2019:309, paragraph36).
+**47** In that regard, it should be noted that, the need for a uniform application of EU law and the principle of equality require that the wording of a provision of EU law which makes no express reference to the law of the Member States for the purpose of determining its meaning and scope must normally be given an autonomous and uniform interpretation throughout the European Union (judgments of 26 March 2019, SM (Child placed under Algerian kafala), [[C-129-18|C-129⧸18]], EU:C:2019:248, paragraph50, and of 11 April 2019, Tarola, [[C-483-17|C-483⧸17]], EU:C:2019:309, paragraph36).
 
-**48** In addition, according to settled case-law of the Court, the interpretation of a provision of EU law requires that account be taken not only of its wording and the objectives it pursues, but also of its legislative context and the provisions of EU law as a whole. The origins of a provision of EU law may also provide information relevant to its interpretation (judgment of 10 December 2018, Wightman and Others, [[C-621-18|C-621/18]], EU:C:2018:999, paragraph 47 and the case-law cited).
+**48** In addition, according to settled case-law of the Court, the interpretation of a provision of EU law requires that account be taken not only of its wording and the objectives it pursues, but also of its legislative context and the provisions of EU law as a whole. The origins of a provision of EU law may also provide information relevant to its interpretation (judgment of 10 December 2018, Wightman and Others, [[C-621-18|C-621⧸18]], EU:C:2018:999, paragraph 47 and the case-law cited).
 
 **49** As regards the wording of Article 5(3) of Directive 2002/58, it should be made clear that, although that provision states expressly that the user must have 'given his or her consent' to the storage of and access to cookies on his or her terminal equipment, that provision does not, by contrast, indicate the way in which that consent must be given. The wording 'given his or her consent' does, however, lend itself to a literal interpretation according to which action is required on the part of the user in order to give his or her consent. In that regard, it is clear from recital 17 of Directive 2002/58 that, for the purposes of that directive, a user's consent may be given by any appropriate method enabling a freely given specific and informed indication of the user's wishes, including 'by ticking a box when visiting an internet website'.
 
@@ -356,11 +339,11 @@ Preliminary observations
 
 **62** Active consent is thus now expressly laid down in Regulation 2016/679. It should be noted in that regard that, according to recital 32 thereof, giving consent could include ticking a box when visiting an internet website. On the other hand, that recital expressly precludes 'silence, pre-ticked boxes or inactivity' from constituting consent.
 
-**63** It follows that the consent referred to in Article 2(f) and in Article 5(3) of Directive 2002/58, read in conjunction with [[Article 4]](11) and [[Article 6]](1)(a) of Regulation 2016/679, is not validly constituted if the storage of information, or access to information already stored in the website user's terminal equipment, is permitted by way of a pre-ticked checkbox which the user must deselect to refuse his or her consent.
+**63** It follows that the consent referred to in Article 2(f) and in Article 5(3) of Directive 2002/58, read in conjunction with [[Article 4]](11\) and [[Article 6]](1\)(a) of Regulation 2016/679, is not validly constituted if the storage of information, or access to information already stored in the website user's terminal equipment, is permitted by way of a pre-ticked checkbox which the user must deselect to refuse his or her consent.
 
-**64** Lastly, it should be noted that the referring court has not referred to the Court the question whether it is compatible with the requirement that consent be 'freely given', within the meaning of Article 2(h) of Directive 95/46 and of [[Article 4]](11) and [[Article 7]](4) of Regulation 2016/679, for a user's consent to the processing of his personal data for advertising purposes to be a prerequisite to that user's participation in a promotional lottery, as appears to be the case in the main proceedings, according to the order for reference, at least as far as concerns the first checkbox. In those circumstances, it is not appropriate for the Court to consider that question.
+**64** Lastly, it should be noted that the referring court has not referred to the Court the question whether it is compatible with the requirement that consent be 'freely given', within the meaning of Article 2(h) of Directive 95/46 and of [[Article 4]](11\) and [[Article 7]](4\) of Regulation 2016/679, for a user's consent to the processing of his personal data for advertising purposes to be a prerequisite to that user's participation in a promotional lottery, as appears to be the case in the main proceedings, according to the order for reference, at least as far as concerns the first checkbox. In those circumstances, it is not appropriate for the Court to consider that question.
 
-**65** In the light of the foregoing considerations, the answer to Question 1(a) and (c) is that Article 2(f) and Article 5(3) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 4]](11) and [[Article 6]](1)(a) of Regulation 2016/679, must be interpreted as meaning that the consent referred to in those provisions is not validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
+**65** In the light of the foregoing considerations, the answer to Question 1(a) and (c) is that Article 2(f) and Article 5(3) of Directive 2002/58, read in conjunction with Article 2(h) of Directive 95/46 and [[Article 4]](11\) and [[Article 6]](1\)(a) of Regulation 2016/679, must be interpreted as meaning that the consent referred to in those provisions is not validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
 
 ### Question 1(b)
 
@@ -378,23 +361,23 @@ Preliminary observations
 
 ### Question 2
 
-**72** By Question 2, the referring court asks, in essence, whether Article 5(3) of Directive 2002/58 must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
+**72**     By Question 2, the referring court asks, in essence, whether Article 5(3) of Directive 2002/58 must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
 
-**73** As has already been made clear in paragraph 46 above, Article 5(3) of Directive 2002/58 requires that the user concerned has given his or her consent, having been provided with clear and comprehensive information, 'in accordance with Directive \[95/46\]', inter alia, about the purposes of the processing.
+**73**     As has already been made clear in paragraph 46 above, Article 5(3) of Directive 2002/58 requires that the user concerned has given his or her consent, having been provided with clear and comprehensive information, 'in accordance with Directive \[95/46\]', inter alia, about the purposes of the processing.
 
-**74** As the Advocate General stated in point 115 of his Opinion, clear and comprehensive information implies that a user is in a position to be able to determine easily the consequences of any consent he or she might give and ensure that the consent given is well informed. It must be clearly comprehensible and sufficiently detailed so as to enable the user to comprehend the functioning of the cookies employed.
+**74**     As the Advocate General stated in point 115 of his Opinion, clear and comprehensive information implies that a user is in a position to be able to determine easily the consequences of any consent he or she might give and ensure that the consent given is well informed. It must be clearly comprehensible and sufficiently detailed so as to enable the user to comprehend the functioning of the cookies employed.
 
-**75** In a situation such as that at issue in the main proceedings, in which, according to the file before the Court, cookies aim to collect information for advertising purposes relating to the products of partners of the organiser of the promotional lottery, the duration of the operation of the cookies and whether or not third parties may have access to those cookies form part of the clear and comprehensive information which must be provided to the user in accordance with Article 5(3) of Directive 2002/58.
+**75**     In a situation such as that at issue in the main proceedings, in which, according to the file before the Court, cookies aim to collect information for advertising purposes relating to the products of partners of the organiser of the promotional lottery, the duration of the operation of the cookies and whether or not third parties may have access to those cookies form part of the clear and comprehensive information which must be provided to the user in accordance with Article 5(3) of Directive 2002/58.
 
-**76** In that regard, it should be made clear that Article 10 of Directive 95/46, to which Article 5(3) of Directive 2002/58 and [[Article 13]] of Regulation 2016/679 refer, lists the information with which the controller must provide a data subject from whom data relating to himself are collected.
+**76**     In that regard, it should be made clear that Article 10 of Directive 95/46, to which Article 5(3) of Directive 2002/58 and [[Article 13]] of Regulation 2016/679 refer, lists the information with which the controller must provide a data subject from whom data relating to himself are collected.
 
-**77** That information includes, inter alia, under Article 10 of Directive 95/46, in addition to the identity of the controller and the purposes of the processing for which the data are intended, any further information such as the recipients or categories of recipients of the data in so far as such further information is necessary, having regard to the specific circumstances in which the data are processed, to guarantee fair processing in respect of the data subject.
+**77**    That information includes, inter alia, under Article 10 of Directive 95/46, in addition to the identity of the controller and the purposes of the processing for which the data are intended, any further information such as the recipients or categories of recipients of the data in so far as such further information is necessary, having regard to the specific circumstances in which the data are processed, to guarantee fair processing in respect of the data subject.
 
-**78** Although the duration of the processing of the data is not included as part of that information, it is, however, clear from the words 'at least' in Article 10 of Directive 95/46 that that information is not listed exhaustively. Information on the duration of the operation of cookies must be regarded as meeting the requirement of fair data processing provided for in that article in that, in a situation such as that at issue in the main proceedings, a long, or even unlimited, duration means collecting a large amount of information on users' surfing behaviour and how often they may visit the websites of the organiser of the promotional lottery's advertising partners.
+**78**    Although the duration of the processing of the data is not included as part of that information, it is, however, clear from the words 'at least' in Article 10 of Directive 95/46 that that information is not listed exhaustively. Information on the duration of the operation of cookies must be regarded as meeting the requirement of fair data processing provided for in that article in that, in a situation such as that at issue in the main proceedings, a long, or even unlimited, duration means collecting a large amount of information on users' surfing behaviour and how often they may visit the websites of the organiser of the promotional lottery's advertising partners.
 
-**79** That interpretation is borne out by [[Article 13]](2)(a) of Regulation 2016/679, which provides that the controller must, in order to ensure fair and transparent processing, provide the data subject with information relating, inter alia, to the period for which the personal data will be stored, or if that is not possible, to the criteria used to determine that period.
+**79** That interpretation is borne out by [[Article 13]](2\)(a) of Regulation 2016/679, which provides that the controller must, in order to ensure fair and transparent processing, provide the data subject with information relating, inter alia, to the period for which the personal data will be stored, or if that is not possible, to the criteria used to determine that period.
 
-**80** As to whether or not third parties may have access to cookies, that is information included within the information referred to in Article 10(c) of Directive 95/46 and in [[Article 13]](1)(e) of Regulation 2016/679, since those provisions expressly refer to the recipients or categories of recipients of the data.
+**80** As to whether or not third parties may have access to cookies, that is information included within the information referred to in Article 10(c) of Directive 95/46 and in [[Article 13]](1\)(e) of Regulation 2016/679, since those provisions expressly refer to the recipients or categories of recipients of the data.
 
 **81** In the light of the foregoing considerations, the answer to Question 2 is that Article 5(3) of Directive 2002/58 must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
 
@@ -404,10 +387,10 @@ Costs
 
 ### On those grounds, the Court (Grand Chamber) hereby rules:
 
-**1.** Article 2(f) and of Article 5(3) of Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications), as amended by Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009, read in conjunction with Article 2(h) of Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and Article 4(11) and Article 6(1)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 (General Data Protection Regulation), must be interpreted as meaning that the consent referred to in those provisions is not validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.
+**1. Article 2(f) and of Article 5(3) of Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications), as amended by Directive 2009/136/EC of the European Parliament and of the Council of 25 November 2009, read in conjunction with Article 2(h) of Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and Article 4(11) and Article 6(1)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 (General Data Protection Regulation), must be interpreted as meaning that the consent referred to in those provisions is not validly constituted if, in the form of cookies, the storage of information or access to information already stored in a website user's terminal equipment is permitted by way of a pre-checked checkbox which the user must deselect to refuse his or her consent.**
 
-**2.** Article 2(f) and Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, read in conjunction with Article 2(h) of Directive 95/46 and Article 4(11) and Article 6(1)(a) of Regulation 2016/679, are not to be interpreted differently according to whether or not the information stored or accessed on a website user's terminal equipment is personal data within the meaning of Directive 95/46 and Regulation 2016/679.
+**2. Article 2(f) and Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, read in conjunction with Article 2(h) of Directive 95/46 and Article 4(11) and Article 6(1)(a) of Regulation 2016/679, are not to be interpreted differently according to whether or not the information stored or accessed on a website user's terminal equipment is personal data within the meaning of Directive 95/46 and Regulation 2016/679.**
 
-**3.** Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.
+**3. Article 5(3) of Directive 2002/58, as amended by Directive 2009/136, must be interpreted as meaning that the information that the service provider must give to a website user includes the duration of the operation of cookies and whether or not third parties may have access to those cookies.**
 
 (\*1) Language of the case: German.

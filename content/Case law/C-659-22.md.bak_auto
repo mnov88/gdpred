@@ -1,0 +1,170 @@
+---
+title: C-659/22
+date: 2023-10-05
+case-number: C-659/22
+parties: RK v Ministerstvo zdravotnictví
+topics:
+  - Protection of natural persons with regard to the processing of personal data
+  - Regulation (EU) 2016/679
+  - Concept of 'processing' of personal data
+  - Mobile application
+  - Verification of the validity of 'EU Digital COVID Certificates' issued pursuant to Regulation (EU) 2021/953
+final-ruling: The concept of ‘processing’ personal data referred to in Article 4(2) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)must be interpreted as including the verification, using a national mobile application, of the validity of interoperable COVID-19 vaccination, test and recovery certificates issued pursuant to Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic, and used by a Member State for national purposes.
+ruling-articles:
+  - Article 4
+---
+JUDGMENT OF THE COURT (Eighth Chamber)
+
+5 October 2023 (\*1)
+
+(Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 4]](2\) -- Concept of 'processing' of personal data -- Mobile application -- Verification of the validity of 'EU Digital COVID Certificates' issued pursuant to Regulation (EU) 2021/953)
+
+In Case C-659⧸22,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Nejvyšší správní soud (Supreme Administrative Court, Czech Republic), made by decision of 12 October 2022, received at the Court on 20 October 2022, in the proceedings
+
+RK
+
+v
+
+Ministerstvo zdravotnictví,
+
+THE COURT (Eighth Chamber),
+
+composed of M. Safjan, President of the Chamber, N. Piçarra and M. Gavalec (Rapporteur), Judges,
+
+Advocate General: L. Medina,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- RK, by D. Sudolská, advokátka,
+
+-- the Czech Government, by M. Smolek, O. Serdula and J. Vláčil, acting as Agents,
+
+-- the Netherlands Government, by K. Bulterman and A. Hanje, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, H. Kranenborg and P. Ondrůšek, acting as Agents,
+
+having decided, after hearing the Advocate General, to proceed to judgment without an Opinion,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 2(1) and Article 4(2) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+**2** The request has been made in proceedings between RK and the Ministerstvo zdravotnictví (Ministry of Health, Czech Republic; 'the Ministry') concerning the adoption by the latter of an extraordinary measure regulating access of persons to certain places and events in order to protect the population in the context of the spread of the COVID-19 epidemic.
+
+Legal context
+
+The GDPR
+
+**3** According to recital 1 of the GDPR, 'the protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union ... and Article 16(1) of the Treaty on the Functioning of the European Union (TFEU) provide that everyone has the right to the protection of personal data concerning him or her'.
+
+**4** [[Article 2]] of that regulation, entitled 'Material scope', provides in paragraph 1:
+
+'This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system'.
+
+**5** [[Article 2]](2\) lists four scenarios in which the GDPR 'does not apply to the processing of personal data'.
+
+**6** Under [[Article 4]] of that regulation:
+
+'For the purposes of this Regulation:
+
+...'
+
+**(1)** "personal data" means any information relating to an identified or identifiable natural person ("data subject"); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;
+
+**(2)** "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction;
+
+**7** Articles 5 and 6 of that regulation deal respectively with 'principles relating to processing of personal data' and 'lawfulness of processing'.
+
+Regulation (EU) 2021/953
+
+**8** Recital 48 of Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic (OJ 2021 L 211, p. 1) states as follows:
+
+'\[The GDPR\] applies to the processing of personal data carried out when implementing this Regulation. This Regulation establishes the legal ground for the processing of personal data within the meaning of point (c) of [[Article 6]](1\) and point (g) of [[Article 9]](2\) of \[the GDPR\], necessary for the issuance and verification of the interoperable certificates provided for in this Regulation. ... Member States may process personal data for other purposes, if the legal basis for the processing of such data for other purposes, including the related retention periods, is provided for in national law, which must comply with Union data protection law and the principles of effectiveness, necessity and proportionality, and should contain provisions clearly identifying the scope and extent of the processing, the specific purpose involved, the categories of entity that can verify the certificate as well as the relevant safeguards to prevent discrimination and abuse, taking into account the risks to the rights and freedoms of data subjects. ...'
+
+**9** [[Article 1]] of that regulation, entitled 'Subject matter', provides:
+
+'This Regulation lays down a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) for the purpose of facilitating the holders' exercise of their right to free movement during the COVID-19 pandemic. This Regulation shall also contribute to facilitating the gradual lifting of restrictions to free movement put in place by the Member States, in accordance with Union law, to limit the spread of SARS-CoV-2, in a coordinated manner.
+
+It provides for the legal ground to process the personal data necessary to issue such certificates and to process the information necessary to verify and confirm the authenticity and validity of such certificates in full compliance with \[the GDPR\].'
+
+**10** [[Article 3]] of that regulation, entitled 'EU Digital COVID Certificate', provides in paragraph 1 that the EU Digital COVID Certificate framework allows for the issuance, cross-border verification and acceptance of vaccination, test and recovery certificates. [[Article 3]](2\) provides that 'Member States, or designated bodies acting on behalf of Member States, shall issue the certificates referred to in paragraph 1 of this Article in a digital or paper-based format, or both. The prospective holders shall be entitled to receive the certificates in the format of their choice. Those certificates shall be user-friendly and shall contain an interoperable barcode allowing for the verification of their authenticity, validity and integrity. The barcode shall comply with the technical specifications established pursuant to [[Article 9]]. The information contained in the certificates shall also be shown in human-readable form and shall be provided in at least the official language or languages of the issuing Member State and English'.
+
+**11** [[Article 5]](2\)(a) and [[Article 6]](2\)(a), as well as [[Article 7]](2\)(a) of that regulation, provide respectively that a vaccination, test and recovery certificate is to contain the identity of its holder.
+
+**12** [[Article 10]] of that same regulation, entitled 'Protection of personal data', provides in its first four paragraphs:
+
+'1. \[The GDPR\] shall apply to the processing of personal data carried out when implementing this Regulation.
+
+2.  For the purpose of this Regulation, the personal data contained in the certificates issued pursuant to this Regulation shall be processed only for the purpose of accessing and verifying the information included in the certificate in order to facilitate the exercise of the right of free movement within the Union during the COVID-19 pandemic. After the end of period of the application of this Regulation, no further processing shall occur.
+
+3.  The personal data included in the certificates referred to in [[Article 3]](1\) shall be processed by the competent authorities of the Member State of destination or transit, or by the cross-border passenger transport services operators required by national law to implement certain public health measures during the COVID-19 pandemic, only to verify and confirm the holder's vaccination, test result or recovery. To that end, the personal data shall be limited to what is strictly necessary. The personal data accessed pursuant to this paragraph shall not be retained.
+
+4.  The personal data processed for the purpose of issuing the certificates referred to in [[Article 3]](1\), including the issuance of a new certificate, shall not be retained by the issuer longer than is strictly necessary for its purpose and in no case longer than the period for which the certificates may be used to exercise the right to free movement.'
+
+### The dispute in the main proceedings and the question referred for a preliminary ruling
+
+**13** By extraordinary measure of 29 December 2021 ('the extraordinary measure'), adopted in order to protect the population in the context of the spread of the COVID-19 pandemic, the Ministry made access for persons to certain indoor and outdoor premises, as well as their participation in mass-organised events or other activities, subject to certain conditions as from 3 January 2022. Thus, inter alia the following were required: (i) a negative PCR test to test for the presence of the SARS-CoV-2 virus from within the previous 72 hours for persons under 18 years of age, persons unable to receive a vaccination against COVID-19 due to contraindication, and also persons not having completed a full course of vaccination; (ii) the expiry of a period of at least 14 days after having completed a full course of vaccination using an approved medicinal product; or (iii) COVID‑19 contamination, confirmed by a laboratory, where the isolation period has ended and not more than 180 days has passed since the first positive test ('infection-free' conditions).
+
+**14** The extraordinary measure obliged clients (spectators, participants) to provide proof of compliance with those conditions and required operators (organisers) to conduct compliance checks using the Ministry's mobile application 'čTečka'. If the client failed to show compliance with those conditions, the operator was prohibited from providing the service and allowing the person access to the premises or event. Under the extraordinary measure, that application guaranteed reliable verification of the authenticity and validity of the certificate presented containing a QR code.
+
+**15** In order to rule on the action for annulment of the extraordinary measure brought by RK on 20 January 2022, the Nejvyšší správní soud (Supreme Administrative Court, Czech Republic), the referring court, considers it necessary to begin by examining whether the review of the 'infection-free' conditions using the 'čTečka' application constitutes 'processing' by automated means of personal data within the meaning of [[Article 4]](2\) of the GDPR, since it considers the information contained in the EU Digital COVID Certificates to be personal data within the meaning of [[Article 4]](1\) of the GDPR. If so, that regulation applies, as provided for in [[Article 2]](1\) thereof.
+
+**16** The referring court explains that the 'čTečka' application makes it possible to check and verify the validity of the EU Digital COVID Certificates issued pursuant to Regulation 2021/953. The application scans the QR code of the certificate using the camera of the mobile telephone of the person conducting the check. That person then has a preview of the basic identifying data of the certificate holder (surname, first name and date of birth) as well as the status (valid or invalid) of the certificate. By clicking on a specific button of the application, the person conducting the check is able to access the complete set of the information shown in the certificate, such as vaccination, type of vaccine, vaccine manufacturer, number of doses received, date of vaccination, date of first positive result and certificate issuer. The 'čTečka' application merely temporarily displays those data on the screen of the mobile telephone of the person conducting the check, so that those data are not retained or sent anywhere.
+
+**17** The referring court states that, in order to verify the validity of an EU Digital COVID Certificate, the application downloads, once every 24 hours or upon request, public keys of Member States' certificates and the Member States' validation rules from the Ministry's interface. That process may run offline as well. At the time when the application is installed on the mobile telephone of the person conducting the check, a text is displayed stating that 'the "čTečka" application is operated in accordance with EU law and the law of the Czech Republic and facilitates the free movement of persons and access to services and events during the COVID-19 pandemic. The application processes personal data of the holders of the COVID digital certificates of the Member States of the European Union for the purpose of checks conducted by persons empowered to do so under EU rules, extraordinary measures \[of the Ministry\] or on a voluntary basis. The application does not in any way retain or send onwards personal data relating to the health of the persons being checked. Detailed information on the processing of personal data may be found in the terms and conditions of use'.
+
+**18** The referring court further observes that, under [[Article 3]](2\) of Regulation 2021/953, certificates issued by a Member State must contain an interoperable barcode allowing for the verification of their authenticity, validity and integrity. It states that the conversion of personal data referred to in paragraph 16 of the present judgment, from a machine-readable format to a human-readable format, is done using an automated procedure, namely the 'čTečka' application, which could be deemed to be processing of personal data within the meaning of [[Article 4]](2\) of the GDPR.
+
+**19** The referring court has some doubts, however, as to whether the simple conversion and display operation of those data on a mobile telephone constitutes 'processing' within the meaning of that provision, especially since the two operations do not entail any risk of misuse of the personal data and nor do they interfere with the right of protection of those data, since the application does not send the data thus obtained anywhere.
+
+**20** The referring court also considers that the verification of the validity of the certificate using the 'čTečka' application could potentially also constitute processing of personal data, since that operation entails the use of personal data contained in that certificate relating to the health of the person being checked. In order to be able to assess whether or not the certificate is valid and determine whether the 'infection-free' conditions provided for by the extraordinary measure are satisfied by the data subject, the application must necessarily compare the health-related information of that person, such as the date of vaccination, with the validation rules in force at the material time.
+
+**21** Lastly, the referring court takes the view that the combination of the processes that take place during the check of the certificates using the 'čTečka' application, namely the conversion of the personal data from the QR code into a human-readable format, their display on a mobile telephone, the consultation thereof by the person conducting the check and the assessment of the validity of the certificate by the application through a comparison of the health-related personal data with the validation rules, could potentially constitute processing of personal data. Although, considered individually, those operations may not constitute processing within the meaning of [[Article 4]](2\) of the GDPR, their juxtaposition may lead to their being so categorised.
+
+**22** Having viewed the matter in that light, the referring court observes that [[Article 10]](1\) and (3) of Regulation 2021/953 provides expressly that, for the purposes of exercise of the right to free movement within the European Union, the GDPR applies to the processing of personal data contained in the EU Digital COVID Certificates. Moreover, recital 48 of Regulation 2021/953 states that the processing of personal data should be subject to uniform legal rules.
+
+**23** In those circumstances, the Nejvyšší správní soud (Supreme Administrative Court) decided to stay the proceedings and to refer the following question to the Court of Justice for a preliminary ruling:
+
+'Does the verification, using the national "čTečka" application, of the validity of interoperable COVID-19 vaccination, test, or recovery certificates, issued pursuant to \[Regulation 2021/953\], which are used by the Czech Republic for national purposes, amount to automated processing of personal data pursuant to \[[[Article 4]](2\) of the GDPR\], and hence, is the material scope of \[that regulation\] thus established, pursuant to [[Article 2]](1\) of that regulation?'
+
+### Consideration of the question referred
+
+**24** By its question, the referring court asks, in essence, whether the concept of 'processing' of personal data referred to in [[Article 4]](2\) of the GDPR must be interpreted as including the verification, using a national mobile application, of the validity of interoperable COVID-19 vaccination, test and recovery certificates issued pursuant to Regulation 2021/953 and used by a Member State for national purposes.
+
+**25** It is common ground that a number of the pieces of information to which the person conducting the check obtains access during the check of the validity of an EU Digital COVID Certificate, such as those referred to in paragraph 16 of the present judgment, are 'personal data' within the meaning of [[Article 4]](1\) of the GDPR. That provision states that the concept of 'personal data' means 'any information relating to an identified or identifiable natural person' and that that identification may result inter alia from the use of the name of the data subject.
+
+**26** On that latter point, suffice it to observe that [[Article 5]](2\)(a) and [[Article 6]](2\)(a), as well as [[Article 7]](2\)(a), of Regulation 2021/953 provide respectively that a vaccination, test and recovery certificate is to contain the identity of its holder.
+
+**27** That being so, it should be noted that [[Article 4]](2\) of the GDPR defines the concept of 'processing' as 'any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means'. In a non-exhaustive enumeration, beginning with the wording 'such as', that provision refers to examples of processing as including the consultation and use of personal data. It is apparent from the wording of that provision, and in particular from the expression 'any operation', that the EU legislature intended the concept of 'processing' to have a broad meaning (see, to that effect, judgment of 24 February 2022, Valsts ieņēmumu dienests (Processing of personal data for tax purposes), [[C-175-20|C-175⧸20]], EU:C:2022:124, paragraph35).
+
+**28** That broad interpretation of 'personal data' and 'processing' is consistent with the objective of guaranteeing the effectiveness of the fundamental right of protection of natural persons with regard to the processing of personal data, referred to in recital 1 of the GDPR, which sets the tone for the application of that regulation.
+
+**29** In the present case, a national mobile application such as the 'čTečka' application, scans the QR code on the EU Digital COVID Certificate in order to convert the personal data contained in that code into a format that can be read by the person conducting the check. In doing so, such an application enables the person conducting the check to consult, at the end of an automated process (scanning), personal data and to use them in order to assess whether the situation of the data subject complies with the validation rules, in other words, the applicable health requirements. The outcome of that assessment is also automated because a green check mark is displayed on the mobile telephone of the person conducting the check when the health requirements are complied with, whereas, if they are not, a red check mark is displayed.
+
+**30** The Court accordingly finds that the verification done using the 'čTečka' application of the validity of interoperable COVID-19 vaccination, test and recovery certificates issued pursuant to Regulation 2021/953 constitutes 'processing' within the meaning of [[Article 4]](2\) of the GDPR and, pursuant to [[Article 2]](1\) of that regulation, comes within the material scope thereof.
+
+**31** The interpretation referred to in paragraph 30 of the present judgment is corroborated by Regulation 2021/953, which provides that the implementation of the EU Digital COVID Certificate constitutes processing within the meaning of [[Article 4]](2\) of the GDPR. The second paragraph of [[Article 1]] of Regulation 2021/953 states that that regulation 'provides for the legal ground to process the personal data necessary to issue such certificates and to process the information necessary to verify and confirm the authenticity and validity of such certificates in full compliance with \[the GDPR\]'. It is, moreover, apparent from recital 48 of Regulation 2021/953, first, that the GDPR applies to the processing of personal data carried out during the implementation of Regulation 2021/953 and, second, that the latter regulation establishes the legal ground for the processing of personal data within the meaning of point (c) of [[Article 6]](1\) and point (g) of [[Article 9]](2\) of the GDPR, necessary for the issuance and verification of the interoperable certificates provided for in Regulation 2021/953. [[Article 10]](1\) of that regulation also confirms that the GDPR applies to the processing of personal data carried out in the course of the implementation of Regulation 2021/953.
+
+**32** Consequently, it will be for the referring court to ascertain whether the processing introduced by the extraordinary measure, first, observes the principles relating to the processing of data laid down in [[Article 5]] of the GDPR and, second, observes one of the principles relating to the lawfulness of processing laid down in [[Article 6]] of that regulation (see, inter alia, judgments of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439⧸19]], EU:C:2021:504, paragraph96, and of 4 May 2023, Bundesrepublik Deutschland (Court electronic mailbox), [[C-60-22|C-60⧸22]], EU:C:2023:373, paragraph57).
+
+**33** In the light of the foregoing, the concept of 'processing' of personal data referred to in [[Article 4]](2\) of the GDPR must be interpreted as including the verification, using a national mobile application, of the validity of interoperable COVID-19 vaccination, test and recovery certificates issued pursuant to Regulation 2021/953 and used by a Member State for national purposes.
+
+Costs
+
+**34** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the national court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Eighth Chamber) hereby rules:
+
+**The concept of ‘processing’ personal data referred to in Article 4(2) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)**
+
+**must be interpreted as including the verification, using a national mobile application, of the validity of interoperable COVID-19 vaccination, test and recovery certificates issued pursuant to Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic, and used by a Member State for national purposes.**
+
+(\*1) Language of the case: Czech.

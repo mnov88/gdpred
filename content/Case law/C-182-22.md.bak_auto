@@ -1,0 +1,307 @@
+---
+title: C-182/22
+date: 2024-06-20
+case-number: C-182/22
+aliases:
+  - C-189/22
+parties: JU, SO v Scalable Capital GmbH
+topics:
+  - Protection of natural persons with regard to the processing of personal data
+  - Regulation (EU) 2016/679
+  - Article 82
+  - Right to compensation for damage caused by data processing
+  - Concept of 'non-material damage'
+  - Compensation of a punitive nature or purely in respect of damages and satisfaction
+  - Minimal or symbolic compensation
+  - Theft of personal data
+  - Identity theft or fraud
+final-ruling: |
+  1. Article 82(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  
+  must be interpreted as meaning that the right to compensation laid down in that provision fulfils an exclusively compensatory function, in that financial compensation based on that provision must allow the damage suffered to be compensated in full.
+  
+  2. Article 82(1) of Regulation 2016/679 
+  
+  must be interpreted as not requiring that the severity and the possible intentional nature of the infringement of that regulation by the controller be taken into account for the purposes of compensation for damage under that provision.
+  
+  3. Article 82(1) of Regulation 2016/679
+  
+  must be interpreted as meaning that, when determining the amount of damages due in respect of the right to compensation for non-material damage, it is appropriate to consider that such damage caused by a personal data breach is not, by its nature, less significant than physical injury.
+  
+  4. Article 82(1) of Regulation 2016/679
+  
+  must be interpreted as meaning that, where damage is established, a national court may, where that damage is not serious, compensate for it by awarding minimal compensation to the data subject, provided that that compensation is such as to compensate in full for the damage suffered.
+  
+  5. Article 82(1) of Regulation 2016/679, read in the light of recitals 75 and 85 of that regulation,
+  
+  must be interpreted as meaning that the concept of 'identity theft', in order to be classified as such and to give rise to a right to compensation for non-material damage under that provision, implies that the identity of a person affected by a theft of personal data has actually been misused by a third party. However, compensation for non-material damage caused by the theft of personal data, under that provision, cannot be limited to cases where it is shown that that data theft subsequently gave rise to identify theft or fraud.
+ruling-articles:
+  - Article 82
+---
+
+JUDGMENT OF THE COURT (Third Chamber)
+
+20 June 2024 ([*](https://curia.europa.eu/juris/document/document_print.jsf?mode=lst&pageIndex=0&docid=287303&part=1&doclang=EN&text=&dir=&occ=first&cid=25578878#Footnote*))
+
+(References for a preliminary ruling – Protection of natural persons with regard to the processing of personal data – Regulation (EU) 2016/679 – Article 82 – Right to compensation for damage caused by data processing that infringes that regulation – Concept of 'non-material damage' – Compensation of a punitive nature or purely in respect of damages and satisfaction – Minimal or symbolic compensation – Theft of personal data stored on a trading application – Identity theft or fraud)
+
+In Joined Cases C‑182/22 and C‑189/22,
+
+REQUESTS for a preliminary ruling under Article 267 TFEU from the Amtsgericht München (Local Court, Munich, Germany), made by decisions of 3 March 2022, received at the Court on 10 and 11 March 2022, in the proceedings
+
+**JU** (C‑182/22),
+
+**SO** (C‑189/22)
+
+v
+
+**Scalable Capital GmbH,**
+
+THE COURT (Third Chamber),
+
+composed of K. Jürimäe, President of the Chamber, N. Piçarra and N. Jääskinen (Rapporteur), Judges,
+
+Advocate General: A.M. Collins,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+– SO, by M. Ruigrok van de Werve, Rechtsanwalt,
+
+– Scalable Capital GmbH, by M.C. Mekat, Rechtsanwalt,
+
+– Ireland, by M. Browne, Chief State Solicitor, A. Joyce and M. Tierney, acting as Agents, and by D. Fennelly, Barrister-at-Law,
+
+– the European Commission, by A. Bouchagiar, M. Heller and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 26 October 2023,
+
+gives the following
+
+**Judgment**
+
+1 These requests for a preliminary ruling concern the interpretation of Article 82 of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+2 The requests have been made in two sets of proceedings between, on the one hand, JU and SO, respectively, and, on the other hand, Scalable Capital GmbH, concerning compensation for the non-material damage which they claim to have suffered as a result of the theft, by third parties whose identity is unknown, of their personal data stored on a trading application managed by that company.
+
+ **Legal context**
+
+3 Recitals 75, 85 and 146 of the GDPR are worded as follows:
+
+'(75) The risk to the rights and freedoms of natural persons, of varying likelihood and severity, may result from personal data processing which could lead to physical, material or non-material damage, in particular: where the processing may give rise to discrimination, identity theft or fraud, financial loss, damage to the reputation, loss of confidentiality of personal data protected by professional secrecy, unauthorised reversal of pseudonymisation, or any other significant economic or social disadvantage; where data subjects might be deprived of their rights and freedoms or prevented from exercising control over their personal data; where personal data are processed which reveal racial or ethnic origin, political opinions, religion or philosophical beliefs, trade union membership, and the processing of genetic data, data concerning health or data concerning sex life or criminal convictions and offences or related security measures; where personal aspects are evaluated, in particular analysing or predicting aspects concerning performance at work, economic situation, health, personal preferences or interests, reliability or behaviour, location or movements, in order to create or use personal profiles; where personal data of vulnerable natural persons, in particular of children, are processed; or where processing involves a large amount of personal data and affects a large number of data subjects.
+
+…
+
+(85) A personal data breach may, if not addressed in an appropriate and timely manner, result in physical, material or non-material damage to natural persons such as loss of control over their personal data or limitation of their rights, discrimination, identity theft or fraud, financial loss, unauthorised reversal of pseudonymisation, damage to reputation, loss of confidentiality of personal data protected by professional secrecy or any other significant economic or social disadvantage to the natural person concerned. …
+
+…
+
+(146) … The controller or processor should be exempt from liability if it proves that it is not in any way responsible for the damage. The concept of damage should be broadly interpreted in the light of the case-law of the Court of Justice in a manner which fully reflects the objectives of this Regulation. … Data subjects should receive full and effective compensation for the damage they have suffered. …' 
+
+4 Article 4 of the regulation, entitled 'Definitions', provides:
+
+'For the purposes of this Regulation:
+
+(1) "personal data" means any information relating to an identified or identifiable natural person ("data subject"); …
+
+…
+
+(7) "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; …
+
+…
+
+(10) "third party" means a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data;
+
+…
+
+(12) "personal data breach" means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed;
+
+…'
+
+5 Article 82 of that regulation, entitled 'Right to compensation and liability', states in paragraphs 1 to 3:
+
+'1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered.
+
+2. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. A processor shall be liable for the damage caused by processing only where it has not complied with obligations of this Regulation specifically directed to processors or where it has acted outside or contrary to lawful instructions of the controller.
+
+3. A controller or processor shall be exempt from liability under paragraph 2 if it proves that it is not in any way responsible for the event giving rise to the damage.'
+
+ **The disputes in the main proceedings and the questions referred for a preliminary ruling**
+
+6 Scalable Capital, a company incorporated under German law, manages a trading application in which the applicants in the main proceedings, JU and SO, had opened an account. To that end, they entered certain personal data in their respective accounts, in particular their names, dates of birth, postal addresses, email addresses and digital copies of their identity cards. A sum of several thousand euro required in order to open those accounts had been paid by the applicants in the main proceedings.
+
+7 In 2020, personal data and data relating to the deposit made by those applicants were seized by third parties whose identity remains unknown. According to Scalable Capital, those personal data have not been used fraudulently to date.
+
+8 In that context, the applicants in the main proceedings brought an action before the Amtsgericht München (Local Court, Munich, Germany), which is the referring court, seeking compensation for the non-material damage which they claim to have suffered as a result of the theft of their personal data.
+
+9 In the first place, the referring court's questions stem from the divergent approaches of the German courts to the assessment of the damages which should be awarded in that type of situation. This results in significant variations in the amount of financial compensation awarded in cases which are nevertheless similar to those at issue in the main proceedings, in particular depending on whether or not account has been taken of any deterrent effect. The referring court states that, in the present case, several tens of thousands of people are affected by the loss of the data in question and that it is therefore necessary to adopt a uniform method of assessment.
+
+10 In the second place, as regards the assessment of non-material damage, the referring court relies on German law to distinguish between a 'compensatory' function and a 'personal satisfaction' function. The purpose of the compensatory function is to offset the actual and foreseeable consequences of the alleged damage, while the purpose of the personal satisfaction function is to offset the feeling of injustice experienced as a result of the occurrence of that damage. That court states that, under German law, that satisfaction function plays only an ancillary role and it considers that, in the present case, that function should not have any influence on the determination of the damages claimed by the applicants.
+
+11 In the third place, German law does not provide for a scale for determining the amount of damages to be awarded according to the situations in which they are claimed. However, the large number of individual decisions issued makes it possible to establish a framework to which to refer, which leads to a form of systemisation of compensation. In that regard, under the German legal system, financial compensation is granted to compensate for infringements of personality rights only where those infringements are particularly serious. A financial assessment of compensation for physical injury can be made more objectively. The referring court is therefore of the opinion that the loss of data should be given less weight than physical injury.
+
+12 In the fourth place, the referring court questions the possibility of awarding small amounts of compensation, which could be perceived as symbolic, in cases where the damage linked to an infringement of the GDPR is minimal.
+
+13 In the fifth place, the referring court notes that the parties to the main proceedings interpret the concept of 'identity theft' differently. In that regard, that court considers that there is only a theft of identity when the unlawfully obtained data are used by a third party in order to impersonate the data subject.
+
+14 In those circumstances, the Amtsgericht München (Local Court, Munich) decided, in Cases C‑182/22 and C‑189/22, to stay the proceedings and to refer the following questions, which are worded identically in both cases, to the Court of Justice for a preliminary ruling:
+
+'(1) Is Article 82 of the [GDPR] to be interpreted as meaning that the right to compensation, including the determination of the amount of that compensation, does not have a punitive character, in particular, that it has no general or specific dissuasive function, but a purely compensatory function and, in some instances, a satisfaction function?
+
+(2) Is the right to compensation for non-material damage to be determined on the basis that it also has an individual satisfaction function – understood here to mean the private interest of the injured party in seeing the behaviour that caused the damage penalised – or does it have only a compensatory function – understood here to mean the function of compensating for the detrimental effects suffered?
+
+If it is to be assumed that the right to compensation for non-material damage has both a compensatory and a satisfaction function: is it to be determined on the basis that the compensatory function has structural precedence over the satisfaction function or, at least, that the relationship between the two is that of the rule and the exception? Does that mean that it can have a satisfaction function only when the infringement is deliberate or a result of gross negligence?
+
+If the right to compensation for non-material damage does not have a satisfaction function: when determining that compensation, is additional weight attributed only to deliberate or grossly negligent data protection infringements deemed to be contributory factors?
+
+(3) Is the compensation for non-material damage to be determined on the basis of a structural order of precedence or, at least, a rule-exception relationship, which attributes less weight to the detrimental effects of a data infringement than to the detrimental and painful effects associated with a physical injury?
+
+(4) [Assuming] that damage has been sustained, can a national court award only minimal compensation, which may be perceived by the injured party or generally as merely symbolic, in the light of the non-serious nature of the damage?
+
+(5) Are the consequences of the compensation for non-material damage to be assessed on the basis that identity theft within the meaning of recital 75 of the [GDPR] requires an offender to have actually assumed the identity of the person concerned, that is to say to have somehow impersonated that person, or does the mere fact that offenders have gained possession of data that identify the person concerned constitute such identity theft?'
+
+ **Procedure before the Court**
+
+15 By decision of the President of the Court of 19 April 2022, Cases C‑182/22 and C‑189/22 were joined for the purposes of the written and oral parts of the procedure and the judgment.
+
+16 On 1 June 2022, the President of the Court rejected Scalable Capital's request to anonymise the present proceedings pursuant to Article 95(2) of the Rules of Procedure of the Court of Justice.
+
+ **Admissibility of the requests for a preliminary ruling**
+
+17 Scalable Capital submits, in essence, that the present requests for a preliminary ruling are inadmissible in so far as they have no bearing on the outcome of the disputes in the main proceedings. It claims that an abstract loss of control of data, as in the present case, must not be classified as 'damage' within the meaning of Article 82(1) of the GDPR where that loss of data has had no concrete consequences, and therefore the conditions for the application of Article 82 are not fulfilled. Such a classification would amount to considering that any infringement of that regulation gives rise to a presumption of damage, contrary to the wording, general scheme and origin of Article 82 of the GDPR.
+
+18 In that connection, according to settled case-law, it is solely for the national court before which the dispute has been brought, and which must assume responsibility for the subsequent judicial decision, to determine, in the light of the particular circumstances of the case, both the need for a preliminary ruling in order to enable it to deliver judgment and the relevance of the questions which it submits to the Court, which enjoy a presumption of relevance. If, therefore, the question referred concerns the interpretation or validity of a rule of EU law, the Court is, in principle, required to give a ruling, unless it is quite obvious that the interpretation sought bears no relation to the actual facts of the main action or to its purposes or where the problem is hypothetical or the Court does not have before it the factual or legal material necessary to give a useful answer to the question submitted to it (see judgments of 5 May 2022, _Zagrebačka banka_, C‑567/20, EU:C:2022:352, paragraph 43, and of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraph 23).
+
+19 In the present case, it is sufficient to recall that, where it is not obvious that the interpretation of a provision of EU law bears no relation to the facts of the main action or its purpose, the objection alleging the inapplicability of that provision to the case in the main action does not relate to the admissibility of the request for a preliminary ruling, but concerns the substance of the questions raised (see, to that effect, judgments of 13 July 2006, _Manfredi and Others_, C‑295/04 to C‑298/04, EU:C:2006:461, paragraph 30; of 4 July 2019, _Kirschstein_, C‑393/17, EU:C:2019:563, paragraph 28; and of 24 July 2023, _Lin_, C‑107/23 PPU, EU:C:2023:606, paragraph 66).
+
+20 It follows that the present requests for a preliminary ruling are admissible.
+
+ **Consideration of the questions referred**
+
+ _**The first question and the first part of the second question**_
+
+21 By its first question and the first part of its second question, which it is appropriate to examine together, the referring court asks, in essence, whether Article 82(1) of the GDPR must be interpreted as meaning that the right to compensation laid down in that provision fulfils a compensatory function in that financial compensation based on that provision must allow the damage suffered as a result of the infringement of that regulation to be compensated in full, or that it also fulfils a punitive function intended, inter alia, to satisfy the individual interests of the data subject.
+
+22 In that regard, the Court has already held that Article 82 of the GDPR fulfils a function that is compensatory and not punitive, contrary to other provisions of that regulation also contained in Chapter VIII thereof, namely Articles 83 and 84, which have, for their part, essentially a punitive purpose, since they permit the imposition of administrative fines and other penalties, respectively. The relationship between the rules set out in Article 82 and those set out in Articles 83 and 84 shows that there is a difference between those two categories of provisions, but also complementarity, in terms of encouraging compliance with the GDPR, it being observed that the right of any person to seek compensation for damage reinforces the operational nature of the protection rules laid down by that regulation and is likely to discourage the reoccurrence of unlawful conduct (see, inter alia, judgments of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraphs 38 and 40, and of 11 April 2024, _juris_, C‑741/21, EU:C:2024:288, paragraph 59).
+
+23 Accordingly, Article 82(1) of the GDPR has been interpreted as meaning that the right to compensation laid down in that provision, in particular in the case of non-material damage, fulfils an exclusively compensatory function, in that financial compensation based on that provision must allow the damage actually suffered as a result of the infringement of that regulation to be compensated in full, and not a deterrent or punitive function (see, to that effect, judgments of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraphs 57 and 58, and of 11 April 2024, _juris_, C‑741/21, EU:C:2024:288, paragraph 61).
+
+24 Consequently, the answer to the first question and the first part of the second question is that Article 82(1) of the GDPR must be interpreted as meaning that the right to compensation laid down in that provision fulfils an exclusively compensatory function, in that financial compensation based on that provision must allow the damage suffered to be compensated in full.
+
+ _**The second part of the second question**_
+
+25 In view of the answer given to the first question and to the first part of the second question, there is no need to answer the second part of the second question.
+
+ _**The third part of the second question**_
+
+26 By the third part of its second question, the referring court asks, in essence, whether Article 82(1) of the GDPR must be interpreted as meaning that it requires that the severity and possible intentional nature of the infringement of that regulation by the controller be taken into account for the purposes of compensation for damage under that provision.
+
+27 As regards the assessment of any damages payable under Article 82 of the GDPR, in the absence of a provision having such a purpose in that regulation, national courts must apply the domestic rules of each Member State relating to the extent of financial compensation, provided that the principles of equivalence and effectiveness of EU law are observed (see, to that effect, judgments of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraphs 53, 54 and 59, and of 25 January 2024, _MediaMarktSaturn_, C‑687/21, EU:C:2024:72, paragraph 53).
+
+28 It must, however, be pointed out, first, that the controller's liability under Article 82 of the GDPR is subject to fault on the part of the controller, which is presupposed unless it proves that it is not in any way responsible for the event giving rise to the damage, and second, that Article 82 does not require that the severity of that fault is taken into consideration when setting the amount of the compensation allocated for non-material damage under that provision (judgments of 21 December 2023, _Krankenversicherung_ _Nordrhein_, C‑667/21, EU:C:2023:1022, paragraph 103, and of 25 January 2024, _MediaMarktSaturn_, C‑687/21, EU:C:2024:72, paragraph 52).
+
+29 Furthermore, the exclusively compensatory function of the right to compensation provided for in Article 82(1) of the GDPR precludes taking into account the potentially intentional nature of the infringement of that regulation, which the controller is presumed to have committed, when setting the amount of compensation allocated for non-material damage under that provision. That amount must, however, be fixed in such a way as to compensate in full for the damage actually suffered as a result of the infringement of that regulation (see, by analogy, judgments of 21 December 2023, _Krankenversicherung Nordrhein_, C‑667/21, EU:C:2023:1022, paragraph 102, and of 25 January 2024, _MediaMarktSaturn_, C‑687/21, EU:C:2024:72, paragraph 54).
+
+30 In the light of the foregoing, the answer to the third part of the second question is that Article 82(1) of the GDPR must be interpreted as not requiring that the severity and the possible intentional nature of the infringement of that regulation by the controller be taken into account for the purposes of compensation for damage under that provision.
+
+ _**The third question**_
+
+31 By its third question, the referring court asks, in essence, whether Article 82(1) of the GDPR must be interpreted as meaning that, when determining the amount of damages due in respect of the right to compensation for non-material damage, it is appropriate to consider that such damage caused by a personal data breach is, by its nature, less significant than physical injury.
+
+32 In that connection, it should be recalled that, according to settled case-law, in the absence of EU rules on the matter, it is for the national legal order of each Member State to establish procedural rules for actions intended to safeguard the rights of individuals, in accordance with the principle of procedural autonomy, on condition, however, that those rules are not, in situations covered by EU law, less favourable than those governing similar domestic situations (principle of equivalence) and that they do not make it excessively difficult or impossible in practice to exercise the rights conferred by EU law (principle of effectiveness) (see, to that effect, judgments of 13 December 2017, _El Hassani_, C‑403/16, EU:C:2017:960, paragraph 26, and of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraph 53).
+
+33 In the present case, it should be noted that the GDPR does not contain any provision intended to define the rules on the assessment of the damages to which a data subject, within the meaning of Article 4(1) of that regulation, may be entitled under Article 82 thereof, where an infringement of that regulation has caused him or her harm. Therefore, in the absence of rules of EU law governing the matter, it is for the legal system of each Member State to prescribe the detailed rules governing actions for safeguarding rights which individuals derive from Article 82 and, in particular, the criteria for determining the extent of the compensation payable in that context, subject to compliance with those principles of equivalence and effectiveness (judgment of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraph 54).
+
+34 Since there is nothing in the documents before the Court to suggest that the principle of equivalence might be relevant in the context of the cases at issue in the main proceedings, it is necessary to focus on the principle of effectiveness. From that point of view, it is for the referring court to determine whether the detailed rules laid down in German law for the determination, by the courts, of damages due under the right to compensation enshrined in Article 82 of the GDPR, make it excessively difficult or impossible in practice to exercise the rights conferred by EU law, and more specifically by that regulation.
+
+35 In that regard, it follows from the case-law referred to in paragraph 23 of the present judgment that, in view of the exclusively compensatory function of the right to compensation provided for in Article 82(1) of that regulation, financial compensation based on that provision must be regarded as 'full and effective' if it allows the damage actually suffered as a result of the infringement of that regulation to be compensated in full.
+
+36 From that point of view, recital 146 of that regulation states, moreover, that 'the concept of damage should be broadly interpreted in the light of the case-law of the Court of Justice in a manner which fully reflects the objectives of this Regulation' and that 'data subjects should receive full and effective compensation for the damage they have suffered'.
+
+37 It should also be noted that recitals 75 and 85 of the GDPR set out various circumstances that could be classified as 'physical, material or non-material damage' without establishing a hierarchy between them nor do they indicate that harm resulting from a data breach is, by its very nature, less significant than physical injury.
+
+38 Assuming, as a matter of principle, that physical injury is, by its nature, more serious than non-material damage, would risk calling into question the principle of full and effective compensation for the damage suffered.
+
+39 In the light of the foregoing, the answer to the third question is that Article 82(1) of the GDPR must be interpreted as meaning that, when determining the amount of damages due in respect of the right to compensation for non-material damage, it is appropriate to consider that such damage caused by a personal data breach is not, by its nature, less significant than physical injury.
+
+ _**The fourth question**_
+
+40 By its fourth question, the referring court asks, in essence, whether Article 82(1) of the GDPR must be interpreted as meaning that, where damage is established, a national court may, where that damage is not serious, compensate for it by awarding minimal compensation to the data subject, which could be perceived as symbolic.
+40      By its fourth question, the referring court asks, in essence, whether Article 82(1) of the GDPR must be interpreted as meaning that, where damage is established, a national court may, where that damage is not serious, compensate for it by awarding minimal compensation to the data subject, which could be perceived as symbolic.
+
+41      It should be recalled at the outset that it follows from settled case-law that Article 82(1) of the GDPR must be interpreted as meaning that mere infringement of that regulation is not sufficient to confer a right to compensation, since the existence of ‘damage’, material or non-material, or of ‘damage’ which has been ‘suffered’ constitutes one of the conditions for the right to compensation laid down in Article 82(1), as does the existence of an infringement of that regulation and of a causal link between that damage and that infringement, those three conditions being cumulative (judgment of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraph 32, and of 11 April 2024, _juris_, C‑741/21, EU:C:2024:288, paragraph 34).
+
+42      Thus, the person seeking compensation for non-material damage on the basis of that provision is required to establish not only the infringement of provisions of that regulation, but also that that infringement caused him or her such damage, which cannot therefore be presumed merely on the basis that that infringement took place (see, to that effect, judgments of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraphs 42 and 50, and of 11 April 2024, _juris_, C‑741/21, EU:C:2024:288, paragraph 35).
+
+43      Where a person succeeds in demonstrating that the infringement of the GDPR has caused him or her damage within the meaning of Article 82 of that regulation, it follows, in essence, from paragraph 33 of the present judgment that the criteria for assessing the compensation due in the context of actions intended to safeguard the rights which individuals derive from that article must be prescribed within the legal system of each Member State, provided that such compensation is full and effective.
+
+44      In that regard, the Court has held that Article 82(1) of the GDPR does not require that, following a proven infringement of provisions of that regulation, the damage alleged by the data subject must reach a ‘_de minimis_ threshold’ in order to give rise to a right to compensation (see, to that effect, judgment of 14 December 2023, _Gemeinde Ummendorf_, C‑456/22, EU:C:2023:988, paragraph 18).
+
+45      However, such considerations do not preclude the national courts from awarding compensation of a small amount provided that such compensation fully offsets that damage, which it is for the national court to ascertain, in accordance with the principles referred to in paragraph 43 of the present judgment.
+
+46      In the light of the foregoing, the answer to the fourth question is that Article 82(1) of the GDPR must be interpreted as meaning that, where damage is established, a national court may, where that damage is not serious, compensate for it by awarding minimal compensation to the data subject, provided that that compensation is such as to compensate in full for the damage suffered.
+
+ _**The fifth question**_
+
+ _Admissibility_
+
+47      In its written observations, the European Commission questioned the relevance of the fifth question for the purpose of providing an answer for the disputes in the main proceedings, in so far as it states that no reference to a specific provision of EU law has been made by the referring court.
+
+48      In that regard, the fifth question refers to the concept of ‘identity theft’, within the meaning of recital 75 of the GDPR and does not formally concern Article 82 of that regulation. However, the mere fact that the Court is called upon to give a decision in abstract and general terms cannot have the effect of rendering a request for a preliminary ruling inadmissible (judgment of 15 November 2007, _International Mail Spain_, C‑162/06, EU:C:2007:681, paragraph 24).
+
+49      By that question, the referring court asks the Court to interpret the concept of ‘identity theft’, as set out in recital 75 of the GDPR, in order to determine the amount of the financial compensation provided for in Article 82 of the GDPR. That question therefore does indeed concern a provision of EU law. Moreover, the answer to that question is also relevant in that neither the referring court nor the parties to the main proceedings agree on the definition of that concept for the purposes of assessing the damage suffered in the cases at issue in the main proceedings.
+
+50      In those circumstances, the fifth question is admissible.
+
+ _Substance_
+
+51      According to settled case-law, in the procedure laid down by Article 267 TFEU providing for cooperation between national courts and the Court of Justice, it is for the latter to provide the national court with an answer which will be of use to it and enable it to decide the case before it. To that end, the Court should, where necessary, reformulate the questions referred to it. The Court may also find it necessary to consider provisions of EU law which the national court has not referred to in its questions (judgment of 7 September 2023, _Groenland Poultry_, C‑169/22, EU:C:2023:638, paragraph 47 and the case-law cited).
+
+52      In the present case, the fifth question concerns the right to compensation provided for in Article 82(1) of the GDPR, and more specifically the concept of ‘identity theft’, referred to in recital 75 of the GDPR. It should be noted that, in addition to that recital, that concept is also mentioned in recital 85 of that regulation.
+
+53      Consequently, it must be held that, by its fifth question, the referring court asks, in essence, whether Article 82(1) of the GDPR, read in the light of recitals 75 and 85 of that regulation, must be interpreted as meaning that the concept of ‘identity theft’, in order to be classified as such and to give rise to a right to compensation for non-material damage under that provision, implies that the identity of a person affected by a theft of personal data must actually be misused by a third party, or whether identity theft has occurred where that third party has data which enable the data subject to be identified.
+
+54      The concept of identity theft is not expressly defined within the GDPR. However, identity ‘theft’ or ‘fraud’ are referred to in recital 75 of that regulation as forming part of a non-exhaustive list of the consequences of processing personal data liable to cause physical, material or non-material damage. In recital 85 of that regulation, identity ‘theft’ or ‘fraud’ are again referred to together in a list of physical, material or non-material damage that may be caused by a personal data breach.
+
+55      As the Advocate General observed in point 29 of his Opinion, the different language versions of recitals 75 and 85 of the GDPR refer to the terms ‘identity theft’, ‘identity fraud’, ‘abuse of identity’, ‘misuse of identity’, ‘misappropriation of identity’ and ‘usurpation of identity’ used without distinction. Consequently, the concepts of identity ‘theft’ and ‘fraud’ are interchangeable and no distinction can be drawn between them. The latter two concepts give rise to the presumption of an intention to appropriate the identity of a person whose personal data have previously been stolen.
+
+56      Moreover, as the Advocate General also observed in point 30 of his Opinion, among the various concepts set out in the lists in recitals 75 and 85 of the GDPR, ‘loss of control’ or the inability ‘to exercise control’ over personal data are distinguished from identity ‘theft’ or ‘fraud’. It follows that access to and the taking of control over those data, which could be likened to a theft of those data, are not, in themselves, comparable to identity ‘theft’ or ‘fraud’. In other words, the theft of personal data does not, in itself, constitute identity theft or fraud.
+
+57      However, it must be stated, in that regard, that compensation for non-material damage caused by the theft of personal data, pursuant to Article 82(1) of the GDPR, cannot be limited to cases where it is shown that that data theft subsequently gave rise to identity theft or fraud. The theft of a data subject’s personal data gives rise to a right to compensation for non-material damage suffered, under Article 82(1) of the GDPR, if the three conditions laid down in that provision apply, namely processing of personal data carried out in breach of the provisions of the GDPR, damage suffered by the data subject, and a causal link between that unlawful processing and that damage (see, to that effect, judgment of 4 May 2023, _Österreichische Post (Non-material damage in connection with the processing of personal data)_, C‑300/21, EU:C:2023:370, paragraphs 32 and 36).
+
+58      For those reasons, the answer to the fifth question is that Article 82(1) of the GDPR, read in the light of recitals 75 and 85 of that regulation, must be interpreted as meaning that the concept of ‘identity theft’, in order to be classified as such and to give rise to a right to compensation for non-material damage under that provision, implies that the identity of a person affected by a theft of personal data has actually been misused by a third party. However, compensation for non-material damage caused by the theft of personal data, under that provision, cannot be limited to cases where it is shown that that data theft subsequently gave rise to identify theft or fraud.
+
+ **Costs**
+
+59      Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+On those grounds, the Court (Third Chamber) hereby rules:
+
+1.      **Article 82(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)**
+
+**must be interpreted as meaning that the right to compensation laid down in that provision fulfils an exclusively compensatory function, in that financial compensation based on that provision must allow the damage suffered to be compensated in full.**
+
+2.      **Article 82(1) of Regulation 2016/679** 
+
+**must be interpreted as not requiring that the severity and the possible intentional nature of the infringement of that regulation by the controller be taken into account for the purposes of compensation for damage under that provision.**
+
+3.      **Article 82(1) of Regulation 2016/679**
+
+**must be interpreted as meaning that, when determining the amount of damages due in respect of the right to compensation for non-material damage, it is appropriate to consider that such damage caused by a personal data breach is not, by its nature, less significant than physical injury.**
+
+4.      **Article 82(1) of Regulation 2016/679**
+
+**must be interpreted as meaning that, where damage is established, a national court may, where that damage is not serious, compensate for it by awarding minimal compensation to the data subject, provided that that compensation is such as to compensate in full for the damage suffered.**
+
+5.      **Article 82(1) of Regulation 2016/679, read in the light of recitals 75 and 85 of that regulation,**
+
+**must be interpreted as meaning that the concept of ‘identity theft’, in order to be classified as such and to give rise to a right to compensation for non-material damage under that provision, implies that the identity of a person affected by a theft of personal data has actually been misused by a third party. However, compensation for non-material damage caused by the theft of personal data, under that provision, cannot be limited to cases where it is shown that that data theft subsequently gave rise to identify theft or fraud.**
+
+[Signatures]
+
+---
+
+[*](https://curia.europa.eu/juris/document/document_print.jsf?mode=lst&pageIndex=0&docid=287303&part=1&doclang=EN&text=&dir=&occ=first&cid=25578878#Footref*)      Language of the case: German.

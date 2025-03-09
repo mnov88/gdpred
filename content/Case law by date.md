@@ -1,5 +1,7 @@
 ---
 title: "Browse by timeline"
+tags:
+  - "hidden"
 ---
 
 <div class="timeline-container" style="

@@ -1,0 +1,278 @@
+---
+title: C-621/22
+date: "2024-10-04"
+case-number: "C-621/22"
+parties: "Koninklijke Nederlandse Lawn Tennisbond v Autoriteit Persoonsgegevens"
+topics:
+  - "Protection of natural persons with regard to the processing of personal data"
+  - "Lawfulness of processing"
+  - "Necessity of processing for the purposes of the legitimate interests pursued by the controller or by a third party"
+  - "Concept of 'legitimate interests'"
+  - "Commercial interest"
+  - "Sports federation"
+  - "Disclosure of personal data to sponsors without consent"
+final-ruling: |-
+  Point (f) of the first subparagraph of Article 6(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  must be interpreted as meaning that the processing of personal data which consists in the disclosure, for consideration, of personal data of the members of a sports federation, in order to satisfy a commercial interest of the controller, may be regarded as necessary for the purposes of the legitimate interests pursued by that controller, within the meaning of that provision, only on condition that that processing is strictly necessary for the purposes of the legitimate interest in question and that, in the light of all the relevant circumstances, the interests or fundamental rights and freedoms of those members do not override that legitimate interest. While that provision does not require that such an interest be determined by law, it requires that the alleged legitimate interest be lawful.
+ruling-articles:
+  - "Article 6"
+---
+Provisional text
+
+JUDGMENT OF THE COURT (Ninth Chamber)
+
+4 October 2024 (\*)
+
+( Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 5]](1\)(a) -- Lawfulness of processing -- Point (f) of the first subparagraph of [[Article 6]](1\) -- Necessity of processing for the purposes of the legitimate interests pursued by the controller or by a third party -- Concept of 'legitimate interests' -- Commercial interest -- Sports federation -- Disclosure, for consideration, of the personal data of the members of a sports federation to sponsors without the consent of those members )
+
+In Case C-621⧸22,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the rechtbank Amsterdam (District Court, Amsterdam, Netherlands), made by decision of 22 September 2022, received at the Court on 29 September 2022, in the proceedings
+
+Koninklijke Nederlandse Lawn Tennisbond
+
+v
+
+Autoriteit Persoonsgegevens,
+
+THE COURT (Ninth Chamber),
+
+composed of O. Spineanu-Matei, President of the Chamber, J.-C. Bonichot and L.S. Rossi (Rapporteur), Judges,
+
+Advocate General: L. Medina,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- the Koninklijke Nederlandse Lawn Tennisbond, by E.W.S. Peperkamp, O.M. van Rikxoort and S.E.A. Vermeer-de Jongh, advocaten,
+
+-- the Autoriteit Persoonsgegevens, by M.H.L. Hemmer and T.N. Sanders, advocaten,
+
+-- the Netherlands Government, by M.K. Bulterman and J.M. Hoogveld, acting as Agents,
+
+-- the Italian Government, by G. Palmieri, acting as Agent, and by E. De Bonis, avvocato dello Stato,
+
+-- the European Commission, by A. Bouchagiar and H. Kranenborg, acting as Agents,
+
+having decided, after hearing the Advocate General, to proceed to judgment without an Opinion,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of point (f) of the first subparagraph of Article 6(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1; 'the GDPR').
+
+**2** The request has been made in proceedings between the Koninklijke Nederlandse Lawn Tennisbond (Royal Dutch Lawn Tennis Association; 'the KNLTB') and the Autoriteit Persoonsgegevens (Data Protection Authority, Netherlands; 'the AP') concerning the decision of that authority imposing a fine on the KNLTB for infringement of GDPR rules.
+
+Legal context
+
+The GDPR
+
+**3** Recitals 1, 4, 10, 39 and 47 of the GDPR are worded as follows:
+
+'(1) The protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union (\["the Charter"\]) and Article 16(1) \[TFEU\] provide that everyone has the right to the protection of personal data concerning him or her.
+
+...
+
+(4) The processing of personal data should be designed to serve mankind. The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality. This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the Charter as enshrined in the Treaties, in particular the respect for private and family life, home and communications, the protection of personal data, freedom of thought, conscience and religion, freedom of expression and information, freedom to conduct a business, the right to an effective remedy and to a fair trial, and cultural, religious and linguistic diversity.
+
+...
+
+(10) In order to ensure a consistent and high level of protection of natural persons and to remove the obstacles to flows of personal data within the \[European\] Union, the level of protection of the rights and freedoms of natural persons with regard to the processing of such data should be equivalent in all Member States. Consistent and homogenous application of the rules for the protection of the fundamental rights and freedoms of natural persons with regard to the processing of personal data should be ensured throughout the Union. ...
+
+...
+
+(39) Any processing of personal data should be lawful and fair. It should be transparent to natural persons that personal data concerning them are collected, used, consulted or otherwise processed and to what extent the personal data are or will be processed. ...
+
+...
+
+(47) The legitimate interests of a controller, including those of a controller to which the personal data may be disclosed, or of a third party, may provide a legal basis for processing, provided that the interests or the fundamental rights and freedoms of the data subject are not overriding, taking into consideration the reasonable expectations of data subjects based on their relationship with the controller. Such legitimate interest could exist for example where there is a relevant and appropriate relationship between the data subject and the controller in situations such as where the data subject is a client or in the service of the controller. At any rate the existence of a legitimate interest would need careful assessment including whether a data subject can reasonably expect at the time and in the context of the collection of the personal data that processing for that purpose may take place. The interests and fundamental rights of the data subject could in particular override the interest of the data controller where personal data are processed in circumstances where data subjects do not reasonably expect further processing. ... The processing of personal data for direct marketing purposes may be regarded as carried out for a legitimate interest.'
+
+**4** [[Article 1]] of that regulation, entitled 'Subject matter and objectives', provides, in paragraph 2 thereof:
+
+'This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.'
+
+**5** [[Article 4]] of the GDPR provides:
+
+'For the purposes of this Regulation:
+
+(1) "personal data" means any information relating to an identified or identifiable natural person ("data subject"); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;
+
+(2) "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction;
+
+...
+
+(7) "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+
+...
+
+(11) "consent" of the data subject means any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her;
+
+...'
+
+**6** According to [[Article 5]] of that regulation, entitled 'Principles relating to processing of personal data':
+
+'1. Personal data shall be:
+
+(a) processed lawfully, fairly and in a transparent manner in relation to the data subject ("lawfulness, fairness and transparency");
+
+(b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; ...
+
+(c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed ("data minimisation");
+
+...
+
+2.  The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 ("accountability").'
+
+**7** [[Article 6]] of the GDPR, entitled 'Lawfulness of processing', is worded as follows:
+
+'1. Processing shall be lawful only if and to the extent that at least one of the following applies:
+
+(a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
+
+...
+
+(f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
+
+Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.
+
+...'
+
+**8** [[Article 13]] of the GDPR, entitled 'Information to be provided where personal data are collected from the data subject', provides, in paragraph 1 thereof:
+
+'Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:
+
+...
+
+(c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
+
+(d) where the processing is based on point (f) of [[Article 6]](1\), the legitimate interests pursued by the controller or by a third party;
+
+...'
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**9** It is apparent from the order for reference that the KNLTB is a sports federation established in the form of an association. Its members are the tennis associations affiliated with it as well as the members of those associations. When a person becomes a member of a tennis association affiliated with the KNLTB, he or she automatically becomes a member of the KNLTB as well. The KNLTB co-operates with sponsors in order, it claims, to increase the dissemination and visibility of tennis as well as its membership.
+
+**10** In 2018, the KNLTB disclosed personal data of its members to two of its sponsors, namely SportshopsDirect BV ('TennisDirect'), a company that sells sports products, and Nederlandse Loterij Organisatie BV ('the NLO'), the largest provider of games of chance and casino games in the Netherlands. The KNLTB received remuneration from its sponsors for having provided them with the personal data in question.
+
+**11** In particular, on 11 June 2018, the KNLTB disclosed to TennisDirect the names, addresses and domiciles of its members for the purpose of posting a leaflet containing special offers. In order to do so, TennisDirect in turn transmitted those data to the postal service PostNL with a view to having that leaflet printed.
+
+**12** Furthermore, on 29 June 2018, the KNLTB disclosed to the NLO, in addition to the names, addresses and domiciles of its members, the dates of birth, fixed telephone numbers, mobile telephone numbers and email addresses of those members as well as the names of the tennis clubs to which those members belonged. The purpose of that disclosure was to conduct a telephone call campaign, in the context of which the NLO transmitted those data to call centres which it had used for that purpose.
+
+**13** Following complaints lodged by certain members of the KNLTB, the AP found that that association had infringed points (a) and (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, read in conjunction with [[Article 5]](1\)(a) of that regulation, on the ground that it had disclosed its members' personal data without their consent and without any legitimate basis for disclosing their data. Consequently, by decision of 20 December 2019, the AP imposed a fine of EUR 525 000 on the KNLTB.
+
+**14** The KNLTB brought an action against that decision before the referring court, the rechtbank Amsterdam (District Court, Amsterdam, Netherlands).
+
+**15** Although it is common ground between the parties to the main proceedings that the KNLTB had not obtained the consent of its individual members to disclosing their personal data to the abovementioned sponsors and that point (a) of the first subparagraph of [[Article 6]](1\) of the GDPR cannot be relied on as a basis for the processing concerned, the KNLTB claimed that the disclosure of those data was based on a legitimate interest, within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR. It submits that that interest consists, first, in creating a strong link between that association and its members and, second, in being able to provide added value to their membership in the form of discounts and offers from partners enabling those members to play tennis at an affordable and accessible price.
+
+**16** The AP contends that legitimate interests, within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, are only interests that are enshrined in and determined by law. According to the AP, the interests in question must be regarded as worthy of protection by the EU legislature or by the national legislature, and must be assessed according to a 'positive criterion'. It argues that that is not the case here.
+
+**17** Taking a different position, the KNLTB submits that a legitimate interest does not necessarily have to derive from a fundamental right or from a legal principle, but that any interest may constitute a legitimate interest unless it is contrary to the law; thus, such an interest must be assessed according to a 'negative criterion'.
+
+**18** In the course of the proceedings before the referring court, the parties to those proceedings exchanged argument regarding the meaning of the concept of 'legitimate interest' in point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, and in particular regarding whether a purely commercial interest, consisting in the sale of the personal data of the members of a tennis association, without the consent of those members, to sponsors for direct marketing purposes may be regarded as a legitimate interest.
+
+**19** In those circumstances, entertaining doubts as to the interpretation of the concept of 'legitimate interests' within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, the rechtbank Amsterdam (District Court, Amsterdam) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+'(1) How should the \[referring court\] interpret the term "legitimate interest" \[within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR\]?
+
+(2) Should the term be interpreted as the respondent interprets it? Are these interests which exclusively pertain to the law, constitute law \[and/or\] are enshrined in a law? or;
+
+(3) Can any interest be a legitimate interest, provided \[that\] that interest is not in breach of the law? More specifically: should a purely commercial interest, such as the interest at issue here, \[namely\] the provision of personal data in return for payment without the consent of the data subject concerned, be regarded as a legitimate interest under certain circumstances? If so, what circumstances determine whether a purely commercial interest is a legitimate interest?'
+
+Procedure before the Court
+
+**20** By decision of 3 May 2023, the President of the Court stayed the present proceedings pending final judgment in Case [[C-252-21|C-252⧸21]], Meta Platforms and Others (General terms of use of a social network).
+
+**21** In accordance with the decision of the President of the Court of 3 August 2023, the Registry notified the referring court of the judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network)([[C-252-21|C-252⧸21]], EU:C:2023:537), inviting it to state whether, in the light of that judgment, it wished to maintain its request for a preliminary ruling in whole or in part, and, in the event of a partial withdrawal of that request, to set out the reasons for maintaining part of it.
+
+**22** By letter received at the Court Registry on 14 February 2024, the referring court stated that it was maintaining its request for a preliminary ruling.
+
+### Consideration of the questions referred
+
+**23** According to settled case-law, in the procedure laid down by Article 267 TFEU providing for cooperation between national courts and the Court of Justice, it is for the latter to provide the national court with an answer which will be of use to it and enable it to decide the case before it. To that end, the Court of Justice should, where necessary, reformulate the questions referred to it (judgment of 20 June 2024, Greislzel, [[C-35-23|C-35⧸23]], EU:C:2024:532, paragraph 39 and the case-law cited).
+
+**24** In the present case, the questions referred for a preliminary ruling concern the possibility of justifying, on the basis of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, the disclosure, in return for remuneration, by a sports association of its members' personal data to sponsors of that association for the purposes of promotional activities.
+
+**25** It follows that, by its questions referred for a preliminary ruling, which it is appropriate to answer together, the referring court asks, in essence, whether point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR must be interpreted as meaning that the processing of personal data which consists in the disclosure, for consideration, of personal data of the members of a sports federation, in order to satisfy a commercial interest of the controller, may be regarded as necessary for the purposes of the legitimate interests pursued by that controller or by a third party, within the meaning of that provision, and whether that provision requires that such an interest be determined by law.
+
+**26** In order to answer those questions, it should, as a preliminary point, be borne in mind that the objective pursued by the GDPR, as is set out in Article 1 thereof and in recitals 1 and 10 thereof, consists, inter alia, in ensuring a high level of protection of the fundamental rights and freedoms of natural persons, in particular their right to privacy with respect to the processing of personal data, as enshrined in Article 8(1) of the Charter and Article 16(1) TFEU (judgment of 7 March 2024, IAB Europe, [[C-604-22|C-604⧸22]], EU:C:2024:214, paragraph 53 and the case-law cited).
+
+**27** In accordance with that objective, any processing of personal data must, inter alia, comply with the principles relating to the processing of such data set out in [[Article 5]] of that regulation and satisfy the lawfulness conditions listed in [[Article 6]] of that regulation (see, to that effect, judgments of 6 October 2020, La Quadrature du Net and Others, [[C-511-18|C-511⧸18]], [[C-512-18|C-512⧸18]] and [[C-520-18|C-520⧸18]], EU:C:2020:791, paragraph 208, and of 11 July 2024, Meta Platforms Ireland (Representative action), [[C-757-22|C-757⧸22]], EU:C:2024:598, paragraph 49).
+
+**28** In that regard, it should be noted that, under [[Article 5]](1\)(a) of the GDPR, personal data are to be processed lawfully, fairly and in a transparent manner in relation to the data subject.
+
+**29** In particular, as the Court has held, the first subparagraph of [[Article 6]](1\) of the GDPR sets out an exhaustive and restrictive list of the cases in which processing of personal data can be regarded as lawful. Thus, in order to be capable of being regarded as such, processing must fall within one of the cases provided for in that provision (judgment of 4 July 2023, *Meta Platforms and Others (General terms of use of a social network)*, [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 90).
+
+**30** Under point (a) of the first subparagraph of [[Article 6]](1\) of the GDPR, processing of personal data is lawful if and to the extent that the data subject has given consent to such processing for one or more specific purposes. In the absence of such consent, or where that consent has not been given in a free, specific, informed and unambiguous manner for the purposes of [[Article 4]](11\) of that regulation, such processing is nevertheless justified where it meets one of the requirements of necessity referred to in points (b) to (f) of the first subparagraph of [[Article 6]](1\) of that regulation.
+
+**31** In that context, the justifications provided for in that latter provision, in so far as they allow the processing of personal data carried out in the absence of the data subject's consent to be made lawful, must be interpreted restrictively (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 93 and the case-law cited).
+
+**32** Furthermore, as the Court has held, where it can be found that the processing of personal data is necessary in respect of one of the justifications provided for in points (b) to (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, it is not necessary to determine whether that processing also falls within the scope of another of those justifications (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 94 and the case-law cited).
+
+**33** The Court has also held that, in accordance with [[Article 5]] of the GDPR, the controller bears the burden of proving that those data are collected, inter alia, for specified, explicit and legitimate purposes and that they are processed lawfully, fairly and in a transparent manner in relation to the data subject. In addition, according to [[Article 13]](1\)(c) of that regulation, where personal data are collected from the data subject, the controller must inform the data subject of the purposes of the processing for which those data are intended as well as the legal basis for the processing (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 95).
+
+**34** In the present case, it is apparent from the documents before the Court that the members of the KNLTB have not given consent, within the meaning of point (a) of the first subparagraph of [[Article 6]](1\) of the GDPR, to the disclosure by the KNLTB, for consideration, of their personal data to third parties, in particular to TennisDirect and the NLO.
+
+**35** In those circumstances, in order to provide the referring court with an answer which will be of use to it, it must be ascertained whether the provisions of point (f) of the first subparagraph of [[Article 6]](1\) of that regulation, referred to specifically in the request for a preliminary ruling, may be relied on to justify the disclosure of such data to those third parties.
+
+**36** In that regard, it should be recalled that, in accordance with point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, processing of personal data is lawful if it is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of such personal data.
+
+**37** As the Court has previously held, that provision lays down three cumulative conditions so that the processing of personal data is lawful, namely, first, the pursuit of a legitimate interest by the data controller or by a third party; second, the need to process personal data for the purposes of the legitimate interests pursued; and, third, that the interests or fundamental freedoms and rights of the person concerned by the data protection do not take precedence over the legitimate interest of the controller or of a third party (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 106 and the case-law cited).
+
+**38** As regards, first, the condition relating to the pursuit of a 'legitimate interest', it should be emphasised that, in the absence of a definition of that concept in the GDPR, as the Court has previously held, a wide range of interests is, in principle, capable of being regarded as legitimate (see, to that effect, judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 76).
+
+**39** As is also apparent from recital 47 of the GDPR, which concerns the concept of 'legitimate interest', the EU legislature did not require that the interest pursued by a controller be provided for by law in order for the processing of personal data carried out by that controller to be legitimate within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of that regulation. That finding is particularly true given that that recital cites, by way of example, direct marketing purposes in general as legitimate interests that may be pursued by a controller.
+
+**40** However, while the concept of 'legitimate interest', within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, is not limited to interests enshrined in and determined by law, it requires that the alleged legitimate interest be lawful.
+
+**41** In addition, it should be recalled that, according to [[Article 13]](1\)(d) of the GDPR, it is the responsibility of the controller, at the time when personal data relating to a data subject are collected from that person, to inform him or her of the legitimate interests pursued where that processing is based on point (f) of the first subparagraph of [[Article 6]](1\) of that regulation (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 107).
+
+**42** Second, with regard to the condition that the processing of personal data be necessary for the purposes of the legitimate interests pursued, that condition requires the referring court to ascertain that the legitimate data processing interests pursued cannot reasonably be achieved just as effectively by other means less restrictive of the fundamental rights and freedoms of data subjects, in particular the rights to respect for private life and to the protection of personal data guaranteed by Articles 7 and 8 of the Charter (judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 77 and the case-law cited).
+
+**43** In that context, it should also be recalled that the condition relating to the need for processing must be examined in conjunction with the 'data minimisation' principle enshrined in [[Article 5]](1\)(c) of the GDPR, in accordance with which personal data must be 'adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed' (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 109 and the case-law cited).
+
+**44** Lastly, as regards, third, the condition that the interests or fundamental rights and freedoms of the person concerned by the data protection do not take precedence over the legitimate interests of the controller or of a third party, the Court has previously held that that condition entails a balancing of the opposing rights and interests at issue which depends in principle on the specific circumstances of the particular case and that, consequently, it is for the referring court to carry out that balancing exercise, taking account of those specific circumstances (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 110 and the case-law cited).
+
+**45** Furthermore, recital 47 of the GDPR states that the interests and fundamental rights of the data subject may in particular override the interest of the data controller where personal data are processed in circumstances where data subjects do not reasonably expect such processing (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 112).
+
+**46** While it is ultimately for the national court to assess whether, in relation to the processing of personal data at issue in the main proceedings, the three conditions referred to in paragraph 37 of the present judgment are satisfied, it is open to the Court, when giving a preliminary ruling on a reference, to give clarifications to guide the national court in that determination (judgments of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 96, and of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 81 and the case-law cited).
+
+**47** In the present case, as regards, first, the condition relating to the pursuit of a legitimate interest by the controller or by a third party, within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, the referring court refers to the commercial interest of the controller, that is to say a sports federation such as the KNLTB, which consists in the disclosure, for consideration, of the personal data of its members to third parties, namely, in this case, a company that sells sports products and a provider of games of chance and casino games in the Netherlands, for advertising or marketing purposes, in particular so that that company and provider may send advertising messages and special offers to those members.
+
+**48** In that regard, the Court has not ruled out the possibility that a commercial interest of the controller which consists in the promotion and sale of advertising space for marketing purposes may be regarded as a legitimate interest within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR (see, by analogy, judgment of 13 May 2014, Google Spain and Google, C‑131/12, EU:C:2014:317, paragraph 73).
+
+**49** In those circumstances, a commercial interest of the controller such as the one referred to in paragraph 47 of the present judgment could constitute a legitimate interest, within the meaning of point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, provided that it is not contrary to the law. It is, however, for the referring court to assess, on a case-by-case basis, whether such an interest exists, taking into account the applicable legal framework and all the circumstances of the case.
+
+**50** Where such an interest is regarded as legitimate, it is also necessary, in order for the pursuit of that interest to allow the processing of personal data pursuant to point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR, that the controller comply with all its other obligations under that regulation.
+
+**51** Second, as regards the condition that such processing be necessary for the purposes of that interest and, in particular, the existence of means that are less restrictive of the fundamental rights and freedoms of data subjects and equally appropriate, it must be stated that it would, in particular, be possible for a sports federation such as the KNLTB, wishing to disclose its members' personal data to third parties for consideration, to inform its members beforehand and to ask them whether they want their data to be transmitted to those third parties for advertising or marketing purposes.
+
+**52** That solution would make it possible for the members concerned, in accordance with the data minimisation principle referred to in paragraph 43 of the present judgment, to retain control over the disclosure of their personal data and thus to limit the disclosure of those data to what is in fact necessary and relevant in relation to the purposes for which those data are transmitted and processed (see, by analogy, judgment of 12 September 2024, HTB Neunte Immobilien Portfolio and Ökorenta Neue Energien Ökostabil IV, [[C-17-22|C-17⧸22]] and [[C-18-22|C-18⧸22]], EU:C:2024:738, paragraph 60).
+
+**53** A procedure such as that described in the preceding paragraph of the present judgment may involve the least intrusion in the right to protection of the confidentiality of the data subject's personal data, whilst allowing the controller to pursue, in an equally efficient manner, the legitimate interest on which it relies, which it is however for the referring court to ascertain (see, by analogy, judgment of 12 September 2024, HTB Neunte Immobilien Portfolio and Ökostabil IV, [[C-17-22|C-17⧸22]] and [[C-18-22|C-18⧸22]], EU:C:2024:738, paragraph 61).
+
+**54** Third, as regards the balancing of interests which it is for the referring court to carry out in the light of the specific circumstances of the dispute in the main proceedings, that court must take account, in particular, of the reasonable expectations of the data subject as well as the scale of the processing at issue and its impact on that person (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 116).
+
+**55** In the context of such a balancing exercise, it is for the referring court to ascertain whether the right of the members of tennis associations to privacy with respect to the processing of their personal data, as enshrined in Article 8(1) of the Charter and Article 16(1) TFEU, may take precedence over the commercial interest of a national tennis federation. From that point of view, as is apparent from recital 47 of the GDPR, particular importance should be attached to the question whether those members could reasonably expect, at the time when their personal data were collected in order for them to become members of a tennis association, that those data would be disclosed, for consideration, to third parties -- in the present case, to sponsors of the KNLTB -- for advertising and marketing purposes.
+
+**56** In addition, the referring court will have to take account of the fact that the data in question are transmitted, inter alia, to a provider of games of chance and casino games, such as the NLO, the promotional and marketing activities of which, although legitimate, are carried out in a context which, contrary to what follows from recital 47 of the GDPR, does not appear to be characterised by a relevant and appropriate relationship between the data subjects and the controller. Moreover, in certain circumstances, the processing of such data could have harmful effects on the members of the tennis associations concerned since those activities may expose those members to the risks associated with the development of gambling addiction.
+
+**57** In the light of the foregoing, the answer to the questions referred is that point (f) of the first subparagraph of [[Article 6]](1\) of the GDPR must be interpreted as meaning that the processing of personal data which consists in the disclosure, for consideration, of personal data of the members of a sports federation, in order to satisfy a commercial interest of the controller, may be regarded as necessary for the purposes of the legitimate interests pursued by that controller, within the meaning of that provision, only on condition that that processing is strictly necessary for the purposes of the legitimate interest in question and that, in the light of all the relevant circumstances, the interests or fundamental rights and freedoms of those members do not override that legitimate interest. While that provision does not require that such an interest be determined by law, it requires that the alleged legitimate interest be lawful.
+
+Costs
+
+**58** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Ninth Chamber) hereby rules:
+
+**Point (f) of the first subparagraph of Article 6(1) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)**
+
+**must be interpreted as meaning that the processing of personal data which consists in the disclosure, for consideration, of personal data of the members of a sports federation, in order to satisfy a commercial interest of the controller, may be regarded as necessary for the purposes of the legitimate interests pursued by that controller, within the meaning of that provision, only on condition that that processing is strictly necessary for the purposes of the legitimate interest in question and that, in the light of all the relevant circumstances, the interests or fundamental rights and freedoms of those members do not override that legitimate interest. While that provision does not require that such an interest be determined by law, it requires that the alleged legitimate interest be lawful.**
+
+\[Signatures\]
+
+\*Language of the case: Dutch.

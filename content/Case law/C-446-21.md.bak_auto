@@ -1,0 +1,406 @@
+---
+title: C-446/21
+date: 2024-10-04
+case-number: C-446/21
+parties: Maximilian Schrems v Meta Platforms Ireland Ltd
+topics:
+  - Online social networks
+  - General terms of use
+  - Personalised advertising
+  - Principle of purpose limitation
+  - Principle of data minimisation
+  - Processing of special categories of personal data
+  - Data concerning sexual orientation
+  - Data made public by the data subject
+final-ruling: |-
+  1. Article 5(1)(c) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  must be interpreted as meaning that the principle of data minimisation provided for therein precludes any personal data obtained by a controller, such as the operator of an online social network platform, from the data subject or third parties and collected either on or outside that platform, from being aggregated, analysed and processed for the purposes of targeted advertising without restriction as to time and without distinction as to type of data.
+
+  2. Article 9(2)(e) of Regulation 2016/679
+  must be interpreted as meaning that the fact that a person has made a statement about his or her sexual orientation on the occasion of a panel discussion open to the public does not authorise the operator of an online social network platform to process other data relating to that person's sexual orientation, obtained, as the case may be, outside that platform using partner third-party websites and apps, with a view to aggregating and analysing those data, in order to offer that person personalised advertising.
+ruling-articles:
+  - Article 5
+  - Article 9
+aliases:
+  - Schrems II
+---
+
+Provisional text
+
+JUDGMENT OF THE COURT (Fourth Chamber)
+
+4 October 2024 (\*)
+
+( Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- Online social networks -- General terms of use relating to contracts concluded between a digital platform and a user -- Personalised advertising -- [[Article 5]](1\)(b) -- Principle of purpose limitation -- [[Article 5]](1\)(c) -- Principle of data minimisation -- [[Article 9]](1\) and (2) -- Processing of special categories of personal data -- Data concerning sexual orientation -- Data which are made public by the data subject )
+
+In Case C-446⧸21,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Oberster Gerichtshof (Supreme Court, Austria), made by decision of 23 June 2021, received at the Court on 20 July 2021, in the proceedings
+
+**Maximilian Schrems**
+
+**v**
+
+**Meta Platforms Ireland Ltd, formerly Facebook Ireland Ltd,**
+
+THE COURT (Fourth Chamber),
+
+composed of C. Lycourgos, President of the Chamber, O. Spineanu-Matei, J.‑C. Bonichot, S. Rodin and L.S. Rossi (Rapporteur), Judges,
+
+Advocate General: A. Rantos,
+
+Registrar: N. Mundhenke, Administrator,
+
+having regard to the written procedure and further to the hearing on 8 February 2024,
+
+after considering the observations submitted on behalf of:
+
+-- Mr Maximilian Schrems, by K. Raabe-Stuppnig, Rechtsanwältin,
+
+-- Meta Platforms Ireland Ltd, by K. Hanschitz, H.‑G. Kamann, S. Khalil, B. Knötzl and A. Natterer, Rechtsanwälte,
+
+-- the Austrian Government, by A. Posch, J. Schmoll, C. Gabauer, G. Kunnert and E. Riedl, acting as Agents,
+
+-- the French Government, by R. Bénard and A.‑L. Desjonquères, acting as Agents,
+
+-- the Italian Government, by G. Palmieri, acting as Agent, assisted by E. De Bonis, avvocato dello stato,
+
+-- the Portuguese Government, by P. Barros da Costa, A. Pimenta, J. Ramos and C. Vieira Guerra, acting as Agents,
+
+-- the European Commission, by A. Bouchagiar, F. Erlbacher, M. Heller and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 25 April 2024,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 5(1)(b) and (c), Article 6(1)(a) and (b) and Article 9(1) and (2)(e) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1) ('the GDPR').
+
+**2** The request has been made in proceedings between Mr Maximilian Schrems, a user of the social network Facebook, and Meta Platforms Ireland Limited, formerly Facebook Ireland Limited, whose registered office is in Ireland, concerning that company's allegedly unlawful processing of that user's personal data.
+
+### Legal context
+
+### European Union law
+
+**3** Recitals 1, 4, 10, 39, 42, 43, 50 and 51 of the GDPR state:
+
+'(1) The protection of natural persons in relation to the processing of personal data is a fundamental right. Article 8(1) of the Charter of Fundamental Rights of the European Union (the "Charter") and Article 16(1) \[TFEU\] provide that everyone has the right to the protection of personal data concerning him or her.
+
+...
+
+(4) The processing of personal data should be designed to serve mankind. The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality. This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the Charter as enshrined in the Treaties, in particular the respect for private and family life, home and communications, the protection of personal data, freedom of thought, conscience and religion, freedom of expression and information, freedom to conduct a business, the right to an effective remedy and to a fair trial, and cultural, religious and linguistic diversity.
+
+...
+
+(39) Any processing of personal data should be lawful and fair. It should be transparent to natural persons that personal data concerning them are collected, used, consulted or otherwise processed and to what extent the personal data are or will be processed. ... Natural persons should be made aware of risks, rules, safeguards and rights in relation to the processing of personal data and how to exercise their rights in relation to such processing. In particular, the specific purposes for which personal data are processed should be explicit and legitimate and determined at the time of the collection of the personal data. The personal data should be adequate, relevant and limited to what is necessary for the purposes for which they are processed. This requires, in particular, ensuring that the period for which the personal data are stored is limited to a strict minimum. Personal data should be processed only if the purpose of the processing could not reasonably be fulfilled by other means. In order to ensure that the personal data are not kept longer than necessary, time limits should be established by the controller for erasure or for a periodic review. ...
+
+...
+
+(42) Where processing is based on the data subject's consent, the controller should be able to demonstrate that the data subject has given consent to the processing operation. ... For consent to be informed, the data subject should be aware at least of the identity of the controller and the purposes of the processing for which the personal data are intended. Consent should not be regarded as freely given if the data subject has no genuine or free choice or is unable to refuse or withdraw consent without detriment.
+
+(43) In order to ensure that consent is freely given, consent should not provide a valid legal ground for the processing of personal data in a specific case where there is a clear imbalance between the data subject and the controller, in particular where the controller is a public authority and it is therefore unlikely that consent was freely given in all the circumstances of that specific situation. Consent is presumed not to be freely given if it does not allow separate consent to be given to different personal data processing operations despite it being appropriate in the individual case, or if the performance of a contract, including the provision of a service, is dependent on the consent despite such consent not being necessary for such performance.
+
+...
+
+(50) The processing of personal data for purposes other than those for which the personal data were initially collected should be allowed only where the processing is compatible with the purposes for which the personal data were initially collected. In such a case, no legal basis separate from that which allowed the collection of the personal data is required. ...
+
+(51) Personal data which are, by their nature, particularly sensitive in relation to fundamental rights and freedoms merit specific protection as the context of their processing could create significant risks to the fundamental rights and freedoms. ... Such personal data should not be processed, unless processing is allowed in specific cases set out in this Regulation ... In addition to the specific requirements for such processing, the general principles and other rules of this Regulation should apply, in particular as regards the conditions for lawful processing. Derogations from the general prohibition for processing such special categories of personal data should be explicitly provided, inter alia, where the data subject gives his or her explicit consent or in respect of specific needs ...'
+
+**4** [[Article 4]] of that regulation provides:
+
+'For the purposes of this Regulation:
+
+(1) "personal data" means any information relating to an identified or identifiable natural person ("data subject"); ...
+
+(2) "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction;
+
+...
+
+(7) "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+
+...
+
+(11) "consent" of the data subject means any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her;
+
+...
+
+(23) "cross-border processing" means either:
+
+<!-- -->
+
+(a) processing of personal data which takes place in the context of the activities of establishments in more than one Member State of a controller or processor in the Union where the controller or processor is established in more than one Member State; or
+
+(b) processing of personal data which takes place in the context of the activities of a single establishment of a controller or processor in the Union but which substantially affects or is likely to substantially affect data subjects in more than one Member State.
+
+...'
+
+**5** [[Article 5]] of that regulation, headed 'Principles relating to processing of personal data', provides:
+
+'1. Personal data shall be:
+
+(a) processed lawfully, fairly and in a transparent manner in relation to the data subject ("lawfulness, fairness and transparency");
+
+(b) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; ... ("purpose limitation");
+
+(c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed ("data minimisation");
+
+...
+
+(e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; ... ("storage limitation");
+
+<!-- -->
+
+2.  The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 ("accountability").'
+
+**6** [[Article 6]] of that regulation, entitled 'Lawfulness of processing', reads as follows:
+
+'1. Processing shall be lawful only if and to the extent that at least one of the following applies:
+
+(a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
+
+(b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;
+
+...
+
+4.  Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in [[Article 23]](1\), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia:
+
+<!-- -->
+
+(a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;
+
+(b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;
+
+(c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to [[Article 9]], or whether personal data related to criminal convictions and offences are processed, pursuant to [[Article 10]];
+
+(d) the possible consequences of the intended further processing for data subjects;
+
+(e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.'
+
+**7** [[Article 7]] of the GDPR, entitled 'Conditions for consent', states:
+
+'1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.
+
+...
+
+3.  The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.
+
+4.  When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.'
+
+**8** [[Article 9]] of that regulation, entitled 'Processing of special categories of personal data', provides:
+
+'1. Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.
+
+2.  Paragraph 1 shall not apply if one of the following applies:
+
+<!-- -->
+
+(a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;
+
+...
+
+(e) processing relates to personal data which are manifestly made public by the data subject;
+
+...'
+
+**9** [[Article 13]] of that regulation, regarding '\[i\]nformation to be provided where personal data are collected from the data subject', provides:
+
+'1. Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:
+
+...
+
+(c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
+
+...
+
+3.  Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.
+
+...'
+
+**10** [[Article 25]](2\) of that regulation provides:
+
+'The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual's intervention to an indefinite number of natural persons.'
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**11** Meta Platforms Ireland, which manages the provision of services of the online social network Facebook in the European Union, is the controller of the personal data of users of that social network in the European Union. It does not have a branch in Austria. Meta Platforms Ireland promoted, inter alia on www.facebook.com, services which, until 5 November 2023, were provided free of charge to private users. As from 6 November 2023, those services continued to be free only for users who had consented to their personal data being collected and used for the purpose of directing personalised advertising at them; users were able to sign up for a paying subscription in order to access a version of those services without receiving personalised advertising.
+
+**12** The business model of the online social network Facebook is based on financing through online advertising, which is tailored to the individual users of the social network according, inter alia, to their consumer attitudes, interests and personal situation. That advertising is made possible in technical terms by the automated production of detailed profiles in respect of the network users and the users of the online services offered at the level of the Meta group.
+
+**13** In order to process the personal data of the users of the social network Facebook, Meta Platforms Ireland bases itself on the contract of use for which they sign up by clicking on 'register' and by which they accept the general terms of use drawn up by that company. At the time of the facts in the main proceedings, the acceptance of those terms was necessary in order to be able to use the social network Facebook. With regard to the processing of users' personal data, the general terms of use refer to that company's policies on use of data and cookies. Under those policies, Meta Platforms Ireland collects user- and device-related data about user activities on and off the social network and links those data with the Facebook accounts of the users concerned. The data relating to activities outside the social network ('the off-Facebook data') originate, first, from visits to third-party webpages and apps, which are linked to Facebook through programming interfaces and, second, from the use of other online services belonging to the Meta group, including Instagram and WhatsApp.
+
+**14** Before the entry into force of the GDPR, Facebook users gave their explicit consent to the processing of their data in accordance with the defendant's terms of use applicable to that period. Following the entry into force of the GDPR on 25 May 2018, on 19 April 2018 Meta Platforms Ireland adopted new terms of use and presented them to its users for consent. Since his account had been blocked, Mr Schrems consented to the new terms of use in order to be able to continue using Facebook. That consent was necessary in order to be able to preserve access to his account and use the corresponding services.
+
+**15** Meta Platforms Ireland put in place a number of tools to enable users to obtain an overview and review of their stored data. Not all processed data are visible in those tools, but only those which that company considers are of interest and relevance to users. Thus, it is possible for users who so request to view data such as when they have opened an application via their Facebook profile, visited a website, carried out a given search or made a given purchase, or clicked on advertising.
+
+**16** Meta Platforms Ireland uses 'cookies', 'social plug-ins' and 'pixels', as indicated by its terms of use and policies. It can ascertain the source of visits by means of cookies. Many of Meta Platforms Ireland's services cannot be used without activating the cookie function. Facebook's social plug-ins are 'embedded' by third-party website operators into their pages. The most widely used is Facebook's 'like' button. Each time such websites containing that button are visited, the cookies stored on the device being used, the URL of the page visited and various log data (e.g. IP addresses, time data) are transmitted to Meta Platforms Ireland. In that respect, it is not necessary that the user has clicked on the 'like' button, since merely loading a page with such a plug-in is sufficient for those data to be transmitted to Meta Platforms Ireland.
+
+**17** It is apparent from the order for reference that plug-ins are also found on the websites of political parties and the websites targeted at homosexual users visited by Mr Schrems. Using those plug-ins, Meta Platforms Ireland has been able to follow Mr Schrems' internet behaviour, which triggered the collection of certain sensitive personal data.
+
+**18** Like social plug-ins, pixels can be embedded in websites and enable information to be collected about users who have visited those websites in order, inter alia, to measure and optimise advertising thereon. For example, when website operators integrate a Facebook pixel into their own websites, they can receive reports from Meta Platforms Ireland about how many people saw their advertising on Facebook and then subsequently went to the operators' own website to visit it or make a purchase.
+
+**19** Thus, social plug-ins and pixels, together with cookies, constitute an essential element of internet advertising, given that the vast majority of content available on the internet is financed through advertising. In particular, plug-ins allow for advertisements to be tailored to users, whilst pixels allow advertisers to measure the performance of advertising campaigns and obtain information about targeted user groups.
+
+**20** In the present case, it is apparent from the order for reference that Mr Schrems did not give consent to Meta Platforms Ireland to process his personal data received by it from advertisers and other partners concerning Mr Schrems' activities outside Facebook for the purpose of personalised advertising. However, certain data relating to Mr Schrems were received by Meta Platforms Ireland through the use of cookies, social plug-ins and comparable technologies integrated into third-party websites and were used by that company in order to improve Facebook products and direct personalised advertising at Mr Schrems.
+
+**21** It is also apparent from that order that Mr Schrems did not post any sensitive data on his Facebook profile, that only his 'friends' can see his activities or posts on his timeline, and that his 'friends list' is not public. Mr Schrems also opted not to allow Meta Platforms Ireland to use information from the 'relationship status', 'employer', 'job title' and 'education' fields for the purposes of targeted advertising.
+
+**22** However, with the data available to it, Meta Platforms Ireland is also able to identify Mr Schrems' interest in sensitive topics, such as health, sexual orientation, ethnic groups and political parties, and is thereby able to direct targeted advertising at him relating to, for example, a given sexual orientation or political belief.
+
+**23** Thus, Mr Schrems received advertising concerning an Austrian politician, which was based on the analysis done by Meta Platforms Ireland indicating that he had points in common with other users who had 'liked' that politician. Mr Schrems also regularly received advertising targeting homosexual persons and invitations to related events, although he had never previously shown any interest in those events and did not know where they were to be held. That advertising and those invitations were not based directly on the sexual orientation of the applicant in the main proceedings and his 'friends', but rather on an analysis of their interests, in this case on the fact that friends of Mr Schrems 'liked' a product.
+
+**24** Mr Schrems commissioned an analysis concerning the inferences which could be drawn from his friends list, which showed that he did civilian service with the Red Cross in Salzburg and that he is homosexual. Moreover, the list of his activities outside Facebook, held by Meta Platforms Ireland, includes, inter alia, dating apps and dating websites for homosexuals, as well as the website of an Austrian political party. The stored data of the applicant in the main proceedings also includes an email address which was not provided on his Facebook profile, but which he had used to send requests to Meta Platforms Ireland.
+
+**25** It is also apparent from the order for reference that Mr Schrems discloses the fact that he is homosexual to the public. He has never indicated his sexual orientation on his Facebook profile, however.
+
+**26** Before the Landesgericht für Zivilrechtssachen Wien (Regional Court for Civil Matters, Vienna, Austria), Mr Schrems argued that the processing of his personal data by Meta Platforms Ireland infringed a number of provisions of the GDPR. In that regard, he submitted that his consent to the terms of use of the digital platform of the defendant in the main proceedings did not comply with [[Article 6]](1\) and [[Article 7]] of that regulation. Furthermore, Meta Platforms Ireland processes the sensitive data of the applicant in the main proceedings within the meaning of [[Article 9]] of that regulation when it does not have his consent for that purpose under [[Article 7]] thereof. Nor was there any valid consent for the processing of Mr Schrems' personal data received by Meta Platforms Ireland from third parties. In that context, Mr Schrems requested, inter alia, that the defendant be ordered to cease processing his personal data for the purpose of personalised advertising and using those data derived from visits to third-party websites obtained by third parties.
+
+**27** Meta Platforms Ireland submitted, by way of response, that Mr Schrems' personal data was processed in accordance with the terms of use of the online social network, which are compatible with the requirements of the GDPR. They submit that the processing of those data is lawful and is not contingent on the consent of the applicant in the main proceedings required by [[Article 6]](1\)(a) of that regulation, but on other grounds, including, principally, the necessity of that processing for the purposes of the performance of the contract concluded by him and the defendant in the main proceedings within the meaning of [[Article 6]](1\)(b) of that regulation.
+
+**28** In the main proceedings, a request for a preliminary ruling was made previously to this Court and gave rise to the judgment of 25 January 2018, Schrems, [[C-498-16|C-498⧸16]], EU:C:2018:37. Following that judgment, the Landesgericht für Zivilrechtssachen Wien (Regional Court for Civil Matters, Vienna, Austria) dismissed Mr Schrems' claims by judgment of 30 June 2020. Similarly, the Oberlandesgericht Wien (Higher Regional Court, Vienna, Austria), hearing the case on appeal, also dismissed the action brought by Mr Schrems on the grounds, inter alia, that the processing of the personal data of Mr Schrems, as a user of the online platform, including personalised advertising, forms an integral part of the contract of use of that platform concluded by the parties. The processing of those data is therefore necessary for the performance of the contract within the meaning of [[Article 6]](1\)(b) of the GDPR.
+
+**29** The Oberster Gerichtshof (Supreme Court, Austria), before which an appeal on a point of law ('revision') was brought, observes that Meta Platforms Ireland's business model consists in generating income through targeted advertising and commercial content based on the preferences and interests of Facebook users by processing those users' personal data. In so far as it enables Facebook to offer services to its users free of charge, that processing could be considered to be necessary for the performance of the contract concluded with those users within the meaning of [[Article 6]](1\)(b) of the GDPR.
+
+**30** That court considers, however, that that provision, which must be interpreted strictly, should not allow such processing of personal data without the consent of the data subject.
+
+**31** That court further observes that Meta Platforms Ireland processes personal data that could be categorised as 'sensitive' within the meaning of [[Article 9]](1\) of the GDPR.
+
+**32** In the present case, Meta Platforms Ireland processes data relating to Mr Schrems' political beliefs and sexual orientation. The Oberster Gerichtshof (Supreme Court) has found that Mr Schrems discloses his sexual orientation in public. In particular, on the occasion of a panel discussion in which he participated in Vienna on 12 February 2019, at the invitation of the Representation of the European Commission in Austria, Mr Schrems referred to his sexual orientation for the purpose of criticising Facebook's processing of personal data, including the processing of his own data. However, and as also stated by Mr Schrems on that occasion, he has never mentioned that aspect of his personal life on his Facebook profile.
+
+**33** According to that court, the question thus arises of whether the user concerned has manifestly made sensitive personal data about himself public and, in so doing, given his consent to the processing thereof under [[Article 9]](2\)(e) of the GDPR.
+
+**34** In those circumstances, the Oberster Gerichtshof (Supreme Court) decided to stay the proceedings and to refer the following questions to the Court for a preliminary ruling:
+
+'(1) Are the provisions of [[Article 6]](1\)(a) and (b) of the \[GDPR\] to be interpreted as meaning that the lawfulness of contractual provisions in general terms of service for platform agreements such as that in the main proceedings (in particular, contractual provisions such as: "Instead of paying ... by using the Facebook Products covered by these Terms you agree that we can show you ads ... We use your personal data ... to show you ads that are more relevant to you.") which provide for the processing of personal data with a view to aggregating and analysing it for the purposes of personalised advertising must be assessed in accordance with the requirements of [[Article 6]](1\)(a) of the GDPR, read in conjunction with [[Article 7]] thereof, which cannot be replaced by invoking [[Article 6]](1\)(b) thereof?
+
+(2) Is [[Article 5]](1\)(c) of the GDPR (data minimisation) to be interpreted as meaning that all personal data held by a platform such as that in the main proceedings (by way of, in particular, the data subject or third parties on and outside the platform) may be aggregated, analysed and processed for the purposes of targeted advertising without restriction as to time or type of data?
+
+(3) Is [[Article 9]](1\) of the GDPR to be interpreted as applying to the processing of data that permits the targeted filtering of special categories of personal data such as political opinions or sexual orientation (for advertising, for example), even if the controller does not differentiate between those types of data?
+
+(4) Is [[Article 5]](1\)(b) of the GDPR, read in conjunction with [[Article 9]](2\)(e) thereof, to be interpreted as meaning that a statement made by a person about his or her own sexual orientation for the purposes of a panel discussion permits the processing of other data concerning sexual orientation with a view to aggregating and analysing the data for the purposes of personalised advertising?'
+
+### Procedure before the Court
+
+**35** By decision of 7 April 2022, the President of the Court suspended the present proceedings pending final judgment in [[C-252-21|C-252⧸21]], Meta Platforms and Others.
+
+**36** By decision of 7 July 2023, the President of the Court notified the referring court in the present case of the judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network)([[C-252-21|C-252⧸21]], EU:C:2023:537), asking it whether, in the light of that judgment, it wished to maintain its request for a preliminary ruling in whole or in part and, in the event of partial withdrawal of the reference, to provide reasons for why it was maintaining a part thereof.
+
+**37** By order of 19 July 2023, received at the Court Registry on 9 August 2023, that court withdrew its first and third questions referred, stating that that judgment answered those questions. That court did, however, maintain its second and fourth questions referred, stating that that judgment had not fully answered them.
+
+### The second question
+
+**38** By its second question, the referring court asks, in essence, whether [[Article 5]](1\)(c) of the GDPR must be interpreted as meaning that the principle of data minimisation provided for therein precludes any personal data obtained by a controller, such as the operator of an online social network platform, from the data subject or third parties and collected either on or outside that platform, from being aggregated, analysed and processed for the purposes of targeted advertising without restriction as to time and without distinction as to type of data.
+
+### Admissibility
+
+**39** The defendant in the main proceedings contends that this question is inadmissible on the grounds, first, that the referring court has not explained why an answer to the question is useful for the outcome of the dispute in the main proceedings and, second, that that court based itself on an incorrect factual premiss, in finding, incorrectly, that the defendant in the main proceedings uses all personal data available to it, without restriction as to time and without distinction as to type of data, for advertising purposes.
+
+**40** As regards, in the first place, the argument that the referring court has not explained why an answer to the second question is useful for the outcome of the dispute in the main proceedings, it is appropriate to stress the importance of the national court setting out the precise reasons why it is unsure as to the interpretation of EU law and why it considers it necessary to refer questions to the Court for a preliminary ruling (judgment of 6 December 2005, ABNA and Others, C‑453/03, C‑11/04, C‑12/04 and C‑194/04, EU:C:2005:741, paragraph 46, and of 29 February 2024, Staatssecretaris van Justitie en Veiligheid (Mutual trust in the event of transfer), [[C-392-22|C-392⧸22]], EU:C:2024:195, paragraph 85). In the present case, however, it is apparent from the developments in the request for a preliminary ruling that the referring court seeks to ascertain whether, if the processing for advertising purposes at issue is justified under [[Article 6]](1\)(b) of the GDPR, the scope of the data thus processed by the defendant in the main proceedings will be compliant with the principle of data minimisation or whether, on the contrary, such extensive processing will be in breach of the obligations imposed on the controller under [[Article 5]] of the GDPR. Consequently, the reasons why the answer to that question is useful for the outcome of the dispute in the main proceedings are sufficiently apparent from the request for a preliminary ruling.
+
+**41** As regards, in the second place, the argument that the referring court based itself on an incorrect factual premiss, it is true that the second question referred is based on the premiss that, first, as alluded to in paragraph 20 above, although Mr Schrems did not consent to Meta Platforms Ireland's processing his personal data relating to his activities outside Facebook, that company nevertheless processed some of those data obtained from third parties, on the basis of the acceptance by Mr Schrems of the general terms of use of the social network, through inter alia, Facebook's cookies and social plug-ins embedded in those third parties' websites and, second, those personal data are processed by Meta Platforms Ireland without restriction as to time and without distinction as to type of data.
+
+**42** It should be borne in mind that, according to settled case-law, Article 267 TFEU establishes a procedure for direct cooperation between the Court and the courts of the Member States. In that procedure, which is based on a clear separation of functions between the national courts and the Court, any assessment of the facts of the case is a matter for the national court, which must determine, in the light of the particular circumstances of the case, both the need for a preliminary ruling in order to enable it to deliver judgment and the relevance of the questions which it submits to the Court, whilst the Court is empowered to give rulings on the interpretation or the validity of an EU provision only on the basis of the facts which the national court puts before it (see, inter alia, judgment of 25 October 2017, Polbud--Wykonawstwo, [[C-106-16|C-106⧸16]], EU:C:2017:804, paragraph 27 and the case-law cited).
+
+**43** Consequently, the question referred must be answered on the basis of that premiss, the accuracy of which it is, however, for the referring court to check.
+
+**44** Consequently, the second question referred for a preliminary ruling is admissible.
+
+### Substance
+
+**45** As a preliminary point, it should be borne in mind that the objective pursued by the GDPR, as is set out in Article 1 thereof and in recitals 1 and 10 thereof, consists, inter alia, in ensuring a high level of protection of the fundamental rights and freedoms of natural persons, in particular their right to privacy with respect to the processing of personal data, as enshrined in Article 8(1) of the Charter and Article 16(1) TFEU (judgment of 7 March 2024, IAB Europe, [[C-604-22|C-604⧸22]], EU:C:2024:214, paragraph 53 and the case-law cited).
+
+**46** To that end, Chapters II and III of that regulation set out, respectively, the principles governing the processing of personal data and the rights of the data subject, which any processing of personal data must observe. In particular, subject to the derogations provided for in [[Article 23]] of that regulation, any processing of personal data must, first, observe the principles relating to the processing of such data set out in [[Article 5]] of that regulation and satisfy the lawfulness conditions listed in [[Article 6]] thereof and, second, respect the rights of the data subject set out in Articles 12 to 22 of the GDPR (judgment of 11 July 2024, Meta Platforms Ireland (Representative action), [[C-757-22|C-757⧸22]], EU:C:2024:598, paragraph 49 and the case-law cited).
+
+**47** As the Court has stated previously, the principles relating to the processing of personal data set out in [[Article 5]] of the GDPR apply cumulatively (judgment of 20 October 2022, Digi, [[C-77-21|C-77⧸21]], EU:C:2022:805, paragraph 47).
+
+**48** In that regard, it should be noted that, under [[Article 5]](1\)(a) of the GDPR, personal data must be processed lawfully, fairly and in a transparent manner in relation to the data subject. Furthermore, under [[Article 5]](1\)(b), such data must be collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes.
+
+**49** Moreover, [[Article 5]](1\)(c) of that regulation, which enshrines the so-called 'data minimisation' principle, provides that personal data must be 'adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed' (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 109 and the case-law cited).
+
+**50** As the Court has held previously, that principle gives expression to the principle of proportionality (see, to that effect, judgments of 22 June 2021, Latvijas Republikas Saeima (Penalty points), [[C-439-19|C-439⧸19]], EU:C:2021:504, paragraph 98 and the case-law cited, and of 30 January 2024, Direktor na Glavna direktsia 'Natsionalna politsia' pri MVR -- Sofia, [[C-118-22|C-118⧸22]], EU:C:2024:97, paragraph 41).
+
+**51** Under the principle of accountability laid down in [[Article 5]](2\) of the GDPR, the controller must be able to demonstrate that personal data are collected and processed in accordance with the principles set out in [[Article 5]](1\) (see, to that effect, judgment of 20 October 2022, Digi, [[C-77-21|C-77⧸21]], EU:C:2022:805, paragraph 24). In addition, according to [[Article 13]](1\)(c) of that regulation, where personal data are collected from the data subject, the controller must inform the data subject of the purposes of the processing for which those data are intended as well as the legal basis for the processing (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 95).
+
+**52** In the second place, as regards the temporal limitation on the processing of personal data such as that at issue in the main proceedings, it should be borne in mind that the Court has held previously that the principle of data minimisation requires the controller to limit the period of collection of the personal data in question to what is strictly necessary in the light of the objective of the envisaged processing (judgment of 24 February 2022, Valsts ieņēmumu dienests (Processing of personal data for tax purposes), [[C-175-20|C-175⧸20]], EU:C:2022:124, paragraph 79).
+
+**53** The longer the storage period of those data, the greater the impact on the interests and private life of the data subject and the more stringent the requirements relating to the lawfulness of the storage of those data will be (see, to that effect, judgment of 7 December 2023, SCHUFA Holding (Discharge from remaining debts), [[C-26-22|C-26⧸22]] and [[C-64-22|C-64⧸22]], EU:C:2023:958, paragraph 95).
+
+**54** It should be further noted that, under [[Article 5]](1\)(e) of the GDPR, personal data are to be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed.
+
+**55** It is thus unequivocally clear from the wording of that article that the principle of 'storage limitation' requires the controller to be able to demonstrate, in accordance with the principle of accountability referred to in paragraph 51 of the present judgment, that personal data are kept only for as long as is necessary for the purposes for which they were collected or for which they have been further processed (see, to that effect, judgment of 20 October 2022, Digi, [[C-77-21|C-77⧸21]], EU:C:2022:805, paragraph 53).
+
+**56** It follows, as the Court has held previously, that even initially lawful processing of data may over time become incompatible with the GDPR where those data are no longer necessary in the light of the purposes for which they were collected or further processed and those data must be deleted once those purposes have been achieved (see, to that effect, judgment of 20 October 2022, Digi, [[C-77-21|C-77⧸21]], EU:C:2022:805, paragraph 54 and the case-law cited).
+
+**57** In those circumstances, as observed, in essence, by the Advocate General in point 22 of his Opinion, it is for the national court to determine, in the light of the circumstances of the case and by applying the principle of proportionality, reflected in [[Article 5]](1\)(c) of the GDPR, whether the period of storage of personal data by the controller is justified having regard to the objective of enabling the dissemination of personalised advertising.
+
+**58** In any event, the storage of the personal data of the users of a social network platform for an unlimited period for the purpose of targeted advertising must be considered to be a disproportionate interference in the rights guaranteed to those users by the GDPR.
+
+**59** In the third place, as regards the fact that the personal data at issue in the main proceedings is collected, aggregated, analysed and processed for the purposes of targeted advertising, without distinction as to the type of those data, it should be borne in mind that the Court has held previously that, in the light of the principle of data minimisation provided for in [[Article 5]](1\)(c) of the GDPR, the controller may not engage in the collection of personal data in a generalised and indiscriminate manner and must refrain from collecting data which are not strictly necessary having regard to the purpose of the processing (judgment of 24 February 2022, Valsts ieņēmumu dienests (Processing of personal data for tax purposes), [[C-175-20|C-175⧸20]], EU:C:2022:124, paragraph 74).
+
+**60** It should also be noted that [[Article 25]](2\) of that regulation requires the controller to implement the appropriate measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. According to the wording of that provision, that requirement applies, inter alia, to the amount of personal data collected, the extent of their processing and the period of their storage.
+
+**61** In the present case, it is apparent from the order for reference that Meta Platforms Ireland collects the personal data of Facebook users, including Mr Schrems, concerning those users' activities both on and outside that social network, including in particular data relating to online platform visits and third-party websites and apps, and also follows users' navigation patterns on those sites through the use of social plug-ins and pixels embedded in the relevant websites.
+
+**62** As the Court has held previously, such processing is particularly extensive since it relates to potentially unlimited data and has a significant impact on the user, a large part -- if not almost all -- of whose online activities are monitored by Meta Platforms Ireland, which may give rise to the feeling that his or her private life is being continuously monitored (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 118).
+
+**63** In those circumstances, the processing of data at issue in the main proceedings is characterised by a serious interference with the fundamental rights of the data subjects, in particular their right to respect for their private life and the protection of personal data guaranteed by Articles 7 and 8 of the Charter of Fundamental Rights of the European Union, which does not, subject to verification by the national court, appear to be reasonably justified in the light of the objective consisting in enabling the dissemination of targeted advertising.
+
+**64** In any event, the indiscriminate use of all of the personal data held by a social network platform for advertising purposes, irrespective of the level of sensitivity of the data, does not appear to be a proportionate interference with the rights guaranteed by the GDPR to users of that platform.
+
+**65** In the light of the foregoing, the answer to the second question is that [[Article 5]](1\)(c) of the GDPR must be interpreted as meaning that the principle of data minimisation provided for therein precludes all of the personal data obtained by a controller, such as the operator of an online social network platform, from the data subject or third parties and collected either on or outside that platform, from being aggregated, analysed and processed for the purposes of targeted advertising without restriction as to time and without distinction as to type of data.
+
+### The fourth question
+
+**66** By this question, the referring court asks, in essence, whether [[Article 9]](2\)(e) of the GDPR must be interpreted as meaning that the fact that a person has made a statement about his or her sexual orientation on the occasion of a panel discussion authorises the operator of an online social network platform to process other data relating to that person's sexual orientation, obtained, as the case may be, outside that platform using partner third-party websites and apps, with a view to aggregating and analysing those data, in order to offer that person personalised advertising.
+
+**67** More specifically, the referring court seeks to ascertain whether, by the statement made by Mr Schrems on the occasion of a panel discussion, he is no longer entitled to the protection conferred by [[Article 9]](1\) of the GDPR and whether, in consequence thereof, Facebook was entitled to process other data relating to his sexual orientation.
+
+**68** As a preliminary point, it should be noted that the panel discussion alluded to by the referring court, in the context of which Mr Schrems made a statement concerning his sexual orientation, was held on 12 February 2019 and that, as is apparent from the order for reference, on that date, Meta Platforms Ireland was already processing personal data concerning his sexual orientation, with the result that that statement was subsequent to the commencement of such processing of data.
+
+**69** It follows that the fourth question put by the referring court must be construed as concerning solely potential processing of data relating to Mr Schrems' sexual orientation carried out by Meta Platforms Ireland after 12 February 2019. It is nevertheless for the referring court to verify whether such processing actually took place after that date, in accordance with the case-law referred to in paragraph 42 of the present judgment.
+
+**70** In order to answer that question, it is necessary, in the first place, to reiterate that recital 51 of the GDPR states that personal data which are, by their nature, particularly sensitive in relation to fundamental rights and freedoms merit specific protection, as the context of their processing could create significant risks for those rights and freedoms. That recital states that such personal data should not be processed unless processing is allowed in the specific cases set out in that regulation.
+
+**71** In that context, [[Article 9]](1\) of the GDPR lays down the principle that the processing of special categories of personal data listed therein is prohibited. This includes, inter alia, data revealing racial or ethnic origin, political opinions, religious beliefs and data concerning the health, sex life or sexual orientation of a natural person.
+
+**72** For the purposes of applying [[Article 9]](1\) of the GDPR, it is important to determine, where personal data is processed by the operator of an online social network, if those data allow information falling within one of the categories referred to in that provision to be revealed, irrespective of whether that information concerns a user of that network or any other natural person. If so, then such processing of personal data is prohibited, subject to the derogations provided for in [[Article 9]](2\) of the GDPR.
+
+**73** As the Court has held previously, that fundamental prohibition, laid down in [[Article 9]](1\) of the GDPR, is independent of whether or not the information revealed by the processing operation in question is correct and of whether the controller is acting with the aim of obtaining information that falls within one of the special categories referred to in that provision. In view of the significant risks to the fundamental freedoms and fundamental rights of data subjects arising from any processing of personal data falling within the categories referred to in [[Article 9]](1\) of the GDPR, the objective thereof is to prohibit such processing, irrespective of its stated purpose (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraphs 69 and 70).
+
+**74** Although [[Article 9]](1\) prohibits, as a matter of principle, the processing of data concerning, inter alia, sexual orientation, [[Article 9]](2\) provides, in points (a) to (j), for 10 derogations which are independent of each other and which must therefore be assessed independently. It follows that the fact that the conditions for the application of one of the derogations provided for in [[Article 9]](2\) are not met cannot prevent a controller from being able to rely on another derogation referred to in that provision (judgment of 21 December 2023, Krankenversicherung Nordrhein, [[C-667-21|C-667⧸21]], EU:C:2023:1022, paragraph 47).
+
+**75** As regards, in particular, the derogation laid down in [[Article 9]](2\)(e) of the GDPR, it must be recalled that, under that provision, the prohibition of any processing of special categories of personal data, established in [[Article 9]](1\) thereof, does not apply in a scenario where the processing relates to personal data which are 'manifestly made public by the data subject'.
+
+**76** In so far as it provides for an exception to the principle that the processing of special categories of personal data is prohibited, [[Article 9]](2\) of the GDPR must be interpreted strictly (see, to that effect, judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 76 and the case-law cited).
+
+**77** It follows that, for the purposes of the application of the exception laid down in [[Article 9]](2\)(e) of the GDPR, it is important to ascertain whether the data subject had intended, explicitly and by a clear affirmative action, to make the personal data in question accessible to the general public (judgment of 4 July 2023, Meta Platforms and Others (General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 77).
+
+**78** In the present case, it is apparent from the order for reference that the panel discussion organised in Vienna on 12 February 2019, in the context of which Mr Schrems made a statement about his sexual orientation, was accessible to the public, who could obtain a ticket to attend the event, subject to seating availability, and that it was streamed. Moreover, a recording of the round table was subsequently published as a podcast, as well as on the Commission's YouTube channel.
+
+**79** In those circumstances, and subject to verifications which it is for the referring court to carry out, the possibility cannot be ruled out that that statement, although forming part of a broader discussion and made solely for the purpose of criticising the processing of personal data by Facebook, constitutes an act by which the person concerned in any event manifestly made his sexual orientation public within the meaning of [[Article 9]](2\)(e) of the GDPR.
+
+**80** In the second place, if the consequence of the fact that the data subject has manifestly made public data concerning his or her sexual orientation is that those data may be processed, by way of derogation from the prohibition laid down in [[Article 9]](1\) of the GDPR and in accordance with the requirements deriving from the other provisions of that regulation (see, to that effect, judgment of 24 September 2019, GC and Others (De-referencing of sensitive data), [[C-136-17|C-136⧸17]], EU:C:2019:773, paragraph 64), that fact alone does not, contrary to the contentions of Meta Platforms Ireland, authorise the processing of other personal data relating to that data subject's sexual orientation.
+
+**81** Thus, it would be contrary to the restrictive interpretation that should be made of [[Article 9]](2\)(e) of the GDPR to find that all data relating to the sexual orientation of a person fall outside the scope of protection under [[Article 9]](1\) thereof solely because the data subject has manifestly made public personal data relating to his or her sexual orientation.
+
+**82** Moreover, the fact that a person has manifestly made public information concerning his or her sexual orientation does not mean that that person has given his or her consent within the meaning of [[Article 9]](2\)(a) of the GDPR to processing of other data relating to his or her sexual orientation by the operator of an online social network platform.
+
+**83** In the light of the foregoing, the answer to the fourth question is that [[Article 9]](2\)(e) of the GDPR must be interpreted as meaning that the fact that a person has made a statement about his or her sexual orientation on the occasion of a panel discussion open to the public does not authorise the operator of an online social network platform to process other data relating to that person's sexual orientation, obtained, as the case may be, outside that platform using partner third-party websites and apps, with a view to aggregating and analysing those data, in order to offer that person personalised advertising.
+
+Costs
+
+**84** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the national court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Fourth Chamber) hereby rules:
+
+**1. Article 5(1)(c) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)**
+
+**must be interpreted as meaning that the principle of data minimisation provided for therein precludes any personal data obtained by a controller, such as the operator of an online social network platform, from the data subject or third parties and collected either on or outside that platform, from being aggregated, analysed and processed for the purposes of targeted advertising without restriction as to time and without distinction as to type of data.**
+
+**2. [[Article 9]](2\)(e) of Regulation 2016/679**
+
+**must be interpreted as meaning that the fact that a person has made a statement about his or her sexual orientation on the occasion of a panel discussion open to the public does not authorise the operator of an online social network platform to process other data relating to that person's sexual orientation, obtained, as the case may be, outside that platform using partner third-party websites and apps, with a view to aggregating and analysing those data, in order to offer that person personalised advertising.**
+
+\[Signatures\]
+
+\*Language of the case: German

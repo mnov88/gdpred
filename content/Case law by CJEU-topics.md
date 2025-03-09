@@ -1,5 +1,7 @@
 ---
 title: "Browse by CJEU tags"
+tags:
+    - "Hidden"
 ---
 
 Absence of consent:

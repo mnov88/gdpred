@@ -1,0 +1,491 @@
+---
+title: C-667/21
+date: 2023-12-21
+case-number: "C-667/21"
+parties: "ZQ v Medizinischer Dienst der Krankenversicherung Nordrhein"
+topics:
+  - "Protection of natural persons with regard to the processing of personal data"
+  - "Conditions for lawful processing"
+  - "Processing of special categories of data"
+  - "Data concerning health"
+  - "Assessment of an employee's working capacity"
+  - "Health insurance medical service processing data"
+  - "Conditions for such processing and whether permissible"
+  - "Right to compensation and liability"
+  - "Compensation for non-material damage"
+  - "Compensatory function"
+  - "Impact of negligence on the part of the data controller"
+final-ruling: |-
+  1. Article 9(2)(h) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+  must be interpreted as meaning that the exception provided for in that provision is applicable to situations in which a medical examination body processes data concerning the health of one of its employees acting not in its capacity as employer, but as a medical service, in order to assess the working capacity of that employee, provided that the processing concerned satisfies the conditions and guarantees expressly imposed by that point (h) and by [[Article 9]](3\) of that regulation.
+  
+  2. [[Article 9]](3\) of Regulation 2016/679
+  must be interpreted as meaning that the controller of data concerning health, based on [[Article 9]](2\)(h) of that regulation, is not required, under those provisions, to ensure that no colleague of the data subject can access data relating to his or her state of health. However, such an obligation may be imposed on the controller either under rules adopted by a Member State on the basis of [[Article 9]](4\) of that regulation or under the principles of integrity and confidentiality set out in [[Article 5]](1\)(f) of that regulation and defined in [[Article 32]](1\)(a) and (b) thereof.
+  
+  3. [[Article 9]](2\)(h) and [[Article 6]](1\) of Regulation 2016/679
+  must be interpreted as meaning that the processing of data concerning health based on the first provision must, in order to be lawful, not only comply with the requirements arising from that provision, but must also satisfy at least one of the conditions of lawfulness set out in [[Article 6]](1\) of that regulation.
+  
+  4. [[Article 82]](1\) of Regulation 2016/679
+  must be interpreted as meaning that the right to compensation provided for in that provision fulfils a compensatory function, in that financial compensation based on that provision must allow the damage actually suffered as a result of the infringement of that regulation to be compensated in its entirety, and not a dissuasive or punitive function.
+  
+  5. [[Article 82]] of Regulation 2016/679
+  must be interpreted as meaning that first, the establishment of liability on the part of the controller is subject to the existence of a fault committed by the controller, which is presumed unless the controller proves that the event giving rise to the damage is in no way attributable to it and, secondly, [[Article 82]] of that regulation does not require the degree of seriousness of that fault to be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision.
+ruling-articles:
+  - Article 9
+  - Article 6
+  - Article 82
+---
+
+Provisional text
+
+JUDGMENT OF THE COURT (Third Chamber)
+
+21 December 2023 (\*)
+
+(Reference for a preliminary ruling -- Protection of natural persons with regard to the processing of personal data -- Regulation (EU) 2016/679 -- [[Article 6]](1\) -- Conditions for lawful processing -- [[Article 9]](1\) to (3) -- Processing of special categories of data -- Data concerning health -- Assessment of an employee's working capacity -- Health insurance medical service processing data concerning the health of its own employees -- Conditions for such processing and whether permissible -- [[Article 82]](1\) -- Right to compensation and liability -- Compensation for non-material damage -- Compensatory function -- Impact of negligence on the part of the data controller
+
+In Case C-667⧸21,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Bundesarbeitsgericht (Federal Labour Court, Germany), made by decision of 26 August 2021, received at the Court on 8 November 2021, in the proceedings
+
+ZQ
+
+v
+
+Medizinischer Dienst der Krankenversicherung Nordrhein, Körperschaft des öffentlichen Rechts,
+
+THE COURT (Third Chamber),
+
+composed of K. Jürimäe, President of the Chamber, N. Piçarra, M. Safjan, N. Jääskinen (Rapporteur) and M. Gavalec, Judges,
+
+Advocate General: M. Campos Sánchez‑Bordona,
+
+Registrar: A. Calot Escobar,
+
+having regard to the written procedure,
+
+after considering the observations submitted on behalf of:
+
+-- ZQ, by E. Daun, Rechtsanwalt,
+
+-- Medizinischer Dienst der Krankenversicherung Nordrhein, Körperschaft des öffentlichen Rechts, by M. Wehner, Rechtsanwalt,
+
+-- Ireland, by M. Browne, Chief State Solicitor, A. Joyce and M. Lane, acting as Agents, and by D. Fennelly, Barrister-at-Law,
+
+-- the Italian Government, by G. Palmieri, acting as Agent, and by M. Russo, avvocato dello Stato,
+
+-- the European Commission, by A. Bouchagiar, M. Heller and H. Kranenborg, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 25 May 2023,
+
+gives the following
+
+Judgment
+
+**1** This request for a preliminary ruling concerns the interpretation of Article 9(1), (2)(h) and (3) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ 2016 L 119, p. 1) ('the GDPR'), read in conjunction with [[Article 6]](1\) of that regulation, as well as the interpretation of [[Article 82]](1\) thereof.
+
+**2** The request has been made in proceedings between ZQ and his employer, the Medizinischer Dienst der Krankenversicherung Nordrhein (medical service of the health insurance fund for North Rhine-Westphalia, Germany; 'MDK Nordrhein'), concerning compensation for damage which the former party claims to have suffered as a result of the processing of data concerning his health which, it is claimed, was carried out unlawfully by the latter party.
+
+Legal context
+
+European Union law
+
+**3** Recitals 4 to 8, 10, 35, 51 to 53, 75 and 146 of the GDPR are worded as follows:
+
+'(4) The processing of personal data should be designed to serve mankind. The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality. This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the \[Charter of Fundamental Rights of the European Union\] as enshrined in the Treaties, in particular the respect for private and family life, ... the protection of personal data, ...
+
+(5) The economic and social integration resulting from the functioning of the internal market has led to a substantial increase in cross-border flows of personal data. The exchange of personal data between public and private actors, including natural persons, associations and undertakings across the Union has increased. National authorities in the Member States are being called upon by Union law to cooperate and exchange personal data so as to be able to perform their duties or carry out tasks on behalf of an authority in another Member State.
+
+(6) Rapid technological developments and globalisation have brought new challenges for the protection of personal data. The scale of the collection and sharing of personal data has increased significantly. Technology allows both private companies and public authorities to make use of personal data on an unprecedented scale in order to pursue their activities. Natural persons increasingly make personal information available publicly and globally. Technology has transformed both the economy and social life, and should further facilitate the free flow of personal data within the Union and the transfer to third countries and international organisations, while ensuring a high level of the protection of personal data.
+
+(7) Those developments require a strong and more coherent data protection framework in the Union, backed by strong enforcement, given the importance of creating the trust that will allow the digital economy to develop across the internal market. Natural persons should have control of their own personal data. Legal and practical certainty for natural persons, economic operators and public authorities should be enhanced.
+
+(8) Where this Regulation provides for specifications or restrictions of its rules by Member State law, Member States may, as far as necessary for coherence and for making the national provisions comprehensible to the persons to whom they apply, incorporate elements of this Regulation into their national law.
+
+...
+
+(10) In order to ensure a consistent and high level of protection of natural persons and to remove the obstacles to flows of personal data within the \[European\] Union, the level of protection of the rights and freedoms of natural persons with regard to the processing of such data should be equivalent in all Member States. ... This Regulation also provides a margin of manoeuvre for Member States to specify its rules, including for the processing of special categories of personal data ("sensitive data"). ...
+
+...
+
+(35) Personal data concerning health should include all data pertaining to the health status of a data subject which reveal information relating to the past, current or future physical or mental health status of the data subject. ...
+
+...
+
+(51) Personal data which are, by their nature, particularly sensitive in relation to fundamental rights and freedoms merit specific protection as the context of their processing could create significant risks to the fundamental rights and freedoms. ... In addition to the specific requirements for such processing, the general principles and other rules of this Regulation should apply, in particular as regards the conditions for lawful processing. Derogations from the general prohibition for processing such special categories of personal data should be explicitly provided, inter alia, where the data subject gives his or her explicit consent or in respect of specific needs ...
+
+(52) Derogating from the prohibition on processing special categories of personal data should also be allowed when provided for in Union or Member State law and subject to suitable safeguards, so as to protect personal data and other fundamental rights, where it is in the public interest to do so, in particular processing personal data in the field of employment law, social protection law including pensions and for health security, monitoring and alert purposes, the prevention or control of communicable diseases and other serious threats to health. Such a derogation may be made for health purposes, including public health and the management of health-care services, especially in order to ensure the quality and cost-effectiveness of the procedures used for settling claims for benefits and services in the health insurance system, or for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes. ...
+
+(53) Special categories of personal data which merit higher protection should be processed for health-related purposes only where necessary to achieve those purposes for the benefit of natural persons and society as a whole, in particular in the context of the management of health or social care services and systems, including processing by the management and central national health authorities of such data for the purpose of quality control, management information and the general national and local supervision of the health or social care system, and ensuring continuity of health or social care ... Therefore, this Regulation should provide for harmonised conditions for the processing of special categories of personal data concerning health, in respect of specific needs, in particular where the processing of such data is carried out for certain health-related purposes by persons subject to a legal obligation of professional secrecy. Union or Member State law should provide for specific and suitable measures so as to protect the fundamental rights and the personal data of natural persons. Member States should be allowed to maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health. ...
+
+...
+
+(75) The risk to the rights and freedoms of natural persons, of varying likelihood and severity, may result from personal data processing which could lead to physical, material or non-material damage, in particular: where the processing may give rise to discrimination, identity theft or fraud, financial loss, damage to the reputation, loss of confidentiality of personal data protected by professional secrecy, unauthorised reversal of pseudonymisation, or any other significant economic or social disadvantage; where data subjects might be deprived of their rights and freedoms or prevented from exercising control over their personal data; ... and the processing of ... data concerning health ... . where personal aspects are evaluated, in particular analysing or predicting aspects concerning performance at work, economic situation, health ... in order to create or use personal profiles; ...
+
+...
+
+(146) The controller or processor should compensate any damage which a person may suffer as a result of processing that infringes this Regulation. The controller or processor should be exempt from liability if it proves that it is not in any way responsible for the damage. The concept of damage should be broadly interpreted in the light of the case-law of the Court of Justice in a manner which fully reflects the objectives of this Regulation. This is without prejudice to any claims for damage deriving from the violation of other rules in Union or Member State law. Processing that infringes this Regulation also includes processing that infringes delegated and implementing acts adopted in accordance with this Regulation and Member State law specifying rules of this Regulation. Data subjects should receive full and effective compensation for the damage they have suffered. ...'
+
+**4** Under Chapter I of that regulation, headed 'General provisions', [[Article 2]] thereof, itself headed 'Material scope', provides in paragraph 1 thereof:
+
+'This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.'
+
+**5** [[Article 4]] of that regulation, headed 'Definitions', provides:
+
+'For the purposes of this Regulation:
+
+(1) "personal data" means any information relating to an identified or identifiable natural person ("data subject"); ...
+
+(2) "processing" means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means ...
+
+...
+
+(7) "controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; ...
+
+...
+
+(15) "data concerning health" means personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status; ...
+
+...'
+
+**6** Chapter II of the GDPR, on the 'Principles' laid down therein, comprises Articles 5 to 11 of that regulation.
+
+**7** [[Article 5]] of that regulation, headed 'Principles relating to processing of personal data', provides:
+
+'1. Personal data shall be:
+
+(a) processed lawfully, fairly and in a transparent manner in relation to the data subject ("lawfulness, fairness and transparency");
+
+...
+
+(f) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures ("integrity and confidentiality").
+
+<!-- -->
+
+2.  The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 ("accountability").'
+
+**8** [[Article 6]] of that regulation, headed 'Lawfulness of processing', provides in paragraph 1 thereof:
+
+'Processing shall be lawful only if and to the extent that at least one of the following applies:
+
+(a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
+
+(b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;
+
+(c) processing is necessary for compliance with a legal obligation to which the controller is subject;
+
+(d) processing is necessary in order to protect the vital interests of the data subject or of another natural person;
+
+(e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+
+(f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
+
+Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.'
+
+**9** [[Article 9]] of that regulation, entitled 'Processing of special categories of personal data', is worded as follows:
+
+'1. Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.
+
+2.  Paragraph 1 shall not apply if one of the following applies:
+
+...
+
+(b) processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject;
+
+...
+
+(h) processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3;
+
+...
+
+3.  Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.
+
+4.  Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.'
+
+**10** Chapter IV of the GDPR, entitled 'Controller and processor', contains Articles 24 to 43 of that regulation.
+
+**11** In Section 1 of that chapter, entitled 'General obligations', [[Article 24]] of that regulation, entitled 'Responsibility of the controller', provides in paragraph 1 thereof:
+
+'Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation. Those measures shall be reviewed and updated where necessary.'
+
+**12** Contained in Section 2 of that chapter, which is headed 'Security of personal data', [[Article 32]] of that regulation, itself headed 'Security of processing', provides in paragraph 1 thereof:
+
+'Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:
+
+(a) the pseudonymisation and encryption of personal data;
+
+(b) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
+
+...'
+
+**13** Chapter VIII of the GDPR, entitled 'Remedies, liability and penalties', contains Articles 77 to 84 of that regulation.
+
+**14** Under [[Article 82]] of that regulation, entitled 'Right to compensation and liability':
+
+1.  Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered.
+
+2.  Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. ...
+
+3.  A controller or processor shall be exempt from liability under paragraph 2 if it proves that it is not in any way responsible for the event giving rise to the damage.
+
+...'
+
+**15** [[Article 83]] of that regulation, entitled 'General conditions for imposing administrative fines', provides:
+
+'1. Each supervisory authority shall ensure that the imposition of administrative fines pursuant to this Article in respect of infringements of this Regulation referred to in paragraphs 4, 5 and 6 shall in each individual case be effective, proportionate and dissuasive.
+
+2.  ... When deciding whether to impose an administrative fine and deciding on the amount of the administrative fine in each individual case due regard shall be given to the following:
+
+<!-- -->
+
+(a) the nature, gravity and duration of the infringement taking into account the nature scope or purpose of the processing concerned as well as the number of data subjects affected and the level of damage suffered by them;
+
+(b) the intentional or negligent character of the infringement;
+
+...
+
+(d) the degree of responsibility of the controller or processor taking into account technical and organisational measures implemented by them pursuant to Articles 25 and 32;
+
+...
+
+(k) any other aggravating or mitigating factor applicable to the circumstances of the case, such as financial benefits gained, or losses avoided, directly or indirectly, from the infringement.
+
+<!-- -->
+
+3.  If a controller or processor intentionally or negligently, for the same or linked processing operations, infringes several provisions of this Regulation, the total amount of the administrative fine shall not exceed the amount specified for the gravest infringement.
+
+...'
+
+**16** [[Article 84]] of that regulation, entitled 'Penalties', provides, in paragraph 1 thereof:
+
+'Member States shall lay down the rules on other penalties applicable to infringements of this Regulation in particular for infringements which are not subject to administrative fines pursuant to [[Article 83]], and shall take all measures necessary to ensure that they are implemented. Such penalties shall be effective, proportionate and dissuasive.'
+
+German law
+
+**17** Under Paragraph 275(1) of the Sozialgesetzbuch, Fünftes Buch (Book V of the Social Code), in the version applicable to the dispute in the main proceedings, statutory health insurance funds are required to ask aMedizinischer Dienst(medical service) which assists those funds, in particular, to prepare an expert report in order to dispel doubts as to an insured person's incapacity for work, in the cases determined by law or where the insured person's illness so requires.
+
+**18** Paragraph 278(1) of that code provides that such a medical service is to be established in every federal state in the form of a body governed by public law.
+
+### The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+**19** MDK Nordrhein is a body governed by public law which, as a medical service for health insurance funds, has the statutory task, inter alia, of drawing up expert medical reports to remove doubts as to the incapacity for work of persons insured with the statutory health insurance funds under its responsibility, including where such reports concern its own employees.
+
+**20** In such a case, only the members of the 'special case organisational unit' are authorised to process that employee's 'social' data, using a locked area of MDK Nordrhein's IT system, and to access the electronic archives once an assignment has been completed. An internal operating manual relating to those cases provides, inter alia, that a limited number of authorised staff, including certain members of the IT department, have access to those data.
+
+**21** The applicant in the main proceedings worked in the IT department of MDK Nordrhein before being declared unfit for work on medical grounds. At the end of the six-month period during which that body, as an employer, continued to pay him, the statutory health insurance fund to which he was affiliated began to pay him sickness benefits.
+
+**22** That fund then asked MDK Nordrhein to prepare an expert report on the incapacity for work of the applicant in the main proceedings. A doctor working in the 'special case organisational unit' of MDK Nordrhein prepared the expert report, inter alia, by obtaining information from the doctor treating the applicant in the main proceedings. When the applicant in the main proceedings was informed of this by his doctor, he contacted one of his colleagues in the IT department and asked her to take, and then send to him, photographs of the expert report which was in the electronic archives of MDK Nordrhein.
+
+**23** Taking the view that data concerning his health data had thus been unlawfully processed by his employer, the applicant in the main proceedings asked the employer to pay him compensation in the amount of EUR 20 000, which MDK Nordrhein refused.
+
+**24** Subsequently, the applicant in the main proceedings brought an action before the Arbeitsgericht Düsseldorf (Labour Court, Düsseldorf, Germany) seeking, on the basis of [[Article 82]](1\) of the GDPR and provisions of German law, an order that MDK Nordrhein pay compensation for the damage which he claims to have suffered as a result of such processing of personal data. He claimed, in essence, first, that the expert report in question should have been prepared by a different medical service in order to prevent his colleagues having access to data concerning his health and, secondly, that the security measures surrounding the archiving of that expert report were inadequate. He also submitted that that processing constituted a breach of the rules protecting such data which had caused him both non-material and material damage.
+
+**25** In its defence, MDK Nordrhein argued principally that the collection and storage of data concerning the health of the applicant in the main proceedings had been carried out in accordance with the provisions relating to the protection of such data.
+
+**26** After his action at first instance was dismissed, the applicant in the main proceedings brought an appeal before the Landesarbeitsgericht Düsseldorf (Higher Labour Court, Düsseldorf, Germany), which also dismissed his action. He then brought an appeal on a point of law before the Bundesarbeitsgericht (Federal Labour Court, Germany), which is the referring court in the present case.
+
+**27** The referring court starts from the premiss that, in the dispute in the main proceedings, the expert report prepared by MDK Nordrhein, in its capacity as a medical service, constitutes 'processing' of 'personal data' and, more specifically, 'data concerning health' within the meaning of [[Article 4]](1\), (2) and (15) of the GDPR, and therefore that operation falls within the material scope of that regulation, as defined in [[Article 2]](1\) thereof. Moreover, it considers that MDK Nordrhein is the relevant 'controller' within the meaning of [[Article 4]](7\) of that regulation.
+
+**28** Its questions concern, in the first place, the interpretation of several provisions of [[Article 9]] of the GDPR, which relates to the processing of special categories of personal data, in particular in view of the fact that the processing at issue in the main proceedings was carried out by a body which is also the employer of the data subject, as defined in [[Article 4]](1\) of that regulation.
+
+**29** First of all, the referring court doubts whether the processing of the data concerning health at issue in the main proceedings can fall under one of the exceptions provided for in [[Article 9]](2\) of the GDPR. According to that court, only the exceptions set out in [[Article 9]](2\)(b) and (h) of the GDPR are relevant in the present case. However, it excludes from the outset the application of the derogation provided for in point (b) in the present case on the ground that the processing at issue in the main proceedings was not necessary for the purposes of the rights and obligations of the controller, in its capacity as employer of the data subject. That processing was initiated by another body, which asked MDK Nordrhein to carry out an examination in its capacity as a medical service. However, although it is inclined not to apply the derogation provided for in point (h) either, since it considers that only processing carried out by a 'neutral third party' should be able to fall within that scope and that a body cannot rely on its 'dual function' as employer and medical service in order to counter the prohibition on such processing, the referring court is not categorical in that regard.
+
+**30** Next, in the event that the processing of data concerning health is authorised in such circumstances under [[Article 9]](2\)(h) of the GDPR, the referring court asks about the rules relating to the protection of data concerning health which must be complied with in that context. In its view, that regulation implies that it is not sufficient for the controller to comply with the requirements set out in [[Article 9]](3\) thereof. That controller must, in addition, ensure that none of the data subject's colleagues can have any access to the data concerning his or her state of health.
+
+**31** Lastly, still in the same situation, that court wishes to ascertain whether at least one of the conditions set out in [[Article 6]](1\) of the GDPR must, in addition, be satisfied in order for such processing to be lawful. In its view, that should be the case and, in the context of the dispute in the main proceedings, only points (c) and (e) of the first subparagraph of [[Article 6]](1\) could a priori be relevant. Nevertheless, points (c) and (e) should not apply on the grounds that the processing in question is not 'necessary' within the meaning of those provisions, since it could just as easily be carried out by a medical service other than MDK Nordrhein.
+
+**32** In the second place, in the event that an infringement of the GDPR is established in the present case, the referring court raises the question of the possible compensation due to the applicant in the main proceedings under [[Article 82]] of that regulation.
+
+**33** First, it wishes to know whether the rule laid down in [[Article 82]](1\) of the GDPR is dissuasive or punitive in nature, in addition to its compensatory function, and, where appropriate, whether that character should be taken into account when determining the amount of damages awarded for non-material damage, in particular having regard to the principles of effectiveness, proportionality and equivalence enshrined in other areas of EU law.
+
+**34** Secondly, that court suggests that the controller may be held liable on the basis of [[Article 82]](1\) of the GDPR, without there being any need to establish that it has acted wrongfully. As the referring court has doubts, however, principally in the light of rules of German law, it asks whether it is necessary to ascertain whether the infringement of the GDPR at issue is attributable to the controller as a result of an intentional act or negligence on its part and whether the degree of seriousness of the possible fault on the part of that controller should have an influence on the damages awarded as compensation for non-material damage.
+
+**35** In those circumstances, the Bundesarbeitsgericht (Federal Labour Court) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+'(1) Is [[Article 9]](2\)(h) of the GDPR to be interpreted as prohibiting a medical service of a health insurance fund from processing its employee's data concerning health which are a prerequisite for the assessment of that employee's working capacity?
+
+(2) If the Court answers Question 1 in the negative, with the consequence that an exception to the prohibition on the processing of data concerning health laid down in [[Article 9]](1\) of the GDPR is possible under [[Article 9]](2\)(h) of the GDPR: in a case such as the present one, are there further data protection requirements, beyond the conditions set out in [[Article 9]](3\) of the GDPR, that must be complied with, and, if so, which ones?
+
+(3) If the Court answers Question 1 in the negative, with the consequence that an exception to the prohibition on the processing of data concerning health laid down in [[Article 9]](1\) of the GDPR is possible under [[Article 9]](2\)(h) of the GDPR: does the permissibility or lawfulness of the processing of data concerning health depend on the fulfilment of at least one of the conditions set out in [[Article 6]](1\) of the GDPR?
+
+(4) Does [[Article 82]](1\) of the GDPR have a specific or general preventive character, and must that be taken into account in the assessment of the amount of non-material damage to be compensated at the expense of the controller or processor on the basis of [[Article 82]](1\) of the GDPR?
+
+(5) Is the degree of fault on the part of the controller or processor a decisive factor in the assessment of the amount of non-material damage to be compensated on the basis of [[Article 82]](1\) of the GDPR? In particular, can non-existent or minor fault on the part of the controller or processor be taken into account in their favour?'
+
+### The questions referred for a preliminary ruling
+
+### The first question
+
+**36** By its first question, the referring court asks, in essence, whether, having regard to the prohibition on processing data concerning health laid down in [[Article 9]](1\) of the GDPR, [[Article 9]](2\)(h) of that regulation must be interpreted as meaning that the exception that it provides for is applicable to situations in which a medical examination body processes data concerning the health of one of its employees when acting not in its capacity as employer, but as a medical service, in order to assess the working capacity of that employee.
+
+**37** According to settled case-law, the interpretation of a provision of EU law requires account to be taken not only of its wording, but also of the context in which it occurs, as well as the objectives and purpose pursued by the act of which it forms part. The legislative history of a provision of EU law may also reveal elements that are relevant to its interpretation (judgment of 16 March 2023, Towercast, [[C-449-21|C-449⧸21]], EU:C:2023:207, paragraph 31 and the case-law cited).
+
+**38** In the first place, it should be recalled that [[Article 9]] of the GDPR concerns, as its title indicates, the 'processing of special categories of personal data', also classified as 'sensitive' data in recitals 10 and 51 of that regulation.
+
+**39** Recital 51 of the GDPR states that personal data which are, by their nature, particularly sensitive in relation to fundamental rights and freedoms merit specific protection as the context of their processing could create significant risks to the fundamental rights and freedoms.
+
+**40** Thus, [[Article 9]](1\) of the GDPR lays down the principle that processing relating to the special categories of personal data listed therein is prohibited. Those categories include 'data concerning health', as defined in [[Article 4]](15\) of that regulation, read in the light of recital 35 thereof, which are the subject of the present case.
+
+**41** The Court has clarified that the purpose of Article 9(1) of that regulation is to ensure enhanced protection as regards processing which, because of the particular sensitivity of the data processed, is liable to constitute a particularly serious interference with the fundamental rights to respect for private life and to the protection of personal data, guaranteed by Articles 7 and 8 of the Charter of Fundamental Rights (see, to that effect, judgment of 5 June 2023, *Commission v Poland (Independence and private life of judges)*, [[C-204-21--comm|C-204⧸21]], EU:C:2023:442, paragraph 345 and the case-law cited).
+
+**42** [[Article 9]](2\)(a) to (j) of the GDPR provides, however, an exhaustive list of exceptions to the principle that the processing of such sensitive data is prohibited.
+
+**43** In particular, [[Article 9]](2\)(h) of the GDPR authorises such processing if it is 'necessary for the purposes of \[inter alia\] the assessment of the working capacity of the employee ... on the basis of Union or Member State law or pursuant to contract with a health professional'. That provision states that any processing based on it is, moreover, specifically 'subject to the conditions and safeguards referred to in paragraph 3' of [[Article 9]].
+
+**44** It follows from [[Article 9]](2\)(h) of the GDPR, read in conjunction with [[Article 9]](3\), that the possibility of processing sensitive data, such as data concerning health, is strictly regulated by a series of cumulative conditions. The latter relate, first, to the purposes listed in point (h) -- which include the assessment of the working capacity of an employee -- secondly, to the legal basis for such processing -- be it EU law, the law of a Member State or a contract concluded with a health professional, in accordance with point (h) -- and lastly, thirdly, to the duty of confidentiality incumbent on persons authorised to carry out such processing under [[Article 9]](3\), since those persons must all be subject to an obligation of secrecy in accordance with the latter provision.
+
+**45** As the Advocate General points out, in essence, in points 32 and 33 of his Opinion, neither the wording of [[Article 9]](2\)(h) of the GDPR nor the legislative history of that provision provides any evidence to suggest that the application of the derogation provided for in that provision is reserved, as the referring court suggests, to cases where the processing is carried out by a 'neutral third party and not by the employer' of the data subject, as defined in [[Article 4]](1\) of that regulation.
+
+**46** In the light of the referring court's view that, in essence, a body should not be able to rely on its 'dual function' as employer of the data subject and as a medical service in order to circumvent the principle of the prohibition on processing data concerning health, set out in [[Article 9]](1\) of the GDPR, it must be stated that it is crucial to take into consideration the capacity in which the processing of those data is carried out.
+
+**47** Although [[Article 9]](1\) prohibits, as a matter of principle, the processing of data concerning health, [[Article 9]](2\) provides, in points (a) to (j), ten derogations which are independent of each other and which must therefore be assessed independently. It follows that the fact that the conditions for the application of one of the derogations provided for in paragraph 2 are not met cannot prevent a controller from being able to rely on another derogation referred to in that provision.
+
+**48** It follows from the foregoing that [[Article 9]](2\)(h) of the GDPR, read in conjunction with [[Article 9]](3\), in no way excludes the applicability of the exception set out in that point (h) to situations in which a medical examination body processes data concerning the health of one of its employees in its capacity as a medical service and not in its capacity as an employer, in order to assess the working capacity of that employee.
+
+**49** In the second place, such an interpretation is supported by taking into consideration the system of which [[Article 9]](2\)(h) of the GDPR forms part and the objectives pursued by that regulation and that provision.
+
+**50** First, admittedly, in so far as it provides for an exception to the principle that the processing of special categories of personal data is prohibited, [[Article 9]](2\) of the GDPR must be interpreted strictly (judgment of 4 July 2023, *Meta Platforms and Others (General terms of use of a social network)*, [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 76).
+
+**51** However, compliance with the principle of prohibition set out in [[Article 9]](1\) of the GDPR cannot have the effect of reducing the scope of another provision of that regulation in a manner which would run counter to the clear wording of that provision. The suggested interpretation, according to which the scope of the exception provided for in [[Article 9]](2\)(h) should be limited to situations where a 'neutral third party' processes data concerning health for the purposes of assessing an employee's working capacity, adds a requirement which is not at all apparent from the clear wording of the latter provision.
+
+**52** In that regard, it is irrelevant that in the present case, in the event that the MDK Nordrhein is prohibited from performing its task as a medical service where one of its own employees is involved, a different medical examination body is in a position to do so. It is important to point out that that alternative, mentioned by the referring court, is not necessarily present or practicable in all Member States and in all situations likely to be covered by [[Article 9]](2\)(h) of the GDPR. The interpretation of that provision cannot be guided by considerations drawn from the health system of a single Member State or arising from circumstances which are specific to the dispute in the main proceedings.
+
+**53** Secondly, the interpretation set out in paragraph 48 of this judgment is consistent with the objectives of the GDPR and those of [[Article 9]] of that regulation.
+
+**54** Thus, recital 4 of the GDPR states that the right to the protection of personal data is not an absolute right, since it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality (see, to that effect, judgment of 22 June 2023, Pankki S, [[C-579-21|C-579⧸21]], EU:C:2023:501, paragraph 78). In addition, the Court has already pointed out that the mechanisms allowing the different rights and interests to be balanced are contained in the GDPR itself (see, to that effect, judgment of 17 June 2021, M.I.C.M., [[C-597-19|C-597⧸19]], EU:C:2021:492, paragraph 112).
+
+**55** Those considerations apply even where the data concerned fall within the special categories referred to in [[Article 9]] of that regulation (see, to that effect, judgment of 24 September 2019, GC and Others(De-referencing of sensitive data), [[C-136-17|C-136⧸17]], EU:C:2019:773, paragraphs 57 and 66 to 68), such as data concerning health.
+
+**56** More specifically, it is apparent from recital 52 of the GDPR that 'derogating from the prohibition on processing special categories of personal data' should be allowed 'where it is in the public interest to do so, in particular ... in the field of employment law \[and\] social protection law', and 'for health purposes, ... especially in order to ensure the quality and cost-effectiveness of the procedures used for settling claims for benefits and services in the health insurance system'. Recital 53 of that regulation also states that processing 'for health-related purposes' should be possible 'where necessary to achieve those purposes for the benefit of natural persons and society as a whole, in particular in the context of the management of health or social care services and systems'.
+
+**57** It is from that overall perspective and having regard to the various legitimate interests involved that the EU legislature provided, in [[Article 9]](2\)(h) of the GDPR, for the possibility of derogating from the principle of the prohibition on processing data concerning health, set out in [[Article 9]](1\) thereof, provided that the processing concerned satisfies the conditions and guarantees expressly imposed by that point (h) and by the other relevant provisions of that regulation, in particular [[Article 9]](3\), provisions which do not include the requirement for a medical service which processes such data under point (h) to be a separate entity from the employer of the data subject.
+
+**58** In the light of the foregoing reasons, and without prejudice to the answers which will be given to the second and third questions, the answer to the first question is that [[Article 9]](2\)(h) of the GDPR must be interpreted as meaning that the exception provided for in that provision is applicable to situations in which a medical examination body processes data concerning the health of one of its employees acting not in its capacity as employer, but as a medical service, in order to assess the working capacity of that employee, provided that the processing concerned satisfies the conditions and guarantees expressly imposed by that point (h) and by [[Article 9]](3\) of that regulation.
+
+### The second question
+
+**59** According to the referring court, it is apparent from recitals 35, 51, 53 and 75 of the GDPR that it is not sufficient to satisfy the requirements of [[Article 9]](3\) thereof in a situation such as that at issue in the main proceedings where the controller is also the employer of the person whose working capacity is being assessed. That regulation also requires that all the employees of the controller who have any professional contact with that person be excluded from the processing of data concerning health. According to that court, any controller with several establishments, such as MDK Nordrhein, should ensure that the entity responsible for processing data concerning the health of that controller's employees is always from a different establishment from the one in which the employee concerned works. Moreover, the obligation of professional secrecy imposed on employees authorised to process such data does not, in fact, prevent a colleague of the data subject from being able to access the data relating to him or her, which entails risks of damage, such as damage to that person's reputation.
+
+**60** In those circumstances, by its second question, the referring court seeks, in essence, to ascertain whether the provisions of the GDPR must be interpreted as meaning that the controller of data concerning health, based on [[Article 9]](2\)(h) of that regulation, is required to ensure that no colleague of the data subject can access data relating to his or her state of health.
+
+**61** It should be recalled that, under [[Article 9]](3\) of the GDPR, processing of data for the purposes listed in [[Article 9]](1\) and (2)(h) respectively in the present case, data concerning the health of a worker for the purposes of assessing the working capacity of that employee may take place only if those data are processed by or under the responsibility of a health professional subject to the obligation of professional secrecy under EU or Member State law or rules established by national competent bodies, or by another person also subject to an obligation of secrecy under EU or Member State law or rules established by national competent bodies.
+
+**62** By adopting [[Article 9]](3\) of that regulation, which refers specifically to [[Article 9]](2\)(h) of that article, the EU legislature defined the specific protection measures it intended to impose on controllers of such processing, which consist in such processing being reserved to persons subject to an obligation of secrecy, in accordance with the conditions set out in paragraph 3. There is therefore no need to add to the wording of the latter provision requirements to which it does not refer.
+
+**63** It follows, as the Advocate General points out in essence in point 43 of his Opinion, that [[Article 9]](3\) of the GDPR cannot serve as a legal basis for a measure guaranteeing that no colleague of the data subject may have access to data relating to the data subject's state of health.
+
+**64** It is, however, necessary to assess whether the requirement to ensure that none of the data subject's colleagues have access to data relating to his or her state of health may be imposed on the controller of data concerning health, based on [[Article 9]](2\)(h) of the GDPR, on the basis of another provision of that regulation.
+
+**65** In that regard, it must be stated that the only possibility for Member States to add such a requirement to those set out in [[Article 9]](2\) and (3) of that regulation lies in the power conferred on them by [[Article 9]](4\) to 'maintain or introduce further conditions, including limitations, with regard to the processing of ... data concerning health'.
+
+**66** However, any such additional conditions do not derive from the provisions of the GDPR as such but, where applicable, from rules of national law governing processing of that type, in respect of which the regulation expressly leaves a margin of discretion to the Member States (see, to that effect, judgment of 30 March 2023, Hauptpersonalrat der Lehrerinnen und Lehrer, [[C-34-21|C-34⧸21]], EU:C:2023:270, paragraphs 51 and 78).
+
+**67** It should also be pointed out that a Member State which intends to avail itself of the option provided for in [[Article 9]](4\) of that regulation must, in accordance with the principle of proportionality, ensure that the practical consequences, in particular of an organisational, economic and medical nature, arising from the additional requirements with which that State intends to impose compliance, are not excessive for controllers, which are not of a size or do not necessarily have the technical and human resources such as to be sufficient to meet those requirements. Those requirements cannot undermine the effectiveness of the processing which is expressly provided for in [[Article 9]](2\)(h) of that regulation and set out in [[Article 9]](3\).
+
+**68** Lastly, it must be pointed out that, under [[Article 32]](1\)(a) and (b) of the GDPR, which gives specific expression to the principles of integrity and confidentiality set out in [[Article 5]](1\)(f) of that regulation, any controller of personal data is required to implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, in particular the pseudonymisation and encryption of such data and the ability to ensure, inter alia, the confidentiality and integrity of processing systems and services. In order to determine the practical arrangements for that obligation, the controller must, in accordance with [[Article 32]](1\), take into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons.
+
+**69** However, it will be for the referring court to assess whether all the technical and organisational measures implemented, in the present case, by MDK Nordrhein comply with the requirements of [[Article 32]](1\)(a) and (b) of the GDPR.
+
+**70** The answer to the second question must therefore be that [[Article 9]](3\) of the GDPR must be interpreted as meaning that the controller of data concerning health, based on [[Article 9]](2\)(h) of that regulation, is not required, under those provisions, to ensure that no colleague of the data subject can access data relating to his or her state of health. However, such an obligation may be imposed on the controller either under rules adopted by a Member State on the basis of [[Article 9]](4\) of that regulation or under the principles of integrity and confidentiality set out in [[Article 5]](1\)(f) of that regulation and defined in [[Article 32]](1\)(a) and (b) thereof.
+
+### The third question
+
+**71** By its third question, the referring court asks, in essence, whether [[Article 9]](2\)(h) and [[Article 6]](1\) of the GDPR must be interpreted as meaning that the processing of data concerning health based on the first provision must, in order to be lawful, not only comply with the requirements arising from that provision, but must also satisfy at least one of the conditions of lawfulness set out in [[Article 6]](1\) of that regulation.
+
+**72** In that regard, it should be recalled that Articles 5, 6 and 9 of the GDPR are in Chapter II of that regulation, entitled 'Principles', and concern principles relating to processing of personal data, conditions for the lawfulness of processing and processing of special categories of personal data, respectively.
+
+**73** In addition, it should be noted that recital 51 of the GDPR expressly states that, 'in addition to the specific requirements' for the processing of 'particularly sensitive' data, which are set out in [[Article 9]](2\) and (3) of that regulation, without prejudice to any measures adopted by a Member State on the basis of [[Article 9]](4\), 'the general principles and other rules of \[that\] Regulation should \[also\] apply \[to such processing\], in particular as regards the conditions for lawful processing', as set out in [[Article 6]] of that regulation.
+
+**74** Therefore, in accordance with the first subparagraph of [[Article 6]](1\) of the GDPR, processing of 'particularly sensitive' data, such as data concerning health, is lawful only if at least one of the conditions set out in points (a) to (f) of the first subparagraph of [[Article 6]](1\) is satisfied.
+
+**75** The first subparagraph of [[Article 6]](1\) of that regulation sets out an exhaustive and restrictive list of the cases in which the processing of personal data can be regarded as lawful. Thus, in order to be capable of being regarded as such, processing must fall within one of the cases provided for in that provision (judgment of 4 July 2023, Meta Platforms and Others(General terms of use of a social network), [[C-252-21|C-252⧸21]], EU:C:2023:537, paragraph 90 and the case-law cited).
+
+**76** Therefore, the Court has repeatedly held that any processing of personal data must comply with the principles relating to the processing of data which are set out in [[Article 5]](1\) of the GDPR and satisfy the conditions governing lawfulness of the processing which are listed in [[Article 6]] of that regulation (judgment of 4 May 2023, Bundesrepublik Deutschland (Court electronic mailbox), [[C-60-22|C-60⧸22]], EU:C:2023:373, paragraph 57 and the case-law cited).
+
+**77** Furthermore, it has already been held that, in so far as Articles 7 to 11 of the GDPR, which appear, like Articles 5 and 6 thereof, in Chapter II of that regulation, are intended to clarify the scope of the data controller's obligations under [[Article 5]](1\)(a) and [[Article 6]](1\) of that regulation, the processing of personal data, in order to be lawful, must also comply, as is apparent from the Court's case-law, with those other provisions of that chapter which concern, in essence, consent, processing of special categories of sensitive personal data and processing of personal data relating to criminal convictions and offences (judgment of 4 May 2023, Bundesrepublik Deutschland (Court electronic mailbox), [[C-60-22|C-60⧸22]], EU:C:2023:373, paragraph 58 and the case-law cited).
+
+**78** It follows, in particular, that in so far as the purpose of [[Article 9]](2\)(h) of the GDPR is to clarify the scope of the data controller's obligations under [[Article 5]](1\)(a) and [[Article 6]](1\) of that regulation, the processing of data concerning health which is based on the first provision must, in order to be lawful, comply with both the requirements arising from that provision and the obligations arising from the latter two provisions and, in particular, must satisfy at least one of the conditions of lawfulness set out in [[Article 6]](1\) thereof.
+
+**79** In the light of the foregoing, the answer to the third question is that [[Article 9]](2\)(h) and [[Article 6]](1\) of the GDPR must be interpreted as meaning that the processing of data concerning health based on the first provision must, in order to be lawful, not only comply with the requirements arising from that provision, but must also satisfy at least one of the conditions of lawfulness set out in [[Article 6]](1\) of that regulation.
+
+### The fourth question
+
+**80** By its fourth question, the referring court wishes to ascertain, in essence, whether [[Article 82]](1\) of the GDPR must be interpreted as meaning that the right to compensation provided for in that provision fulfils not only a compensatory function but also a dissuasive or punitive function and, if so, whether that function may be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision.
+
+**81** It should be recalled that [[Article 82]](1\) of the GDPR states that 'any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered'.
+
+**82** The Court has interpreted that provision as meaning that a mere infringement of the GDPR is not sufficient to confer a right to compensation, after pointing out, inter alia, that the existence of 'damage' which has been 'suffered' constitutes one of the conditions for the right to compensation laid down in [[Article 82]](1\), as does the existence of an infringement of that regulation and of a causal link between that damage and that infringement, those three conditions being cumulative (see, to that effect, judgment of 4 May 2023, Österreichische Post (Non-material damage in connection with the processing of personal data), [[C-300-21|C-300⧸21]], EU:C:2023:370, paragraphs 32 and 42).
+
+**83** In addition, the Court has held that, since the GDPR does not contain any provision intended to define the rules on the assessment of the damages payable under the right to compensation enshrined in [[Article 82]] of that regulation, national courts must, to that end, apply, in accordance with the principle of procedural autonomy, the domestic rules of each Member State relating to the extent of financial compensation, provided that the principles of equivalence and effectiveness of EU law, as defined by the settled case-law of the Court, are complied with (see, to that effect, judgment of 4 May 2023, Österreichische Post (Non-material damage in connection with the processing of personal data), [[C-300-21|C-300⧸21]], EU:C:2023:370, paragraphs 53, 54 and 59).
+
+**84** In that context and having regard to the sixth sentence of recital 146 of the GDPR, in accordance with which that instrument is intended to ensure 'full and effective compensation for the damage they have suffered', the Court has noted that, in view of the compensatory function of the right to compensation under [[Article 82]] of that regulation, financial compensation based on that article must be regarded as 'full and effective' if it allows the damage actually suffered as a result of the infringement of that regulation to be compensated in its entirety, without there being any need, for the purposes of such compensation for the damage in its entirety, to require the payment of punitive damages (see, to that effect, judgment of 4 May 2023, Österreichische Post (Non-material damage in connection with the processing of personal data), [[C-300-21|C-300⧸21]], EU:C:2023:370, paragraphs 57 and 58).
+
+**85** In that regard, it must be pointed out that [[Article 82]] of the GDPR has a compensatory rather than a punitive function, unlike other provisions of that regulation which are also in Chapter VIII thereof, namely Articles 83 and 84, which have essentially a punitive purpose since they permit the imposition of administrative fines and other penalties, respectively. The relationship between the rules set out in [[Article 82]] and those set out in Articles 83 and 84 shows that there is a difference between those two categories of provisions, but also complementarity, in terms of encouraging compliance with the GDPR, it being observed that the right of any person to seek compensation for damage reinforces the operational nature of the protection rules laid down by that regulation and is likely to discourage the reoccurrence of unlawful conduct (see, to that effect, judgment of 4 May 2023, Österreichische Post (Non-material damage in connection with the processing of personal data), [[C-300-21|C-300⧸21]], EU:C:2023:370, paragraphs 38 and 40).
+
+**86** Since the right to compensation provided for in [[Article 82]](1\) of the GDPR does not have a dissuasive or even a punitive function, as envisaged by the referring court, the seriousness of the infringement of that regulation which caused the damage in question cannot influence the amount of damages awarded under that provision, even in the case of non-material damage rather than material damage. It follows that that amount cannot be set at a level which exceeds full compensation for that damage.
+
+**87** Consequently, the answer to the fourth question is that [[Article 82]](1\) of the GDPR must be interpreted as meaning that the right to compensation provided for in that provision fulfils a compensatory function, in that financial compensation based on that provision must allow the damage actually suffered as a result of the infringement of that regulation to be compensated in its entirety, and not a dissuasive or punitive function.
+
+### The fifth question
+
+**88** It is apparent from the information provided by the referring court, in response to a request for clarification addressed to it in accordance with Article 101 of the Rules of Procedure of the Court of Justice, that the fifth question seeks to determine, first, whether the existence and/or proof of a fault are necessary conditions for the liability of the controller or processor to be incurred and, secondly, what effect the degree of fault on the part of the controller or processor is likely to have on the actual assessment of the damages to be paid as compensation for the non-material damage suffered.
+
+**89** In the light of that response from the referring court, the fifth question must be understood as seeking, in essence, to ascertain, first, whether [[Article 82]] of the GDPR must be interpreted as meaning that the establishment of liability on the part of the controller is subject to the existence of a fault committed by the controller and, secondly, whether the degree of seriousness of that fault must be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision.
+
+**90** As regards the first part of that question, it should be noted that, as recalled in paragraph 82 of this judgment, [[Article 82]](1\) of the GDPR makes the right to compensation contingent on the presence of three factors, namely the existence of an infringement of that regulation, the existence of damage suffered and the existence of a causal link between that infringement and that damage.
+
+**91** [[Article 82]](2\) of the GDPR provides that any controller involved in processing is to be liable for the damage caused by processing which infringes that regulation. The wording of that provision in some of its language versions, in particular the German version, which is the language of the present case, does not make it possible to determine with certainty whether the infringement in question must be attributable to the controller in order for it to be held liable.
+
+**92** In that regard, it is apparent from an analysis of the different language versions of the first sentence of [[Article 82]](2\) of the GDPR that the controller is presumed to have participated in the processing that constitutes the infringement of that regulation referred to. While the German, French and Finnish language versions are worded in an open manner, a number of other language versions are more precise and use a demonstrative determiner for the third occurrence of the term 'processing', or for the third reference to that term, with the result that it is clear that that third occurrence or reference refers to the same operation as the second occurrence of that term. That is the case with the Spanish, Estonian, Greek, Italian and Romanian language versions.
+
+**93** [[Article 82]](3\) of the GDPR specifies, from that perspective, that a controller is exempt from liability under [[Article 82]](2\) of that regulation if it proves that it is not in any way responsible for the event giving rise to the damage.
+
+**94** It therefore follows from a combined analysis of those various provisions of [[Article 82]] of the GDPR that that article provides for fault-based liability in which the burden of proof rests not on the person who has suffered damage, but on the controller.
+
+**95** Such an interpretation is borne out by the context of [[Article 82]] and by the objectives pursued by the EU legislature through the GDPR.
+
+**96** In that regard, first, it is apparent from the wording of Articles 24 and 32 of the GDPR that those provisions merely require the controller to adopt technical and organisational measures intended to avoid, in so far as it is at all possible, any personal data breach. The appropriateness of such measures must be assessed in a concrete manner, by assessing whether those measures were implemented by that controller taking into account the various criteria referred to in those articles and the data protection needs specifically inherent in the processing concerned and the risks arising from the latter (see, to that effect, judgment of 14 December 2023, Natsionalna agentsia za prihodite, [[C-340-21|C-340⧸21]], EU:C:2023:986, paragraph 30).
+
+**97** Such an obligation would be called into question if the controller were then required to compensate for any damage caused by processing carried out in breach of the GDPR.
+
+**98** Secondly, with regard to the objectives of the GDPR, it is clear from recitals 4 to 8 of that regulation that it seeks to strike a balance between the interests of controllers of personal data and the rights of data subjects whose personal data are processed. The aim is to enable the development of the digital economy while ensuring a high level of protection of data subjects. A balance is therefore sought between the interests of the controller and the data subjects whose personal data are being processed. A fault-based liability mechanism accompanied by a reversal of the burden of proof, as provided for in [[Article 82]] of the GDPR, specifically enables such a balance.
+
+**99** First, as the Advocate General observes, in essence, in point 93 of his Opinion, it would not be consistent with the objective of such a high level of protection to opt for an interpretation according to which data subjects who have suffered damage as a result of an infringement of the GDPR should, in an action for damages under [[Article 82]] of that regulation, bear the burden of proving not only the existence of that infringement and the damage resulting therefrom for them, but also the existence of a fault on the part of the controller, deliberately or through negligence, or even the degree of seriousness of that fault, even though [[Article 82]] does not lay down such requirements (see, by analogy, judgment of 14 December 2023, Natsionalna agentsia za prihodite, [[C-340-21|C-340⧸21]], EU:C:2023:986, paragraph 56).
+
+**100** Secondly, no-fault liability would not ensure the attainment of the objective of legal certainty pursued by the legislature, as is apparent from recital 7 of the GDPR.
+
+**101** As regards the second part of the fifth question, relating to the determination of the amount of any damages payable under [[Article 82]] of the GDPR, it should be recalled that, as has been pointed out in paragraph 83 of this judgment, for the purposes of assessing those damages, national courts must apply the domestic rules of each Member State relating to the extent of financial compensation, provided that the principles of equivalence and effectiveness of EU law, as defined by the settled case-law of the Court, are complied with.
+
+**102** It must be stated that, in the light of its compensatory function, [[Article 82]] of the GDPR does not require the degree of seriousness of the infringement of that regulation, which the controller is presumed to have committed, to be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision, but requires that amount to be fixed in such a way that the damage actually suffered as a result of the infringement of that regulation is compensated in its entirety, as is apparent from paragraphs 84 and 87 of this judgment.
+
+**103** Consequently, the answer to the fifth question is that [[Article 82]] of the GDPR must be interpreted as meaning that, first, the establishment of liability on the part of the controller is subject to the existence of a fault committed by the controller, which is presumed unless the controller proves that the event giving rise to the damage is in no way attributable to it and, secondly, [[Article 82]] of the GDPR does not require the degree of seriousness of that fault to be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision.
+
+Costs
+
+**104** Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+### On those grounds, the Court (Third Chamber) hereby rules:
+
+**1. Article 9(2)(h) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)**
+
+**must be interpreted as meaning that the exception provided for in that provision is applicable to situations in which a medical examination body processes data concerning the health of one of its employees acting not in its capacity as employer, but as a medical service, in order to assess the working capacity of that employee, provided that the processing concerned satisfies the conditions and guarantees expressly imposed by that point (h) and by [[Article 9]](3\) of that regulation.**
+
+**2. [[Article 9]](3\) of Regulation 2016/679**
+
+**must be interpreted as meaning that the controller of data concerning health, based on [[Article 9]](2\)(h) of that regulation, is not required, under those provisions, to ensure that no colleague of the data subject can access data relating to his or her state of health. However, such an obligation may be imposed on the controller either under rules adopted by a Member State on the basis of [[Article 9]](4\) of that regulation or under the principles of integrity and confidentiality set out in [[Article 5]](1\)(f) of that regulation and defined in [[Article 32]](1\)(a) and (b) thereof.**
+
+**3. [[Article 9]](2\)(h) and [[Article 6]](1\) of Regulation 2016/679**
+
+**must be interpreted as meaning that the processing of data concerning health based on the first provision must, in order to be lawful, not only comply with the requirements arising from that provision, but must also satisfy at least one of the conditions of lawfulness set out in [[Article 6]](1\) of that regulation.**
+
+**4. [[Article 82]](1\) of Regulation 2016/679**
+
+**must be interpreted as meaning that the right to compensation provided for in that provision fulfils a compensatory function, in that financial compensation based on that provision must allow the damage actually suffered as a result of the infringement of that regulation to be compensated in its entirety, and not a dissuasive or punitive function.**
+
+**5. [[Article 82]] of Regulation 2016/679**
+
+**must be interpreted as meaning that first, the establishment of liability on the part of the controller is subject to the existence of a fault committed by the controller, which is presumed unless the controller proves that the event giving rise to the damage is in no way attributable to it and, secondly, [[Article 82]] of that regulation does not require the degree of seriousness of that fault to be taken into account when determining the amount of damages awarded as compensation for non-material damage on the basis of that provision.**
+
+\[Signatures\]
+
+\*Language of the case: German.

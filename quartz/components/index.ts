@@ -25,6 +25,7 @@ import Parties from "./Parties"
 import FontSizeAdjuster from "./FontSizeAdjuster"
 import TopicExplorer from "./pages/TopicExplorer"
 import PrintButton from "./PrintButton"
+import ArticleCases from "./ArticleCases"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   FontSizeAdjuster,
   TopicExplorer,
   PrintButton,
+  ArticleCases,
 }
