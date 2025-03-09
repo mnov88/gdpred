@@ -95,7 +95,7 @@ function generateTimelineHTML(groupedCases) {
     <h2 style="
       font-size: 1.8rem;
       font-weight: 600;
-      color: #284b63;
+      color: var(--secondary);
       margin-bottom: 0.5rem;
     ">Case law timeline</h2>
   </div>
@@ -108,7 +108,7 @@ function generateTimelineHTML(groupedCases) {
       top: 0;
       bottom: 0;
       width: 2px;
-      background-color: #e5e5e5;
+      background-color: var(--lightgray);
       z-index: 0;
     "></div>`;
 
@@ -130,12 +130,12 @@ function generateTimelineHTML(groupedCases) {
         <h3 style="
           font-size: 1.1rem;
           font-weight: 600;
-          color: #284b63;
+          color: var(--secondary);
           margin: 0;
         ">${group.month}</h3>
         <div style="
           font-size: 0.9rem;
-          color: #4e4e4e;
+          color: var(--darkgray);
           margin-top: 0.1rem;
         ">${group.year}</div>
       </div>
@@ -147,12 +147,12 @@ function generateTimelineHTML(groupedCases) {
     group.cases.forEach(caseItem => {
       html += `
         <div class="timeline-item" style="
-          background-color: #fff;
+          background-color: var(--light);
           border-radius: 8px;
           padding: 1.25rem;
           margin-bottom: 1rem;
           box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-          border-left: 4px solid #284b63;
+          border-left: 4px solid var(--secondary);
           position: relative;
         ">
           <!-- Dot on timeline -->
@@ -163,32 +163,32 @@ function generateTimelineHTML(groupedCases) {
             width: 14px;
             height: 14px;
             border-radius: 50%;
-            background-color: #284b63;
-            border: 3px solid #fff;
-            box-shadow: 0 0 0 1px #e5e5e5;
+            background-color: var(--secondary);
+            border: 3px solid var(--light);
+            box-shadow: 0 0 0 1px var(--lightgray);
             z-index: 1;
           "></div>
           <div class="case-number" style="
             font-size: 1rem;
             font-weight: 600;
-            color: #284b63;
+            color: var(--secondary);
             margin-bottom: 0.2rem;
           "><a href="Case%20law/${caseItem.fileName}" style="text-decoration: none; color: inherit; background-color: transparent;">${caseItem.caseNumberDisplay}</a></div>
           <div class="case-title" style="
             font-size: 1.15rem;
             font-weight: 600;
             margin-bottom: 0.5rem;
-            color: #2b2b2b;
+            color: var(--dark);
           "><a href="Case%20law/${caseItem.fileName}" style="text-decoration: none; color: inherit; background-color: transparent;">${caseItem.parties}</a></div>
           <div class="case-parties" style="
             font-size: 0.9rem;
-            color: #4e4e4e;
+            color: var(--darkgray);
             font-style: italic;
           ">${caseItem.topics.slice(0, 3).join(' • ')}</div>
           <div class="case-date" style="
             margin-top: 0.8rem;
             font-size: 0.85rem;
-            color: #646464;
+            color: var(--gray);
           ">${caseItem.formattedDate}</div>
         </div>`;
     });
@@ -204,7 +204,7 @@ function generateTimelineHTML(groupedCases) {
     margin-top: 2rem;
     text-align: center;
     font-size: 0.85rem;
-    color: #646464;
+    color: var(--gray);
     font-style: italic;
   ">
     Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
@@ -251,14 +251,28 @@ async function generateTimeline() {
     console.log('Reading current index.md file...');
     const indexContent = fs.readFileSync(INDEX_FILE, 'utf8');
 
-    // Find the position of the third horizontal rule
-    const sections = indexContent.split('---');
-    if (sections.length < 3) {
-      throw new Error('index.md does not have the expected format with at least two "---" separators');
-    }
+    // Check for existing timeline section
+    const timelineHeaderPattern = /## Case law timeline\s*\n+\s*<div class="timeline-container"/;
+    const timelineExists = timelineHeaderPattern.test(indexContent);
 
-    // Reconstruct the file up to the third "---" and then add the timeline
-    const newContent = `---${sections[1]}---\n${sections[2]}\n\n${timelineHTML}`;
+    let newContent;
+
+    if (timelineExists) {
+      console.log('Existing timeline found, replacing it...');
+      // Replace timeline section - find everything from ## Case law timeline to the end or to the next heading
+      const timelineRegex = /(## Case law timeline\s*\n+)[\s\S]*?(?=\n+#{1,6}\s|$)/;
+      newContent = indexContent.replace(timelineRegex, `$1\n${timelineHTML}\n`);
+    } else {
+      console.log('No existing timeline found, appending new timeline...');
+      // Split content at yaml frontmatter
+      const sections = indexContent.split('---');
+      if (sections.length < 3) {
+        throw new Error('index.md does not have the expected format with at least two "---" separators');
+      }
+
+      // Append timeline after content
+      newContent = `---${sections[1]}---${sections[2]}\n\n## Case law timeline\n\n${timelineHTML}\n`;
+    }
 
     console.log('Writing timeline to index.md...');
     fs.writeFileSync(INDEX_FILE, newContent);
