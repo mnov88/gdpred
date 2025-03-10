@@ -74,7 +74,6 @@ As mentioned, this is an open-source project, so if you want to contribute, drop
     <div class="faq-answer">
       <p>Do you have a brilliant idea? I'd love to hear it! All ideas will be considered. (BTW, yes, I have considered adding free AI summaries. I am just scared people would take them too seriously. But we'll see. Maybe.)</p>
       <p><em>DISCLAIMER: Implementation subject to time constraints and the mysterious behavior of code when I press random keys while hoping for the best.</em></p>
-      <p>PS -- </p>
     </div>
   </div>
   

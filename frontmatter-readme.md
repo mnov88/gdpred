@@ -168,7 +168,6 @@ final-ruling: |-
   must be interpreted as not precluding national legislation which provides that, if the person accused of an intentional offence subject to public prosecution refuses to cooperate voluntarily in the collection of the biometric and genetic data concerning him or her in order for them to be entered in a record, the criminal court having jurisdiction must authorise a measure enforcing their collection, without having the power to assess whether there are serious grounds for believing that the person concerned has committed the offence of which he or she is accused, provided that national law subsequently guarantees effective judicial review of the conditions for that accusation, from which the authorisation to collect those data arises.
 
   **3.** Article 10 of Directive 2016/680, read in conjunction with Article 4(1)(a) to (c) and Article 8(1) and (2) thereof,
-
   must be interpreted as precluding national legislation which provides for the systematic collection of biometric and genetic data of any person accused of an intentional offence subject to public prosecution in order for them to be entered in a record, without laying down an obligation on the competent authority to verify whether and demonstrate that, first, their collection is strictly necessary for achieving the specific objectives pursued and, second, those objectives cannot be achieved by measures constituting a less serious interference with the rights and freedoms of the person concerned.
 ruling-articles:
   - Article 4
