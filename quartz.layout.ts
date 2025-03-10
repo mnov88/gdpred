@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "LinkedIn": "https://www.linkedin.com/in/milosnovovic/",
       "Get in touch": "mailto:milos.novovic@bi.no",
-      "Privacy policy": "/Privacy policy"
+      "Privacy policy": "/privacy-policy"
     },
   }),
 }
@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       sortFn: (a, b) => {
         // Skip Privacy Policy page in explorer
-        if (a.file?.slug === "Privacy policy" || b.file?.slug === "Privacy policy") {
+        if (a.file?.slug === "privacy-policy" || b.file?.slug === "privacy-policy") {
           return 0; // This effectively hides these items
         }
 
@@ -112,7 +112,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       sortFn: (a, b) => {
         // Skip Privacy Policy page in explorer
-        if (a.file?.slug === "Privacy policy" || b.file?.slug === "Privacy policy") {
+        if (a.file?.slug === "privacy-policy" || b.file?.slug === "privacy-policy") {
           return 0; // This effectively hides these items
         }
 
