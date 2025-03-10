@@ -1,3 +1,7 @@
+---
+title: "Privacy policy"
+---
+
 Your data and I have a rather brief but meaningful relationship. I am Milos Novovic, contactable at milos.novovic@bi.no, and you can find out more about me at my website, www.milos.no, whose domain name sounded really smart to me when I purchased it, but which I am having second thoughts about.
 
 Anyway. I collect your IP address for two sensible reasons: to show you my website (which seemed like the point of you visiting it) and to protect said website from individuals whose intentions are considerably less noble than yours. 'To provide services' and 

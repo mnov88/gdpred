@@ -31,12 +31,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     //   Component.FontSizeAdjuster(),
     Component.Explorer({
+      filterFn: (node) => node.file?.slug !== "privacy-policy",
       sortFn: (a, b) => {
-        // Skip Privacy Policy page in explorer
-        if (a.file?.slug === "privacy-policy" || b.file?.slug === "privacy-policy") {
-          return 0; // This effectively hides these items
-        }
-
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
         // Make path matching case-insensitive by converting to lowercase
         const aSlug = a.file?.slug?.toLowerCase() || '';
@@ -110,12 +106,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     // Component.FontSizeAdjuster(),
     Component.Explorer({
+      filterFn: (node) => node.file?.slug !== "privacy-policy",
       sortFn: (a, b) => {
-        // Skip Privacy Policy page in explorer
-        if (a.file?.slug === "privacy-policy" || b.file?.slug === "privacy-policy") {
-          return 0; // This effectively hides these items
-        }
-
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
         // Make path matching case-insensitive by converting to lowercase
         const aSlug = a.file?.slug?.toLowerCase() || '';
