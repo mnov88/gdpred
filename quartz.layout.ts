@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "LinkedIn": "https://www.linkedin.com/in/milosnovovic/",
       "Get in touch": "mailto:milos.novovic@bi.no",
-      "Privacy policy": "/privacy-policy"
+      "Privacy policy": "https://www.milos.no"
     },
   }),
 }

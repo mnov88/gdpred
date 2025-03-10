@@ -34,7 +34,7 @@ async function extractCaseData() {
           title: data.title,
           date: new Date(data.date), // Convert string date to Date object
           caseNumber: data['case-number'] || data.title, // Fallback to title if case-number not available
-          caseNumberDisplay: (data['case-number'] || data.title).replace(/\//g, '∕'), // Replace slash with mathematical slash for display
+          caseNumberDisplay: data['case-number'] ? data['case-number'].toString().replace(/\//g, '∕') : data.title.toString().replace(/\//g, '∕'), // Replace slash with mathematical slash for display
           parties: data.parties,
           topics: data.topics || [],
           fileName: file.replace('.md', '') // Store filename without extension for links

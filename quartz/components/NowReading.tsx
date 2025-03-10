@@ -16,17 +16,22 @@ const NowReading: QuartzComponent = ({ fileData, displayClass }: QuartzComponent
     <div class={`ruling-articles ${displayClass ?? ""}`}>
       <div class="ruling-articles-container">
         {rulingArticles.map((article, index) => {
-          // Extract the article number for linking
-          const articleMatch = article.match(/Article\s+(\d+)/i)
+          // Ensure article is a string
+          const articleStr = String(article)
+          // Extract the article number for linking - handle both [[Article X]] and Article X formats
+          const articleMatch = articleStr.match(/(?:\[\[)?Article\s+(\d+)(?:\]\])?/i)
           const articleNumber = articleMatch ? articleMatch[1] : null
           const linkUrl = articleNumber ? `${baseDir}/Articles/Article-${articleNumber}` : null
 
+          // For display, remove the [[ and ]] if present
+          const displayText = articleStr.replace(/\[\[|\]\]/g, '')
+
           return linkUrl ? (
             <a href={linkUrl} class="article-chip-link" key={index}>
-              <span class="article-chip">{article}</span>
+              <span class="article-chip">{displayText}</span>
             </a>
           ) : (
-            <span class="article-chip" key={index}>{article}</span>
+            <span class="article-chip" key={index}>{displayText}</span>
           )
         })}
       </div>
