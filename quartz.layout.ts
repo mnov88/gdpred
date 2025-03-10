@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "LinkedIn": "https://www.linkedin.com/in/milosnovovic/",
       "Get in touch": "mailto:milos.novovic@bi.no",
-      "Privacy policy": "https://www.milos.no"
+      "Privacy policy": "/Privacy policy"
     },
   }),
 }
@@ -32,6 +32,11 @@ export const defaultContentPageLayout: PageLayout = {
     //   Component.FontSizeAdjuster(),
     Component.Explorer({
       sortFn: (a, b) => {
+        // Skip Privacy Policy page in explorer
+        if (a.file?.slug === "Privacy policy" || b.file?.slug === "Privacy policy") {
+          return 0; // This effectively hides these items
+        }
+
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
         // Make path matching case-insensitive by converting to lowercase
         const aSlug = a.file?.slug?.toLowerCase() || '';
@@ -106,6 +111,11 @@ export const defaultListPageLayout: PageLayout = {
     // Component.FontSizeAdjuster(),
     Component.Explorer({
       sortFn: (a, b) => {
+        // Skip Privacy Policy page in explorer
+        if (a.file?.slug === "Privacy policy" || b.file?.slug === "Privacy policy") {
+          return 0; // This effectively hides these items
+        }
+
         // Check if we're in the Case law folder (handling both "Case law" and "Case-law" paths)
         // Make path matching case-insensitive by converting to lowercase
         const aSlug = a.file?.slug?.toLowerCase() || '';
