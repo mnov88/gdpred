@@ -38,6 +38,7 @@ If more practical, just pick an article and look at the list of all the cases re
 
 The site shall forever be free (as in ad-free and real-money-free), and I will update it regularly (assuming that there is sufficient interest). On my roadmap:
 
+- Add rulings under the Directive
 - Review cases more carefully for references to multiple articles or outdated ones
 - Make final rulings more easily accessible (top of the case?)
 - Add better sorting/filtering by topics
