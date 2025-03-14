@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
-const CASE_LAW_DIR = path.join(__dirname, 'content/Case law');
-const INDEX_FILE = path.join(__dirname, 'content/index.md');
+const CASE_LAW_DIR = path.join(__dirname, '../content/Case law');
+const INDEX_FILE = path.join(__dirname, '../content/index.md');
 
 // Function to extract frontmatter from markdown files
 async function extractCaseData() {

@@ -120,6 +120,8 @@ As mentioned, this is an open-source project, so if you want to contribute, drop
 
 
 
+
+
 <div class="timeline-container" style="
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   max-width: 100%;
@@ -149,6 +151,80 @@ As mentioned, this is an open-source project, so if you want to contribute, drop
       background-color: var(--lightgray);
       z-index: 0;
     "></div>
+    <div class="timeline-group" style="
+      margin-bottom: 2.5rem;
+      position: relative;
+    ">
+      <div class="timeline-month" style="
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        text-align: right;
+        padding-right: 20px;
+      ">
+        <h3 style="
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: var(--secondary);
+          margin: 0;
+        ">March</h3>
+        <div style="
+          font-size: 0.9rem;
+          color: var(--darkgray);
+          margin-top: 0.1rem;
+        ">2025</div>
+      </div>
+      <div class="timeline-items" style="
+        margin-left: 140px;
+      ">
+        <div class="timeline-item" style="
+          background-color: var(--light);
+          border-radius: 8px;
+          padding: 1.25rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+          border-left: 4px solid var(--secondary);
+          position: relative;
+        ">
+          <!-- Dot on timeline -->
+          <div class="timeline-dot" style="
+            position: absolute;
+            left: -33px;
+            top: 24px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            border: 3px solid var(--light);
+            box-shadow: 0 0 0 1px var(--lightgray);
+            z-index: 1;
+          "></div>
+          <div class="case-number" style="
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 0.2rem;
+          "><a href="Case%20law/C-247-23" style="text-decoration: none; color: inherit; background-color: transparent;">C-247∕23</a></div>
+          <div class="case-title" style="
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+          "><a href="Case%20law/C-247-23" style="text-decoration: none; color: inherit; background-color: transparent;">VP v Országos Idegenrendészeti Főigazgatóság</a></div>
+          <div class="case-parties" style="
+            font-size: 0.9rem;
+            color: var(--darkgray);
+            font-style: italic;
+          ">Protection of natural persons with regard to the processing of personal data • Principle of accuracy • Right to rectification</div>
+          <div class="case-date" style="
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            color: var(--gray);
+          ">March 13, 2025</div>
+        </div>
+      </div>
+    </div>
     <div class="timeline-group" style="
       margin-bottom: 2.5rem;
       position: relative;
@@ -3934,6 +4010,80 @@ As mentioned, this is an open-source project, so if you want to contribute, drop
         </div>
       </div>
     </div>
+    <div class="timeline-group" style="
+      margin-bottom: 2.5rem;
+      position: relative;
+    ">
+      <div class="timeline-month" style="
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        text-align: right;
+        padding-right: 20px;
+      ">
+        <h3 style="
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: var(--secondary);
+          margin: 0;
+        ">July</h3>
+        <div style="
+          font-size: 0.9rem;
+          color: var(--darkgray);
+          margin-top: 0.1rem;
+        ">2018</div>
+      </div>
+      <div class="timeline-items" style="
+        margin-left: 140px;
+      ">
+        <div class="timeline-item" style="
+          background-color: var(--light);
+          border-radius: 8px;
+          padding: 1.25rem;
+          margin-bottom: 1rem;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+          border-left: 4px solid var(--secondary);
+          position: relative;
+        ">
+          <!-- Dot on timeline -->
+          <div class="timeline-dot" style="
+            position: absolute;
+            left: -33px;
+            top: 24px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            border: 3px solid var(--light);
+            box-shadow: 0 0 0 1px var(--lightgray);
+            z-index: 1;
+          "></div>
+          <div class="case-number" style="
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 0.2rem;
+          "><a href="Case%20law/C-25-17" style="text-decoration: none; color: inherit; background-color: transparent;">C-25∕17</a></div>
+          <div class="case-title" style="
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+          "><a href="Case%20law/C-25-17" style="text-decoration: none; color: inherit; background-color: transparent;">Tietosuojavaltuutettu v Jehovan todistajat — uskonnollinen yhdyskunta</a></div>
+          <div class="case-parties" style="
+            font-size: 0.9rem;
+            color: var(--darkgray);
+            font-style: italic;
+          ">Protection of personal data • Processing of personal data • Religious community activities</div>
+          <div class="case-date" style="
+            margin-top: 0.8rem;
+            font-size: 0.85rem;
+            color: var(--gray);
+          ">July 10, 2018</div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="timeline-footer" style="
     margin-top: 2rem;
@@ -3942,7 +4092,7 @@ As mentioned, this is an open-source project, so if you want to contribute, drop
     color: var(--gray);
     font-style: italic;
   ">
-    Last updated: March 10, 2025
+    Last updated: March 14, 2025
   </div>
 </div>
 <style>

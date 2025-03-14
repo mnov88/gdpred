@@ -9,6 +9,7 @@ This document provides an overview of the utility scripts used in the Quartz pro
 3. [generate-timeline.js](#generate-timelinejs)
 4. [generate-case-grid.js](#generate-case-gridjs)
 5. [extract_article_rulings.js](#extract_article_rulingsjs)
+6. [convert-article-refs.js](#convert-article-refsjs)
 
 ---
 
@@ -400,6 +401,70 @@ Article 6(1) of Regulation 2016/679 must be interpreted as meaning that...
 
 ---
 ```
+
+---
+
+## convert-article-refs.js
+
+This script converts plain text article references in markdown files to Obsidian-compatible wiki links with proper escaping of parenthetical content.
+
+### Functions
+
+#### `Main Function`
+
+**Description:** Processes a markdown file to convert article references to Obsidian wiki links.
+
+**Input:** 
+- File path to a markdown document containing article references
+
+**Output:** 
+- Modifies the file in place, converting article references to Obsidian wiki links
+
+**Example Usage:**
+```javascript
+// Run the script from the command line
+node convert-article-refs.js content/Case\ law/C-247-23.md
+```
+
+### Conversion Examples
+
+#### Basic Article References
+
+**Input:**
+```markdown
+This case refers to Article 5 and Article 10.
+```
+
+**Output:**
+```markdown
+This case refers to [[Article 5]] and [[Article 10]].
+```
+
+#### Article References with Parenthetical Content
+
+**Input:**
+```markdown
+Article 5(1)(d) establishes the principle of accuracy.
+```
+
+**Output:**
+```markdown
+[[Article 5]](1\)(d) establishes the principle of accuracy.
+```
+
+### Implementation Details
+
+The script uses a regular expression to identify article references in the following formats:
+- Simple references: `Article X` (where X is a number)
+- References with parenthetical content: `Article X(Y)` (where Y can contain any characters except closing parentheses)
+
+For references with parenthetical content, the script:
+1. Extracts the article number
+2. Creates an Obsidian wiki link for the article: `[[Article X]]`
+3. Escapes any nested parentheses in the parenthetical content
+4. Adds the parenthetical content after the wiki link: `[[Article X]](Y\)`
+
+This ensures that the links work properly in Obsidian while maintaining the original meaning and structure of the references.
 
 ---
 
