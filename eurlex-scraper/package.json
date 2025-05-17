@@ -1,0 +1,19 @@
+{
+    "name": "eurlex-scraper",
+    "version": "1.0.0",
+    "description": "A tool to scrape case references from EUR-Lex",
+    "main": "eurlex-scraper.js",
+    "scripts": {
+        "start": "node eurlex-scraper.js",
+        "test": "node test.js",
+        "test:articles": "node test-article-extraction.js",
+        "test:cases": "node test-case-extraction.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cheerio": "^1.0.0-rc.12",
+        "jsdom": "^26.0.0",
+        "turndown": "^7.2.0",
+        "xml2js": "^0.6.2"
+    }
+}
