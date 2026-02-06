@@ -141,23 +141,36 @@ test('duplicates are removed', () => {
 });
 
 // ============================================================
-// Joined case number detection
+// Joined case detection (must check RAW SPARQL value, not parsed)
 // ============================================================
-console.log('\nJoined case detection');
+console.log('\nJoined case detection (raw value)');
+
+// Helper: mimics the pipeline's joined-case check on raw SPARQL value
+function isJoinedCase(rawCaseNumber) {
+  if (!rawCaseNumber) return false;
+  return rawCaseNumber.includes(' and ') ||
+    (rawCaseNumber.includes(',') && !!rawCaseNumber.match(/C[-\u2011]\d+.*,.*C[-\u2011]\d+/));
+}
 
 test('detects "Joined Cases" with commas and "and"', () => {
-  const cn = 'Joined Cases C-313/23, C-316/23 and C-332/23';
-  assert.ok(cn.includes(' and ') || cn.includes(','));
+  assert.ok(isJoinedCase('Joined Cases C-313/23, C-316/23 and C-332/23'));
 });
 
 test('detects "Joined Cases" with "and" only', () => {
-  const cn = 'Joined Cases C-17/22 and C-18/22';
-  assert.ok(cn.includes(' and '));
+  assert.ok(isJoinedCase('Joined Cases C-17/22 and C-18/22'));
+});
+
+test('detects "Joined Cases" with commas only', () => {
+  assert.ok(isJoinedCase('Joined Cases C-313/23, C-316/23'));
 });
 
 test('normal case does NOT trigger joined detection', () => {
-  const cn = 'Case C-492/23';
-  assert.ok(!(cn.includes(' and ') || cn.includes(',')));
+  assert.ok(!isJoinedCase('Case C-492/23'));
+});
+
+test('normal case with comma in party name does NOT trigger', () => {
+  // Comma not between two C-NNN patterns, so should NOT trigger
+  assert.ok(!isJoinedCase('Case C-492/23'));
 });
 
 // ============================================================

@@ -199,8 +199,16 @@ export async function discoverNewCases() {
     // Only process Court of Justice judgments (CJ), not pending cases (CN)
     if (!caseCelex.match(/^\d{4,5}CJ\d+$/)) continue;
 
+    // Skip joined cases for now (flag for manual review)
+    // Check raw SPARQL value BEFORE parsing, since parseCaseNumber() extracts only the first case number
+    const rawCaseNumber = binding.caseNumber?.value || '';
+    if (rawCaseNumber.includes(' and ') || (rawCaseNumber.includes(',') && rawCaseNumber.match(/C[-‑]\d+.*,.*C[-‑]\d+/))) {
+      console.log(`[SPARQL] Skipping joined case: ${rawCaseNumber} (${caseCelex})`);
+      continue;
+    }
+
     // Try to get case number from SPARQL caseNumber field, fall back to CELEX parsing
-    let caseNumber = parseCaseNumber(binding.caseNumber?.value);
+    let caseNumber = parseCaseNumber(rawCaseNumber);
     if (!caseNumber) {
       caseNumber = celexToCaseNumber(caseCelex);
     }
@@ -210,12 +218,6 @@ export async function discoverNewCases() {
 
     // Skip if already exists
     if (existingCases.has(filename)) continue;
-
-    // Skip joined cases for now (flag for manual review)
-    if (caseNumber.includes(' and ') || caseNumber.includes(',')) {
-      console.log(`[SPARQL] Skipping joined case: ${caseNumber} (${caseCelex})`);
-      continue;
-    }
 
     newCases.push({
       caseCelex,

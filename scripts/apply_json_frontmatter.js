@@ -159,7 +159,7 @@ async function processCases() {
 
                 // Remove existing frontmatter (if any)
                 // This regex handles cases where there might be no content after frontmatter
-                fileContent = fileContent.replace(/^---[\\r\\n]+([\\s\\S]*?)[\\r\\n]+---[\\r\\n]*/, '');
+                fileContent = fileContent.replace(/^---[\r\n]+([\\s\S]*?)[\r\n]+---[\r\n]*/, '');
 
                 // Prepend new frontmatter
                 // Ensure a single blank line after the '---' and before the main content

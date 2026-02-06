@@ -114,9 +114,15 @@ async function runPipeline() {
       runScript('node extract_key_articles.cjs', 'extract_key_articles.cjs');
     }
 
-    // sorttopics.cjs (from brussels)
+    // sorttopics.cjs (from brussels) — needs cwd set to content/Case law/
     if (fs.existsSync(path.join(ROOT, 'scripts', 'sorttopics.cjs'))) {
-      runScript('node scripts/sorttopics.cjs', 'sorttopics.cjs');
+      const sortCwd = path.join(ROOT, 'content', 'Case law');
+      console.log(`  [Post] Running: sorttopics.cjs (cwd: ${sortCwd})`);
+      try {
+        execSync(`node ${path.join(ROOT, 'scripts', 'sorttopics.cjs')}`, { cwd: sortCwd, stdio: 'inherit' });
+      } catch (err) {
+        console.error(`  [Post] Warning: sorttopics.cjs failed: ${err.message}`);
+      }
     }
 
     runScript('node scripts/generate-timeline.js', 'generate-timeline.js');
