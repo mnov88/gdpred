@@ -9,3 +9,5 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+scripts/pipeline/downloaded/
+scripts/pipeline/new-cases.json
