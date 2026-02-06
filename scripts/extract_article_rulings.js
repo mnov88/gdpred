@@ -7,10 +7,10 @@ import matter from 'gray-matter';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration
-const CASE_LAW_DIR = path.join(__dirname, 'content/Case law');
-const KEY_ARTICLES_FILE = path.join(__dirname, 'content/key-articles-by-case.md');
-const OUTPUT_FILE = path.join(__dirname, 'content/article-rulings.md');
+// Configuration (one level up from scripts/)
+const CASE_LAW_DIR = path.join(__dirname, '..', 'content', 'Case law');
+const KEY_ARTICLES_FILE = path.join(__dirname, '..', 'content', 'key-articles-by-case.md');
+const OUTPUT_FILE = path.join(__dirname, '..', 'content', 'article-rulings.md');
 
 // Debug flag
 const DEBUG = true;
@@ -199,8 +199,10 @@ async function extractArticleRulings() {
 
                 // Also check ruling-articles if available
                 if (data['ruling-articles'] && Array.isArray(data['ruling-articles'])) {
-                    debugLog(`Ruling-articles field found: ${data['ruling-articles'].join(', ')}`);
-                    data['ruling-articles'].forEach(article => {
+                    // Flatten in case [[Article X]] was parsed as nested arrays by YAML
+                    const flatRulingArticles = data['ruling-articles'].flat(Infinity).map(String);
+                    debugLog(`Ruling-articles field found: ${flatRulingArticles.join(', ')}`);
+                    flatRulingArticles.forEach(article => {
                         const articleMatch = article.match(/Article\s+(\d+)/i);
                         if (articleMatch) {
                             const num = articleMatch[1];
