@@ -3,7 +3,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 // Directory containing case law files
-const caseDir = path.join(__dirname, 'content', 'Case law');
+const caseDir = path.join(__dirname, '..', 'content', 'Case law');
 
 // Function to convert case number to filename format (replacing / with -)
 function caseNumberToFilename(caseNumber) {

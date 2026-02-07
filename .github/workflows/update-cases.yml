@@ -1,0 +1,61 @@
+name: Update GDPR Cases
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Manual trigger from GitHub UI
+
+jobs:
+  update-cases:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: true
+
+      - name: Discover new cases
+        id: discover
+        run: |
+          node scripts/pipeline/sparql-discover.js || true
+          if [ -f scripts/pipeline/new-cases.json ]; then
+            COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('scripts/pipeline/new-cases.json','utf8')).length)")
+            echo "new_cases=$COUNT" >> $GITHUB_OUTPUT
+            echo "Found $COUNT new case(s)"
+          else
+            echo "new_cases=0" >> $GITHUB_OUTPUT
+            echo "No new cases found"
+          fi
+
+      - name: Run full pipeline
+        if: steps.discover.outputs.new_cases != '0'
+        run: node scripts/pipeline/run-pipeline.js
+
+      - name: Commit and push new cases
+        if: steps.discover.outputs.new_cases != '0'
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          git add cases_by_article.md cases-by-key-articles.md key-articles-by-case.md 2>/dev/null || true
+          git add topics-by-file.md files-by-topic.md 2>/dev/null || true
+          CASE_COUNT="${{ steps.discover.outputs.new_cases }}"
+          git commit -m "Add ${CASE_COUNT} new GDPR case(s) [automated]"
+          git push
