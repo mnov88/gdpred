@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Directory containing content
-const contentDir = path.join(__dirname, 'content');
-const backupDir = path.join(__dirname, 'backup_content');
+// Directory containing content (one level up from scripts/)
+const contentDir = path.join(__dirname, '..', 'content');
+const backupDir = path.join(__dirname, '..', 'backup_content');
 
 // Create backup directory if it doesn't exist
 if (!fs.existsSync(backupDir)) {

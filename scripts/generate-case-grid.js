@@ -7,9 +7,9 @@ import matter from 'gray-matter';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration
-const CASE_LAW_DIR = path.join(__dirname, 'content/Case law');
-const OUTPUT_FILE = path.join(__dirname, 'content/case-law-grid.md');
+// Configuration (one level up from scripts/)
+const CASE_LAW_DIR = path.join(__dirname, '..', 'content', 'Case law');
+const OUTPUT_FILE = path.join(__dirname, '..', 'content', 'case-law-grid.md');
 
 // Function to extract frontmatter from markdown files
 async function extractCaseData() {

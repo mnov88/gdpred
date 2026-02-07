@@ -476,15 +476,28 @@ These scripts are used to generate and maintain reference files and visual eleme
 2. Article references are updated
 3. The timeline display needs refreshing
 
-To run any script:
+### Path Resolution
+
+All scripts in `scripts/` resolve content paths relative to the **project root** (one level up from the `scripts/` directory), using `path.join(__dirname, '..', 'content', ...)`. The one exception is `extract_key_articles.cjs` which lives in the project root and uses `path.join(__dirname, 'content', ...)`.
+
+### Running Scripts
+
+Scripts should be run from the **project root directory**:
 
 ```bash
-# For CommonJS scripts
-node extract_case_articles.cjs
-node process_article_refs.cjs
+# For CommonJS scripts in scripts/
+node scripts/extract_case_articles.cjs
+node scripts/process_article_refs.cjs
 
-# For ES modules
-node generate-timeline.js
-node generate-case-grid.js
-node extract_article_rulings.js
-``` 
+# For ES modules in scripts/
+node scripts/generate-timeline.js
+node scripts/generate-case-grid.js
+node scripts/extract_article_rulings.js
+
+# For CommonJS script in project root
+node extract_key_articles.cjs
+```
+
+### Frontmatter Compatibility
+
+All scripts expect `ruling-articles` and `per-article` frontmatter fields to use plain `Article X` format (no `[[]]` wiki-link brackets). See `frontmatter-readme.md` for details. 

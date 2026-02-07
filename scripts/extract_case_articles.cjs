@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
-// Directory containing case law files
-const caseDir = path.join(__dirname, 'content', 'Case law');
+// Directory containing case law files (one level up from scripts/)
+const caseDir = path.join(__dirname, '..', 'content', 'Case law');
 
 // Function to convert case number to filename format (replacing / with -)
 function caseNumberToFilename(caseNumber) {
@@ -85,8 +85,8 @@ async function processFiles() {
 
         if (!metadata['case-number']) continue;
 
-        // Extract case number and normalize format
-        const caseNumber = metadata['case-number'];
+        // Extract case number and normalize format (coerce to string for safety)
+        const caseNumber = String(metadata['case-number']);
 
         // Extract parties
         let parties = metadata.parties || '';

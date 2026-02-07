@@ -25,8 +25,11 @@ function extractKeyArticleRefs(metadata) {
         const rulingArticles = metadata['ruling-articles'];
 
         // The ruling-articles field is expected to be an array in the YAML
+        // Note: [[Article X]] in YAML gets parsed as a nested array, so we
+        // need to flatten and coerce to string for safety.
         if (Array.isArray(rulingArticles)) {
-            rulingArticles.forEach(article => {
+            const flatArticles = rulingArticles.flat(Infinity).map(String);
+            flatArticles.forEach(article => {
                 // Extract just the article number if it's in the format "Article X"
                 const match = article.match(/Article\s+(\d+)/);
                 if (match) {

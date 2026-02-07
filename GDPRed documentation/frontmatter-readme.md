@@ -87,8 +87,8 @@ per-article:
 ### `ruling-articles`
 
 - **Source**: Extract from the articles explicitly mentioned in the ruling section
-- **Format**: Bulleted list with format "Article X"
-- **Process**: 
+- **Format**: Bulleted list with format `Article X` (plain text, **NO** `[[` `]]` wiki-link brackets)
+- **Process**:
   1. Identify all articles mentioned in the ruling
   2. Remove duplicates
   3. List only the article numbers
@@ -100,21 +100,44 @@ per-article:
     - Article 10
   ```
 
+> **IMPORTANT — Do NOT use `[[Article X]]` in this field.**
+> YAML interprets `[[...]]` as a nested array (flow sequence), not a string.
+> `- [[Article 13]]` parses as a nested array `[["Article 13"]]`, which breaks
+> every downstream script that calls `.match()` or `.replace()` on the value.
+> Always use plain `- Article X` format.
+
 ### `per-article`
 
 - **Source**: Created by mapping each article to the relevant portions of the ruling
-- **Format**: 
-  - "Article X | [Text that explains/interprets Article X]"
+- **Format**:
+  - `"Article X | [Text that explains/interprets Article X]"` — the entire entry must be **quoted** because it contains a YAML pipe `|` character
   - Include verbatim extracts from the final-ruling that reference each article
+  - **NO** `[[` `]]` wiki-link brackets around article references (same reason as above)
 - **Process**:
   1. For each article in ruling-articles, extract the exact text from the final-ruling that interprets it
   2. Combine multiple interpretations of the same article
   3. Format with article number followed by pipe character and relevant verbatim text
+  4. **Quote the entire value** to prevent the `|` from being interpreted as a YAML block scalar
 - **Example**:
   ```yaml
   per-article:
-    - Article 10 | **1.** Article 10(a) of Directive (EU) 2016/680... **3.** Article 10 of Directive 2016/680, read in conjunction with...
+    - "Article 10 | **1.** Article 10(a) of Directive (EU) 2016/680... **3.** Article 10 of Directive 2016/680, read in conjunction with..."
   ```
+
+> **IMPORTANT — Per-article entries must be quoted strings.**
+> The `|` (pipe) character has special meaning in YAML (block scalar indicator).
+> While it may work unquoted in some positions, quoting the value guarantees
+> correct parsing. Example of what NOT to do:
+> ```yaml
+> # WRONG — [[]] parsed as array, | may break parsing
+> per-article:
+>   - [[Article 13]] | Interpretation text here
+> ```
+> ```yaml
+> # CORRECT
+> per-article:
+>   - "Article 13 | Interpretation text here"
+> ```
 
 ## Special Formatting Notes
 
@@ -125,6 +148,8 @@ per-article:
 3. **Cross-References**: Maintain cross-references in the ruling text, especially in the `per-article` field.
 
 4. **Escaping Special Characters**: Ensure any special characters in the text are properly escaped according to YAML syntax.
+
+5. **No Wiki-Link Brackets in Frontmatter Fields**: The `ruling-articles` and `per-article` fields must use plain `Article X` format, never `[[Article X]]`. Wiki-link brackets are for markdown body content only — inside YAML frontmatter they are parsed as YAML flow sequences (arrays), causing parse errors and type crashes in downstream scripts.
 
 ## Extraction Process
 
