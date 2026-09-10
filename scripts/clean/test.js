@@ -39,6 +39,13 @@ import {
   extractOperativePart,
   looksLikePageShell,
 } from './lib/segment.js'
+import {
+  parseModifiedLocations,
+  celexToCaseNumber,
+  looksLikeAntiBotChallenge,
+  htmlToText,
+} from './lib/fetch.js'
+import { caseNumberToCelex } from './ingest.js'
 import { CASE_DIR } from './lib/constants.js'
 
 const REPO_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..')
@@ -140,14 +147,22 @@ check(
 )
 check('articles: ignore out-of-range', collectArticleNumbers('Article 267 and Article 5'), [5])
 
+// Default scope is `all`: the corpus lists articles of other instruments too
+// (Article 12 of Directive 2002/58 in C-129/21, Article 47 of the Charter in
+// C-132/21), so matching it means not filtering by instrument.
 check(
-  'articles: ruling-articles requires a GDPR marker',
+  'articles: default scope keeps other instruments',
   buildRulingArticles('Article 10 of Directive 2016/680 must be interpreted'),
+  ['Article 10']
+)
+check(
+  'articles: gdpr scope drops a ruling that never names the GDPR',
+  buildRulingArticles('Article 10 of Directive 2016/680 must be interpreted', { scope: 'gdpr' }),
   []
 )
 check(
-  'articles: ruling-articles with a GDPR marker',
-  buildRulingArticles('Article 17 of Regulation (EU) 2016/679 must be interpreted'),
+  'articles: gdpr scope keeps a GDPR ruling',
+  buildRulingArticles('Article 17 of Regulation (EU) 2016/679 must be interpreted', { scope: 'gdpr' }),
   ['Article 17']
 )
 check(
@@ -172,10 +187,16 @@ check(
     'Article 17 | **1.** Article 17 of the GDPR must be read thus.',
   ]
 )
+// One entry per ruling-article, always — the two lists line up in the corpus.
 check(
-  'articles: per-article omits articles with no matching point',
+  'articles: per-article falls back rather than omitting',
   buildPerArticle(RULING, ['Article 99']),
-  []
+  ['Article 99 | Interpretation from final ruling related to Article 99']
+)
+check(
+  'articles: the fallback is not double-encoded like the corpus',
+  buildPerArticle(RULING, ['Article 99'])[0].startsWith('  - '),
+  false
 )
 
 // -- body -------------------------------------------------------------------
@@ -332,6 +353,40 @@ ok(
   !looksLikePageShell('JUDGMENT OF THE COURT\nOn those grounds, the Court hereby rules:\n1. Article 5.'),
   ''
 )
+
+// -- fetch / discovery (offline parts only) ---------------------------------
+check('fetch: modifiedLocations to article numbers', parseModifiedLocations('A04P4, A05P2, A24'), [4, 5, 24])
+check('fetch: modifiedLocations ignores out-of-range', parseModifiedLocations('A04, A267'), [4])
+check('fetch: empty modifiedLocations', parseModifiedLocations(''), [])
+check('fetch: CELEX to case number', celexToCaseNumber('62023CJ0492'), 'C-492/23')
+check('fetch: CELEX strips leading zeros', celexToCaseNumber('62020CJ0001'), 'C-1/20')
+check('fetch: case number to CELEX', caseNumberToCelex('C-492/23'), '62023CJ0492')
+check('fetch: case number to CELEX pads', caseNumberToCelex('C-1/20'), '62020CJ0001')
+check('fetch: CELEX round-trip', celexToCaseNumber(caseNumberToCelex('C-205/21')), 'C-205/21')
+ok(
+  'fetch: anti-bot challenge detected',
+  looksLikeAntiBotChallenge('<html><title>Just a moment</title><div id="challenge-container">'),
+  'EUR-Lex answers a blocked request with HTTP 200 and a challenge page'
+)
+ok('fetch: a real judgment is not a challenge', !looksLikeAntiBotChallenge('<html><p>JUDGMENT OF THE COURT</p>'), '')
+// A blank line between blocks is what reflowParagraphs treats as a paragraph
+// break, so the doubled newline is the wanted output, not an artefact.
+check(
+  'fetch: htmlToText separates blocks with a blank line',
+  htmlToText('<p>One</p><p>Two</p>'),
+  'One\n\nTwo'
+)
+check(
+  'fetch: htmlToText joins a line broken inside an inline span',
+  htmlToText('<p>26 January 2023 (<span>\n  <a>*1</a>\n</span>)</p>'),
+  '26 January 2023 ( *1 )'
+)
+check(
+  'fetch: htmlToText preserves the nbsp paragraph-number gap',
+  htmlToText('<p><a>1</a>&nbsp;&nbsp;&nbsp;&nbsp;This request</p>').replace(/\u00a0/g, '~'),
+  '1~~~~This request'
+)
+check('fetch: htmlToText drops scripts and styles', htmlToText('<p>A</p><script>var x=1</script><p>B</p>'), 'A\n\nB')
 
 // -- YAML -------------------------------------------------------------------
 check(

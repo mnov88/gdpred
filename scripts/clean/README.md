@@ -46,6 +46,45 @@ happens to be installed, and skips that group if not.
 
 ## Usage
 
+### One command, end to end
+
+`ingest.js` is the entry point. It resolves inputs, downloads what it must,
+cleans, validates, and regenerates the indexes.
+
+```bash
+# a local file (plain text or HTML)
+node scripts/clean/ingest.js judgment.txt
+
+# by CELEX id, or by case number
+node scripts/clean/ingest.js 62021CJ0205
+node scripts/clean/ingest.js C-205/21 C-492/23
+
+# ask SPARQL which GDPR judgments are missing locally, then take the first 5
+node scripts/clean/ingest.js --discover --limit 5
+
+# see what would happen, touch nothing
+node scripts/clean/ingest.js --discover --dry-run
+```
+
+Stages, each reported, a failure stopping only that case:
+
+| | Stage | What it does |
+|---|---|---|
+| 1 | discover | SPARQL against CELEX 32016R0679, skipping cases already present |
+| 2 | fetch | CELLAR first, EUR-Lex fallback, anti-bot detection, optional cache |
+| 3 | clean | `clean-judgment.js` |
+| 4 | validate | `validate-cases.js` — **before** writing, so a bad file never lands |
+| 5 | index | the cross-reference and timeline generators, in dependency order |
+
+Useful flags: `--limit N`, `--cache-dir <dir>` (keeps downloaded HTML so re-runs
+are offline), `--force`, `--no-index`, `--no-validate`, `--json`, `--quiet`,
+plus `--articles` and `--date-format` passed through to the cleaner.
+
+Stage 5 reports honestly: four of the six generators resolve
+`scripts/content/Case law`, which does not exist, so they fail. `ingest.js`
+labels those `known __dirname path bug` rather than burying them in a warning
+the way `run-pipeline.js` does.
+
 ### Convert a judgment
 
 ```bash
@@ -74,7 +113,9 @@ Options:
 | `--dry-run` | Report what would happen, write nothing |
 | `--force` | Overwrite an existing case file |
 | `--case-number`, `--date`, `--parties`, `--topics` | Override a detected field |
-| `--articles gdpr\|all` | `ruling-articles` scope (default `gdpr`) |
+| `--articles gdpr\|all` | `ruling-articles` scope (default `all`, matching the corpus) |
+| `--date-format date\|iso` | `2023-01-26` (default) or `2023-01-26T00:00:00.000Z` |
+| `--frontmatter-links` | wikilink article refs inside `final-ruling` (off; lowers parity) |
 | `--no-link-cases` | Do not wikilink citations to other cases |
 | `--json` | Machine-readable report |
 | `--quiet` | Errors only |
@@ -112,20 +153,23 @@ YAML parses and therefore passes every file including the two corrupted ones.
 node scripts/clean/test.js
 ```
 
-78 assertions: unit tests for every helper, a parse→emit→parse round-trip over
+94 assertions: unit tests for every helper, a parse→emit→parse round-trip over
 all real case files, and a parity check against `js-yaml` when available (that
-last group self-skips when js-yaml is absent, leaving 77).
+last group self-skips when js-yaml is absent, leaving 93).
 
 ## Layout
 
 ```
 scripts/clean/
+├── ingest.js             THE ENTRY POINT: discover -> fetch -> clean -> validate -> index
 ├── clean-judgment.js     plain text  ->  case .md
 ├── validate-cases.js     conformance checker
+├── parity-report.js      dev tool: how closely output matches the committed files
 ├── test.js               test suite (zero deps)
 └── lib/
     ├── constants.js      the contract in one place
     ├── caseref.js        the four spellings of a case number
+    ├── fetch.js          SPARQL discovery, CELLAR/EUR-Lex download, HTML -> text
     ├── normalise.js      invisible characters, whitespace, reflow
     ├── segment.js        textual landmarks -> judgment sections
     ├── articles.js       article refs, wikilink escaping, ruling-articles
@@ -169,11 +213,50 @@ Known limits, by design:
   "Article 5" is GDPR or another regulation — so the script errs toward not
   linking.
 
+## Parity with the committed files
+
+`parity-report.js` diffs generated output against `content/Case law` field by
+field. Current state over the 61 comparable judgments:
+
+| field | parity | why not 100% |
+|---|---|---|
+| `title`, `date`, `case-number` | 100% | — |
+| `parties` | 85% | editorial trims; 2 cases where the committed file is wrong |
+| `ruling-articles` | 72% | the corpus list is curated; ours is derived |
+| `aliases` | 60% | derivable for joined cases only |
+| `final-ruling` | 30% | 22 files wikilink it, we keep frontmatter plain |
+| `per-article` | 0% | by choice — see below |
+| `topics` | 2% | the corpus topics are hand-picked, ours are the court's |
+
+Two of those are deliberate:
+
+- **`per-article`** scores 0% because 129 of the corpus's 194 entries are the
+  placeholder `Article N | Interpretation from final ruling related to
+  Article N`, stored double-encoded so the value itself begins `  - `. We emit
+  one entry per `ruling-articles` entry with the real operative text where a
+  point matches, and the placeholder wording — correctly encoded — where none
+  does.
+- **`final-ruling`** stays plain text. Emitting wikilinks was measured: parity
+  *falls* from 30% to 3%, because our escaping convention differs from the
+  older `convert-article-refs.js` output. Plain text also removes the whole
+  class of bug that corrupted C-203-22 and C-628-23.
+
+`date` is scored as equal across both spellings, because they were tested and
+are interchangeable: `2023-01-26` and `2023-01-26T00:00:00.000Z` both reach
+Quartz as strings, both satisfy the Explorer's sort guard, and both yield the
+same day from `new Date()`. `--date-format iso` emits the second.
+
 ## Adding a case, end to end
 
 ```bash
-node scripts/clean/clean-judgment.js judgment.txt --dry-run   # inspect first
+node scripts/clean/ingest.js C-205/21 --dry-run   # inspect first
+node scripts/clean/ingest.js C-205/21
+```
+
+Or, without the network:
+
+```bash
+node scripts/clean/clean-judgment.js judgment.txt --dry-run
 node scripts/clean/clean-judgment.js judgment.txt
 node scripts/clean/validate-cases.js "content/Case law/C-205-21.md"
-# then the index generators — see INPUT-FORMAT.md §6, and mind the path bugs
 ```

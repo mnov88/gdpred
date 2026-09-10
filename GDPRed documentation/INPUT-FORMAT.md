@@ -391,6 +391,32 @@ point at cases that were never imported, and every one renders as a dead link.
 
 ---
 
+## 5a. Parity decisions
+
+Where the corpus is internally inconsistent, `clean-judgment.js` picks one
+spelling. These were measured, not guessed — `scripts/clean/parity-report.js`
+diffs generated output against the committed files field by field.
+
+| Aspect | Choice | Why |
+|---|---|---|
+| `date` | bare `YYYY-MM-DD` | Tested: bare, quoted and ISO-instant are interchangeable. All three reach Quartz as strings, satisfy the Explorer's `typeof === 'string'` sort guard, and give the same day from `new Date()`. `--date-format iso` emits the other. |
+| `ruling-articles` | all instruments | Matches the corpus, which lists Article 12 of Directive 2002/58 (C-129/21) and Article 47 of the Charter (C-132/21). `--articles gdpr` restricts to Regulation 2016/679 so every chip links to a real page. |
+| `per-article` | one entry per ruling-article | Real operative text where a point matches, the corpus's fallback wording where none does — but never the `  - ` double-encoded form. |
+| `final-ruling` | plain text, `\|-` | Measured: emitting wikilinks drops parity from 30% to 3%, because our escaping differs from the older `convert-article-refs.js` output. Plain text also removes the corruption class that hit C-203-22 and C-628-23. |
+| `topics` | court keywords, generic lead-ins dropped | Only the first three are rendered, so a phrase true of every case wastes a visible slot. |
+| `aliases` | joined cases only | The other case numbers of a joined reference; nothing else is derivable from one judgment. |
+
+### A separate, pre-existing bug
+
+`generate-timeline.js:71` and `generate-case-grid.js:55` call
+`toLocaleDateString` without `timeZone: 'UTC'`. Since every `date` value is
+midnight UTC, **every case renders one day early for any reader west of
+Greenwich** — C-205/21 shows as "January 25, 2023" in Los Angeles. This affects
+the whole corpus regardless of date spelling. The fix is to pass
+`{ timeZone: 'UTC' }` in both places.
+
+---
+
 ## 6. Post-processing order
 
 After adding a case file, run, in this order:

@@ -247,8 +247,11 @@ export function validateCaseFile(filePath, content, context = {}) {
           warn(`\`per-article\` item is double-encoded: ${JSON.stringify(item.slice(0, 60))}...`)
           continue
         }
+        // The documented fallback when no operative point mentions the
+        // article. Informational, not a defect: `per-article` deliberately
+        // carries one entry per `ruling-articles` entry.
         if (/\|\s*Interpretation from final ruling related to/.test(item)) {
-          warn('`per-article` contains the "Interpretation from final ruling related to" placeholder')
+          info(`\`per-article\` has no matching operative point for ${item.split(' | ')[0]}`)
           continue
         }
         if (!item.includes(' | ')) {

@@ -131,15 +131,19 @@ export function unlinkArticleRefs(text) {
  * and range forms. Ranges are expanded ("Articles 12 to 22" -> 12..22), which
  * the existing extractors never did.
  */
-export function collectArticleNumbers(text, { expandRanges = true } = {}) {
+export function collectArticleNumbers(
+  text,
+  { expandRanges = true, includeForeignInstruments = false } = {}
+) {
   const source = String(text)
   const found = new Set()
+  const isForeign = (at, len) =>
+    !includeForeignInstruments && FOREIGN_INSTRUMENT_RE.test(source.slice(at + len, at + len + 80))
 
   for (const m of source.matchAll(SINGLE_REF_RE)) {
     if (m[2]) continue // letter-suffixed provision of another instrument
     const n = parseInt(m[1], 10)
-    const after = source.slice(m.index + m[0].length, m.index + m[0].length + 80)
-    if (FOREIGN_INSTRUMENT_RE.test(after)) continue
+    if (isForeign(m.index, m[0].length)) continue
     if (isGdprArticle(n)) found.add(n)
   }
 
@@ -147,8 +151,7 @@ export function collectArticleNumbers(text, { expandRanges = true } = {}) {
     const first = parseInt(m[1], 10)
     const last = parseInt(m[4], 10)
     const joiner = m[3].toLowerCase()
-    const after = source.slice(m.index + m[0].length, m.index + m[0].length + 80)
-    if (FOREIGN_INSTRUMENT_RE.test(after)) continue
+    if (isForeign(m.index, m[0].length)) continue
 
     if (m[2] && isGdprArticle(parseInt(m[2], 10))) found.add(parseInt(m[2], 10))
 
@@ -166,14 +169,33 @@ export function collectArticleNumbers(text, { expandRanges = true } = {}) {
 /**
  * Build the `ruling-articles` frontmatter value from the operative part.
  *
- * Gated on the ruling actually naming the GDPR: a judgment about Directive
- * 2016/680 mentions "Article 10" throughout, and indexing that as GDPR
- * Article 10 is wrong. `extraNumbers` lets a caller merge in article numbers
- * from an authoritative source (e.g. SPARQL `modifiedLocations`).
+ * Scope, `all` (the default) or `gdpr`:
+ *
+ *   all   every article the operative part interprets, whatever instrument it
+ *         belongs to. This is what the committed corpus does — C-129/21 lists
+ *         Article 12 of Directive 2002/58, C-132/21 lists Article 47 of the
+ *         Charter — so it is the parity-preserving choice.
+ *   gdpr  only articles of Regulation 2016/679, gated on the ruling naming it.
+ *         Every resulting chip then links to the right page.
+ *
+ * The trade-off is real either way: `NowReading.tsx` builds
+ * `/Articles/Article-N` by hand, so under `all` a Charter article chip points
+ * at the GDPR article of the same number. `validate-cases.js` warns about
+ * those rather than letting them pass silently.
+ *
+ * `extraNumbers` merges in an authoritative list, e.g. SPARQL
+ * `modifiedLocations`, which names the provisions the case actually modifies.
  */
-export function buildRulingArticles(rulingText, { extraNumbers = [], requireGdprMarker = true } = {}) {
+export function buildRulingArticles(rulingText, { extraNumbers = [], scope = 'all' } = {}) {
   const text = String(rulingText || '')
-  const fromText = requireGdprMarker && !GDPR_MARKER_RE.test(text) ? [] : collectArticleNumbers(text)
+
+  let fromText
+  if (scope === 'gdpr') {
+    fromText = GDPR_MARKER_RE.test(text) ? collectArticleNumbers(text) : []
+  } else {
+    fromText = collectArticleNumbers(text, { includeForeignInstruments: true })
+  }
+
   const merged = new Set([...fromText, ...extraNumbers.filter(isGdprArticle)])
   return [...merged].sort((a, b) => a - b).map(n => `Article ${n}`)
 }
@@ -206,16 +228,23 @@ export function splitOperativePoints(rulingText) {
 
 /**
  * Build the `per-article` frontmatter value: for each ruling article, the
- * operative point(s) that actually interpret it.
+ * operative point(s) that interpret it.
  *
- * Articles with no matching point are OMITTED rather than given the
- * `Article N | Interpretation from final ruling related to Article N`
- * placeholder — 129 of the corpus's 194 per-article entries are that
- * placeholder, which is noise, not data.
+ * One entry is emitted for EVERY article in `ruling-articles`, so the two
+ * lists always line up — that is what the committed corpus does. Where an
+ * operative point mentions the article, its verbatim text is used; where none
+ * does, the corpus's fallback wording is used so the entry still exists.
+ *
+ * What is deliberately NOT reproduced is the corpus's double-encoding bug: 129
+ * of its 194 entries are stored as `  - Article N | ...`, a list item whose
+ * value itself begins with two spaces and a hyphen. That is a serialization
+ * fault, not content, and `validate-cases.js` reports it.
  */
+export const PER_ARTICLE_FALLBACK = article =>
+  `${article} | Interpretation from final ruling related to ${article}`
+
 export function buildPerArticle(rulingText, rulingArticles) {
   const points = splitOperativePoints(rulingText)
-  if (!points.length) return []
 
   const out = []
   for (const article of rulingArticles) {
@@ -227,7 +256,7 @@ export function buildPerArticle(rulingText, rulingArticles) {
       .filter(p => re.test(p.text))
       .map(p => `**${p.number}.** ${p.text.replace(/\s*\n\s*/g, ' ').trim()}`)
 
-    if (relevant.length) out.push(`${article} | ${relevant.join(' ')}`)
+    out.push(relevant.length ? `${article} | ${relevant.join(' ')}` : PER_ARTICLE_FALLBACK(article))
   }
   return out
 }

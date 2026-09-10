@@ -16,7 +16,8 @@
  *   --date <YYYY-MM-DD>    override the detected date
  *   --parties <text>       override the detected parties
  *   --topics <a;b;c>       override the detected topics
- *   --articles <gdpr|all>  ruling-articles scope (default: gdpr)
+ *   --articles <gdpr|all>  ruling-articles scope (default: all, matching the corpus)
+ *   --date-format <date|iso>  `2023-01-26` (default) or `2023-01-26T00:00:00.000Z`
  *   --no-link-cases        do not wikilink citations to other cases
  *   --json                 machine-readable report on stdout
  *   --quiet                errors only
@@ -32,7 +33,13 @@ import process from 'process'
 
 import { normaliseRawText, reflowParagraphs } from './lib/normalise.js'
 import { segmentJudgment, parseTopics, looksLikePageShell } from './lib/segment.js'
-import { buildRulingArticles, buildPerArticle, splitOperativePoints, unlinkArticleRefs } from './lib/articles.js'
+import {
+  buildRulingArticles,
+  buildPerArticle,
+  splitOperativePoints,
+  unlinkArticleRefs,
+  linkArticleRefs,
+} from './lib/articles.js'
 import { buildBody } from './lib/body.js'
 import { toCanonical, toFilename, parseCaseNumber, isJoinedCase, findCaseRefs } from './lib/caseref.js'
 import { buildMarkdown } from './lib/yaml.js'
@@ -56,7 +63,9 @@ function parseArgs(argv) {
     date: null,
     parties: null,
     topics: null,
-    articles: 'gdpr',
+    articles: 'all',
+    dateFormat: 'date',
+    frontmatterLinks: false,
     linkCases: true,
     json: false,
     quiet: false,
@@ -64,6 +73,7 @@ function parseArgs(argv) {
 
   const takesValue = new Set([
     '--out-dir', '--out', '--case-number', '--date', '--parties', '--topics', '--articles',
+    '--date-format',
   ])
 
   for (let i = 0; i < argv.length; i++) {
@@ -98,6 +108,11 @@ function parseArgs(argv) {
         if (!['gdpr', 'all'].includes(value)) fail('--articles must be "gdpr" or "all"')
         opts.articles = value
         break
+      case '--date-format':
+        if (!['date', 'iso'].includes(value)) fail('--date-format must be "date" or "iso"')
+        opts.dateFormat = value
+        break
+      case '--frontmatter-links': opts.frontmatterLinks = true; break
       case '--no-link-cases': opts.linkCases = false; break
       case '--json': opts.json = true; break
       case '--quiet': opts.quiet = true; break
@@ -122,7 +137,8 @@ function usage(stream = process.stdout) {
     'Usage: node scripts/clean/clean-judgment.js <judgment.txt...> [options]\n' +
       '  --out-dir <dir>   --out <file>   --stdout   --dry-run   --force\n' +
       '  --case-number <n> --date <d>     --parties <p>  --topics "a;b;c"\n' +
-      '  --articles <gdpr|all>            --no-link-cases\n' +
+      '  --articles <gdpr|all>            --date-format <date|iso>\n' +
+      '  --no-link-cases\n' +
       '  --json            --quiet        --help\n'
   )
 }
@@ -156,18 +172,35 @@ function readExistingStems(caseDir) {
  * unnumbered operative paragraph — which is the majority shape — is emitted
  * as-is with no number, because inventing `**1.**` would misrepresent it.
  */
-function formatFinalRuling(operativeText) {
+function formatFinalRuling(operativeText, { wikilinks = false } = {}) {
   const points = splitOperativePoints(operativeText)
   if (!points.length) return null
 
-  const wasNumbered = /^\s*(?:\*\*)?\d+\.(?:\*\*)?\s/.test(operativeText.trim())
-  if (!wasNumbered) {
-    return unlinkArticleRefs(collapse(operativeText)) || null
-  }
+  // 24 committed files carry wikilinks inside `final-ruling`; 42 do not. The
+  // links are inert here (nothing renders this field) and a wikilink in an
+  // unquoted YAML scalar is how C-203-22 and C-628-23 were corrupted, so plain
+  // text is the default. `--frontmatter-links` opts into the other convention.
+  const render = t => (wikilinks ? linkArticleRefs(collapse(t)) : unlinkArticleRefs(collapse(t)))
 
-  return points
-    .map(p => `${RULING_MARKER(p.number)} ${unlinkArticleRefs(collapse(p.text))}`)
-    .join('\n\n')
+  const wasNumbered = /^\s*(?:\*\*)?\d+\.(?:\*\*)?\s/.test(operativeText.trim())
+  if (!wasNumbered) return render(operativeText) || null
+
+  return points.map(p => `${RULING_MARKER(p.number)} ${render(p.text)}`).join('\n\n')
+}
+
+/**
+ * Spell the date.
+ *
+ * Tested against every consumer: `2023-01-26`, `'2023-01-26'` and
+ * `2023-01-26T00:00:00.000Z` all reach Quartz as a string (JSON_SCHEMA),
+ * all satisfy the Explorer's `typeof date === 'string'` sort guard, and all
+ * produce the same day from `new Date()`. The choice is cosmetic, so the
+ * default is the documented bare form; `--date-format iso` reproduces the
+ * js-yaml round-trip artefact that 46 committed files carry.
+ */
+function formatDate(date, format) {
+  const day = String(date).slice(0, 10)
+  return format === 'iso' ? `${day}T00:00:00.000Z` : day
 }
 
 /** Join hard-wrapped lines inside one logical paragraph. */
@@ -227,11 +260,15 @@ export function convertJudgment(rawText, opts = {}) {
     errors.push('could not determine the case number (pass --case-number to set it)')
   }
 
+  // Joined cases: one file, the remaining case numbers recorded as aliases.
+  // That is what the corpus does (C-17-22 aliases C-18/22, and so on).
+  let aliases = []
   if (seg.joined || (caseFromLine && isJoinedCase(caseFromLine))) {
     const refs = findCaseRefs(caseFromLine || '')
+    aliases = refs.filter(r => r !== caseNumber)
     warnings.push(
       `joined cases detected (${refs.join(', ')}) — one file cannot carry several case numbers. ` +
-        `The file is written for ${caseNumber || refs[0]}; add the others under \`aliases\` by hand.`
+        `Written as ${caseNumber || refs[0]}, with ${aliases.join(', ') || 'nothing'} under \`aliases\`.`
     )
   }
 
@@ -255,16 +292,22 @@ export function convertJudgment(rawText, opts = {}) {
   if (!topics.length) warnings.push('no topics extracted from the keyword block')
 
   // ---- operative part -----------------------------------------------------
-  const finalRuling = seg.operative ? formatFinalRuling(seg.operative) : null
+  const finalRuling = seg.operative
+    ? formatFinalRuling(seg.operative, { wikilinks: opts.frontmatterLinks === true })
+    : null
   if (!finalRuling) warnings.push('final-ruling is empty — the operative part could not be read')
 
   const rulingArticles = buildRulingArticles(seg.operative || '', {
-    requireGdprMarker: opts.articles !== 'all',
+    scope: opts.articles || 'all',
+    // SPARQL's `modifiedLocations` names the provisions the EU's own metadata
+    // records this case as interpreting. Merging them in catches articles the
+    // operative part phrases in a way the regex does not reach.
+    extraNumbers: opts.extraArticles || [],
   })
   if (!rulingArticles.length) {
     warnings.push(
-      'ruling-articles is empty — either the operative part names no GDPR article, ' +
-        'or the ruling does not mention Regulation 2016/679 (try --articles all)'
+      'ruling-articles is empty — the operative part names no article in range 1-99' +
+        (opts.articles === 'gdpr' ? ', or the ruling never names Regulation 2016/679' : '')
     )
   }
 
@@ -289,7 +332,7 @@ export function convertJudgment(rawText, opts = {}) {
   const frontmatter = {}
   if (caseNumber) {
     frontmatter.title = caseNumber
-    frontmatter.date = date || undefined
+    frontmatter.date = date ? formatDate(date, opts.dateFormat) : undefined
     frontmatter['case-number'] = caseNumber
   }
   if (parties) frontmatter.parties = parties
@@ -297,6 +340,7 @@ export function convertJudgment(rawText, opts = {}) {
   if (finalRuling) frontmatter['final-ruling'] = finalRuling
   if (rulingArticles.length) frontmatter['ruling-articles'] = rulingArticles
   if (perArticle.length) frontmatter['per-article'] = perArticle
+  if (aliases.length) frontmatter.aliases = aliases
 
   const markdown = errors.length ? null : buildMarkdown(frontmatter, body.text)
 
