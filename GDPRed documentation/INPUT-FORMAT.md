@@ -65,29 +65,61 @@ Saved as `content/Case law/C-205-21.md`.
 
 ## 2. What actually reads what
 
-This matters more than it looks: most of the frontmatter is written by
-generators and read by nobody.
+A field reaches readers by one of **two** routes, and it is easy to
+under-estimate the second:
 
-| Field | Read by the Quartz site | Read by scripts in `scripts/` |
-|---|---|---|
-| `title` | yes — page `<h1>`, `<title>`, Explorer, search index | timeline, grid |
-| `date` | yes — `created`/`published`, Explorer date sort, RSS, sitemap | timeline, grid |
-| `parties` | yes — `Parties.tsx`, `Backlinks.tsx`, `ExplorerNode.tsx` | timeline, grid, both cross-reference indexes |
-| `ruling-articles` | yes — `NowReading.tsx` article chips | `extract_key_articles.cjs`, `extract_article_rulings.js` |
-| `case-number` | only `TopicExplorer.tsx` | `extract_case_articles.cjs` |
-| `aliases` | yes — redirect pages | — |
-| `topics` | **no** | timeline, grid (display only) |
-| `final-ruling` | **no** | `extract_article_rulings.js`, `extract_gdpr_articles.js` |
-| `per-article` | **no** | **nothing** |
+1. **Directly** — a Quartz component reads the frontmatter at build time.
+2. **Indirectly** — a script in `scripts/` reads the frontmatter and bakes the
+   value into the HTML of a generated page (`content/index.md`,
+   `content/Case law by date.md`, `content/case-law-grid.md`), which Quartz
+   then builds like any other content.
 
-Two consequences worth knowing before you invest effort in a field:
+"No Quartz component reads it" therefore does **not** mean "invisible".
 
-- `ArticleCases.tsx` ("Cases Referencing This Article") is **dead code**. It is
+| Field | Read directly by a component | Read by a generator script | Visible to readers today |
+|---|---|---|---|
+| `title` | page `<h1>`, `<title>`, Explorer, search index | timeline, grid | yes |
+| `date` | `created`/`published`, Explorer sort, RSS, sitemap | timeline, grid | yes |
+| `parties` | `Parties.tsx`, `Backlinks.tsx`, `ExplorerNode.tsx` | timeline, grid, both cross-reference indexes | yes |
+| `ruling-articles` | `NowReading.tsx` article chips | `extract_key_articles.cjs`, `extract_article_rulings.js` | yes |
+| `case-number` | `TopicExplorer.tsx` only | `extract_case_articles.cjs` | yes |
+| `aliases` | redirect pages | — | yes (as redirects) |
+| `topics` | none | `generate-timeline.js:187`, `generate-case-grid.js:145-148` | **yes — via the timeline** |
+| `final-ruling` | none | `extract_article_rulings.js:188-192`, `extract_gdpr_articles.js:110-125` | not currently |
+| `per-article` | none | written by `extract_gdpr_articles.js:132`, read by nothing | no |
+
+### `topics` is user-facing — and only the first three
+
+`generate-timeline.js:187` renders `caseItem.topics.slice(0, 3).join(' • ')`.
+Those three strings appear in italics under every entry on
+**content/Case law by date.md** (the "Browse by timeline" page) and in
+`content/index.md`. Verified: that file contains
+`Principles relating to processing of personal data • Purpose limitation •
+Data minimisation` for C-205/21.
+
+So topic **order matters**. Put the distinguishing concepts first; the court's
+keyword block opens with a generic subject-matter statement
+("Protection of natural persons with regard to the processing of personal
+data") that is true of every case in the corpus and wastes one of the three
+visible slots. `clean-judgment.js` drops those.
+
+### `final-ruling` is consumed, but its page has never been generated
+
+`extract_article_rulings.js` reads it to build `content/article-rulings.md`,
+and `extract_gdpr_articles.js` reads it to derive `ruling-articles`. Neither
+output exists in the repo: the first has a broken `__dirname` path (§6) and has
+never run successfully, and the second is hard-coded to three case files. The
+field is therefore *intended* to be user-facing and currently is not.
+
+### Two things that really are dead
+
+- `ArticleCases.tsx` ("Cases Referencing This Article") is **dead code** —
   exported from `quartz/components/index.ts` but wired into no layout and no
-  emitter. `ruling-articles` therefore drives only the `NowReading` chip row.
-- `per-article` is read by no component and no script. 129 of its 194 entries
-  in the corpus are the literal placeholder
-  `Article N | Interpretation from final ruling related to Article N`.
+  emitter. `ruling-articles` drives only the `NowReading` chip row.
+- `per-article` is written by `extract_gdpr_articles.js` and read by no
+  component and no script. 129 of its 194 entries in the corpus are the literal
+  placeholder `Article N | Interpretation from final ruling related to
+  Article N`.
 
 ---
 

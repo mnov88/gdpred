@@ -258,6 +258,23 @@ check(
   ['Purpose limitation', 'Data minimisation']
 )
 check(
+  'segment: generic subject-matter lead-ins are dropped',
+  parseTopics(
+    'Reference for a preliminary ruling – Protection of natural persons with regard to the processing of personal data – Purpose limitation – Data minimisation'
+  ),
+  ['Purpose limitation', 'Data minimisation']
+)
+check(
+  'segment: bare instrument citations are dropped',
+  parseTopics('Directive 95/46/EC – Regulation (EU) 2016/679 – Right of access'),
+  ['Right of access']
+)
+check(
+  'segment: a substantive topic that merely mentions processing survives',
+  parseTopics('Lawfulness of processing – Scope of the right of access'),
+  ['Lawfulness of processing', 'Scope of the right of access']
+)
+check(
   'segment: parties from a lone v',
   extractParties('in the proceedings\nA Ltd\nv\nB Authority,\nTHE COURT (Fifth Chamber),'),
   'A Ltd v B Authority'

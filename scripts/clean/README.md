@@ -112,9 +112,9 @@ YAML parses and therefore passes every file including the two corrupted ones.
 node scripts/clean/test.js
 ```
 
-75 assertions: unit tests for every helper, a parse→emit→parse round-trip over
+78 assertions: unit tests for every helper, a parse→emit→parse round-trip over
 all real case files, and a parity check against `js-yaml` when available (that
-last group self-skips when js-yaml is absent, leaving 74).
+last group self-skips when js-yaml is absent, leaving 77).
 
 ## Layout
 
@@ -159,9 +159,11 @@ Known limits, by design:
   `NowReading` chips pointing at pages that exist. Pass `--articles all` to
   reproduce the corpus's looser behaviour (`C-205-21` lists Directive and
   Charter articles today).
-- **Topics** come out more granular than the hand-curated ones: 20 for
-  `C-205/21` where the committed file has 7. They are the court's own keywords,
-  unfiltered. Trim them, or pass `--topics`.
+- **Topics** come out more granular than the hand-curated ones: 17 for
+  `C-205/21` where the committed file has 7. They are the court's own keywords
+  minus the generic lead-ins. Only the first three are user-visible (the
+  timeline renders `topics.slice(0, 3)`), and for `C-205/21` those three now
+  match the committed file exactly. Trim the tail, or pass `--topics`.
 - Instrument attribution for an article reference is a **heuristic**. The
   source text is genuinely ambiguous — only surrounding prose says whether
   "Article 5" is GDPR or another regulation — so the script errs toward not

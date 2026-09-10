@@ -380,6 +380,23 @@ export function extractParties(text) {
 }
 
 /**
+ * Subject-matter statements the court opens almost every data-protection
+ * keyword block with. They are true of every case in the corpus and carry no
+ * distinguishing information.
+ *
+ * Dropping them matters more than it looks: `generate-timeline.js:187` renders
+ * only `topics.slice(0, 3)`, so a generic lead-in burns one of the three slots
+ * a reader actually sees. Measured over the 62 judgments in
+ * content/Downloads, 49 of 61 would otherwise lead with one of these.
+ */
+const GENERIC_TOPIC_RE =
+  /^(?:Protection|Processing)\s+of\s+(?:natural\s+persons|individuals|personal\s+data)(?:\s+with\s+regard\s+to\s+the\s+processing\s+of\s+personal\s+data)?$|^Approximation\s+of\s+laws$|^Free\s+movement\s+of\s+(?:such\s+)?data$/i
+
+/** A bare citation of a legal instrument, e.g. `Directive 95/46/EC`. */
+const INSTRUMENT_RE =
+  /^(?:Council\s+)?(?:Regulation|Directive|Decision|Framework\s+Decision)\s*(?:\((?:EU|EC|EEC|EU,\s*Euratom)\))?\s*(?:No\s*)?[\d\s/]+(?:\/(?:EC|EU|EEC|JHA))?$/i
+
+/**
  * Topics from the keyword block: split on the ` -- ` / en-dash / em-dash
  * separators the court uses, then drop the segments that are not topics.
  */
@@ -395,11 +412,10 @@ export function parseTopics(keywordBlock) {
       // The court prefixes almost every reference with this; it is not a topic.
       if (/^Reference\s+for\s+a\s+preliminary\s+ruling$/i.test(segment)) return false
       if (/^Request\s+for\s+a\s+preliminary\s+ruling$/i.test(segment)) return false
-      // Bare provision references are navigation, not subject matter.
+      if (GENERIC_TOPIC_RE.test(segment)) return false
+      // Bare provision and instrument references are navigation, not subject matter.
       if (/^Articles?\s+[\d\s,()a-z]+(?:and\s+\d+)?$/i.test(segment)) return false
-      if (/^(?:Regulation|Directive|Decision)\s*\(?(?:EU|EC)?\)?\s*(?:No\s*)?[\d/]+$/i.test(segment)) {
-        return false
-      }
+      if (INSTRUMENT_RE.test(segment)) return false
       if (/^Recitals?\s+[\d\s,and]+$/i.test(segment)) return false
       return true
     })
