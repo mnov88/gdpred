@@ -31,7 +31,14 @@ import {
 } from './lib/articles.js'
 import { markParagraphNumbers, promoteHeadings, linkCaseRefs, stripDocumentId } from './lib/body.js'
 import { normaliseInvisibles, reflowParagraphs } from './lib/normalise.js'
-import { parseTopics, extractKeywordBlock, extractParties, toIsoDate } from './lib/segment.js'
+import {
+  parseTopics,
+  extractKeywordBlock,
+  extractParties,
+  toIsoDate,
+  extractOperativePart,
+  looksLikePageShell,
+} from './lib/segment.js'
 import { CASE_DIR } from './lib/constants.js'
 
 const REPO_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..')
@@ -280,6 +287,33 @@ check(
   'segment: single-party reference',
   extractParties('in the proceedings\nEndemol Shine Finland Oy\nTHE COURT (Sixth Chamber),'),
   'Endemol Shine Finland Oy'
+)
+
+// -- ported from the eulaw-local-mcp server ---------------------------------
+check(
+  'segment: appeal-form operative marker ("hereby:")',
+  extractOperativePart('On those grounds, the Court hereby:\n1. Sets aside the judgment.').text,
+  '1. Sets aside the judgment.'
+)
+check(
+  'segment: a quoted "hereby:" is not mistaken for the operative part',
+  extractOperativePart('the referring court asks whether it may hereby:\nnothing here').text,
+  null
+)
+check(
+  'segment: operative part stops at a "---" rule',
+  extractOperativePart('the Court hereby rules:\nArticle 5 applies.\n---\nfootnotes').text,
+  'Article 5 applies.'
+)
+ok(
+  'segment: EUR-Lex portal chrome is detected',
+  looksLikePageShell('EUR-Lex - CELEX:62021CJ0560\nSign in\nSwitch to mobile'),
+  'the "Switch to mobile" footer marks a captured portal page'
+)
+ok(
+  'segment: a real judgment is not flagged as portal chrome',
+  !looksLikePageShell('JUDGMENT OF THE COURT\nOn those grounds, the Court hereby rules:\n1. Article 5.'),
+  ''
 )
 
 // -- YAML -------------------------------------------------------------------

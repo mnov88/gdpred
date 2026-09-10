@@ -31,7 +31,7 @@ import path from 'path'
 import process from 'process'
 
 import { normaliseRawText, reflowParagraphs } from './lib/normalise.js'
-import { segmentJudgment, parseTopics, extractOperativePart } from './lib/segment.js'
+import { segmentJudgment, parseTopics, looksLikePageShell } from './lib/segment.js'
 import { buildRulingArticles, buildPerArticle, splitOperativePoints, unlinkArticleRefs } from './lib/articles.js'
 import { buildBody } from './lib/body.js'
 import { toCanonical, toFilename, parseCaseNumber, isJoinedCase, findCaseRefs } from './lib/caseref.js'
@@ -188,6 +188,25 @@ export function convertJudgment(rawText, opts = {}) {
   const errors = []
 
   const normalised = normaliseRawText(rawText)
+
+  // Reject EUR-Lex portal chrome up front, with a reason. Without this the
+  // failure surfaces as eight unrelated "landmark not found" warnings, which
+  // reads like a parser bug rather than the wrong input.
+  if (looksLikePageShell(normalised)) {
+    return {
+      ok: false,
+      caseNumber: null,
+      stem: null,
+      markdown: null,
+      warnings: [],
+      errors: [
+        'this is a EUR-Lex portal page, not a judgment — save the document itself ' +
+          '(the "Text" tab, or the DOCX/PDF export), not the surrounding page',
+      ],
+      fields: {},
+    }
+  }
+
   const seg = segmentJudgment(normalised)
   warnings.push(...seg.warnings)
 

@@ -57,6 +57,19 @@ export const IN_CASE_RE = /^\s*In\s+(Joined\s+)?Cases?\s+([^\n]*?),?\s*$/im
 export const OPERATIVE_RE =
   /^\s*On\s+those\s+grounds,?\s*the\s+(?:Court|General\s+Court)[\s\S]{0,120}?hereby\s+(rules|orders|declares)\s*:?\s*$/im
 
+/**
+ * Appeal-form judgments put the verb inside the numbered items, so the marker
+ * line is a bare `hereby:`. Anchored to "on those grounds" on purpose: a
+ * line-final `hereby:` also occurs inside a quoted referred question, and an
+ * unanchored match would take that instead.
+ *
+ * Taken from the eulaw-local-mcp server's OPERATIVE_MARKER, which was
+ * calibrated over 631 stored judgments; the anchored form changes the match in
+ * exactly six appeal-form judgments and nowhere else. None of the 62 judgments
+ * in content/Downloads uses it, but appeals will arrive eventually.
+ */
+export const OPERATIVE_APPEAL_RE = /^\s*on\s+those\s+grounds\b.*\bhereby\s*:?\s*$/im
+
 /** Fallback when "On those grounds" is absent but the verb is present. */
 export const OPERATIVE_FALLBACK_RE =
   /^\s*the\s+(?:Court|General\s+Court)[^\n]{0,120}?hereby\s+(rules|orders|declares)\s*:?\s*$/im
@@ -207,20 +220,41 @@ function count(text, ch) {
  */
 export function extractOperativePart(text) {
   let match = OPERATIVE_RE.exec(text)
+  if (!match) match = OPERATIVE_APPEAL_RE.exec(text)
   if (!match) match = OPERATIVE_FALLBACK_RE.exec(text)
   if (!match) return { text: null, verb: null }
 
   const start = match.index + match[0].length
   const rest = text.slice(start)
 
-  const enders = [SIGNATURES_RE, LANGUAGE_OF_CASE_RE, /^\s*\*\s*\*\s*\*\s*$/m]
+  // `^---$` comes from the MCP server's END_MARKERS_FULL. The language-of-case
+  // trailer is ours: that parser lacks it, so `(*1) Language of the case: …`
+  // gets swallowed into its last holding.
+  const enders = [SIGNATURES_RE, LANGUAGE_OF_CASE_RE, /^\s*\*\s*\*\s*\*\s*$/m, /^---$/m]
   let end = rest.length
   for (const re of enders) {
     const m = re.exec(rest)
     if (m && m.index < end) end = m.index
   }
 
-  return { text: rest.slice(0, end).trim() || null, verb: match[1].toLowerCase() }
+  return { text: rest.slice(0, end).trim() || null, verb: match[1] ? match[1].toLowerCase() : 'rules' }
+}
+
+/**
+ * EUR-Lex navigation chrome captured instead of a document.
+ *
+ * Two signals, both from the MCP server's parse-validate.ts: the portal's
+ * "Switch to mobile" footer, and an implausible link-to-word ratio. The ratio
+ * only fires on markdown converted from HTML — plain text has no links — but
+ * it is free to keep for callers that pass such input.
+ */
+export function looksLikePageShell(text) {
+  const content = String(text)
+  if (/switch to mobile/i.test(content)) return true
+  const links = (content.match(/\]\([^)]*\)/g) || []).length
+  if (links < 20) return false
+  const words = content.split(/\s+/).filter(Boolean).length
+  return links / Math.max(words, 1) > 0.08
 }
 
 /**

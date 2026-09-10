@@ -19,6 +19,24 @@ These scripts key on **textual** landmarks instead, so they work on any plain
 text: a DOCX text layer, a `pdftotext` dump, a copy-paste from curia.europa.eu.
 When a landmark is missing they say so rather than emitting an empty field.
 
+## Borrowed logic
+
+Two pieces come from `mnov88/eulaw-local-mcp` (`src/lib/`), whose parsers are
+calibrated over a much larger corpus than this one and carry vitest coverage:
+
+- **The appeal-form operative marker.** Appeal judgments put the verb inside
+  the numbered items, so the marker line is a bare `hereby:`. That server's
+  `OPERATIVE_MARKER` anchors it to "on those grounds", because a line-final
+  `hereby:` also occurs inside a quoted referred question. Calibrated over 631
+  documents; it changes the match in exactly six of them.
+- **Page-shell detection** (`parse-validate.ts`). EUR-Lex portal chrome saved
+  instead of the judgment is detected by its "Switch to mobile" footer and an
+  implausible link-to-word ratio, and rejected with a message that says what to
+  save instead.
+
+The sibling repo `mnov88/eu-law-mcp` (the Next.js app) has an older copy of the
+same parsers with no unit tests; prefer the MCP server's versions.
+
 ## Requirements
 
 Node 20+. **No npm install.** Nothing here imports a package — `lib/yaml.js` is
@@ -94,8 +112,9 @@ YAML parses and therefore passes every file including the two corrupted ones.
 node scripts/clean/test.js
 ```
 
-70 assertions: unit tests for every helper, a parse→emit→parse round-trip over
-all real case files, and a parity check against `js-yaml` when available.
+75 assertions: unit tests for every helper, a parse→emit→parse round-trip over
+all real case files, and a parity check against `js-yaml` when available (that
+last group self-skips when js-yaml is absent, leaving 74).
 
 ## Layout
 
@@ -122,7 +141,7 @@ converted to plain text:
 | | Result |
 |---|---|
 | Converted | 61 / 62 |
-| Rejected | 1 — a EUR-Lex portal page with no judgment in it, correctly refused |
+| Rejected | 1 — a EUR-Lex portal page with no judgment in it, refused by name |
 | `date` matching the committed file | 61 / 61 |
 | `parties` matching the committed file | 50 / 60 (83%) |
 
