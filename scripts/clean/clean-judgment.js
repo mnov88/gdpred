@@ -220,6 +220,26 @@ export function convertJudgment(rawText, opts = {}) {
   const warnings = []
   const errors = []
 
+  // An already-converted case file is not judgment source. Re-running the
+  // converter over one produces nonsense — the keyword-block scan picks up
+  // `[[Article N]]` wikilinks from the body and writes them into `topics`,
+  // where YAML reads them as flow sequences. Caught in practice by feeding
+  // content/Case law/C-313-23.md back in.
+  if (/^---\s*\n[\s\S]*?\n(?:case-number|final-ruling|ruling-articles):/m.test(String(rawText))) {
+    return {
+      ok: false,
+      caseNumber: null,
+      stem: null,
+      markdown: null,
+      warnings: [],
+      errors: [
+        'this is already a converted GDPRed case file, not judgment source — ' +
+          'to re-derive it, start from the original judgment text or CELEX id',
+      ],
+      fields: {},
+    }
+  }
+
   const normalised = normaliseRawText(rawText)
 
   // Reject EUR-Lex portal chrome up front, with a reason. Without this the

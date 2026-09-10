@@ -80,10 +80,25 @@ Useful flags: `--limit N`, `--cache-dir <dir>` (keeps downloaded HTML so re-runs
 are offline), `--force`, `--no-index`, `--no-validate`, `--json`, `--quiet`,
 plus `--articles` and `--date-format` passed through to the cleaner.
 
-Stage 5 reports honestly: four of the six generators resolve
-`scripts/content/Case law`, which does not exist, so they fail. `ingest.js`
-labels those `known __dirname path bug` rather than burying them in a warning
-the way `run-pipeline.js` does.
+Stage 5 reports honestly, and that took a real build to get right. Exit status
+is not evidence: `generate-case-grid.js` prints an ENOENT for
+`scripts/content/Case law`, says "No case data found or extracted", and
+**exits 0**. So each generator declares its output files and `ingest.js`
+compares mtimes. Measured on the current tree, five of six write nothing:
+
+```
+FAILED  scripts/process_article_refs.cjs
+FAILED  scripts/extract_case_articles.cjs  (no output at articles_by_case.md)
+FAILED  extract_key_articles.cjs           (no output at key-articles-by-case.md)
+ok      scripts/generate-timeline.js  ->  content/index.md
+FAILED  scripts/generate-case-grid.js      (no output at content/case-law-grid.md)
+FAILED  scripts/extract_article_rulings.js (known __dirname path bug; wrote nothing)
+```
+
+`extract_key_articles.cjs` is the interesting one: its path is fine. It fails
+because of the two corrupted case files. Move `C-203-22.md` and `C-628-23.md`
+aside and it succeeds immediately, writing the 18 KB `key-articles-by-case.md`
+the repo has never contained.
 
 ### Convert a judgment
 

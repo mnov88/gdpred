@@ -456,6 +456,59 @@ node scripts/extract_article_rulings.js      # content/article-rulings.md
 
 ---
 
+## 6a. What a real build proves
+
+Everything below was checked by running `npx quartz build` and reading the
+emitted HTML, not by reading the components.
+
+**The `\)` escape is load-bearing — confirmed.** `[[Article 15]](1)(c)` in
+`C-154-21.md` emits:
+
+```html
+<a href="../1" class="internal alias" data-slug="1">[Article 15]</a>(c)
+```
+
+The link text becomes the literal `[Article 15]` and the href becomes `../1`.
+That file has 50 wikilinks in source and 25 anchors in output — half of them
+destroyed. The escaped form `[[Article 4]](7\)` emits correctly:
+`<a href="../Articles/Article-4">Article 4</a>(7)`.
+
+Body-only count of the broken form: **55 occurrences across 11 files**, of
+which 36 are in `C-154-21` alone. (An additional occurrence sits in
+`C-272-19`'s `final-ruling`, where nothing renders it.)
+
+**`ruling-articles` drives the chip row — confirmed.** It emits
+`<div class="ruling-articles-container">` containing one
+`<a class="article-chip-link"><span class="article-chip">Article N</span></a>`
+per entry.
+
+**Aliases do not work, in any spelling.** `getAliasSlugs`
+(`quartz/plugins/transformers/frontmatter.ts`) does
+`path.posix.join(dir, slugifyFilePath(alias))` — it slugifies the alias but
+never `dir`, so the redirect is emitted under the raw directory name:
+
+| frontmatter | emitted file |
+|---|---|
+| `aliases: [C-18/22]` | `public/Case law/C-18/22.html` |
+| `aliases: [C-316-23]` | `public/Case law/C-316-23.html` |
+
+Both land under `Case law` with a literal space, not the site's `Case-law`
+slug, so neither is reachable and `[[C-18-22]]` still resolves to nothing. The
+fix is to slugify the joined path: `slugifyFilePath(path.posix.join(dir, alias))`.
+
+**Five of the six index generators write nothing, and exit 0.** Exit status is
+not evidence — `generate-case-grid.js` prints an ENOENT for
+`scripts/content/Case law`, says "No case data found or extracted", and returns
+success. Only `generate-timeline.js` actually updates its output.
+
+**The two corrupted files are what break `extract_key_articles.cjs`.** Moving
+`C-203-22.md` and `C-628-23.md` aside and re-running it succeeds immediately —
+"Found 71 cases with key article references, 47 unique key articles" — and
+writes the 18 KB `key-articles-by-case.md` that the repo has never contained.
+Repairing those two files is the single highest-value content fix available.
+
+---
+
 ## 7. Plain-text landmarks
 
 For tooling that parses a judgment from plain text rather than EUR-Lex HTML.
@@ -498,7 +551,7 @@ these: **26 errors across 17 files**.
 
 | Defect | Files | Effect |
 |---|---|---|
-| Unescaped `[[Article N]](1)` | 10 files, 54 refs | Link destroyed by CommonMark |
+| Unescaped `[[Article N]](1)` | 11 files, 55 refs in bodies | Link destroyed — verified in the built HTML (§6a) |
 | Wikilink in a frontmatter scalar | `C-203-22`, `C-628-23` | `title`/`case-number`/`ruling-articles` parse as nested arrays; breaks 4 generators |
 | Filename ≠ `case-number` | `C-628-23` (says `C-638/23`) | Inbound wikilinks resolve to nothing |
 | Missing `parties` | `C-184-20` | Dropped from timeline and grid |

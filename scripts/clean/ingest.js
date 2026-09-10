@@ -206,35 +206,107 @@ async function resolveText(job, opts, log) {
  * mysterious warning. `claude/debug-pipeline-docs-NyquN` carries the fix.
  */
 const GENERATORS = [
-  { script: 'scripts/process_article_refs.cjs', pathBug: true, note: 'strips [[Article N]] for N > 99' },
-  { script: 'scripts/extract_case_articles.cjs', pathBug: true, note: 'cases_by_article.md, articles_by_case.md' },
-  { script: 'extract_key_articles.cjs', pathBug: false, note: 'cases-by-key-articles.md, key-articles-by-case.md' },
-  { script: 'scripts/generate-timeline.js', pathBug: false, note: 'timeline into content/index.md' },
-  { script: 'scripts/generate-case-grid.js', pathBug: true, note: 'content/case-law-grid.md' },
-  { script: 'scripts/extract_article_rulings.js', pathBug: true, note: 'content/article-rulings.md' },
+  {
+    script: 'scripts/process_article_refs.cjs',
+    outputs: ['article_modifications.md'],
+    note: 'strips [[Article N]] for N > 99',
+  },
+  {
+    script: 'scripts/extract_case_articles.cjs',
+    outputs: ['cases_by_article.md', 'articles_by_case.md'],
+    note: 'per-case and per-article cross-reference indexes',
+  },
+  {
+    script: 'extract_key_articles.cjs',
+    outputs: ['cases-by-key-articles.md', 'key-articles-by-case.md'],
+    note: 'the same, from frontmatter only',
+  },
+  {
+    script: 'scripts/generate-timeline.js',
+    outputs: ['content/index.md'],
+    note: 'timeline into content/index.md',
+  },
+  {
+    script: 'scripts/generate-case-grid.js',
+    outputs: ['content/case-law-grid.md'],
+    note: 'card grid of all cases',
+  },
+  {
+    script: 'scripts/extract_article_rulings.js',
+    outputs: ['content/article-rulings.md'],
+    note: 'rulings indexed by article',
+  },
 ]
 
+/** mtime in ms, or 0 when the file does not exist. */
+function stamp(file) {
+  try {
+    return fs.statSync(file).mtimeMs
+  } catch {
+    return 0
+  }
+}
+
+/**
+ * Run the generators and report what each ACTUALLY produced.
+ *
+ * Exit status is not evidence here. Four of these scripts resolve
+ * `path.join(__dirname, 'content', ...)` — i.e. `scripts/content/Case law`,
+ * which does not exist, because commit ee8aee0 moved them into `scripts/`
+ * without updating the paths. They print an ENOENT, say "No case data found",
+ * and **exit 0**. Trusting the exit code reports success for a script that
+ * wrote nothing, which is exactly what run-pipeline.js does.
+ *
+ * So each generator declares its output files, and we compare mtimes.
+ */
 function runGenerators(opts, log) {
   const results = []
   for (const gen of GENERATORS) {
     const abs = path.join(REPO_ROOT, gen.script)
     if (!fs.existsSync(abs)) {
       results.push({ ...gen, status: 'missing' })
+      log(`  missing ${gen.script}`)
       continue
     }
     if (opts.dryRun) {
       results.push({ ...gen, status: 'skipped-dry-run' })
       continue
     }
+
+    const before = gen.outputs.map(o => stamp(path.join(REPO_ROOT, o)))
+    let exitError = null
+    let output = ''
     try {
-      execFileSync(process.execPath, [abs], { cwd: REPO_ROOT, stdio: 'pipe', timeout: 120000 })
-      results.push({ ...gen, status: 'ok' })
-      log(`  ok      ${gen.script}`)
+      output = String(
+        execFileSync(process.execPath, [abs], { cwd: REPO_ROOT, stdio: 'pipe', timeout: 120000 })
+      )
     } catch (err) {
-      const detail = String(err.stderr || err.message).split('\n')[0].slice(0, 160)
-      const status = gen.pathBug ? 'failed-known-path-bug' : 'failed'
-      results.push({ ...gen, status, detail })
-      log(`  FAILED  ${gen.script}${gen.pathBug ? '  (known __dirname path bug)' : ''}`)
+      exitError = String(err.stderr || err.message).split('\n')[0].slice(0, 200)
+      output = String(err.stdout || '')
+    }
+
+    const after = gen.outputs.map(o => stamp(path.join(REPO_ROOT, o)))
+    const wrote = gen.outputs.filter((o, i) => after[i] !== 0 && after[i] !== before[i])
+    const missing = gen.outputs.filter((o, i) => after[i] === 0)
+
+    // The signature of the path bug, in stdout or stderr.
+    const pathBug =
+      /scripts[/\\]content[/\\]/.test(output + (exitError || '')) ||
+      /No case data found/.test(output)
+
+    if (wrote.length === gen.outputs.length && !exitError) {
+      results.push({ ...gen, status: 'ok', wrote })
+      log(`  ok      ${gen.script}  ->  ${wrote.join(', ')}`)
+    } else if (pathBug) {
+      results.push({ ...gen, status: 'failed-known-path-bug', wrote, missing })
+      log(`  FAILED  ${gen.script}  (known __dirname path bug; wrote nothing)`)
+    } else {
+      results.push({ ...gen, status: 'failed', wrote, missing, detail: exitError })
+      log(
+        `  FAILED  ${gen.script}` +
+          (missing.length ? `  (no output at ${missing.join(', ')})` : '') +
+          (exitError ? `  ${exitError}` : '')
+      )
     }
   }
   return results
